@@ -1,33 +1,3 @@
-.wrap
-{
-	margin: auto;
-	max-width: 100%;
-	padding: 0 100px;
-}
-header
-{
-	align-items: center;
-	align-self: center;
-	background-image: url(../images/homme_noir_et_blanc.jpg);
-	background-size: cover;
-	display: flex;
-	height: 100vh;
-}
-
-header h1 
-{
-	color: #FF7D00;
-	font-family: 'DINPro_Bold';
-	font-size: 80px;
-	text-transform: uppercase;
-	
-}
-
-body
-{
-	
-}
-
 div.explanation
 {
 	font-family: 'DINPro_Light';

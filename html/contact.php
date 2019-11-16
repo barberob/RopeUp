@@ -6,6 +6,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
 	<link rel="stylesheet" type="text/css" href="../css/libs/reset.css">
+	<link rel="stylesheet" type="text/css" href="../css/headerPrincipal.css">
+	<link rel="stylesheet" type="text/css" href="../css/headerContact.css">
 	<link rel="stylesheet" type="text/css" href="../css/contact.css">
 	<link rel="stylesheet" type="text/css" href="../css/fonts.css">
 </head>
@@ -13,11 +15,12 @@
 	<header>
 		<div class="wrap">
 			<!-- inclure menu -->
-		
+			<?php include("headerMenu.php") ?>
+			<div class="imgContainer">
 				<h1>contact</h1>
+			</div>
 	
-		</div>
-			
+		</div>	
 	</header>
 
 	<section id ="formulaire">

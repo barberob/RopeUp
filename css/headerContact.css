@@ -1,0 +1,23 @@
+header
+{
+	height: 100vh;
+	background-image: url(../images/contactImg.png);
+	background-size: cover;
+}
+
+header h1
+{
+	text-transform: uppercase;
+	font-size: 60px;
+	color: #FF7D00;
+	font-family: "DINPro_Black";
+}
+
+div.imgContainer
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}

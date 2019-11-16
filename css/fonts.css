@@ -18,3 +18,9 @@
 	font-family: "DINPro_Bold";
 	src: url('../fonts/DINPro-Bold tr.woff');
 }
+
+@font-face 
+{
+	font-family: "DINPro_Black";
+	src: url('../fonts/DINPro-Black tr.woff');
+}
