@@ -7,6 +7,7 @@
 	<link rel="stylesheet" type="text/css" href="../css/libs/reset.css">
 	<link rel="stylesheet" type="text/css" href="../css/headerPrincipal.css">
 	<link rel="stylesheet" type="text/css" href="../css/headerQuiSommesNous.css">
+	<link rel="stylesheet" type="text/css" href="../css/footer.css">
 	<link rel="stylesheet" type="text/css" href="../css/fonts.css">
 	<title>Qui Sommes-Nous ?</title>
 </head>
@@ -17,5 +18,7 @@
 			<h1>Qui sommes-nous ?</h1>
 		</div>
 	</header>
+
+	<?php include("footer.php") ?>
 </body>
 </html>

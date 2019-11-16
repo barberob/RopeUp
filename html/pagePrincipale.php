@@ -6,6 +6,7 @@
 
 	<link rel="stylesheet" type="text/css" href="../css/libs/reset.css">
 	<link rel="stylesheet" type="text/css" href="../css/headerPrincipal.css">
+	<link rel="stylesheet" type="text/css" href="../css/footer.css">
 	<link rel="stylesheet" type="text/css" href="../css/fonts.css">
 	<title>Page Principale Rope Up!</title>
 </head>
@@ -14,9 +15,9 @@
 		<?php include("headerMenu.php") ?>
 		<div class="imgContainer">
 			<span>L'outil de Communication et de Gestion des professionnels indépendants</span>
-			<img src="../images/Img left.jpg" alt="clavier">
-			<img src="../images/Img right.jpg" alt="moitié homme">
 		</div>
 	</header>
+
+	<?php include("footer.php") ?>
 </body>
 </html>

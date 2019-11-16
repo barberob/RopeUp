@@ -1,0 +1,56 @@
+footer
+{
+	background-color: #333333;
+	padding:120px 0;
+	color:#FFF;
+}
+
+footer div.wrap
+{
+	display: flex;
+	justify-content: space-between;
+}
+
+footer div.wrap div:first-of-type
+{
+	font-family: "DINPro_Medium";
+	text-decoration: underline;
+	font-size: 18px;
+}
+
+div.divCenter
+{
+	font-family: "DINPro_Regular";
+	text-align: center;
+	font-size: 23px;
+	width:24%;
+	line-height: 35px;
+}
+
+img.logo
+{
+	width: 11%;
+}
+
+div.wrap div:first-of-type p:first-of-type
+{
+	margin-bottom: 35px;
+}
+
+div.reseaux img
+{
+	width:30px;
+}
+
+div.reseaux
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 70px;
+}
+
+div.reseaux img:nth-child(2)
+{
+	margin:0 50px;
+}
