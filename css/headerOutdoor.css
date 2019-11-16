@@ -5,7 +5,6 @@ nav span
 
 header
 {
-	height: 100vh;
 	background-image: url(../images/outdoorImg.png);
 	background-size: cover;
 }
