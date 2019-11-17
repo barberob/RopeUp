@@ -1,6 +1,11 @@
+nav span
+{
+	background-color: #019EC0;
+}
+
 header
 {
-	background-image: url(../images/contactImg.png);
+	background-image: url(../images/randonneur.png);
 	background-size: cover;
 }
 
@@ -8,7 +13,8 @@ header h1
 {
 	text-transform: uppercase;
 	font-size: 60px;
-	color: #FF7D00;
+	color:#FFF;
 	font-family: "DINPro_Black";
 	transform:translateY(-50%);
 }
+
