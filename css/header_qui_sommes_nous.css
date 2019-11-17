@@ -1,11 +1,6 @@
-nav span
-{
-	background-color: #019EC0;
-}
-
 header
 {
-	background-image: url(../images/outdoorImg.png);
+	background-image: url(../images/skieur.png);
 	background-size: cover;
 }
 
@@ -13,7 +8,7 @@ header h1
 {
 	text-transform: uppercase;
 	font-size: 60px;
-	color:#FFF;
+	color: #FF7D00;
 	font-family: "DINPro_Black";
 	transform:translateY(-50%);
 }
