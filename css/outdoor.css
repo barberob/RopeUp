@@ -1,3 +1,14 @@
+
+/*
+div.wrap
+{
+	max-width: calc(100% - 200px);
+	margin-right: auto;
+	margin-left: auto;
+}*/
+
+
+ /*///////////////////////////////////////////////////////////////////////*/
 section#presentation h2
 {
 	color: #019EC0;
@@ -68,7 +79,7 @@ div.background p:first-child
 	margin-right: auto;
 	padding-bottom: 150px;
 	padding-top: 150px;
-	width: 74%;
+	width: 82%;
 }
 
 
