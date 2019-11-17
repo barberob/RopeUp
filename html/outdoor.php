@@ -242,12 +242,9 @@
 
 			</div>
 
-			<a href="contact.php">
-				<div class="submit_button" >
-					<p>
-						S'abonner
-					</p>
-				</div>
+			<a href="contact.php" class="submit_button">
+
+				S'abonner
 			</a>
 
 		</section>
