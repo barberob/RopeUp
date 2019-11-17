@@ -35,16 +35,16 @@
 
 		<div class="pack_container">
 			<div class="management">
-				<p>
+				<h3>
 					pack gestion
-				</p>
+				</h3>
 
 			</div>
 
 			<div class="communication">
-				<p>
+				<h3>
 					pack communication
-				</p>
+				</h3>
 			</div>
 		</div>
 		
@@ -62,7 +62,9 @@
 				<div class="flex_container">
 
 					<div class="video_and_description">
-						<video src="../videos/yaah.mp4"></video>
+						<video controls>
+							<source src="../videos/yaah.mp4" type="video/mp4">
+						</video>
 						<p>
 							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget enim et turpis consequat commodo id sit amet purus. Quisque et lobortis sem. Phasellus in volutpat erat. Mauris varius pharetra viverra.
 						</p>
@@ -104,16 +106,152 @@
 					</div>
 				</div>
 
+
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget enim et turpis consequat commodo id sit amet purus. Quisque et lobortis sem. Phasellus in volutpat erat. Mauris varius pharetra viverra. Nam consectetur iaculis congue. Nulla tincidunt malesuada cursus. Nam faucibus cursus velit in viverra. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas convallis ut ex cursus sollicitudin. Duis vitae faucibus quam. Aenean aliquet nisi eget erat gravida, eget cursus lacus auctor. Proin eu maximus tortor. Sed et semper lacus, sit amet porttitor massa. Vivamus tincidunt erat vel sem iaculis, lacinia ultricies erat dignissim.
+				</p>
+
 			</div> <!-- wrap -->
 
-
-
-
-
-
 		</div> <!-- background -->
+		
+		<section id="pack_vente">
+			<div class="wrap">	
+				<div>
+					<h2>pack additionnel vente</h2>
+					<div>
+						<div>
+							<h4>Quisque et lobortis sem.</h4>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+								Nullam eget enim et turpis consequat commodo id sit 
+								amet purus. Quisque et lobortis sem. Phasellus in 
+								volutpat erat.
+							</p>
+						</div>
 
 
+						<div>
+							<h4>Nam faucibus cursus velit.</h4>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+								Nullam eget enim et turpis consequat commodo id sit 
+								amet purus. Quisque et lobortis sem. Phasellus in 
+								volutpat erat. 
+							</p>
+						</div>
+					</div>
+					
+				</div>
+
+
+
+
+			</div>
+		</section>
+
+
+
+		<!-- inserer AMBASSADEURS -->
+
+
+		<section id="tarifs">
+			<div class="wrap">
+				
+				<h2>tarifs</h2>
+
+				<div>
+					<div>
+						<h5>
+							Société
+						</h5>
+
+						<h4>
+							Pack Gestion :
+						</h4>
+
+						<p>
+							500 € la première année, puis 3% du CA de l’année passée
+						</p>	
+					</div>
+
+					<div>
+						<h5>
+							Solo
+						</h5>
+
+						<h4>
+							Pack Gestion :
+						</h4>
+
+						<p>
+							500€ / an<br>
+							ou<br>
+							350€ / an *
+						</p>
+
+						<p>
+							* avant le 9/12/2019 ou toute l’année si l’adhérent est membre d’un syndicat partenaire Rope Up !	
+						</p>
+
+						<h4>
+							Pack Communication
+						</h4>
+
+						<p>
+							500€ / an
+						</p>
+						
+					</div>
+
+					<div>
+						<h5>
+							Association
+						</h5>
+
+						<h4>
+							Pack Gestion :
+						</h4>
+
+						<p>
+							500€ / an <br>
+							ou <br>
+							350€ / an *
+						</p>
+
+						<p>
+							* avant le 9/12/2019 ou toute l’année si l’adhérent est membre d’un syndicat partenaire Rope Up !
+						</p>
+
+						<h4>
+							Pack Communication :	
+						</h4>
+
+						<p>
+							800€ / an <br>
+							ou <br>
+							500€ / an *
+						</p>
+
+						<p>
+							* avant le 9/12/2019 ou toute l’année si l’adhérent est membre d’un syndicat partenaire Rope Up !
+						</p>
+						
+					</div>
+				</div>
+
+			</div>
+
+			<a href="contact.php">
+				<div class="submit_button" >
+					<p>
+						S'abonner
+					</p>
+				</div>
+			</a>
+
+		</section>
+		
 
 
 
