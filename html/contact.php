@@ -39,7 +39,27 @@
 
 						<form action="mail.php" method="post">
 
-							<?php include('captcha.php') ?>
+							<?php
+								require_once('recaptcha/autoload.php');
+
+								if (isset($_POST['g-recaptcha-response'])) {
+									$recaptcha = new \ReCaptcha\ReCaptcha('6LdCL8MUAAAAAHH-ZwQNzjTvb9GG_Q4gvOj-O3Cn');
+									$resp = $recaptcha->setExpectedHostname('recaptcha-demo.appspot.com')
+									                  ->verify($_POST['g-recaptcha-response']);
+									if ($resp->isSuccess()) {
+									    // Verified!
+									    var_dump('Valide');
+									} else {
+									    $errors = $resp->getErrorCodes();
+									    var_dump('Invalide');
+									    var_dump($errors);
+									}
+									else {
+										var_dump('Captcha non rempli');
+									}
+								}
+	
+							?>
 
 							<div>
 								<input type="text" name="" placeholder="Nom Prénom">
