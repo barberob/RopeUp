@@ -37,10 +37,12 @@
 				
 					<div>
 
-						<form>
+						<form action="mail.php" method="post">
+
+							<?php include('captcha.php') ?>
 
 							<div>
-								<input type="text" name=" " placeholder="Nom Prénom">
+								<input type="text" name="" placeholder="Nom Prénom">
 							</div>
 
 							<div>
@@ -48,7 +50,7 @@
 							</div>
 
 							<div>
-								<input class="third_input" type="text" name="" placeholder="Adresse Mail">	
+								<input class="third_input" type="email" name="email" placeholder="Adresse Mail">	
 							</div>
 
 							<div class="checkboxes_container">
@@ -61,10 +63,16 @@
 							</div>
 
 							<div>
-								<input class="message" type="text" name="" placeholder="Votre message">
+								<input class="message" type="text" name="message" placeholder="Votre message">
 							</div>
 
 							<p class="submit_button">Envoyer</p>
+
+							<div class="g-recaptcha" data-sitekey="6LdCL8MUAAAAAHG2wXoyotuvSb6ApfYfVfeBsxsb"></div>
+
+							<br>
+
+							<input type="submit">
 
 						</form>
 
@@ -79,10 +87,8 @@
 
 	</section>
 	<?php include("footer.php") ?>
-		
 
-	
+	<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 		
-	
 </body>
 </html>

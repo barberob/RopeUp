@@ -9,6 +9,7 @@ footer div.wrap
 {
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 }
 
 footer div.wrap div:first-of-type
@@ -29,7 +30,7 @@ div.divCenter
 
 img.logo
 {
-	width: 11%;
+	width: 9%;
 }
 
 div.wrap div:first-of-type p:first-of-type
