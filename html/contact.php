@@ -42,23 +42,26 @@
 							<?php
 								require_once('recaptcha/autoload.php');
 
-								if (isset($_POST['g-recaptcha-response'])) {
-									$recaptcha = new \ReCaptcha\ReCaptcha('6LdCL8MUAAAAAHH-ZwQNzjTvb9GG_Q4gvOj-O3Cn');
-									$resp = $recaptcha->setExpectedHostname('recaptcha-demo.appspot.com')
-									                  ->verify($_POST['g-recaptcha-response']);
-									if ($resp->isSuccess()) {
-									    // Verified!
-									    var_dump('Valide');
-									} else {
-									    $errors = $resp->getErrorCodes();
-									    var_dump('Invalide');
-									    var_dump($errors);
+								if (isset($_POST['submitpost'])) {
+									if (isset($_POST['g-recaptcha-response'])) {
+										$recaptcha = new \ReCaptcha\ReCaptcha('6LdCL8MUAAAAAHH-ZwQNzjTvb9GG_Q4gvOj-O3Cn');
+										$resp = $recaptcha->setExpectedHostname('recaptcha-demo.appspot.com')
+										                  ->verify($_POST['g-recaptcha-response']);
+										if ($resp->isSuccess()) {
+										    // Verified!
+										    var_dump('Valide');
+										} else {
+										    $errors = $resp->getErrorCodes();
+										    var_dump('Invalide');
+										    var_dump($errors);
+										}
+										
 									}
 									else {
 										var_dump('Captcha non rempli');
-									}
+									}	
 								}
-	
+
 							?>
 
 							<div>
@@ -90,9 +93,9 @@
 
 							<div class="g-recaptcha" data-sitekey="6LdCL8MUAAAAAHG2wXoyotuvSb6ApfYfVfeBsxsb"></div>
 
-							<br>
+							< 
 
-							<input type="submit">
+							<input type="submit" name="submitpost">
 
 						</form>
 
