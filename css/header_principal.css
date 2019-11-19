@@ -77,12 +77,10 @@ div.imgContainer
 	height: 100%;
 }
 
-a.menu span
+a.menu
 {
 	display: none;
-	background-color: #353535;
-	height:2px;
-	border-radius: 10px;
+	
 }
 
 a.menu span:nth-child(1)
@@ -102,7 +100,8 @@ a.menu span:nth-child(3)
 	width: 40px;
 }
 
-img:nth-child(2)
+
+div.headerMenu img:nth-child(2)
 {
 	display: none;
 }
