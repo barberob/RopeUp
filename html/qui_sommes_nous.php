@@ -9,6 +9,7 @@
 	<link rel="stylesheet" type="text/css" href="../css/header_qui_sommes_nous.css">
 	<link rel="stylesheet" type="text/css" href="../css/footer.css">
 	<link rel="stylesheet" type="text/css" href="../css/fonts.css">
+	<link rel="stylesheet" type="text/css" href="../css/header_responsive.css">
 	<title>Qui Sommes-Nous ?</title>
 </head>
 <body>

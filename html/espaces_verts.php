@@ -9,6 +9,7 @@
 	<link rel="stylesheet" type="text/css" href="../css/header_espaces_verts.css">
 	<link rel="stylesheet" type="text/css" href="../css/footer.css">
 	<link rel="stylesheet" type="text/css" href="../css/fonts.css">
+	<link rel="stylesheet" type="text/css" href="../css/header_responsive.css">
 	<title>Espaces Verts</title>
 </head>
 <body>
