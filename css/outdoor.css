@@ -1,7 +1,7 @@
 
 body
 {
-	/*overflow-x: hidden;*/
+	overflow-x: hidden;
 }
 
 div.background div.wrap, section#pack_vente div.wrap
@@ -37,6 +37,39 @@ section#presentation div
  /*///////////////////////////////////////////////////////////////////////*/
   /*////////////////////////////////// kits /////////////////////////////////////*/
 
+
+.triangle_down 
+{
+	width: 0;
+	height: 0;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-top: 50px solid #007B96;
+	position: absolute;
+	left:25%;
+	z-index: 5;
+	transform:translateX(-50%);
+	transition-duration:0.5s;
+}
+
+
+.triangle_down.translated_triangle
+{
+	border-top: 50px solid #019EC0;
+	left:75%;
+	transform:translateX(-50%);
+	transition-duration:0.5s;
+	transition-timing-function: ease-in-out;
+}
+
+
+@keyframes mymove {
+    from {top: 0px;}
+    to {top: 200px;}
+}
+
+
+
 div.pack_container
 {
 	display: flex;
@@ -65,8 +98,9 @@ div.management h3,div.communication h3
 	font-size: 50px;
 	margin: 40px 0;
 	text-align: center;
-
 }
+
+
 
 
 div.background
@@ -315,27 +349,18 @@ a.submit_button
 /*////////////////////translation ////////////////////////////////////////////*/
 
 
-div.background_translated
+div.background:nth-of-type(2)
 {
 	position: absolute;
 	transform:translateX(100%);
-	background-color: blue;
-	
-	max-width: calc(100% - 200px);
-	margin-right: auto;
-	margin-left: auto;
+	transition-duration: 0.5s;
 
 }
 
 
 
-div.background_untranslated
+div.background:nth-of-type(2).translated
 {
-	transform:translateX(-100%);
-	background-color: red;
-
-	max-width: calc(100% - 200px);
-	margin-right: auto;
-	margin-left: auto;
-	
+	transform:translateX(0%);
+	transition-duration: 0.5s;
 }

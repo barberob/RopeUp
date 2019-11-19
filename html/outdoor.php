@@ -47,8 +47,80 @@
 				</h3>
 			</div>
 		</div>
+		<span class="triangle_down"></span>
 
 
+<!-- //////////////////////////////////////////section 1 copie////////////////////////////////////////////////// -->
+		
+
+		<div class="background">
+
+			<div class="wrap">
+				
+				<p>
+					Hello world !! r sit amet, consectetur adipiscing elit. Nullam eget enim et turpis consequat commodo id sit amet purus. Quisque et lobortis sem. Phasellus in volutpat erat. Mauris varius pharetra viverra. Nam consectetur iaculis congue. Nulla tincidunt malesuada cursus. Nam faucibus cursus velit in viverra. Lorem ipsum dolor sit amet, consectetur.
+				</p>
+
+
+
+				<div class="flex_container">
+
+					<div class="video_and_description">
+						<video controls>
+							<source src="../videos/yaah.mp4" type="video/mp4">
+						</video>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget enim et turpis consequat commodo id sit amet purus. Quisque et lobortis sem. Phasellus in volutpat erat. Mauris varius pharetra viverra.
+						</p>
+						
+					</div>
+
+					<div class="functionalities">
+						<ul>
+							<li>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit.  
+							</li>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+								Nullam eget enim et turpis consequat commodo id sit 
+								amet purus. Quisque et lobortis sem. Phasellus in 
+								volutpat erat. 
+							</p>
+
+							<li>
+								Quisque et lobortis sem. Phasellus in volutpat erat. 
+							</li>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+								Nullam eget enim et turpis consequat commodo id sit 
+								amet purus. Quisque et lobortis sem. Phasellus in 
+								volutpat erat.
+							</p>
+
+							<li>
+								Quisque et lobortis sem. Phasellus in volutpat erat. 
+							</li>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+								Nullam eget enim et turpis consequat commodo id sit 
+								amet purus. Quisque et lobortis sem. Phasellus in 
+								volutpat erat. 
+							</p>
+						</ul>
+					</div>
+				</div>
+
+
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget enim et turpis consequat commodo id sit amet purus. Quisque et lobortis sem. Phasellus in volutpat erat. Mauris varius pharetra viverra. Nam consectetur iaculis congue. Nulla tincidunt malesuada cursus. Nam faucibus cursus velit in viverra. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas convallis ut ex cursus sollicitudin. Duis vitae faucibus quam. Aenean aliquet nisi eget erat gravida, eget cursus lacus auctor. Proin eu maximus tortor. Sed et semper lacus, sit amet porttitor massa. Vivamus tincidunt erat vel sem iaculis, lacinia ultricies erat dignissim.
+				</p>
+
+			</div> <!-- wrap -->
+
+		</div> <!-- background -->
+
+
+	<!-- //////////////////////////////////////////////////////////////////////////////////////////////////// -->
 
 		
 			<!-- //////////////////////////////////////////////section 1////////////////////////////////////////////////// -->
@@ -123,78 +195,7 @@
 		</div> <!-- background -->
 
 
-		<!-- //////////////////////////////////////////section 1 copie////////////////////////////////////////////////// -->
 		
-
-		<div class="background_translated">
-
-			<div class="wrap">
-				
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget enim et turpis consequat commodo id sit amet purus. Quisque et lobortis sem. Phasellus in volutpat erat. Mauris varius pharetra viverra. Nam consectetur iaculis congue. Nulla tincidunt malesuada cursus. Nam faucibus cursus velit in viverra. Lorem ipsum dolor sit amet, consectetur.
-				</p>
-
-
-
-				<div class="flex_container">
-
-					<div class="video_and_description">
-						<video controls>
-							<source src="../videos/yaah.mp4" type="video/mp4">
-						</video>
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget enim et turpis consequat commodo id sit amet purus. Quisque et lobortis sem. Phasellus in volutpat erat. Mauris varius pharetra viverra.
-						</p>
-						
-					</div>
-
-					<div class="functionalities">
-						<ul>
-							<li>
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit.  
-							</li>
-							<p>
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-								Nullam eget enim et turpis consequat commodo id sit 
-								amet purus. Quisque et lobortis sem. Phasellus in 
-								volutpat erat. 
-							</p>
-
-							<li>
-								Quisque et lobortis sem. Phasellus in volutpat erat. 
-							</li>
-							<p>
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-								Nullam eget enim et turpis consequat commodo id sit 
-								amet purus. Quisque et lobortis sem. Phasellus in 
-								volutpat erat.
-							</p>
-
-							<li>
-								Quisque et lobortis sem. Phasellus in volutpat erat. 
-							</li>
-							<p>
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-								Nullam eget enim et turpis consequat commodo id sit 
-								amet purus. Quisque et lobortis sem. Phasellus in 
-								volutpat erat. 
-							</p>
-						</ul>
-					</div>
-				</div>
-
-
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget enim et turpis consequat commodo id sit amet purus. Quisque et lobortis sem. Phasellus in volutpat erat. Mauris varius pharetra viverra. Nam consectetur iaculis congue. Nulla tincidunt malesuada cursus. Nam faucibus cursus velit in viverra. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas convallis ut ex cursus sollicitudin. Duis vitae faucibus quam. Aenean aliquet nisi eget erat gravida, eget cursus lacus auctor. Proin eu maximus tortor. Sed et semper lacus, sit amet porttitor massa. Vivamus tincidunt erat vel sem iaculis, lacinia ultricies erat dignissim.
-				</p>
-
-			</div> <!-- wrap -->
-
-		</div> <!-- background -->
-
-
-	<!-- //////////////////////////////////////////////////////////////////////////////////////////////////// -->
-
 
 
 
