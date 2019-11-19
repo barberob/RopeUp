@@ -55,7 +55,7 @@
 									    var_dump($errors);
 									}
 									else {
-										var_dump('Captcha non rempli')
+										var_dump('Captcha non rempli');
 									}
 								}
 	
