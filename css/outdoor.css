@@ -1,4 +1,8 @@
 
+body
+{
+	/*overflow-x: hidden;*/
+}
 
 div.background div.wrap, section#pack_vente div.wrap
 {
@@ -304,4 +308,34 @@ a.submit_button
 	margin-top: 150px;
 	margin-right: auto;
 	margin-left: auto;
+}
+
+
+
+/*////////////////////translation ////////////////////////////////////////////*/
+
+
+div.background_translated
+{
+	position: absolute;
+	transform:translateX(100%);
+	background-color: blue;
+	
+	max-width: calc(100% - 200px);
+	margin-right: auto;
+	margin-left: auto;
+
+}
+
+
+
+div.background_untranslated
+{
+	transform:translateX(-100%);
+	background-color: red;
+
+	max-width: calc(100% - 200px);
+	margin-right: auto;
+	margin-left: auto;
+	
 }
