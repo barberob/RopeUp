@@ -288,7 +288,7 @@ section#tarifs a
 {
 	text-decoration: none;
 }
-.submit_button
+a.submit_button
 {
 	border-radius: 50px;
 	width: 400px;
