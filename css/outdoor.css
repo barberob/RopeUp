@@ -38,7 +38,7 @@ section#presentation div
   /*////////////////////////////////// kits /////////////////////////////////////*/
 
 
-.triangle_down 
+span.triangle_down 
 {
 	width: 0;
 	height: 0;
@@ -50,10 +50,11 @@ section#presentation div
 	z-index: 5;
 	transform:translateX(-50%);
 	transition-duration:0.5s;
+	transition-timing-function: ease-in-out;
 }
 
 
-.triangle_down.translated_triangle
+span.triangle_down.translated_triangle
 {
 	border-top: 50px solid #019EC0;
 	left:75%;
@@ -61,14 +62,6 @@ section#presentation div
 	transition-duration:0.5s;
 	transition-timing-function: ease-in-out;
 }
-
-
-@keyframes mymove {
-    from {top: 0px;}
-    to {top: 200px;}
-}
-
-
 
 div.pack_container
 {
@@ -82,12 +75,28 @@ div.pack_container
 div.management
 {
 	background-color: #007B96;
+	cursor: pointer;
+	transition-duration: 0.1s;
 	width: 50%;
 }
+
+/*div.management:hover
+{
+	transition-duration: 0.1s;
+	width: 52%;
+}
+div.communication:hover
+{
+	transition-duration: 0.1s;
+	width: 52%;
+
+}*/
 
 div.communication
 {
 	background-color: #019EC0;
+	cursor: pointer;
+	transition-duration: 0.1s;
 	width: 50%;
 }
 
@@ -98,6 +107,8 @@ div.management h3,div.communication h3
 	font-size: 50px;
 	margin: 40px 0;
 	text-align: center;
+	user-select: none;
+	cursor: pointer;
 }
 
 
@@ -359,7 +370,7 @@ div.background:nth-of-type(2)
 
 
 
-div.background:nth-of-type(2).translated
+div.background:nth-of-type(2).translated_right
 {
 	transform:translateX(0%);
 	transition-duration: 0.5s;
