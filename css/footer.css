@@ -23,14 +23,14 @@ div.divCenter
 {
 	font-family: "DINPro_Regular";
 	text-align: center;
-	font-size: 23px;
-	width:24%;
-	line-height: 35px;
+	font-size: 20px;
+	width:21%;
+	line-height: 31px;
 }
 
 img.logo
 {
-	width: 9%;
+	width: 125px;
 }
 
 div.wrap div:first-of-type p:first-of-type
