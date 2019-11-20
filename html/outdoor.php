@@ -68,10 +68,10 @@
 
 					<div class="video_and_description">
 						<video controls>
-							<source src="../videos/yaah.mp4" type="video/mp4">
+							<source src="https://www.youtube.com/watch?v=-orRTjRBKjk" type="video/mp4">
 						</video>
 						<p>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget enim et turpis consequat commodo id sit amet purus. Quisque et lobortis sem. Phasellus in volutpat erat. Mauris varius pharetra viverra.
+							Cette vidéo vous montre à quoi ressemble l’application. N’hésitez pas à parcourir notre page youtube sur laquelle vous trouverez d’autres tutoriels.
 						</p>
 						
 					</div>
@@ -113,7 +113,7 @@
 
 
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget enim et turpis consequat commodo id sit amet purus. Quisque et lobortis sem. Phasellus in volutpat erat. Mauris varius pharetra viverra. Nam consectetur iaculis congue. Nulla tincidunt malesuada cursus. Nam faucibus cursus velit in viverra. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas convallis ut ex cursus sollicitudin. Duis vitae faucibus quam. Aenean aliquet nisi eget erat gravida, eget cursus lacus auctor. Proin eu maximus tortor. Sed et semper lacus, sit amet porttitor massa. Vivamus tincidunt erat vel sem iaculis, lacinia ultricies erat dignissim.
+					Ce pack est avant tout un service. De ce fait, notre équipe reste à votre écoute pour vos idées et vous accompagne dans sa prise en main. Rope Up s’engage à apporter la meilleure sécurisation pour vos données et lorsque vous êtes sur le terrain, nous continuons à apporter les meilleures améliorations techniques possibles.  
 				</p>
 
 			</div> <!-- wrap -->
