@@ -1,6 +1,9 @@
 @media all and (max-width: 1024px){
 
-		
+	header
+	{
+		background-image: url(../images/moitie_visage_homme.png);
+	}
 }
 
 @media all and (max-width: 980px){
@@ -13,17 +16,9 @@
 		border-radius: 10px;
 	}
 
-	a.navContent
-	{
-		display: none;
-	}
-
 	nav
 	{
-		width:60%;
-		display: flex;
-		justify-content: flex-end;
-		margin: 0 30px;
+		display: none;
 	}
 
 	a.menu
@@ -33,54 +28,59 @@
 		align-items: flex-end;
 	}
 
-}
-
-@media all and (max-width: 767px){
-
-	nav a span
-	{
-		font-size: 13px;
-	}
-}
-
-@media all and (max-width: 480px){
-
-	div.headerMenu img:nth-child(1)
-	{
-		display: none;
-	}
-
-	div.headerMenu img:nth-child(2)
-	{
-		display: block;
-	}
-
-	nav a span
-	{
-		position: static;
-		font-size: 13px;
-	}
-
-	nav
-	{
-		width:auto;
-	}
-
 	a.menu span:nth-child(1)
 	{
-		width: 40px;
+		width: 50px;
 		
 	}
 
 	a.menu span:nth-child(2)
 	{
-		width: 20px;
-		margin: 12px 0;
+		width: 30px;
+		margin: 8px 0;
 	}
 
 	a.menu span:nth-child(3)
 	{
-		width: 30px;
+		width: 40px;
+	}
+
+	div.img_container span
+	{
+		font-size: 35px;
+		line-height: 50px;
+		padding: 25px 30px;
+		box-sizing: border-box;
+	}
+
+}
+
+@media all and (max-width: 767px){
+
+	div.img_container span
+	{
+		width: 100%;
+		height: auto;
+	}
+}
+
+@media all and (max-width: 480px){
+
+
+	div.header_menu img
+	{
+		width:150px;
+	}
+
+	div.img_container span
+	{
+		text-align: left;
+	}
+
+	div.img_container span
+	{
+		font-size: 25px;
+		line-height: 40px;
 	}
 
 }

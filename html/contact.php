@@ -16,7 +16,7 @@
 <body>
 		<!-- inclure menu -->
 		<?php include("header_menu.php") ?>
-		<div class="imgContainer">
+		<div class="img_container">
 			<h1>contact</h1>
 		</div>
 	</header>

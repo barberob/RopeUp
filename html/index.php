@@ -14,7 +14,7 @@
 <body>
 	<!-- Header -->
 	<?php include("header_menu.php") ?>
-		<div class="imgContainer">
+		<div class="img_container">
 			<span>L'outil de Communication et de Gestion des professionnels indépendants</span>
 		</div>
 	</header>
@@ -31,7 +31,7 @@
 			Aenean aliquet nisi eget erat gravida, eget cursus lacus auctor. Proin eu maximus tortor. 
 			Sed et semper lacus, sit amet porttitor massa. Vivamus tincidunt erat vel sem iaculis, 
 			lacinia ultricies erat dignissim.</p>
-			<img src="imgages/logo.png" alt="Logo RopeUp">
+			<img src="images/logo.png" alt="Logo RopeUp">
 		</div>
 	</section>
 

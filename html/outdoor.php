@@ -16,7 +16,7 @@
 <body> 
 	<!--inclure header -->
 		<?php include("header_menu.php") ?>
-		<div class="imgContainer">
+		<div class="img_container">
 			<h1>Outdoor</h1>
 		</div>
 	</header>
