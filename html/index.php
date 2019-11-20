@@ -6,16 +6,16 @@
 	<title>Document</title>
 	<link rel="stylesheet" href="../css/libs/reset.css">
 	<link rel="stylesheet" href="../css/index.css">
+	<link rel="stylesheet" type="text/css" href="../css/header_principal.css">
+	<link rel="stylesheet" type="text/css" href="../css/footer.css">
+	<link rel="stylesheet" type="text/css" href="../css/fonts.css">
+	<link rel="stylesheet" type="text/css" href="../css/header_responsive.css">
 </head>
 <body>
 	<!-- Header -->
-	<header>
-		<div>
-			<img src="imgages/img_left.jpg" alt="Photo rapproché clavier d'ordinateur">
-			<img src="imgages/img_right.jpg" alt="Photo visage homme">
-		</div>
-		<div>
-			<h1>L'outil de Communication et de Gestion des professionnels indépendants</h1>
+	<?php include("header_menu.php") ?>
+		<div class="imgContainer">
+			<span>L'outil de Communication et de Gestion des professionnels indépendants</span>
 		</div>
 	</header>
 	
@@ -84,6 +84,8 @@
 		</div>
 		
 	</section>
+
+	<?php include("footer.php") ?>
 
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 	<script type="text/javascript" src="../js/index.js"></script>
