@@ -53,15 +53,16 @@
 		box-sizing: border-box;
 	}
 
-}
-
-@media all and (max-width: 767px){
-
 	div.img_container span
 	{
 		width: 100%;
 		height: auto;
 	}
+
+}
+
+@media all and (max-width: 767px){
+
 }
 
 @media all and (max-width: 480px){

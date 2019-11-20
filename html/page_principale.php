@@ -9,6 +9,7 @@
 	<link rel="stylesheet" type="text/css" href="../css/footer.css">
 	<link rel="stylesheet" type="text/css" href="../css/fonts.css">
 	<link rel="stylesheet" type="text/css" href="../css/header_responsive.css">
+	<link rel="stylesheet" type="text/css" href="../css/footer_responsive.css">
 	<title>Page Principale Rope Up!</title>
 </head>
 <body>
