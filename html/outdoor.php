@@ -7,7 +7,7 @@
 	<link rel="stylesheet" type="text/css" href="../css/libs/reset.css">
 	<link rel="stylesheet" type="text/css" href="../css/header_principal.css">
 	<link rel="stylesheet" type="text/css" href="../css/header_outdoor.css">
-	<link rel="stylesheet" type="text/css" href="../css/outdoor.css">
+	<link rel="stylesheet" type="text/css" href="../css/pack.css">
 	<link rel="stylesheet" type="text/css" href="../css/footer.css">
 	<link rel="stylesheet" type="text/css" href="../css/fonts.css">
 	<link rel="stylesheet" type="text/css" href="../css/header_responsive.css">
