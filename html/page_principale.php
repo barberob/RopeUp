@@ -21,5 +21,8 @@
 	</header>
 
 	<?php include("footer.php") ?>
+
+	<script type="text/javascript" src="../js/libs/jquery.js"></script>
+	<script type="text/javascript" src="../js/menu.js"></script>
 </body>
 </html>

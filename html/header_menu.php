@@ -1,7 +1,33 @@
 <header>
+
+	<div class="menu_page">
+      <div class="wrap">
+        <div class="div_cross_logo">
+          <a class="cross" href="#"><img src="images/croix.svg" alt="croix"></a>
+          <a href="index.php"><img src="images/logo_ropeup.svg" alt="Logo Rope Up"></a>
+        </div>
+        <nav>
+          <ul>
+          	<li>
+              <a href="#"><span>Connexion</span></a>
+            </li>
+            <li>
+              <a href="qui_sommes_nous.php">Qui sommes-nous ?</a>
+            </li>
+            <li>
+              <a href="#">Domaines</a>
+            </li>
+            <li>
+              <a href="contact.php">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
 	<div class="header_menu">
 		<div class="wrap">
-			<a href="page_principale.php">
+			<a href="index.php">
 				<img src="../images/logo_ropeup.svg" alt="Logo Rope Up!">
 			</a>
 			<nav>
