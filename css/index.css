@@ -2,22 +2,22 @@
   font-family: 'DINPro Light';
   font-style: normal;
   font-weight: normal;
-  src: url("../font/DINPro-Light tr.woff") format("woff"); }
+  src: url("../fonts/DINPro-Light tr.woff") format("woff"); }
 @font-face {
   font-family: 'DINPro Medium';
   font-style: normal;
   font-weight: normal;
-  src: url("../font/DINPro-Medium tr.woff") format("woff"); }
+  src: url("../fonts/DINPro-Medium tr.woff") format("woff"); }
 @font-face {
   font-family: 'DINPro Bold';
   font-style: normal;
   font-weight: normal;
-  src: url("../font/DINPro-Bold tr.woff") format("woff"); }
+  src: url("../fonts/DINPro-Bold tr.woff") format("woff"); }
 @font-face {
   font-family: 'DINPro Black';
   font-style: normal;
   font-weight: normal;
-  src: url("../font/DINPro-Black tr.woff") format("woff"); }
+  src: url("../fonts/DINPro-Black tr.woff") format("woff"); }
 section {
   margin-top: 200px; }
   section h2 {

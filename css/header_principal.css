@@ -2,7 +2,7 @@ div.wrap
 {
 	max-width:1440px;
 	width:100%;
-	padding:0 60px;
+	padding:0 40px;
 	margin-left: auto;
 	margin-right: auto;
 	box-sizing: border-box;
@@ -13,7 +13,7 @@ div.headerMenu div.wrap
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 15px 0;
+	padding: 15px 40px;
 }
 
 div.headerMenu
@@ -27,7 +27,7 @@ nav a
 	color: black;
 }
 
-div.headerMenu img
+div.headerMenu img:nth-child(1)
 {
 	width: 200px;
 }
@@ -38,7 +38,7 @@ a.navContent
 	margin-right: 50px;
 }
 
-nav span
+nav a:nth-child(4) span
 {
 	background-color: #FF7D00;
 	color: white;
@@ -75,4 +75,33 @@ div.imgContainer
 	justify-content: center;
 	align-items: center;
 	height: 100%;
+}
+
+a.menu
+{
+	display: none;
+	
+}
+
+a.menu span:nth-child(1)
+{
+	width: 50px;
+	
+}
+
+a.menu span:nth-child(2)
+{
+	width: 30px;
+	margin: 12px 0;
+}
+
+a.menu span:nth-child(3)
+{
+	width: 40px;
+}
+
+
+div.headerMenu img:nth-child(2)
+{
+	display: none;
 }

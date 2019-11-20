@@ -1,4 +1,8 @@
 
+body
+{
+	overflow-x: hidden;
+}
 
 div.background div.wrap, section#pack_vente div.wrap
 {
@@ -19,6 +23,10 @@ h2
 	text-transform: uppercase;
 }
 
+
+
+
+
 section#presentation div
 {
 	font-family: "DINPro_Light";
@@ -33,6 +41,43 @@ section#presentation div
  /*///////////////////////////////////////////////////////////////////////*/
   /*////////////////////////////////// kits /////////////////////////////////////*/
 
+
+span.triangle_down 
+{
+	width: 0;
+	height: 0;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-top: 50px solid #007B96;
+	position: absolute;
+	left:25%;
+	z-index: 5;
+	transform:translateX(-50%);
+	transition-duration:0.5s;
+	transition-timing-function: ease-in-out;
+}
+span.triangle_down.translated_triangle
+{
+	border-top: 50px solid #019EC0;
+	left:75%;
+	transform:translateX(-50%);
+	transition-duration:0.5s;
+	transition-timing-function: ease-in-out;
+}
+
+span.triangle_down.green
+{
+	border-top: 50px solid #099000;
+}
+span.triangle_down.green.translated_triangle.green
+{
+	border-top: 50px solid #0CB300;
+}
+
+/*/////////////////////////////////////////////////*/
+
+
+
 div.pack_container
 {
 	display: flex;
@@ -40,19 +85,37 @@ div.pack_container
 	text-transform: capitalize;
 	width: 100%;
 }
-
-
 div.management
 {
 	background-color: #007B96;
+	cursor: pointer;
+	transition-duration: 0.1s;
 	width: 50%;
 }
-
 div.communication
 {
 	background-color: #019EC0;
+	cursor: pointer;
+	transition-duration: 0.1s;
 	width: 50%;
 }
+
+div.management.green
+{
+	background-color: #099000;
+}
+div.communication.green
+{
+	background-color: #0CB300;
+}
+
+
+
+
+
+
+
+
 
 div.management h3,div.communication h3
 {
@@ -61,8 +124,11 @@ div.management h3,div.communication h3
 	font-size: 50px;
 	margin: 40px 0;
 	text-align: center;
-
+	user-select: none;
+	cursor: pointer;
 }
+
+
 
 
 div.background
@@ -96,8 +162,9 @@ section#fonctionnalités ul
 {
 	color: #007B96;
 	list-style-type: disc;
-	
 }
+
+/*////*/
 
 section#fonctionnalités ul li + p
 {
@@ -304,4 +371,45 @@ a.submit_button
 	margin-top: 150px;
 	margin-right: auto;
 	margin-left: auto;
+}
+
+
+
+/*////////////////////translation ////////////////////////////////////////////*/
+
+
+div.background:nth-of-type(2)
+{
+	position: absolute;
+	transform:translateX(100%);
+	transition-duration: 0.5s;
+
+}
+
+
+
+div.background:nth-of-type(2).translated_right
+{
+	transform:translateX(0%);
+	transition-duration: 0.5s;
+}
+
+
+
+/*////////////////////////////make things green///////////////////////////*/
+
+h2.green,
+section#pack_vente h4.green, 
+section#pack_vente h2.green,
+section#tarifs h2.green,
+section#fonctionnalités ul.green,
+section#fonctionnalités ul.green li
+{
+	color: #099000;
+}
+
+section#tarifs h2+div div:nth-of-type(2).green,
+a.submit_button.green
+{
+	background-color: #099000;
 }

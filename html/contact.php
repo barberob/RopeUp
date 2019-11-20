@@ -11,6 +11,7 @@
 	<link rel="stylesheet" type="text/css" href="../css/footer.css">
 	<link rel="stylesheet" type="text/css" href="../css/contact.css">
 	<link rel="stylesheet" type="text/css" href="../css/fonts.css">
+	<link rel="stylesheet" type="text/css" href="../css/header_responsive.css">
 </head>
 <body>
 		<!-- inclure menu -->
