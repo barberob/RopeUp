@@ -6,14 +6,13 @@
 	<title>Document</title>
 	<link rel="stylesheet" href="../css/libs/reset.css">
 	<link rel="stylesheet" href="../css/index.css">
+	<link rel="stylesheet" href="../css/header_principal.css">
+	<link rel="stylesheet" href="../css/footer.css">
 </head>
 <body>
 	<!-- Header -->
-	<header>
-		<div>
-			<img src="imgages/img_left.jpg" alt="Photo rapproché clavier d'ordinateur">
-			<img src="imgages/img_right.jpg" alt="Photo visage homme">
-		</div>
+	<?php include 'header_menu.php'; ?>
+		<img src="../images/clavier_et_moitie_visage_homme.png" alt="">
 		<div>
 			<h1>L'outil de Communication et de Gestion des professionnels indépendants</h1>
 		</div>
@@ -22,7 +21,7 @@
 	<!-- First Section -->
 	<section>
 		<h2>QU'EST CE QUE ROPE UP ?</h2>
-		<div class="wrap">
+		<div class="wrap_index">
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget enim et turpis 
 			consequat commodo id sit amet purus. Quisque et lobortis sem. Phasellus in volutpat erat. 
 			Mauris varius pharetra viverra. Nam consectetur iaculis congue. Nulla tincidunt malesuada 
@@ -31,14 +30,14 @@
 			Aenean aliquet nisi eget erat gravida, eget cursus lacus auctor. Proin eu maximus tortor. 
 			Sed et semper lacus, sit amet porttitor massa. Vivamus tincidunt erat vel sem iaculis, 
 			lacinia ultricies erat dignissim.</p>
-			<img src="imgages/logo.png" alt="Logo RopeUp">
+			<img src="../images/cabane_ropeup_black.png" alt="Logo RopeUp">
 		</div>
 	</section>
 
 	<!-- Second Section -->
 	<section>
 		<h2>NOS DIFFÉRENTS PRODUITS</h2>
-		<div class="wrap">
+		<div class="wrap_index">
 			<div>
 				<h3>Gestion</h3>
 				<img src="imgages/calendar.svg" alt="Logo calendrier">
@@ -63,7 +62,7 @@
 				<p>OUTDOOR</p>
 			</div>
 			<div>
-				<img src="imgages/slider2_2.jpg" alt="Photo Espaces verts">
+				<img src="../images/bucheron.png" alt="Photo Espaces verts">
 				<p>ESPACES VERTS</p>
 			</div>
 		</div>
@@ -72,7 +71,7 @@
 	<!-- Fourth Section -->
 	<section>
 		<h2>NOS PARTENAIRES</h2>
-		<div class="wrap">
+		<div class="wrap_index">
 			<div>
 				<img src="imgages/part_1.png" alt="Logo partenaire ...">
 				<img src="imgages/part_2.png" alt="Logo partenaire ...">
@@ -84,6 +83,8 @@
 		</div>
 		
 	</section>
+
+	<?php include 'footer.php'; ?>
 
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 	<script type="text/javascript" src="../js/index.js"></script>

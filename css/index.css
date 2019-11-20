@@ -1,20 +1,20 @@
 @font-face {
-  font-family: 'DINPro Light';
+  font-family: 'DINPro_Light';
   font-style: normal;
   font-weight: normal;
   src: url("../fonts/DINPro-Light tr.woff") format("woff"); }
 @font-face {
-  font-family: 'DINPro Medium';
+  font-family: 'DINPro_Medium';
   font-style: normal;
   font-weight: normal;
   src: url("../fonts/DINPro-Medium tr.woff") format("woff"); }
 @font-face {
-  font-family: 'DINPro Bold';
+  font-family: 'DINPro_Bold';
   font-style: normal;
   font-weight: normal;
   src: url("../fonts/DINPro-Bold tr.woff") format("woff"); }
 @font-face {
-  font-family: 'DINPro Black';
+  font-family: 'DINPro_Black';
   font-style: normal;
   font-weight: normal;
   src: url("../fonts/DINPro-Black tr.woff") format("woff"); }
@@ -22,12 +22,12 @@ section {
   margin-top: 200px; }
   section h2 {
     color: #FF7D00;
-    font-family: 'DINPro Bold';
+    font-family: 'DINPro_Bold';
     font-size: 50px;
     text-align: center;
     margin-bottom: 100px; }
 
-.wrap {
+.wrap_index {
   width: 90%;
   margin: 0 auto; }
 
@@ -50,26 +50,26 @@ header {
     width: 800px; }
     header > div:nth-of-type(2) h1 {
       font-size: 60px;
-      font-family: 'DINPro Medium';
+      font-family: 'DINPro_Medium';
       color: white;
       text-align: center;
       line-height: 70px; }
 
-section:nth-of-type(1) .wrap {
+section:nth-of-type(1) .wrap_index {
   display: flex;
   justify-content: space-between;
   align-items: center; }
-  section:nth-of-type(1) .wrap p {
+  section:nth-of-type(1) .wrap_index p {
     font-family: 'DINPro Light';
     font-size: 30px;
     text-align: right; }
-  section:nth-of-type(1) .wrap img {
+  section:nth-of-type(1) .wrap_index img {
     margin-left: 200px; }
 
-section:nth-of-type(2) .wrap {
+section:nth-of-type(2) .wrap_index {
   display: flex;
   justify-content: space-between; }
-  section:nth-of-type(2) .wrap > div {
+  section:nth-of-type(2) .wrap_index > div {
     height: 700px;
     width: 700px;
     box-shadow: 0px 0px 20px black;
@@ -78,18 +78,18 @@ section:nth-of-type(2) .wrap {
     justify-content: center;
     align-items: center;
     padding: 0 50px; }
-    section:nth-of-type(2) .wrap > div h3 {
-      font-family: 'DINPro Medium';
+    section:nth-of-type(2) .wrap_index > div h3 {
+      font-family: 'DINPro_Medium';
       font-size: 50px;
       color: #FF7D00;
       margin-bottom: 80px; }
-    section:nth-of-type(2) .wrap > div p {
-      font-family: 'DINPro Light';
+    section:nth-of-type(2) .wrap_index > div p {
+      font-family: 'DINPro_Light';
       font-size: 25px;
       margin-top: 100px; }
 section:nth-of-type(2) > p {
   background-color: #FF7D00;
-  font-family: 'DINPro Medium';
+  font-family: 'DINPro_Medium';
   font-size: 30px;
   color: white;
   padding: 30px 0;
@@ -99,7 +99,7 @@ section:nth-of-type(2) > p {
   border-radius: 70px; }
 
 section:nth-of-type(3) > p {
-  font-family: 'DINPro Light';
+  font-family: 'DINPro_Light';
   font-size: 40px;
   margin: 0 auto;
   text-align: center;
@@ -118,7 +118,7 @@ section:nth-of-type(3) #slider {
     section:nth-of-type(3) #slider > div p {
       display: none;
       opacity: 0;
-      font-family: 'DINPro Light';
+      font-family: 'DINPro_Light';
       font-size: 40px;
       color: #FF7D00;
       position: absolute;
@@ -136,10 +136,10 @@ section:nth-of-type(3) #slider {
   section:nth-of-type(3) #slider > div:nth-of-type(2) img {
     float: right; }
 
-section:nth-of-type(4) .wrap > div {
+section:nth-of-type(4) .wrap_index > div {
   display: flex;
   justify-content: space-between; }
-  section:nth-of-type(4) .wrap > div img {
+  section:nth-of-type(4) .wrap_index > div img {
     height: 100px; }
 
 /*# sourceMappingURL=index.css.map */
