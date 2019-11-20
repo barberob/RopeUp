@@ -26,7 +26,8 @@
 
 			<div>
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget enim et turpis consequat commodo id sit amet purus. Quisque et lobortis sem. Phasellus in volutpat erat. Mauris varius pharetra viverra. Nam consectetur iaculis congue. Nulla tincidunt malesuada cursus. Nam faucibus cursus velit in viverra. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas convallis ut ex cursus sollicitudin. Duis vitae faucibus quam. Aenean aliquet nisi eget erat gravida, eget cursus lacus auctor. Proin eu maximus tortor. Sed et semper lacus, sit amet porttitor massa. Vivamus tincidunt erat vel sem iaculis, lacinia ultricies erat dignissim.
+					Un progiciel de gestion complètement intégré et cohérent dans le milieu du port. L'application Rope Up ! respecte l'indépendance de l'indépendant en vous apportant un outil de gestion commercial taillée sur mesure pour votre domaine d'activité
+
 				</p>	
 			</div>
 			
@@ -59,7 +60,7 @@
 			<div class="wrap">
 				
 				<p>
-					Hello world !! r sit amet, consectetur adipiscing elit. Nullam eget enim et turpis consequat commodo id sit amet purus. Quisque et lobortis sem. Phasellus in volutpat erat. Mauris varius pharetra viverra. Nam consectetur iaculis congue. Nulla tincidunt malesuada cursus. Nam faucibus cursus velit in viverra. Lorem ipsum dolor sit amet, consectetur.
+					Le pack gestion est le pack obligatoire que chaque diplômé d'état dans le sport devrait avoir dans son sac. Il améliore votre gestion clients tout en répondant aux exigences  de l'administration.
 				</p>
 
 
@@ -99,7 +100,22 @@
 							</p>
 
 							<li>
-								Quisque et lobortis sem. Phasellus in volutpat erat. 
+								3- Pour vous aider dans votre déclaration à l’administration.<Br>
+								Sur une période choisie,  l’application présente :
+ 
+
+							</li>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+								Nullam eget enim et turpis consequat commodo id sit 
+								amet purus. Quisque et lobortis sem. Phasellus in 
+								volutpat erat. 
+							</p>
+
+							<li>
+								4- Pour vous informer en permanence et sans action particulières.<Br>
+								En affichage,vous trouverez : 
+
 							</li>
 							<p>
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
