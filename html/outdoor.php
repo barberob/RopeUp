@@ -22,6 +22,7 @@
 	</header>
 
 	<section id="presentation">
+		<div class="wrap">
 			<h2>Ce que Rope Up vous propose</h2>
 
 			<div>
@@ -29,7 +30,8 @@
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget enim et turpis consequat commodo id sit amet purus. Quisque et lobortis sem. Phasellus in volutpat erat. Mauris varius pharetra viverra. Nam consectetur iaculis congue. Nulla tincidunt malesuada cursus. Nam faucibus cursus velit in viverra. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas convallis ut ex cursus sollicitudin. Duis vitae faucibus quam. Aenean aliquet nisi eget erat gravida, eget cursus lacus auctor. Proin eu maximus tortor. Sed et semper lacus, sit amet porttitor massa. Vivamus tincidunt erat vel sem iaculis, lacinia ultricies erat dignissim.
 				</p>	
 			</div>
-			
+		
+		</div>
 	</section>
 
 	<section id="fonctionnalités">
@@ -281,7 +283,7 @@
 						</p>
 
 						<h4>
-							Pack Communication
+							Pack Communication :
 						</h4>
 
 						<p>

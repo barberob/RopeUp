@@ -4,11 +4,18 @@ body
 	overflow-x: hidden;
 }
 
-div.background div.wrap, section#pack_vente div.wrap
+div.background div.wrap,
+section#pack_vente div.wrap,
+section#presentation div.wrap,
+section#tarifs div.wrap
+
 {
-	max-width: calc(100% - 200px);
+	max-width: 1240px;
 	margin-right: auto;
 	margin-left: auto;
+	align-self: center;
+	padding: 0;
+
 }
 
 
@@ -17,8 +24,8 @@ h2
 {
 	color: #019EC0;
 	font-family: "DINPro_Bold";
-	font-size: 50px;
-	margin-top: 200px;
+	font-size: 42px;
+	margin-top: 150px;
 	text-align: center;
 	text-transform: uppercase;
 }
@@ -27,14 +34,13 @@ h2
 
 
 
-section#presentation div
+section#presentation div.wrap div
 {
 	font-family: "DINPro_Light";
-	font-size: 30px;
+	font-size: 20px;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 100px;
-	width: 74%;
+	margin-top: 70px;
 
 }
 
@@ -121,8 +127,8 @@ div.management h3,div.communication h3
 {
 	color: white;
 	font-family: 'DINPro_Medium';
-	font-size: 50px;
-	margin: 40px 0;
+	font-size: 32px;
+	margin: 30px 0;
 	text-align: center;
 	user-select: none;
 	cursor: pointer;
@@ -141,11 +147,11 @@ div.background p:first-child
 {
 	color: white;
 	font-family: 'DINPro_Light';
-	font-size: 35px;
+	font-size: 20px;
 	margin-left: auto;
 	margin-right: auto;
-	padding-bottom: 150px;
-	padding-top: 150px;
+	padding-bottom: 75px;
+	padding-top: 100px;
 	width: 82%;
 }
 
@@ -155,7 +161,8 @@ section#fonctionnalités ul li
 {
 	color: #007B96;
 	font-family: 'DINPro_Medium';
-	font-size: 30px;
+	font-size: 22px;
+	margin-bottom: 35px;
 }
 
 section#fonctionnalités ul 
@@ -170,8 +177,8 @@ section#fonctionnalités ul li + p
 {
 	color: white;
 	font-family: 'DINPro_Light';
-	font-size: 30px;
-	margin: 40px 0;
+	font-size: 17px;
+	margin-bottom: 30px;
 }
 
 div.video_and_description video
@@ -183,8 +190,8 @@ div.video_and_description p
 {
 	color: white;
 	font-family: 'DINPro_Light';
-	font-size: 30px;
-	margin-top: 100px;
+	font-size: 17px;
+	margin-top: 50px;
 }
 
 div.flex_container
@@ -205,8 +212,8 @@ div.flex_container + p
 {
 	color: white;
 	font-family: 'DINPro_Light';
-	font-size: 35px;
-	margin-top: 150px;
+	font-size: 20px;
+	margin-top: 75px;
 	padding-bottom: 420px;
 }
 
@@ -227,9 +234,9 @@ section#pack_vente div.wrap>div
 
 section#pack_vente div h2
 {
-	margin-bottom: 100px;
+	margin-bottom: 75px;
 	margin-top: 0;
-	padding-top: 100px;
+	padding-top: 80px;
 }
 
 
@@ -245,7 +252,7 @@ section#pack_vente h4
 {
 	color: #019EC0;
 	font-family: 'DINPro_Medium';
-	font-size: 30px;
+	font-size: 26px;
 	margin-bottom: 45px;
 }
 
@@ -253,8 +260,8 @@ section#pack_vente p
 {
 	color: #000;
 	font-family: 'DINPro_Light';
-	font-size: 30px;
-	margin-bottom: 100px;
+	font-size: 22px;
+	margin-bottom: 80px;
 }
 
 section#pack_vente div.wrap div div div
@@ -277,7 +284,7 @@ section#pack_vente div.wrap div div div
 
 section#tarifs h2
 {
-	margin-bottom: 100px;
+	margin-bottom: 50px;
 }
 
 
@@ -295,12 +302,12 @@ section#tarifs h2+div
 
 section#tarifs h2+div div
 {
-	width: calc(33% - (200px));
+	width: calc(33% - (43px * 3));
 	text-align: center;
 	-webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.4);
 	-moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.4);
 	box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.4);
-	padding: 70px 70px;
+	padding: 70px 60px;
 }
 
 
@@ -318,20 +325,20 @@ section#tarifs h2+div div:nth-of-type(2)
 section#tarifs h2+div div:nth-of-type(1) p
 {
 	font-family: 'DINPro_Light';
-	font-size: 25px;
+	font-size: 20px;
 }
 
 section#tarifs h5
 {
 	font-family: 'DINPro_Bold';
-	font-size: 35px;
+	font-size: 30px;
 	margin-bottom: 40px;
 }
 
 section#tarifs h4
 {
 	font-family: 'DINPro_Medium';
-	font-size: 30px;
+	font-size: 25px;
 	margin-bottom: 15px;
 }
 
@@ -339,7 +346,7 @@ section#tarifs h4
 section#tarifs h4+p
 {
 	font-family: 'DINPro_Regular';
-	font-size: 25px;
+	font-size: 20px;
 	margin-bottom: 10px;
 }
 
@@ -347,7 +354,7 @@ section#tarifs h4+p
 section#tarifs p+p
 {
 	font-family: 'DINPro_Light';
-	font-size: 15px;
+	font-size: 12px;
 	margin-bottom: 40px;
 }
 
@@ -358,11 +365,11 @@ section#tarifs a
 a.submit_button
 {
 	border-radius: 50px;
-	width: 400px;
-	height: 95px;
+	width: 260px;
+	height: 73px;
 	background: #007B96;
 	color: white;
-	font-size: 40px;
+	font-size: 22px;
 	font-family:'DINPro_Bold';
 	display: flex;
 	align-items: center;
@@ -381,8 +388,10 @@ a.submit_button
 div.background:nth-of-type(2)
 {
 	position: absolute;
-	transform:translateX(100%);
+	display: none;
 	transition-duration: 0.5s;
+	left: 0;
+	right: 0;
 
 }
 
@@ -390,10 +399,15 @@ div.background:nth-of-type(2)
 
 div.background:nth-of-type(2).translated_right
 {
-	transform:translateX(0%);
+	display: block;
 	transition-duration: 0.5s;
 }
 
+div.background:nth-of-type(2)
+{
+	
+
+}
 
 
 /*////////////////////////////make things green///////////////////////////*/
