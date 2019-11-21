@@ -1,0 +1,28 @@
+@media all and (max-width: 1024px){
+
+	
+}
+
+@media all and (max-width: 980px){
+
+	footer div.wrap
+	{
+		display: flex;
+		flex-direction: column-reverse;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+}
+
+@media all and (max-width: 767px){
+
+}
+
+@media all and (max-width: 480px){
+
+
+	
+
+}
+

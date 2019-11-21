@@ -10,7 +10,8 @@
 	<link rel="stylesheet" type="text/css" href="../css/pack.css">
 	<link rel="stylesheet" type="text/css" href="../css/footer.css">
 	<link rel="stylesheet" type="text/css" href="../css/fonts.css">
-	<link rel="stylesheet" type="text/css" href="../css/header_responsive.css">
+	<link rel="stylesheet" type="text/css" href="../css/header_categories_responsive.css">
+	<link rel="stylesheet" type="text/css" href="../css/footer_responsive.css">
 	<title>Outdoor</title>
 </head>
 <body> 
@@ -368,5 +369,6 @@
 
 	<script type="text/javascript" src="../js/libs/jquery.js"></script>
 	<script type="text/javascript" src="../js/outdoor.js"></script>
+	<script type="text/javascript" src="../js/menu.js"></script>
 </body>
 </html>

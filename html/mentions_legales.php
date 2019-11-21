@@ -9,6 +9,7 @@
 	<link rel="stylesheet" type="text/css" href="../css/">
 	<link rel="stylesheet" type="text/css" href="../css/footer.css">
 	<link rel="stylesheet" type="text/css" href="../css/fonts.css">
+	<link rel="stylesheet" type="text/css" href="../css/footer_responsive.css">
 	<title>Mentions légales</title>
 </head>
 <body>
@@ -24,6 +25,9 @@
 	</div>
 	
 	<?php include("footer.php") ?>
+
+	<script type="text/javascript" src="../js/libs/jquery.js"></script>
+	<script type="text/javascript" src="../js/menu.js"></script>
 	
 </body>
 </html>

@@ -3,26 +3,26 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-	<title>Document</title>
-	<link rel="stylesheet" href="../css/libs/reset.css">
-	<link rel="stylesheet" href="../css/index.css">
+	<title>RopeUp</title>
+	<link rel="stylesheet" type="text/css" href="../css/libs/reset.css">
+	<link rel="stylesheet" type="text/css" href="../css/index.css">
 	<link rel="stylesheet" type="text/css" href="../css/header_principal.css">
 	<link rel="stylesheet" type="text/css" href="../css/footer.css">
 	<link rel="stylesheet" type="text/css" href="../css/fonts.css">
 	<link rel="stylesheet" type="text/css" href="../css/header_responsive.css">
+	<link rel="stylesheet" type="text/css" href="../css/footer_responsive.css">
 </head>
-<body>
 	<!-- Header -->
 	<?php include("header_menu.php") ?>
 		<div class="img_container">
-			<span>L'outil de Communication et de Gestion des professionnels indépendants</span>
+			<p>L'outil de Communication et de Gestion des professionnels indépendants</p>
 		</div>
 	</header>
 	
 	<!-- First Section -->
 	<section>
 		<h2>QU'EST CE QUE ROPE UP ?</h2>
-		<div class="wrap">
+		<div class="wrap_index">
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget enim et turpis 
 			consequat commodo id sit amet purus. Quisque et lobortis sem. Phasellus in volutpat erat. 
 			Mauris varius pharetra viverra. Nam consectetur iaculis congue. Nulla tincidunt malesuada 
@@ -31,14 +31,14 @@
 			Aenean aliquet nisi eget erat gravida, eget cursus lacus auctor. Proin eu maximus tortor. 
 			Sed et semper lacus, sit amet porttitor massa. Vivamus tincidunt erat vel sem iaculis, 
 			lacinia ultricies erat dignissim.</p>
-			<img src="images/logo.png" alt="Logo RopeUp">
+			<img src="../images/cabane_ropeup_black.png" alt="Logo RopeUp">
 		</div>
 	</section>
 
 	<!-- Second Section -->
 	<section>
 		<h2>NOS DIFFÉRENTS PRODUITS</h2>
-		<div class="wrap">
+		<div class="wrap_index">
 			<div>
 				<h3>Gestion</h3>
 				<img src="imgages/calendar.svg" alt="Logo calendrier">
@@ -63,7 +63,7 @@
 				<p>OUTDOOR</p>
 			</div>
 			<div>
-				<img src="imgages/slider2_2.jpg" alt="Photo Espaces verts">
+				<img src="../images/bucheron.png" alt="Photo Espaces verts">
 				<p>ESPACES VERTS</p>
 			</div>
 		</div>
@@ -72,7 +72,7 @@
 	<!-- Fourth Section -->
 	<section>
 		<h2>NOS PARTENAIRES</h2>
-		<div class="wrap">
+		<div class="wrap_index">
 			<div>
 				<img src="imgages/part_1.png" alt="Logo partenaire ...">
 				<img src="imgages/part_2.png" alt="Logo partenaire ...">
@@ -85,9 +85,10 @@
 		
 	</section>
 
-	<?php include("footer.php") ?>
+	<?php include 'footer.php'; ?>
 
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 	<script type="text/javascript" src="../js/index.js"></script>
+	<script type="text/javascript" src="../js/menu.js"></script>
 </body>
 </html>
