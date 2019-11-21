@@ -74,12 +74,12 @@
 		<h2>NOS PARTENAIRES</h2>
 		<div class="wrap_index">
 			<div>
-				<img src="../images/logo_banque_populaire.png" alt="Logo Banque populaire">
-				<img src="../images/logo_initiative.png" alt="Logo Initiative">
-				<img src="../images/logo_french_fab.png" alt="Logo La French Fab">
-				<img src="../images/logo_rando_bike_spirit.png" alt="Logo Rando Bike Spirit">
-				<img src="../images/logo_bureau_des_guides.png" alt="Logo Bureau des guides et accompagnateurs">
-				<img src="../images/logo_inovizi.png" alt="Logo Inovizi">
+				<a href="#"><img src="../images/logo_banque_populaire.png" alt="Logo Banque populaire"></a>
+				<a href="#"><img src="../images/logo_initiative.png" alt="Logo Initiative"></a>
+				<a href="#"><img src="../images/logo_french_fab.png" alt="Logo La French Fab"></a>
+				<a href="#"><img src="../images/logo_rando_bike_spirit.png" alt="Logo Rando Bike Spirit"></a>
+				<a href="#"><img src="../images/logo_bureau_des_guides.png" alt="Logo Bureau des guides et accompagnateurs"></a>
+				<a href="#"><img src="../images/logo_inovizi.png" alt="Logo Inovizi"></a>
 			</div>
 		</div>
 		
