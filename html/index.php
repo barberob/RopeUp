@@ -15,7 +15,7 @@
 	<!-- Header -->
 	<?php include("header_menu.php") ?>
 		<div class="img_container">
-			<p>L'outil de Communication et de Gestion des professionnels indépendants</p>
+			<span>L'outil de Communication et de Gestion des professionnels indépendants</span>
 		</div>
 	</header>
 	
