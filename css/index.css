@@ -111,11 +111,12 @@ section:nth-of-type(3) #slider > div
   overflow: hidden;
   transition-duration: 1s;
   position: relative;
+  height: 600px;
 }
 
 section:nth-of-type(3) #slider > div img
 {
-  width: 1000px;
+  height: 100%;
   filter: grayscale(100%);
   transition-duration: 1s;
 }
@@ -142,7 +143,7 @@ section:nth-of-type(3) #slider > div p.active
 
 section:nth-of-type(3) #slider > div:hover
 {
-  width: 80%;
+  width: 90%;
 }
 
 section:nth-of-type(3) #slider > div:hover img

@@ -41,12 +41,12 @@
 		<div class="wrap_index">
 			<div>
 				<h3>Gestion</h3>
-				<img src="imgages/calendar.svg" alt="Logo calendrier">
+				<img src="../images/logo_calendrier_provisoire.svg" alt="Logo calendrier">
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget enim et turpis consequat commodo id sit amet purus. Quisque et lobortis sem. Phasellus in volutpat erat. Mauris varius pharetra viverra. Nam consectetur iaculis congue. Nulla tincidunt malesuada cursus. Nam faucibus cursus velit in viverra. </p>
 			</div>
 			<div>
 				<h3>Communication</h3>
-				<img src="imgages/social_care.svg" alt="Logo communication">
+				<img src="../images/logo_social_provisoire.svg" alt="Logo communication">
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget enim et turpis consequat commodo id sit amet purus. Quisque et lobortis sem. Phasellus in volutpat erat. Mauris varius pharetra viverra. Nam consectetur iaculis congue. Nulla tincidunt malesuada cursus. Nam faucibus cursus velit in viverra. </p>
 			</div>
 		</div>
@@ -59,11 +59,11 @@
 		<p>Les produits de Rope Up! sont adaptés à votre domaine,<br>veuillez choisir le votre :</p>
 		<div id="slider">
 			<div>
-				<img src="imgages/slider1.jpg" alt="Photo Outdoor">
+				<img src="../images/randonneur.png" alt="Photo Randonneur">
 				<p>OUTDOOR</p>
 			</div>
 			<div>
-				<img src="../images/bucheron.png" alt="Photo Espaces verts">
+				<img src="../images/bucheron.png" alt="Photo Bucheron">
 				<p>ESPACES VERTS</p>
 			</div>
 		</div>
@@ -74,12 +74,12 @@
 		<h2>NOS PARTENAIRES</h2>
 		<div class="wrap_index">
 			<div>
-				<img src="imgages/part_1.png" alt="Logo partenaire ...">
-				<img src="imgages/part_2.png" alt="Logo partenaire ...">
-				<img src="imgages/part_3.png" alt="Logo partenaire ...">
-				<img src="imgages/part_4.png" alt="Logo partenaire ...">
-				<img src="imgages/part_5.png" alt="Logo partenaire ...">
-				<img src="imgages/part_6.png" alt="Logo partenaire ...">
+				<img src="../images/logo_banque_populaire.png" alt="Logo Banque populaire">
+				<img src="../images/logo_initiative.png" alt="Logo Initiative">
+				<img src="../images/logo_french_fab.png" alt="Logo La French Fab">
+				<img src="../images/logo_rando_bike_spirit.png" alt="Logo Rando Bike Spirit">
+				<img src="../images/logo_bureau_des_guides.png" alt="Logo Bureau des guides et accompagnateurs">
+				<img src="../images/logo_inovizi.png" alt="Logo Inovizi">
 			</div>
 		</div>
 		
