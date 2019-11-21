@@ -1,0 +1,35 @@
+@media all and (max-width: 1024px){
+
+	
+}
+
+@media all and (max-width: 980px){
+
+}
+
+@media all and (max-width: 767px){
+
+	footer div.wrap
+	{
+		display: flex;
+		flex-direction: column-reverse;
+		justify-content: space-between;
+		align-items: center;
+		position: relative;
+	}
+	
+	img.logo
+	{
+		position: absolute;
+		opacity: 0.1;
+	}
+
+}
+
+@media all and (max-width: 480px){
+
+
+	
+
+}
+
