@@ -3,11 +3,11 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-	<title>Document</title>
-	<link rel="stylesheet" href="../css/libs/reset.css">
-	<link rel="stylesheet" href="../css/index.css">
-	<link rel="stylesheet" href="../css/header_principal.css">
-	<link rel="stylesheet" href="../css/footer.css">
+	<title>RopeUp</title>
+	<link rel="stylesheet" type="text/css" href="../css/libs/reset.css">
+	<link rel="stylesheet" type="text/css" href="../css/index.css">
+	<link rel="stylesheet" type="text/css" href="../css/header_principal.css">
+	<link rel="stylesheet" type="text/css" href="../css/footer.css">
 	<link rel="stylesheet" type="text/css" href="../css/fonts.css">
 	<link rel="stylesheet" type="text/css" href="../css/header_responsive.css">
 	<link rel="stylesheet" type="text/css" href="../css/footer_responsive.css">
