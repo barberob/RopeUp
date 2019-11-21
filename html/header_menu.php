@@ -3,8 +3,8 @@
 	<div class="menu_page">
       <div class="wrap">
         <div class="div_cross_logo">
-          <a class="cross" href="#"><img src="images/croix.svg" alt="croix"></a>
-          <a href="index.php"><img src="images/logo_ropeup.svg" alt="Logo Rope Up"></a>
+          <a class="cross" href="#"><img src="../images/cro.svg" alt="croix"></a>
+          <a href="index.php"><img src="../images/logo_ropeup.svg" alt="Logo Rope Up"></a>
         </div>
         <nav>
           <ul>
