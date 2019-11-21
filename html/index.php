@@ -9,12 +9,10 @@
 	<link rel="stylesheet" href="../css/header_principal.css">
 	<link rel="stylesheet" href="../css/footer.css">
 </head>
-<body>
 	<!-- Header -->
-	<?php include 'header_menu.php'; ?>
-		<img src="../images/clavier_et_moitie_visage_homme.png" alt="">
+	<?php include("header_menu.php") ?>
 		<div>
-			<h1>L'outil de Communication et de Gestion des professionnels indépendants</h1>
+			<p>L'outil de Communication et de Gestion des professionnels indépendants</p>
 		</div>
 	</header>
 	
