@@ -23,6 +23,7 @@
 	</header>
 
 	<section id="presentation">
+		<div class="wrap">
 			<h2>Ce que Rope Up vous propose</h2>
 
 			<div>
@@ -31,7 +32,8 @@
 
 				</p>	
 			</div>
-			
+		
+		</div>
 	</section>
 
 	<section id="fonctionnalités">
@@ -298,7 +300,7 @@
 						</p>
 
 						<h4>
-							Pack Communication
+							Pack Communication :
 						</h4>
 
 						<p>
