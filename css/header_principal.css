@@ -46,7 +46,7 @@ nav a:nth-child(4) span
 	border-radius: 15px;
 }
 
-div.img_container span
+div.img_container p
 {
 	background-color: rgba(255,125,0,0.5);
 	color: white;
@@ -61,6 +61,8 @@ div.img_container span
 
 header
 {	
+	background-image: url('../images/clavier_et_moitie_visage_homme.png');
+	background-size: cover;
 	font-family: "DINPro_Medium";
 	height: 100vh;
 }

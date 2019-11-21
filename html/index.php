@@ -14,7 +14,7 @@
 </head>
 	<!-- Header -->
 	<?php include("header_menu.php") ?>
-		<div>
+		<div class="img_container">
 			<p>L'outil de Communication et de Gestion des professionnels indépendants</p>
 		</div>
 	</header>
