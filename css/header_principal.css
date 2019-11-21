@@ -38,12 +38,12 @@ a.nav_content
 	margin-right: 50px;
 }
 
-nav a:nth-child(4) span
+nav a:nth-child(4) span, nav a:nth-child(1) span
 {
 	background-color: #FF7D00;
 	color: white;
-	padding: 4px 15px;
-	border-radius: 15px;
+	padding: 5px 20px;
+	border-radius: 22px;
 }
 
 div.img_container span
@@ -88,15 +88,13 @@ div.div_cross_logo
 {
 	padding-top: 30px;
 	width:100%;
-	position: relative;
 	display: flex;
-	justify-content: center;
+	justify-content: space-between;
 	align-items: center;
 }
 
-div.div_cross_logo a:first-of-type{
-	position: absolute;
-	right:0;
+div.div_cross_logo a:first-of-type img{
+	width:150px;
 }
 
 div.menu_page
@@ -110,31 +108,39 @@ div.menu_page
 	transform: translateX(-100%);
 	transition-duration: 1s;
 	overflow: hidden;
-	text-transform: uppercase;
+	background-color: #FFF;
 
 }
 
-div.menu_page li 
+div.menu_page li
 {
-    width: 100%;
-    font-size: 55px;
 	text-align: center;
-	line-height: 70px;
+	line-height: 50px;
+}
+
+div.menu_page a.nav_content_menu
+{
+	text-transform: uppercase;
 }
 
 div.menu_page nav
 {
-	width:100%;
-	height: 100vh;
+	height: 85vh;
 	justify-content: center;
 	display: flex;
 	flex-direction: column;
+	font-size: 17px;
 }
 
 div.menu_page.active
 {
 	transform: translateX(0%);
 	transition-duration: 1s;
+}
+
+ul li:first-of-type
+{
+	margin-bottom: 100px;
 }
 
 

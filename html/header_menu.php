@@ -3,8 +3,8 @@
 	<div class="menu_page">
       <div class="wrap">
         <div class="div_cross_logo">
-          <a class="cross" href="#"><img src="../images/cro.svg" alt="croix"></a>
           <a href="index.php"><img src="../images/logo_ropeup.svg" alt="Logo Rope Up"></a>
+          <a class="cross" href="#"><img src="../images/cross.png" alt="croix"></a>
         </div>
         <nav>
           <ul>
@@ -12,13 +12,13 @@
               <a href="#"><span>Connexion</span></a>
             </li>
             <li>
-              <a href="qui_sommes_nous.php">Qui sommes-nous ?</a>
+              <a class="nav_content_menu" href="qui_sommes_nous.php">Qui sommes-nous ?</a>
             </li>
             <li>
-              <a href="#">Domaines</a>
+              <a class="nav_content_menu" href="#">Domaines</a>
             </li>
             <li>
-              <a href="contact.php">Contact</a>
+              <a class="nav_content_menu" href="contact.php">Contact</a>
             </li>
           </ul>
         </nav>
