@@ -5,6 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
 	<link rel="stylesheet" type="text/css" href="../css/libs/reset.css">
+	<link rel="stylesheet" type="text/css" href="../css/qui_somme_nous.css">
 	<link rel="stylesheet" type="text/css" href="../css/header_principal.css">
 	<link rel="stylesheet" type="text/css" href="../css/header_qui_sommes_nous.css">
 	<link rel="stylesheet" type="text/css" href="../css/footer.css">
@@ -21,9 +22,122 @@
 		</div>
 	</header>
 
+	<!-- First Section -->
+	<section>
+		<h2>QU'EST CE QUE ROPE UP ?</h2>
+		<div class="wrap_qsn">
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget enim et turpis 
+			consequat commodo id sit amet purus. Quisque et lobortis sem. Phasellus in volutpat erat. 
+			Mauris varius pharetra viverra. Nam consectetur iaculis congue. Nulla tincidunt malesuada 
+			cursus. Nam faucibus cursus velit in viverra. Lorem ipsum dolor sit amet, consectetur 
+			adipiscing elit. Maecenas convallis ut ex cursus sollicitudin. Duis vitae faucibus quam. 
+			Aenean aliquet nisi eget erat gravida, eget cursus lacus auctor. Proin eu maximus tortor. 
+			Sed et semper lacus, sit amet porttitor massa. Vivamus tincidunt erat vel sem iaculis, 
+			lacinia ultricies erat dignissim.</p>
+			<img src="../images/cabane_ropeup_black.png" alt="Logo RopeUp">
+		</div>
+	</section>
+
+	<!-- Second Section -->
+	<section>
+		<div class="wrap_qsn">
+			<h2>NOTRE ÉQUIPE</h2>
+			<div> <!-- Container -->
+				<div> <!-- Content -->
+					<img src="../images/membres/membre1.png" class="member" alt="Photo membre">
+					<div>
+						<p>Prénom</p>
+						<p>Nom</p>
+					</div>
+					<p>Fonction</p>
+				</div>
+
+				<div> <!-- Content -->
+					<img src="../images/membres/membre1.png" class="member" alt="Photo membre">
+					<div>
+						<p>Prénom</p>
+						<p>Nom</p>
+					</div>
+					<p>Fonction</p>
+				</div>
+
+				<div> <!-- Content -->
+					<img src="../images/membres/membre1.png" class="member" alt="Photo membre">
+					<div>
+						<p>Prénom</p>
+						<p>Nom</p>
+					</div>
+					<p>Fonction</p>
+				</div>
+
+				<div> <!-- Content -->
+					<img src="../images/membres/membre1.png" class="member" alt="Photo membre">
+					<div>
+						<p>Prénom</p>
+						<p>Nom</p>
+					</div>
+					<p>Fonction</p>
+				</div>
+
+				<div> <!-- Content -->
+					<img src="../images/membres/membre1.png" class="member" alt="Photo membre">
+					<div>
+						<p>Prénom</p>
+						<p>Nom</p>
+					</div>
+					<p>Fonction</p>
+				</div>
+
+				<div> <!-- Content -->
+					<img src="../images/membres/membre1.png" class="member" alt="Photo membre">
+					<div>
+						<p>Prénom</p>
+						<p>Nom</p>
+					</div>
+					<p>Fonction</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Third section -->
+	<section>
+		<div class="wrap_qsn">
+			<h2>NOTRE HISTOIRE</h2>
+			<div>
+				<div>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget enim et turpis 
+					consequat commodo id sit amet purus. Quisque et lobortis sem. Phasellus in volutpat erat. 
+					Mauris varius pharetra viverra. </p>
+					<div>
+						<div>
+							<span></span>
+							<h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.  </h3>
+						</div>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget enim et turpis 
+						consequat commodo id sit amet purus. Quisque et lobortis sem. Phasellus in volutpat erat. 
+						Mauris varius pharetra viverra. </p>
+					</div>
+					<div>
+						<div>
+							<span></span>
+							<h3>Quisque et lobortis sem. Phasellus in volutpat erat. </h3>	
+						</div>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget enim et turpis 
+						consequat commodo id sit amet purus. Quisque et lobortis sem. Phasellus in volutpat erat. 
+						Mauris varius pharetra viverra. </p>
+					</div>
+				</div>
+				<img src="../images/frise.png" alt="Frise chronologique de l'entreprise">
+			</div>
+			
+		</div>
+	</section>
+
 	<?php include("footer.php") ?>
 
 	<script type="text/javascript" src="../js/libs/jquery.js"></script>
+	<script type="text/javascript" src="../js/qui_sommes_nous.js"></script>
 	<script type="text/javascript" src="../js/menu.js"></script>
 </body>
 </html>
