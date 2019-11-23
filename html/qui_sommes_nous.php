@@ -97,6 +97,7 @@
 					<p>Fonction</p>
 				</div>
 			</div>
+			<p>Notre mission est de fournir aux professionnels indépendants le meilleur service web de gestion commerciale, intégré à leurs écosystèmes.</p>
 		</div>
 	</section>
 
