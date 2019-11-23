@@ -6,7 +6,7 @@
 
 h2
 {
-  font-family: "DINPro_Medium";
+  font-family: "DINPro_Bold";
   font-size: 40px;
   color: #FF7D00;
   text-align: center;
@@ -29,14 +29,15 @@ section:nth-of-type(1) .wrap_index
 
 section:nth-of-type(1) .wrap_index p
 {
-  font-family: 'DINPro Light';
+  font-family: 'DINPro_Light';
   font-size: 20px;
   text-align: right;
 }
 
 section:nth-of-type(1) .wrap_index img
 {
-  width: 500px;
+  min-width: 200px;
+  margin-left: 150px;
 }
 
 
@@ -169,10 +170,12 @@ section:nth-of-type(4) .wrap_index > div
 {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   flex-wrap: wrap;
 }
 
 section:nth-of-type(4) .wrap_index > div img
 {
-  height: 100px;
+  width: 100px;
+  margin: 20px 20px;
 }
