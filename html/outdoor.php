@@ -71,9 +71,8 @@
 				<div class="flex_container">
 
 					<div class="video_and_description">
-						<video controls>
-							<source src="https://www.youtube.com/watch?v=-orRTjRBKjk" type="video/mp4">
-						</video>
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/bxlV9h5YO1U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						
 						<p>
 							Cette vidéo vous montre à quoi ressemble l’application. N’hésitez pas à parcourir notre page youtube sur laquelle vous trouverez d’autres tutoriels.
 						</p>
@@ -161,9 +160,9 @@
 				<div class="flex_container">
 
 					<div class="video_and_description">
-						<video controls>
-							<source src="../videos/yaah.mp4" type="video/mp4">
-						</video>
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/egdSveRAk2k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+							
+						</iframe>
 						<p>
 							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget enim et turpis consequat commodo id sit amet purus. Quisque et lobortis sem. Phasellus in volutpat erat. Mauris varius pharetra viverra.
 						</p>
@@ -370,7 +369,8 @@
 
 
 	<script type="text/javascript" src="../js/libs/jquery.js"></script>
-	<script type="text/javascript" src="../js/outdoor.js"></script>
+	<script type="text/javascript" src="../js/pack.js"></script>
 	<script type="text/javascript" src="../js/menu.js"></script>
+	
 </body>
 </html>

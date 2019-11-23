@@ -1,0 +1,94 @@
+@media all and (max-width: 1400px)
+{
+
+	div.background div.wrap,
+	section#pack_vente div.wrap,
+	section#presentation div.wrap,
+	section#tarifs div.wrap
+
+	{
+		max-width: calc(100% - 200px);
+		margin-right: auto;
+		margin-left: auto;
+		align-self: center;
+	}
+
+	section#pack_vente >div
+	{
+		max-width: calc(100% - 200px);
+	}
+
+
+}
+
+
+@media all and (max-width: 1400px)
+{
+
+	section#tarifs h2+div
+	{
+	 	flex-direction: column; 
+	}
+	 
+
+	section#tarifs h2+div div
+	{
+		width: 100%;
+		padding: 70px 60px;
+	}
+
+}
+
+@media all and (max-width: 1100px)
+{
+	section#pack_vente h2+div
+	{
+		padding: 0 55px;
+	}
+
+	section#pack_vente h4
+	{
+		font-size: 22px;
+	}
+	
+	section#pack_vente p
+	{
+		font-size: 18px;
+	}
+
+	section#pack_vente >div
+	{
+		transform: translateY(0%);
+		max-width: 100%;
+	}
+
+	div.flex_container + p
+	{
+		padding-bottom: 5em;
+	}
+
+}
+
+
+
+@media all and (max-width: 980px)
+{
+
+	div.flex_container
+	{
+		flex-direction: column;
+		align-items: center;
+	}
+
+	div.flex_container div.video_and_description, div.flex_container div.functionalities
+
+	{
+		max-width: 100%;
+	}
+
+
+
+
+
+
+}
