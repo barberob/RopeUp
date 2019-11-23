@@ -83,12 +83,12 @@ section:nth-of-type(2) > p
 {
   background-color: #FF7D00;
   font-family: 'DINPro_Medium';
-  font-size: 22px;
+  font-size: 20px;
   color: white;
-  padding: 30px 0;
+  padding: 20px 0;
   text-align: center;
-  width: 300px;
-  margin: 100px auto 0 auto;
+  width: 250px;
+  margin: 75px auto 0 auto;
   border-radius: 70px;
 }
 
