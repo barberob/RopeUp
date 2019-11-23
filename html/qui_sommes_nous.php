@@ -55,7 +55,7 @@
 						<p>Laurent</p>
 						<p>Demain</p>
 					</div>
-					<p>Appui stratégie</p>
+					<p>Appui Stratégie</p>
 				</div>
 
 				<div> <!-- Content -->
@@ -64,7 +64,7 @@
 						<p>Samson</p>
 						<p>Da Costa</p>
 					</div>
-					<p>Responsable Technique</p>
+					<p>Responsable<br/>Technique</p>
 				</div>
 
 				<div> <!-- Content -->
@@ -79,19 +79,28 @@
 				<div> <!-- Content -->
 					<img src="../images/membres/membre1.png" class="member" alt="Photo membre">
 					<div>
-						<p>Prénom</p>
-						<p>Nom</p>
+						<p>Yoran</p>
+						<p>De Gouvello</p>
 					</div>
-					<p>Fonction</p>
+					<p>Appui Technique</p>
 				</div>
 
 				<div> <!-- Content -->
 					<img src="../images/membres/membre1.png" class="member" alt="Photo membre">
 					<div>
-						<p>Prénom</p>
-						<p>Nom</p>
+						<p>François-Xavier</p>
+						<p>Plaçais</p>
 					</div>
-					<p>Fonction</p>
+					<p>Responsable<br/>Clients</p>
+				</div>
+
+				<div> <!-- Content -->
+					<img src="../images/membres/membre1.png" class="member" alt="Photo membre">
+					<div>
+						<p>Jean-Louis</p>
+						<p>Chanel</p>
+					</div>
+					<p>Appui Commercial</p>
 				</div>
 			</div>
 		</div>
