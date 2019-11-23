@@ -2,6 +2,7 @@
 body
 {
 	overflow-x: hidden;
+	letter-spacing: 0.01px;
 }
 
 div.background div.wrap,
@@ -176,15 +177,15 @@ div.video_and_description p
 div.flex_container
 {
 	display: flex;
-	justify-content: space-between;
+	flex-direction: column;
 }
 
-div.flex_container div.video_and_description, div.flex_container div.functionalities
+div.flex_container div.video_and_description, 
 
 {
 	display: flex;
 	flex-direction: column;
-	max-width: calc(50% - (115px/2));
+	max-width: 100%;
 }
 
 div.flex_container + p 
@@ -196,16 +197,36 @@ div.flex_container + p
 	padding-bottom:18em;
 }
 
-
- /*///////////////////////////////////////////////////////////////////////*/
- /*///////////////////////////////// FONCTIONNALITÉS //////////////////////////////////////*/
-.level_0
+div.functionalities
 {
-	font-family: 'DINPro_Medium';
-	font-size: 22px;
+	margin-top: 100px;
 }
 
 
+ /*///////////////////////////////////////////////////////////////////////*/
+ /*///////////////////////////////// FONCTIONNALITÉS //////////////////////////////////////*/
+
+section#fonctionnalités div.flex_container div.functionalities
+{
+	display: flex;
+	justify-content: space-between;
+}
+section#fonctionnalités .level_0
+{
+	font-family: 'DINPro_Medium';
+	font-size: 22px;
+	list-style-type: decimal;
+	color: #007B96;
+	margin-bottom: 25px;
+}
+section#fonctionnalités ul.level_2 li
+{
+	font-family: 'DINPro_Light';
+	font-size: 18px;
+	margin-left: 20px;
+	margin-top: 15px;
+	list-style-type: circle; 
+}
 section#fonctionnalités ul li 
 {
 	color: white;
@@ -213,34 +234,27 @@ section#fonctionnalités ul li
 	font-size: 18px;
 	margin-bottom: 15px;
 }
-
 section#fonctionnalités ul 
 {
 	color: #007B96;
 	list-style-type: disc;
 }
-
-
-section#fonctionnalités ol >li
+section#fonctionnalités ol>li
 {
-	list-style-type: decimal;
-	color: #007B96;
-	margin-bottom: 25px;
+	
 }
 
-
-/*////*/
-
-section#fonctionnalités ul li + p
+section#fonctionnalités ol>li+p
 {
 	color: white;
-	font-family: 'DINPro_Light';
-	font-size: 17px;
+	font-family: 'DINPro_Medium';
+	font-size: 18px;
 	margin-bottom: 30px;
 }
-
-
-
+section#fonctionnalités ol>li+ul, ol p+ul
+{
+	margin-left: 15px;
+}
 
  /*///////////////////////////////////////////////////////////////////////*/
  /*/////////////////////////////////pack vente//////////////////////////////////////*/
@@ -291,7 +305,7 @@ section#pack_vente p
 	margin-bottom: 80px;
 }
 
-section#pack_vente div div div
+section#pack_vente div div div div
 {
 	max-width: calc(50% - 35px);
 }

@@ -204,73 +204,91 @@
 								volutpat erat. 
 							</p>
 						</ul> -->
+						
 
 						<ol>
-							<li class="level_0">Les actions possibles à partir de votre compte :</li> <!-- 1 -->
+							<!-- <div> -->
+								<li class="level_0">Les actions possibles à partir de votre compte :</li> <!-- 1 -->
 
-							<ul>
-								<li>Rédiger et stocker des devis, et les envoyer automatiquement en pdf.</li>
-								<li>Transformer des devis en facture.</li>
-								<li>Rédiger et stocker  des factures, et les envoyer automatiquement en pdf.</li>
-								<li>Prendre des rendez-vous clients sur votre agenda.</li>
-								<li>Transformer vos rendez-vous en factures.</li>
-								<li>Remplir et suivre vos dépenses professionnels.</li>
-								<li>Trier les clients et leur envoyer un mailing ciblé.</li>
-								<li>Pour les structures: affecter les rendez-vous aux prestataires travaillant avec la structure.</li>
-							</ul>
-
-							<li class="level_0">Automatiquement, l’application range et stocke vos données. Elle crée pour vous :</li> <!-- 2 -->
-
-							<ul>
-								<li>
-									Vos fichier clients.
-								</li>
-								<li>Pour le professionnel indépendant :
-									<ul>
-										<li>La transmission automatique de vos indisponibilités sur l’agenda des structures qui utilisent Rope Up ! et pour lesquelles vous travaillez.</li>
-										<li>L’incrémentation dans votre chiffre d’affaires des honoraires envoyés par les structures qui utilisent Rope Up !</li>
-									</ul>
-								</li>
-
-								<li> Pour les structures :
-									<ul>
-										<li>Les fiches d'honoraires pour les prestataires, que le/la secrétaire peut envoyer automatiquement.</li>
-										<li>L’envoi de mail aux prestataires travaillant avec la structure, leur signalant du travail.</li>
-										<li>L’affichage des disponibilités des permanents qui travaillent avec la structure.</li>
-									</ul>
-								</li>
-							</ul>
-
-							<li class="level_0">Pour vous aider dans votre déclaration à l’administration.</li> <!-- 3 -->
-							<p>Sur une période choisie,  l’application présente :</p>
-							<ul>
-								<li>L’encaissement total.</li>
-								<li>Le suivi des débours.</li>
-								<li>Les recettes brutes.</li>
-								<li>Les recettes nettes.</li>
-								<li>Les frais professionnels.</li>
-								<li>TVA déductible et TVA encaissée (si la TVA a été activée au préalable).</li>
-							</ul>
-
-
-							<li class="level_0">Pour vous informer en permanence et sans action particulières.</li> <!-- 4 -->
-							<p>En affichage,vous trouverez :</p>
-							<li>Le suivi des états de paiement mois par mois.</li>
-							<li>Le classement des clients des plus importants au plus petit sur une période donnée.</li>
-							<li>Le contrôle de votre chiffre d’affaire de l’année en cours par rapport à votre seuil.</li>
-							<li>Pour les structures :
 								<ul>
-									<li>Le suivi des honoraires par prestataires mois par mois.</li>
-									<li>Le suivi des honoraires par prestataires sur une période donnée.</li>
+									<li>Rédiger et stocker des devis, et les envoyer automatiquement en pdf.</li>
+									<li>Transformer des devis en facture.</li>
+									<li>Rédiger et stocker  des factures, et les envoyer automatiquement en pdf.</li>
+									<li>Prendre des rendez-vous clients sur votre agenda.</li>
+									<li>Transformer vos rendez-vous en factures.</li>
+									<li>Remplir et suivre vos dépenses professionnels.</li>
+									<li>Trier les clients et leur envoyer un mailing ciblé.</li>
+									<li>Pour les structures: affecter les rendez-vous aux prestataires travaillant avec la structure.</li>
 								</ul>
-							</li>
-							
 
+								<!-- <div> -->
+									
+									<li class="level_0">Automatiquement, l’application range et stocke vos données. Elle crée pour vous :</li> <!-- 2 -->
+
+									<ul>
+										<li>
+											Vos fichier clients.
+										</li>
+										<li>Pour le professionnel indépendant :
+											<ul class="level_2">
+												<li>La transmission automatique de vos indisponibilités sur l’agenda des structures qui utilisent Rope Up ! et pour lesquelles vous travaillez.</li>
+												<li>L’incrémentation dans votre chiffre d’affaires des honoraires envoyés par les structures qui utilisent Rope Up !</li>
+											</ul>
+										</li>
+
+										<li> Pour les structures :
+											<ul class="level_2">
+												<li>Les fiches d'honoraires pour les prestataires, que le/la secrétaire peut envoyer automatiquement.</li>
+												<li>L’envoi de mail aux prestataires travaillant avec la structure, leur signalant du travail.</li>
+												<li>L’affichage des disponibilités des permanents qui travaillent avec la structure.</li>
+											</ul>
+										</li>
+									</ul>
+								<!-- </div> -->
+								
+							<!-- </div> -->
+							<!-- <div> -->
+								
+								<!-- <div> -->
+									
+									<li class="level_0">Pour vous aider dans votre déclaration à l’administration.</li> <!-- 3 -->
+									<p>Sur une période choisie,  l’application présente :</p>
+									<ul>
+										<li>L’encaissement total.</li>
+										<li>Le suivi des débours.</li>
+										<li>Les recettes brutes.</li>
+										<li>Les recettes nettes.</li>
+										<li>Les frais professionnels.</li>
+										<li>TVA déductible et TVA encaissée (si la TVA a été activée au préalable).</li>
+									</ul>
+
+								<!-- </div> -->
+
+
+
+								<!-- <div> -->
+									
+									<li class="level_0">Pour vous informer en permanence et sans action particulières.</li> <!-- 4 -->
+									<p>En affichage,vous trouverez :</p>
+									<ul>
+										<li>Le suivi des états de paiement mois par mois.</li>
+										<li>Le classement des clients des plus importants au plus petit sur une période donnée.</li>
+										<li>Le contrôle de votre chiffre d’affaire de l’année en cours par rapport à votre seuil.</li>
+										<li>Pour les structures :
+											<ul class="level_2">
+												<li>Le suivi des honoraires par prestataires mois par mois.</li>
+												<li>Le suivi des honoraires par prestataires sur une période donnée.</li>
+											</ul>
+										</li>
+									</ul>
+
+								<!-- </div>	 -->
+
+							<!-- </div> -->
 						</ol>
 
-
-
 					</div>
+
 				</div>
 
 
