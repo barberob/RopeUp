@@ -27,10 +27,14 @@
 			<h2>Ce que Rope Up vous propose</h2>
 
 			<div>
-				<p>
-					Un progiciel de gestion complètement intégré et cohérent dans le milieu du port. L'application Rope Up ! respecte l'indépendance de l'indépendant en vous apportant un outil de gestion commercial taillée sur mesure pour votre domaine d'activité
-
-				</p>	
+				<p>Vous encadrez et proposez de l’enseignement dans le sport ? Vous êtes un professionnel indépendant ? Vous préférez passer du temps sur le terrain plutôt que de faire de l'administratif et de la communication ? Pour vous, et avec des guides de haute montagne, des accompagnateurs et des moniteurs, nous avons créé une application pour vous aider à structurer votre activité tout en vous apportant du confort.
+				<br/>
+				L'application Rope Up ! n'est pas une nouvelle plateforme d'intermédiation, c'est un progiciel de gestion complètement intégré et cohérent dans votre environnement. Elle respecte l'indépendance de l'indépendant en vous apportant un outil de gestion commerciale taillé sur mesure pour votre domaine d'activité. 
+				<br/>
+				Plus qu'un simple outil, c'est un service avec une équipe d'hommes et de femmes amoureuse de l’outdoor et du sport et dont l'objectif est de vous servir. Dans son domaine de prédilection, l’informatique, elle vous apportera le maximum de soutien dans votre quotidien professionnel.
+				<br/>
+				Pour vous simplifier la vie et vous éviter de perdre du temps, nous proposons des abonnements annuels à deux pack, à prendre ensemble ou séparément : un pack gestion et un pack communication.	
+				</p>
 			</div>
 		
 		</div>
@@ -55,7 +59,7 @@
 		<span class="triangle_down"></span>
 
 
-<!-- //////////////////////////////////////////section 1 copie////////////////////////////////////////////////// -->
+<!-- //////////////////////////////////////////section 1 pack communication////////////////////////////////////////////////// -->
 		
 
 		<div class="background">
@@ -142,7 +146,7 @@
 	<!-- //////////////////////////////////////////////////////////////////////////////////////////////////// -->
 
 		
-			<!-- //////////////////////////////////////////////section 1////////////////////////////////////////////////// -->
+		<!-- //////////////////////////////////////// section 1 pack gestion ////////////////////////////////////////// -->
 
 
 
@@ -152,7 +156,9 @@
 			<div class="wrap">
 				
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget enim et turpis consequat commodo id sit amet purus. Quisque et lobortis sem. Phasellus in volutpat erat. Mauris varius pharetra viverra. Nam consectetur iaculis congue. Nulla tincidunt malesuada cursus. Nam faucibus cursus velit in viverra. Lorem ipsum dolor sit amet, consectetur.
+					Le pack gestion est le pack obligatoire que chaque diplômé d'état dans le sport devrait avoir dans son sac. Il améliore votre gestion clients tout en répondant aux exigences  de l'administration. 
+					<br/>
+					Depuis votre interface, vous pourrez faire des devis, des factures, suivre votre état comptable, et gérer votre fichier clients.
 				</p>
 
 
@@ -172,7 +178,7 @@
 					<div class="functionalities">
 						<ul>
 							<li>
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit.  
+								1-  Les actions possibles à partir de votre compte :  
 							</li>
 							<p>
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
