@@ -26,14 +26,11 @@
 	<section>
 		<h2>QU'EST CE QUE ROPE UP ?</h2>
 		<div class="wrap_qsn">
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget enim et turpis 
-			consequat commodo id sit amet purus. Quisque et lobortis sem. Phasellus in volutpat erat. 
-			Mauris varius pharetra viverra. Nam consectetur iaculis congue. Nulla tincidunt malesuada 
-			cursus. Nam faucibus cursus velit in viverra. Lorem ipsum dolor sit amet, consectetur 
-			adipiscing elit. Maecenas convallis ut ex cursus sollicitudin. Duis vitae faucibus quam. 
-			Aenean aliquet nisi eget erat gravida, eget cursus lacus auctor. Proin eu maximus tortor. 
-			Sed et semper lacus, sit amet porttitor massa. Vivamus tincidunt erat vel sem iaculis, 
-			lacinia ultricies erat dignissim.</p>
+			<p>L’application vient du terrain, elle répond à la demande des professionnels indépendants. 
+			Ceux qui ne font pas du business mais qui veulent vivre de leur métier passion, ne trouvent pas d’outil de gestion pertinent  ! 
+			Vivant depuis des années dans l'environnement de la montagne, notre équipe l'a bien compris. 
+			Elle est convaincue qu'elle a sa pierre à apporter à l'édifice. Les indépendants vont trouver en Rope Up ! une solution qui sait leur parler et qui les aide à rester centrés dans leur coeur de métier. 
+			L'écologie humaine assurera à tous un avenir durable. </p>
 			<img src="../images/cabane_ropeup_black.png" alt="Logo RopeUp">
 		</div>
 	</section>
@@ -46,37 +43,37 @@
 				<div> <!-- Content -->
 					<img src="../images/membres/membre1.png" class="member" alt="Photo membre">
 					<div>
-						<p>Prénom</p>
-						<p>Nom</p>
+						<p>Antoine</p>
+						<p>Sauer</p>
 					</div>
-					<p>Fonction</p>
+					<p>Dirigeant</p>
 				</div>
 
 				<div> <!-- Content -->
 					<img src="../images/membres/membre1.png" class="member" alt="Photo membre">
 					<div>
-						<p>Prénom</p>
-						<p>Nom</p>
+						<p>Laurent</p>
+						<p>Demain</p>
 					</div>
-					<p>Fonction</p>
+					<p>Appui stratégie</p>
 				</div>
 
 				<div> <!-- Content -->
 					<img src="../images/membres/membre1.png" class="member" alt="Photo membre">
 					<div>
-						<p>Prénom</p>
-						<p>Nom</p>
+						<p>Samson</p>
+						<p>Da Costa</p>
 					</div>
-					<p>Fonction</p>
+					<p>Responsable Technique</p>
 				</div>
 
 				<div> <!-- Content -->
 					<img src="../images/membres/membre1.png" class="member" alt="Photo membre">
 					<div>
-						<p>Prénom</p>
-						<p>Nom</p>
+						<p>Yannick</p>
+						<p>Veron</p>
 					</div>
-					<p>Fonction</p>
+					<p>Devellopeur</p>
 				</div>
 
 				<div> <!-- Content -->
