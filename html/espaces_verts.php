@@ -245,6 +245,155 @@
 
 		<section id="tarifs">
 			<div class="wrap">
+
+				<!-- Slider main container -->
+				<div class="swiper-container .ambassadeurs">
+				    <!-- Additional required wrapper -->
+				    <div class="swiper-wrapper">
+				        <!-- Slides -->
+				        <div class="swiper-slide">
+				        	<div>
+				        		<div>
+				        			<img src="../images/picture1.png">
+				        			<p class="name">André sovez</p>
+				        			<p class="work">Guide de Haute Montagne</p>
+				        			<p class="city">Chamonix</p>
+				        			<div>
+				        				<img src="../images/start_quote.png">
+					        			<p class="comment">
+					        				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione consectetur quam odit reiciendis, cum eum debitis voluptatum iusto, voluptate quibusdam, repudiandae asperiores. Hic architecto, ab blanditiis magni exercitationem numquam inventore.
+					        			</p>
+					        			<img src="../images/end_quote.png">
+				        				
+				        			</div>
+				        			<p class="mail">andre.sovez@gmail.com</p>
+				        			<p class="phone_number">08 65 45 65 45</p>
+
+				        		</div>
+				        	</div>
+
+				        </div>
+				        <div class="swiper-slide">Slide 2</div>
+				        <div class="swiper-slide">Slide 3</div>
+				        ...
+				    </div>
+				    <!-- If we need pagination -->
+				    <div class="swiper-pagination"></div>
+
+				    <!-- If we need navigation buttons -->
+				    <div class="swiper-button-prev"></div>
+				    <div class="swiper-button-next"></div>
+
+				    <!-- If we need scrollbar -->
+				    <div class="swiper-scrollbar"></div>
+				</div>
+
+
+
+
+
+
+				<!-- /////////////////////////////////////: -->
+			<!-- 	<div class="swiper-container">
+	
+				    <div class="swiper-wrapper">
+
+				        <div class="swiper-slide">
+				        	<div>
+								<h5>
+									Société
+								</h5>
+
+								<h4>
+									Pack Gestion :
+								</h4>
+
+								<p>
+									500 € la première année, puis 3% du CA de l’année passée
+								</p>	
+							</div>
+				        </div>
+
+				        <div class="swiper-slide">
+				        	<div class="colored green">
+								<h5>
+									Solo
+								</h5>
+
+								<h4>
+									Pack Gestion :
+								</h4>
+
+								<p>
+									500€ / an<br>
+									ou<br>
+									350€ / an *
+								</p>
+
+								<p>
+									* avant le 9/12/2019 ou toute l’année si l’adhérent est membre d’un syndicat partenaire Rope Up !	
+								</p>
+
+								<h4>
+									Pack Communication :
+								</h4>
+
+								<p>
+									500€ / an
+								</p>
+								
+							</div>
+				        </div>
+
+
+				        <div class="swiper-slide">
+				        	<div>
+								<h5>
+									Association
+								</h5>
+
+								<h4>
+									Pack Gestion :
+								</h4>
+
+								<p>
+									500€ / an <br>
+									ou <br>
+									350€ / an *
+								</p>
+
+								<p>
+									* avant le 9/12/2019 ou toute l’année si l’adhérent est membre d’un syndicat partenaire Rope Up !
+								</p>
+
+								<h4>
+									Pack Communication :	
+								</h4>
+
+								<p>
+									800€ / an <br>
+									ou <br>
+									500€ / an *
+								</p>
+
+								<p>
+									* avant le 9/12/2019 ou toute l’année si l’adhérent est membre d’un syndicat partenaire Rope Up !
+								</p>
+								
+							</div>
+						</div>
+				  
+				    </div>
+				
+				    <div class="swiper-pagination"></div>
+				    <div class="swiper-button-prev"></div>
+				    <div class="swiper-button-next"></div>
+
+				</div>
+
+				//////////////////////////////////
+
+
 				
 				<h2 class="green">tarifs</h2>
 
@@ -326,9 +475,9 @@
 						</p>
 						
 					</div>
-				</div>
+				</div>-->
 
-			</div>
+			</div> 
 
 			<a href="contact.php" class="submit_button green">
 

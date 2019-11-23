@@ -158,34 +158,11 @@ div.background p:first-child
 
 
 
-section#fonctionnalités ul li 
-{
-	color: #007B96;
-	font-family: 'DINPro_Medium';
-	font-size: 22px;
-	margin-bottom: 35px;
-}
 
-section#fonctionnalités ul 
-{
-	color: #007B96;
-	list-style-type: disc;
-}
-
-/*////*/
-
-section#fonctionnalités ul li + p
-{
-	color: white;
-	font-family: 'DINPro_Light';
-	font-size: 17px;
-	margin-bottom: 30px;
-}
 
 div.video_and_description iframe
 {
 	width: 100%;
-	height: 100%;
 }
 
 div.video_and_description p
@@ -218,6 +195,52 @@ div.flex_container + p
 	margin-top: 75px;
 	padding-bottom:18em;
 }
+
+
+ /*///////////////////////////////////////////////////////////////////////*/
+ /*///////////////////////////////// FONCTIONNALITÉS //////////////////////////////////////*/
+.level_0
+{
+	font-family: 'DINPro_Medium';
+	font-size: 22px;
+}
+
+
+section#fonctionnalités ul li 
+{
+	color: white;
+	font-family: 'DINPro_Light';
+	font-size: 18px;
+	margin-bottom: 15px;
+}
+
+section#fonctionnalités ul 
+{
+	color: #007B96;
+	list-style-type: disc;
+}
+
+
+section#fonctionnalités ol >li
+{
+	list-style-type: decimal;
+	color: #007B96;
+	margin-bottom: 25px;
+}
+
+
+/*////*/
+
+section#fonctionnalités ul li + p
+{
+	color: white;
+	font-family: 'DINPro_Light';
+	font-size: 17px;
+	margin-bottom: 30px;
+}
+
+
+
 
  /*///////////////////////////////////////////////////////////////////////*/
  /*/////////////////////////////////pack vente//////////////////////////////////////*/
@@ -286,7 +309,7 @@ section#pack_vente div div div
  /*///////////////////////////////// TARIFS //////////////////////////////////////*/
 
 
-section#tarifs h2
+/*section#tarifs h2
 {
 	margin-bottom: 50px;
 }
@@ -363,7 +386,7 @@ section#tarifs p+p
 section#tarifs a
 {
 	text-decoration: none;
-}
+}*/
 a.submit_button
 {
 	border-radius: 50px;
@@ -426,7 +449,7 @@ div.background:nth-of-type(1).hided
 h2.green,
 section#pack_vente h4.green, 
 section#pack_vente h2.green,
-section#tarifs h2.green,
+/*section#tarifs h2.green,*/
 section#fonctionnalités ul.green,
 section#fonctionnalités ul.green li
 {
@@ -434,7 +457,115 @@ section#fonctionnalités ul.green li
 }
 
 section#tarifs h2+div div:nth-of-type(2).green,
+section#tarifs div.swiper-slide div.colored.green,
 a.submit_button.green
 {
 	background-color: #099000;
 }
+
+/*////////////////////////////CAROUSEL/////////////////////////*/
+.swiper-container 
+{
+    width: 100%;
+    height: 100vh;
+}
+
+
+.swiper-container.ambassadeurs .swiper-slide div div
+{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
+}
+
+
+.swiper-container.ambassadeurs .swiper-slide img
+{
+	width :150px;
+}
+
+
+
+
+
+
+
+ 
+/*
+section#tarifs div.swiper-slide div
+{
+	width: 100%;
+	text-align: center;
+}
+
+
+
+section#tarifs div.swiper-slide:nth-of-type(3) p:last-of-type
+{
+	margin-bottom: 0;
+}
+
+section#tarifs div.swiper-slide div.colored
+{
+	background-color: #007B96;
+	color: white;
+}
+section#tarifs div.swiper-slide:nth-of-type(1) p
+{
+	font-family: 'DINPro_Light';
+	font-size: 20px;
+}
+
+section#tarifs h5
+{
+	font-family: 'DINPro_Bold';
+	font-size: 30px;
+	margin-bottom: 40px;
+}
+
+section#tarifs h4
+{
+	font-family: 'DINPro_Medium';
+	font-size: 25px;
+	margin-bottom: 15px;
+}
+
+
+section#tarifs h4+p
+{
+	font-family: 'DINPro_Regular';
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+
+section#tarifs p+p
+{
+	font-family: 'DINPro_Light';
+	font-size: 12px;
+	margin-bottom: 40px;
+}
+
+section#tarifs a
+{
+	text-decoration: none;
+}*/
+a.submit_button
+{
+	border-radius: 50px;
+	width: 260px;
+	height: 73px;
+	background: #007B96;
+	color: white;
+	font-size: 22px;
+	font-family:'DINPro_Bold';
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 200px;
+	margin-top: 150px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
