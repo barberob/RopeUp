@@ -67,7 +67,7 @@
 			<div class="wrap">
 				
 				<p>
-					Le pack gestion est le pack obligatoire que chaque diplômé d'état dans le sport devrait avoir dans son sac. Il améliore votre gestion clients tout en répondant aux exigences  de l'administration.
+					Nous avons créé un site internet pour vous. Simple, utilisant les meilleures technologies et développé avec les meilleures pratiques de référencements naturel, il vous apportera du confort et des micro service très pratiques. Votre site est relié à une interface administrateur conviviale qui vous permet de le faire évoluer très simplement.    
 				</p>
 
 
@@ -86,17 +86,11 @@
 					<div class="functionalities">
 						<ul>
 							<li>
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit.  
+								1- Si vous n’en avez pas, nous achetons pour vous l’adresse url de votre choix que nous hébergeons chez OVH. Puis nous relions cette url sur le “squelette” du site que nous avons développé.
 							</li>
-							<p>
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-								Nullam eget enim et turpis consequat commodo id sit 
-								amet purus. Quisque et lobortis sem. Phasellus in 
-								volutpat erat. 
-							</p>
 
 							<li>
-								Quisque et lobortis sem. Phasellus in volutpat erat. 
+								2- Une fois en ligne, à partir de votre interface administrateur simplifiée, vous pouvez : 
 							</li>
 							<p>
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -106,22 +100,7 @@
 							</p>
 
 							<li>
-								3- Pour vous aider dans votre déclaration à l’administration.<Br>
-								Sur une période choisie,  l’application présente :
- 
-
-							</li>
-							<p>
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-								Nullam eget enim et turpis consequat commodo id sit 
-								amet purus. Quisque et lobortis sem. Phasellus in 
-								volutpat erat. 
-							</p>
-
-							<li>
-								4- Pour vous informer en permanence et sans action particulières.<Br>
-								En affichage,vous trouverez : 
-
+								3- En Back office, depuis votre interface, vous gérez votre communication et votre relation clients. Vous pouvez :
 							</li>
 							<p>
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -135,7 +114,8 @@
 
 
 				<p>
-					Ce pack est avant tout un service. De ce fait, notre équipe reste à votre écoute pour vos idées et vous accompagne dans sa prise en main. Rope Up s’engage à apporter la meilleure sécurisation pour vos données et lorsque vous êtes sur le terrain, nous continuons à apporter les meilleures améliorations techniques possibles.  
+					Ce pack est avant tout un service. De ce fait, notre équipe reste à votre écoute pour vos idées et vous accompagne dans sa prise en main. 
+					De plus, Rope Up s’engage à apporter la meilleure sécurisation pour vos données et lorsque vous êtes sur le terrain, nous sommes au BaseCamp et nous continuons à vous apporter les meilleures améliorations techniques possibles.    
 				</p>
 
 			</div> <!-- wrap -->
@@ -170,7 +150,7 @@
 							
 						</iframe>
 						<p>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget enim et turpis consequat commodo id sit amet purus. Quisque et lobortis sem. Phasellus in volutpat erat. Mauris varius pharetra viverra.
+							Cette vidéo vous montre à quoi ressemble l’application. N’hésitez pas à parcourir notre page youtube sur laquelle vous trouverez d’autres tutoriels.
 						</p>
 						
 					</div>
@@ -188,7 +168,7 @@
 							</p>
 
 							<li>
-								Quisque et lobortis sem. Phasellus in volutpat erat. 
+								2- Automatiquement, l’application range et stocke vos données. 
 							</li>
 							<p>
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -198,7 +178,19 @@
 							</p>
 
 							<li>
-								Quisque et lobortis sem. Phasellus in volutpat erat. 
+								3- Pour vous aider dans votre déclaration à l’administration.
+								Sur une période choisie,  l’application présente :
+							</li>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+								Nullam eget enim et turpis consequat commodo id sit 
+								amet purus. Quisque et lobortis sem. Phasellus in 
+								volutpat erat. 
+							</p>
+
+							<li>
+								4- Pour vous informer en permanence et sans action particulières.
+								En affichage,vous trouverez : 
 							</li>
 							<p>
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -212,16 +204,13 @@
 
 
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget enim et turpis consequat commodo id sit amet purus. Quisque et lobortis sem. Phasellus in volutpat erat. Mauris varius pharetra viverra. Nam consectetur iaculis congue. Nulla tincidunt malesuada cursus. Nam faucibus cursus velit in viverra. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas convallis ut ex cursus sollicitudin. Duis vitae faucibus quam. Aenean aliquet nisi eget erat gravida, eget cursus lacus auctor. Proin eu maximus tortor. Sed et semper lacus, sit amet porttitor massa. Vivamus tincidunt erat vel sem iaculis, lacinia ultricies erat dignissim.
+					Ce pack est avant tout un service. De ce fait, notre équipe reste à votre écoute pour vos idées et vous accompagne dans sa prise en main. 
+					De plus, Rope Up s’engage à apporter la meilleure sécurisation pour vos données et lorsque vous êtes sur le terrain, nous sommes au BaseCamp et nous continuons à vous apporter les meilleures améliorations techniques possibles.  
 				</p>
 
 			</div> <!-- wrap -->
 
 		</div> <!-- background -->
-
-
-		
-
 
 
 		
