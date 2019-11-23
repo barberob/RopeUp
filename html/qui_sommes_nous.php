@@ -4,6 +4,9 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
+<!-- Icone--> 
+	<link rel="shortcut icon" type="image/x-icon" href="../images/cabane_ropeup.png" />
+
 	<link rel="stylesheet" type="text/css" href="../css/libs/reset.css">
 	<link rel="stylesheet" type="text/css" href="../css/qui_somme_nous.css">
 	<link rel="stylesheet" type="text/css" href="../css/header_principal.css">
@@ -26,14 +29,11 @@
 	<section>
 		<h2>QU'EST CE QUE ROPE UP ?</h2>
 		<div class="wrap_qsn">
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget enim et turpis 
-			consequat commodo id sit amet purus. Quisque et lobortis sem. Phasellus in volutpat erat. 
-			Mauris varius pharetra viverra. Nam consectetur iaculis congue. Nulla tincidunt malesuada 
-			cursus. Nam faucibus cursus velit in viverra. Lorem ipsum dolor sit amet, consectetur 
-			adipiscing elit. Maecenas convallis ut ex cursus sollicitudin. Duis vitae faucibus quam. 
-			Aenean aliquet nisi eget erat gravida, eget cursus lacus auctor. Proin eu maximus tortor. 
-			Sed et semper lacus, sit amet porttitor massa. Vivamus tincidunt erat vel sem iaculis, 
-			lacinia ultricies erat dignissim.</p>
+			<p>L’application vient du terrain, elle répond à la demande des professionnels indépendants. 
+			Ceux qui ne font pas du business mais qui veulent vivre de leur métier passion, ne trouvent pas d’outil de gestion pertinent  ! 
+			Vivant depuis des années dans l'environnement de la montagne, notre équipe l'a bien compris. 
+			Elle est convaincue qu'elle a sa pierre à apporter à l'édifice. Les indépendants vont trouver en Rope Up ! une solution qui sait leur parler et qui les aide à rester centrés dans leur coeur de métier. 
+			L'écologie humaine assurera à tous un avenir durable. </p>
 			<img src="../images/cabane_ropeup_black.png" alt="Logo RopeUp">
 		</div>
 	</section>
@@ -46,57 +46,67 @@
 				<div> <!-- Content -->
 					<img src="../images/membres/membre1.png" class="member" alt="Photo membre">
 					<div>
-						<p>Prénom</p>
-						<p>Nom</p>
+						<p>Antoine</p>
+						<p>Sauer</p>
 					</div>
-					<p>Fonction</p>
+					<p>Dirigeant</p>
 				</div>
 
 				<div> <!-- Content -->
 					<img src="../images/membres/membre1.png" class="member" alt="Photo membre">
 					<div>
-						<p>Prénom</p>
-						<p>Nom</p>
+						<p>Laurent</p>
+						<p>Demain</p>
 					</div>
-					<p>Fonction</p>
+					<p>Appui<br/>Stratégie</p>
 				</div>
 
 				<div> <!-- Content -->
 					<img src="../images/membres/membre1.png" class="member" alt="Photo membre">
 					<div>
-						<p>Prénom</p>
-						<p>Nom</p>
+						<p>Samson</p>
+						<p>Da Costa</p>
 					</div>
-					<p>Fonction</p>
+					<p>Responsable<br/>Technique</p>
 				</div>
 
 				<div> <!-- Content -->
 					<img src="../images/membres/membre1.png" class="member" alt="Photo membre">
 					<div>
-						<p>Prénom</p>
-						<p>Nom</p>
+						<p>Yannick</p>
+						<p>Veron</p>
 					</div>
-					<p>Fonction</p>
+					<p>Devellopeur</p>
 				</div>
 
 				<div> <!-- Content -->
 					<img src="../images/membres/membre1.png" class="member" alt="Photo membre">
 					<div>
-						<p>Prénom</p>
-						<p>Nom</p>
+						<p>Yoran</p>
+						<p>De Gouvello</p>
 					</div>
-					<p>Fonction</p>
+					<p>Appui<br/>Technique</p>
 				</div>
 
 				<div> <!-- Content -->
 					<img src="../images/membres/membre1.png" class="member" alt="Photo membre">
 					<div>
-						<p>Prénom</p>
-						<p>Nom</p>
+						<p>François-Xavier</p>
+						<p>Plaçais</p>
 					</div>
-					<p>Fonction</p>
+					<p>Responsable<br/>Clients</p>
+				</div>
+
+				<div> <!-- Content -->
+					<img src="../images/membres/membre1.png" class="member" alt="Photo membre">
+					<div>
+						<p>Jean-Louis</p>
+						<p>Chanel</p>
+					</div>
+					<p>Appui<br/>Commercial</p>
 				</div>
 			</div>
+			<p>Notre mission est de fournir aux professionnels indépendants le meilleur service web de gestion commerciale, intégré à leurs écosystèmes.</p>
 		</div>
 	</section>
 
@@ -106,26 +116,55 @@
 			<h2>NOTRE HISTOIRE</h2>
 			<div>
 				<div>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget enim et turpis 
-					consequat commodo id sit amet purus. Quisque et lobortis sem. Phasellus in volutpat erat. 
-					Mauris varius pharetra viverra. </p>
+					
 					<div>
-						<div>
-							<span></span>
-							<h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.  </h3>
-						</div>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget enim et turpis 
-						consequat commodo id sit amet purus. Quisque et lobortis sem. Phasellus in volutpat erat. 
-						Mauris varius pharetra viverra. </p>
+						<h3>2017 : “PRÉPARATION DE LA COURSE” </h3>
+						<ul>
+							<div>
+								<span></span><li>Rope Up ! sélectionné par le premier incubateur sport européen : l'Outdoor Sports Valley, Annecy (74)</li>
+							</div>
+							<div>
+								<span></span><li>Lancement des premières réunions de travail avec les professionnels indépendants</li>
+							</div>
+							<div>
+								<span></span><li>Création d’un comité de développement avec les futurs utilisateur</li>
+							</div>
+						</ul>
+					</div>
+					
+					<div>
+						<h3>2018 : “MARCHE D’APPROCHE” </h3>
+						<ul>
+							<div>
+								<span></span><li>Installation à l’Annecy Base Camp</li>
+							</div>
+							<div>
+								<span></span><li>Création d’une équipe de développeurs en interne</li>
+							</div>
+							<div>
+								<span></span><li>Déclaration CNIL et mise en place des procédures RGPD</li>
+							</div>
+							<div>
+								<span></span><li>Lancement de la version Beta </li>
+							</div>
+						</ul>
 					</div>
 					<div>
-						<div>
-							<span></span>
-							<h3>Quisque et lobortis sem. Phasellus in volutpat erat. </h3>	
-						</div>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget enim et turpis 
-						consequat commodo id sit amet purus. Quisque et lobortis sem. Phasellus in volutpat erat. 
-						Mauris varius pharetra viverra. </p>
+						<h3>2019 : “ATTAQUE DE LA COURSE”</h3>	
+						<ul>
+							<div>
+								<span></span><li>Renforcement de l’équipe managériale</li>
+							</div>
+							<div>
+								<span></span><li>Entrée dans le protocole de certification AFNOR</li>
+							</div>
+							<div>
+								<span></span><li>Commercialisation des 100 premiers abonnements</li>
+							</div>
+							<div>
+								<span></span><li>Création des partenariats avec de nombreux syndicats professionnels et des centres de formations</li>
+							</div>
+						</ul>
 					</div>
 				</div>
 				<img src="../images/frise.png" alt="Frise chronologique de l'entreprise">

@@ -5,6 +5,9 @@
 	<title>Contact</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
+<!-- Icone--> 
+	<link rel="shortcut icon" type="image/x-icon" href="../images/cabane_ropeup.png" />
+
 	<link rel="stylesheet" type="text/css" href="../css/libs/reset.css">
 	<link rel="stylesheet" type="text/css" href="../css/header_principal.css">
 	<link rel="stylesheet" type="text/css" href="../css/header_contact.css">
@@ -94,8 +97,6 @@
 							<p class="submit_button">Envoyer</p>
 
 							<div class="g-recaptcha" data-sitekey="6LdCL8MUAAAAAHG2wXoyotuvSb6ApfYfVfeBsxsb"></div>
-
-							< 
 
 							<input type="submit" name="submitpost">
 
