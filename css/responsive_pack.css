@@ -25,7 +25,7 @@
 @media all and (max-width: 1400px)
 {
 
-	section#tarifs h2+div
+/*	section#tarifs h2+div
 	{
 	 	flex-direction: column; 
 	}
@@ -35,7 +35,7 @@
 	{
 		width: 100%;
 		padding: 70px 60px;
-	}
+	}*/
 
 }
 
@@ -85,6 +85,9 @@
 	{
 		max-width: 100%;
 	}
+
+
+	
 
 
 

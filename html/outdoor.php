@@ -11,6 +11,7 @@
 	<link rel="stylesheet" type="text/css" href="../css/footer.css">
 	<link rel="stylesheet" type="text/css" href="../css/fonts.css">
 	<link rel="stylesheet" type="text/css" href="../css/header_categories_responsive.css">
+	<link rel="stylesheet" type="text/css" href="../css/responsive_pack.css">
 	<link rel="stylesheet" type="text/css" href="../css/footer_responsive.css">
 	<title>Outdoor</title>
 </head>
@@ -152,7 +153,7 @@
 			<div class="wrap">
 				
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget enim et turpis consequat commodo id sit amet purus. Quisque et lobortis sem. Phasellus in volutpat erat. Mauris varius pharetra viverra. Nam consectetur iaculis congue. Nulla tincidunt malesuada cursus. Nam faucibus cursus velit in viverra. Lorem ipsum dolor sit amet, consectetur.
+					Le pack gestion est le pack obligatoire que chaque diplômé d'état dans le sport devrait avoir dans son sac. Il améliore votre gestion clients tout en répondant aux exigences  de l'administration.
 				</p>
 
 
@@ -160,7 +161,7 @@
 				<div class="flex_container">
 
 					<div class="video_and_description">
-						<iframe width="560" height="315" src="https://www.youtube.com/embed/egdSveRAk2k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/-orRTjRBKjk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
 							
 						</iframe>
 						<p>
@@ -170,7 +171,7 @@
 					</div>
 
 					<div class="functionalities">
-						<ul>
+						<!-- <ul>
 							<li>
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit.  
 							</li>
@@ -200,13 +201,79 @@
 								amet purus. Quisque et lobortis sem. Phasellus in 
 								volutpat erat. 
 							</p>
-						</ul>
+						</ul> -->
+
+						<ol>
+							<li class="level_0">Les actions possibles à partir de votre compte :</li> <!-- 1 -->
+
+							<ul>
+								<li>Rédiger et stocker des devis, et les envoyer automatiquement en pdf.</li>
+								<li>Transformer des devis en facture.</li>
+								<li>Rédiger et stocker  des factures, et les envoyer automatiquement en pdf.</li>
+								<li>Prendre des rendez-vous clients sur votre agenda.</li>
+								<li>Transformer vos rendez-vous en factures.</li>
+								<li>Remplir et suivre vos dépenses professionnels.</li>
+								<li>Trier les clients et leur envoyer un mailing ciblé.</li>
+								<li>Pour les structures: affecter les rendez-vous aux prestataires travaillant avec la structure.</li>
+							</ul>
+
+							<li class="level_0">Automatiquement, l’application range et stocke vos données. Elle crée pour vous :</li> <!-- 2 -->
+
+							<ul>
+								<li>
+									Vos fichier clients.
+								</li>
+								<li>Pour le professionnel indépendant :
+									<ul>
+										<li>La transmission automatique de vos indisponibilités sur l’agenda des structures qui utilisent Rope Up ! et pour lesquelles vous travaillez.</li>
+										<li>L’incrémentation dans votre chiffre d’affaires des honoraires envoyés par les structures qui utilisent Rope Up !</li>
+									</ul>
+								</li>
+
+								<li> Pour les structures :
+									<ul>
+										<li>Les fiches d'honoraires pour les prestataires, que le/la secrétaire peut envoyer automatiquement.</li>
+										<li>L’envoi de mail aux prestataires travaillant avec la structure, leur signalant du travail.</li>
+										<li>L’affichage des disponibilités des permanents qui travaillent avec la structure.</li>
+									</ul>
+								</li>
+							</ul>
+
+							<li class="level_0">Pour vous aider dans votre déclaration à l’administration.</li> <!-- 3 -->
+							<p>Sur une période choisie,  l’application présente :</p>
+							<ul>
+								<li>L’encaissement total.</li>
+								<li>Le suivi des débours.</li>
+								<li>Les recettes brutes.</li>
+								<li>Les recettes nettes.</li>
+								<li>Les frais professionnels.</li>
+								<li>TVA déductible et TVA encaissée (si la TVA a été activée au préalable).</li>
+							</ul>
+
+
+							<li class="level_0">Pour vous informer en permanence et sans action particulières.</li> <!-- 4 -->
+							<p>En affichage,vous trouverez :</p>
+							<li>Le suivi des états de paiement mois par mois.</li>
+							<li>Le classement des clients des plus importants au plus petit sur une période donnée.</li>
+							<li>Le contrôle de votre chiffre d’affaire de l’année en cours par rapport à votre seuil.</li>
+							<li>Pour les structures :
+								<ul>
+									<li>Le suivi des honoraires par prestataires mois par mois.</li>
+									<li>Le suivi des honoraires par prestataires sur une période donnée.</li>
+								</ul>
+							</li>
+							
+
+						</ol>
+
+
+
 					</div>
 				</div>
 
 
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget enim et turpis consequat commodo id sit amet purus. Quisque et lobortis sem. Phasellus in volutpat erat. Mauris varius pharetra viverra. Nam consectetur iaculis congue. Nulla tincidunt malesuada cursus. Nam faucibus cursus velit in viverra. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas convallis ut ex cursus sollicitudin. Duis vitae faucibus quam. Aenean aliquet nisi eget erat gravida, eget cursus lacus auctor. Proin eu maximus tortor. Sed et semper lacus, sit amet porttitor massa. Vivamus tincidunt erat vel sem iaculis, lacinia ultricies erat dignissim.
+					Ce pack est avant tout un service. De ce fait, notre équipe reste à votre écoute pour vos idées et vous accompagne dans sa prise en main. De plus, Rope Up s’engage à apporter la meilleure sécurisation pour vos données et lorsque vous êtes sur le terrain, nous sommes au BaseCamp et nous continuons à vous apporter les meilleures améliorations techniques possibles. 
 				</p>
 
 			</div> <!-- wrap -->
@@ -371,6 +438,7 @@
 	<script type="text/javascript" src="../js/libs/jquery.js"></script>
 	<script type="text/javascript" src="../js/pack.js"></script>
 	<script type="text/javascript" src="../js/menu.js"></script>
-	
+
+
 </body>
 </html>
