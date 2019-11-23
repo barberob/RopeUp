@@ -4,13 +4,16 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
+<!-- Icone--> 
+	<link rel="shortcut icon" type="image/x-icon" href="../images/icone_logo.png" />
+
 	<link rel="stylesheet" type="text/css" href="../css/libs/reset.css">
 	<link rel="stylesheet" type="text/css" href="../css/header_principal.css">
 	<link rel="stylesheet" type="text/css" href="../css/header_outdoor.css">
 	<link rel="stylesheet" type="text/css" href="../css/pack.css">
 	<link rel="stylesheet" type="text/css" href="../css/footer.css">
 	<link rel="stylesheet" type="text/css" href="../css/fonts.css">
-	<link rel="stylesheet" type="text/css" href="../css/header_responsive.css">
+	<link rel="stylesheet" type="text/css" href="../css/header_categories_responsive.css">
 	<link rel="stylesheet" type="text/css" href="../css/footer_responsive.css">
 	<title>Outdoor</title>
 </head>
@@ -23,14 +26,21 @@
 	</header>
 
 	<section id="presentation">
+		<div class="wrap">
 			<h2>Ce que Rope Up vous propose</h2>
 
 			<div>
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget enim et turpis consequat commodo id sit amet purus. Quisque et lobortis sem. Phasellus in volutpat erat. Mauris varius pharetra viverra. Nam consectetur iaculis congue. Nulla tincidunt malesuada cursus. Nam faucibus cursus velit in viverra. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas convallis ut ex cursus sollicitudin. Duis vitae faucibus quam. Aenean aliquet nisi eget erat gravida, eget cursus lacus auctor. Proin eu maximus tortor. Sed et semper lacus, sit amet porttitor massa. Vivamus tincidunt erat vel sem iaculis, lacinia ultricies erat dignissim.
-				</p>	
+				<p>Vous encadrez et proposez de l’enseignement dans le sport ? Vous êtes un professionnel indépendant ? Vous préférez passer du temps sur le terrain plutôt que de faire de l'administratif et de la communication ? Pour vous, et avec des guides de haute montagne, des accompagnateurs et des moniteurs, nous avons créé une application pour vous aider à structurer votre activité tout en vous apportant du confort.
+				<br/>
+				L'application Rope Up ! n'est pas une nouvelle plateforme d'intermédiation, c'est un progiciel de gestion complètement intégré et cohérent dans votre environnement. Elle respecte l'indépendance de l'indépendant en vous apportant un outil de gestion commerciale taillé sur mesure pour votre domaine d'activité. 
+				<br/>
+				Plus qu'un simple outil, c'est un service avec une équipe d'hommes et de femmes amoureuse de l’outdoor et du sport et dont l'objectif est de vous servir. Dans son domaine de prédilection, l’informatique, elle vous apportera le maximum de soutien dans votre quotidien professionnel.
+				<br/>
+				Pour vous simplifier la vie et vous éviter de perdre du temps, nous proposons des abonnements annuels à deux pack, à prendre ensemble ou séparément : un pack gestion et un pack communication.	
+				</p>
 			</div>
-			
+		
+		</div>
 	</section>
 
 	<section id="fonctionnalités">
@@ -52,7 +62,7 @@
 		<span class="triangle_down"></span>
 
 
-<!-- //////////////////////////////////////////section 1 copie////////////////////////////////////////////////// -->
+<!-- //////////////////////////////////////////section 1 pack communication////////////////////////////////////////////////// -->
 		
 
 		<div class="background">
@@ -60,7 +70,7 @@
 			<div class="wrap">
 				
 				<p>
-					Hello world !! r sit amet, consectetur adipiscing elit. Nullam eget enim et turpis consequat commodo id sit amet purus. Quisque et lobortis sem. Phasellus in volutpat erat. Mauris varius pharetra viverra. Nam consectetur iaculis congue. Nulla tincidunt malesuada cursus. Nam faucibus cursus velit in viverra. Lorem ipsum dolor sit amet, consectetur.
+					Nous avons créé un site internet pour vous. Simple, utilisant les meilleures technologies et développé avec les meilleures pratiques de référencements naturel, il vous apportera du confort et des micro service très pratiques. Votre site est relié à une interface administrateur conviviale qui vous permet de le faire évoluer très simplement.    
 				</p>
 
 
@@ -68,11 +78,10 @@
 				<div class="flex_container">
 
 					<div class="video_and_description">
-						<video controls>
-							<source src="../videos/yaah.mp4" type="video/mp4">
-						</video>
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/bxlV9h5YO1U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						
 						<p>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget enim et turpis consequat commodo id sit amet purus. Quisque et lobortis sem. Phasellus in volutpat erat. Mauris varius pharetra viverra.
+							Cette vidéo vous montre à quoi ressemble l’application. N’hésitez pas à parcourir notre page youtube sur laquelle vous trouverez d’autres tutoriels.
 						</p>
 						
 					</div>
@@ -80,17 +89,11 @@
 					<div class="functionalities">
 						<ul>
 							<li>
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit.  
+								1- Si vous n’en avez pas, nous achetons pour vous l’adresse url de votre choix que nous hébergeons chez OVH. Puis nous relions cette url sur le “squelette” du site que nous avons développé.
 							</li>
-							<p>
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-								Nullam eget enim et turpis consequat commodo id sit 
-								amet purus. Quisque et lobortis sem. Phasellus in 
-								volutpat erat. 
-							</p>
 
 							<li>
-								Quisque et lobortis sem. Phasellus in volutpat erat. 
+								2- Une fois en ligne, à partir de votre interface administrateur simplifiée, vous pouvez : 
 							</li>
 							<p>
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -100,7 +103,7 @@
 							</p>
 
 							<li>
-								Quisque et lobortis sem. Phasellus in volutpat erat. 
+								3- En Back office, depuis votre interface, vous gérez votre communication et votre relation clients. Vous pouvez :
 							</li>
 							<p>
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -114,7 +117,8 @@
 
 
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget enim et turpis consequat commodo id sit amet purus. Quisque et lobortis sem. Phasellus in volutpat erat. Mauris varius pharetra viverra. Nam consectetur iaculis congue. Nulla tincidunt malesuada cursus. Nam faucibus cursus velit in viverra. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas convallis ut ex cursus sollicitudin. Duis vitae faucibus quam. Aenean aliquet nisi eget erat gravida, eget cursus lacus auctor. Proin eu maximus tortor. Sed et semper lacus, sit amet porttitor massa. Vivamus tincidunt erat vel sem iaculis, lacinia ultricies erat dignissim.
+					Ce pack est avant tout un service. De ce fait, notre équipe reste à votre écoute pour vos idées et vous accompagne dans sa prise en main. 
+					De plus, Rope Up s’engage à apporter la meilleure sécurisation pour vos données et lorsque vous êtes sur le terrain, nous sommes au BaseCamp et nous continuons à vous apporter les meilleures améliorations techniques possibles.    
 				</p>
 
 			</div> <!-- wrap -->
@@ -125,7 +129,7 @@
 	<!-- //////////////////////////////////////////////////////////////////////////////////////////////////// -->
 
 		
-			<!-- //////////////////////////////////////////////section 1////////////////////////////////////////////////// -->
+		<!-- //////////////////////////////////////// section 1 pack gestion ////////////////////////////////////////// -->
 
 
 
@@ -135,7 +139,9 @@
 			<div class="wrap">
 				
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget enim et turpis consequat commodo id sit amet purus. Quisque et lobortis sem. Phasellus in volutpat erat. Mauris varius pharetra viverra. Nam consectetur iaculis congue. Nulla tincidunt malesuada cursus. Nam faucibus cursus velit in viverra. Lorem ipsum dolor sit amet, consectetur.
+					Le pack gestion est le pack obligatoire que chaque diplômé d'état dans le sport devrait avoir dans son sac. Il améliore votre gestion clients tout en répondant aux exigences  de l'administration. 
+					<br/>
+					Depuis votre interface, vous pourrez faire des devis, des factures, suivre votre état comptable, et gérer votre fichier clients.
 				</p>
 
 
@@ -143,11 +149,11 @@
 				<div class="flex_container">
 
 					<div class="video_and_description">
-						<video controls>
-							<source src="../videos/yaah.mp4" type="video/mp4">
-						</video>
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/egdSveRAk2k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+							
+						</iframe>
 						<p>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget enim et turpis consequat commodo id sit amet purus. Quisque et lobortis sem. Phasellus in volutpat erat. Mauris varius pharetra viverra.
+							Cette vidéo vous montre à quoi ressemble l’application. N’hésitez pas à parcourir notre page youtube sur laquelle vous trouverez d’autres tutoriels.
 						</p>
 						
 					</div>
@@ -155,7 +161,7 @@
 					<div class="functionalities">
 						<ul>
 							<li>
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit.  
+								1-  Les actions possibles à partir de votre compte :  
 							</li>
 							<p>
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -165,7 +171,7 @@
 							</p>
 
 							<li>
-								Quisque et lobortis sem. Phasellus in volutpat erat. 
+								2- Automatiquement, l’application range et stocke vos données. 
 							</li>
 							<p>
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -175,7 +181,19 @@
 							</p>
 
 							<li>
-								Quisque et lobortis sem. Phasellus in volutpat erat. 
+								3- Pour vous aider dans votre déclaration à l’administration.
+								Sur une période choisie,  l’application présente :
+							</li>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+								Nullam eget enim et turpis consequat commodo id sit 
+								amet purus. Quisque et lobortis sem. Phasellus in 
+								volutpat erat. 
+							</p>
+
+							<li>
+								4- Pour vous informer en permanence et sans action particulières.
+								En affichage,vous trouverez : 
 							</li>
 							<p>
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -189,16 +207,13 @@
 
 
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget enim et turpis consequat commodo id sit amet purus. Quisque et lobortis sem. Phasellus in volutpat erat. Mauris varius pharetra viverra. Nam consectetur iaculis congue. Nulla tincidunt malesuada cursus. Nam faucibus cursus velit in viverra. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas convallis ut ex cursus sollicitudin. Duis vitae faucibus quam. Aenean aliquet nisi eget erat gravida, eget cursus lacus auctor. Proin eu maximus tortor. Sed et semper lacus, sit amet porttitor massa. Vivamus tincidunt erat vel sem iaculis, lacinia ultricies erat dignissim.
+					Ce pack est avant tout un service. De ce fait, notre équipe reste à votre écoute pour vos idées et vous accompagne dans sa prise en main. 
+					De plus, Rope Up s’engage à apporter la meilleure sécurisation pour vos données et lorsque vous êtes sur le terrain, nous sommes au BaseCamp et nous continuons à vous apporter les meilleures améliorations techniques possibles.  
 				</p>
 
 			</div> <!-- wrap -->
 
 		</div> <!-- background -->
-
-
-		
-
 
 
 		
@@ -282,7 +297,7 @@
 						</p>
 
 						<h4>
-							Pack Communication
+							Pack Communication :
 						</h4>
 
 						<p>
@@ -352,6 +367,8 @@
 
 
 	<script type="text/javascript" src="../js/libs/jquery.js"></script>
-	<script type="text/javascript" src="../js/outdoor.js"></script>
+	<script type="text/javascript" src="../js/pack.js"></script>
+	<script type="text/javascript" src="../js/menu.js"></script>
+	
 </body>
 </html>
