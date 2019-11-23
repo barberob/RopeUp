@@ -100,7 +100,7 @@
 						<p>Jean-Louis</p>
 						<p>Chanel</p>
 					</div>
-					<p>Appui Commercial</p>
+					<p>Appui<br/>Commercial</p>
 				</div>
 			</div>
 			<p>Notre mission est de fournir aux professionnels indépendants le meilleur service web de gestion commerciale, intégré à leurs écosystèmes.</p>
@@ -113,26 +113,55 @@
 			<h2>NOTRE HISTOIRE</h2>
 			<div>
 				<div>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget enim et turpis 
-					consequat commodo id sit amet purus. Quisque et lobortis sem. Phasellus in volutpat erat. 
-					Mauris varius pharetra viverra. </p>
+					
 					<div>
-						<div>
-							<span></span>
-							<h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.  </h3>
-						</div>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget enim et turpis 
-						consequat commodo id sit amet purus. Quisque et lobortis sem. Phasellus in volutpat erat. 
-						Mauris varius pharetra viverra. </p>
+						<h3>2017 : “PRÉPARATION DE LA COURSE” </h3>
+						<ul>
+							<div>
+								<span></span><li>Rope Up ! sélectionné par le premier incubateur sport européen : l'Outdoor Sports Valley, Annecy (74)</li>
+							</div>
+							<div>
+								<span></span><li>Lancement des premières réunions de travail avec les professionnels indépendants</li>
+							</div>
+							<div>
+								<span></span><li>Création d’un comité de développement avec les futurs utilisateur</li>
+							</div>
+						</ul>
+					</div>
+					
+					<div>
+						<h3>2018 : “MARCHE D’APPROCHE” </h3>
+						<ul>
+							<div>
+								<span></span><li>Installation à l’Annecy Base Camp</li>
+							</div>
+							<div>
+								<span></span><li>Création d’une équipe de développeurs en interne</li>
+							</div>
+							<div>
+								<span></span><li>Déclaration CNIL et mise en place des procédures RGPD</li>
+							</div>
+							<div>
+								<span></span><li>Lancement de la version Beta </li>
+							</div>
+						</ul>
 					</div>
 					<div>
-						<div>
-							<span></span>
-							<h3>Quisque et lobortis sem. Phasellus in volutpat erat. </h3>	
-						</div>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget enim et turpis 
-						consequat commodo id sit amet purus. Quisque et lobortis sem. Phasellus in volutpat erat. 
-						Mauris varius pharetra viverra. </p>
+						<h3>2019 : “ATTAQUE DE LA COURSE”</h3>	
+						<ul>
+							<div>
+								<span></span><li>Renforcement de l’équipe managériale</li>
+							</div>
+							<div>
+								<span></span><li>Entrée dans le protocole de certification AFNOR</li>
+							</div>
+							<div>
+								<span></span><li>Commercialisation des 100 premiers abonnements</li>
+							</div>
+							<div>
+								<span></span><li>Création des partenariats avec de nombreux syndicats professionnels et des centres de formations</li>
+							</div>
+						</ul>
 					</div>
 				</div>
 				<img src="../images/frise.png" alt="Frise chronologique de l'entreprise">
