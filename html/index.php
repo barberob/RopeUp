@@ -41,12 +41,12 @@
 		<div class="wrap_index">
 			<div>
 				<h3>Gestion</h3>
-				<img src="../images/logo_calendrier_provisoire.svg" alt="Logo calendrier">
+				<img src="../images/icone_gestion.png" alt="Logo calendrier">
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget enim et turpis consequat commodo id sit amet purus. Quisque et lobortis sem. Phasellus in volutpat erat. Mauris varius pharetra viverra. Nam consectetur iaculis congue. Nulla tincidunt malesuada cursus. Nam faucibus cursus velit in viverra. </p>
 			</div>
 			<div>
 				<h3>Communication</h3>
-				<img src="../images/logo_social_provisoire.svg" alt="Logo communication">
+				<img src="../images/icone_com.png" alt="Logo communication">
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget enim et turpis consequat commodo id sit amet purus. Quisque et lobortis sem. Phasellus in volutpat erat. Mauris varius pharetra viverra. Nam consectetur iaculis congue. Nulla tincidunt malesuada cursus. Nam faucibus cursus velit in viverra. </p>
 			</div>
 		</div>
