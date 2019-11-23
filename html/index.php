@@ -50,11 +50,11 @@
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget enim et turpis consequat commodo id sit amet purus. Quisque et lobortis sem. Phasellus in volutpat erat. Mauris varius pharetra viverra. Nam consectetur iaculis congue. Nulla tincidunt malesuada cursus. Nam faucibus cursus velit in viverra. </p>
 			</div>
 		</div>
-		<p>En Savoir Plus</p>
+		<p><a href="#third">En Savoir Plus</a></p>
 	</section>
 
 	<!-- Third Section -->
-	<section>
+	<section id="third">
 		<h2>LES SECTEURS D'ACTIVITÉ</h2>
 		<p>Les produits de Rope Up! sont adaptés à votre domaine,<br>veuillez choisir le votre :</p>
 		<div id="slider">
@@ -74,20 +74,20 @@
 		<h2>NOS PARTENAIRES</h2>
 		<div class="wrap_index">
 			<div>
-				<a href="#"><img src="../images/partenaires/logo_banque_populaire.png" alt="Logo Banque populaire"></a>
-				<a href="#"><img src="../images/partenaires/logo_initiative.png" alt="Logo Initiative"></a>
-				<a href="#"><img src="../images/partenaires/logo_french_fab.png" alt="Logo La French Fab"></a>
+				<a href="https://www.bpaura.banquepopulaire.fr/portailinternet/Pages/default.aspx"><img src="../images/partenaires/logo_banque_populaire.png" alt="Logo Banque populaire"></a>
+				<a href="https://www.initiative-grand-annecy.fr"><img src="../images/partenaires/logo_initiative.png" alt="Logo Initiative"></a>
+				<a href="https://lafrenchtech.com/fr/"><img src="../images/partenaires/logo_french_fab.png" alt="Logo La French Fab"></a>
 				<a href="#"><img src="../images/partenaires/logo_rando_bike_spirit.png" alt="Logo Rando Bike Spirit"></a>
 				<a href="#"><img src="../images/partenaires/logo_bureau_des_guides.png" alt="Logo Bureau des guides et accompagnateurs"></a>
 				<a href="#"><img src="../images/partenaires/logo_inovizi.png" alt="Logo Inovizi"></a>
-				<a href="#"><img src="../images/partenaires/logo_auvergne_rhone_alpes.png" alt="Logo Region Auvergne Rhône Alpes"></a>
-				<a href="#"><img src="../images/partenaires/logo_greta.png" alt="Logo Greta"></a>
-				<a href="#"><img src="../images/partenaires/logo_osv.png" alt="Logo OSV"></a>
-				<a href="#"><img src="../images/partenaires/logo_prepa_sport.png" alt="Logo Prepa Sport"></a>
-				<a href="#"><img src="../images/partenaires/logo_sim.png" alt="Logo SIM"></a>
-				<a href="#"><img src="../images/partenaires/logo_syndicat_escalade.png" alt="Logo Syndicat Professionnels Escalade et Canyon"></a>
-				<a href="#"><img src="../images/partenaires/logo_syndicat_guide.png" alt="Logo Syndicat Guide de Montagne"></a>
-				<a href="#"><img src="../images/partenaires/logo_syndicat_accompagnateur_montagne.png" alt="Logo Syndicat Accompagnateur en Montagne"></a>
+				<a href="https://www.auvergnerhonealpes.fr"><img src="../images/partenaires/logo_auvergne_rhone_alpes.png" alt="Logo Region Auvergne Rhône Alpes"></a>
+				<a href="http://greta-viva5.org"><img src="../images/partenaires/logo_greta.png" alt="Logo Greta"></a>
+				<a href="https://www.outdoorsportsvalley.org"><img src="../images/partenaires/logo_osv.png" alt="Logo OSV"></a>
+				<a href="https://www.prepa-sports.com"><img src="../images/partenaires/logo_prepa_sport.png" alt="Logo Prepa Sport"></a>
+				<a href="https://www.syndicat-sim.com"><img src="../images/partenaires/logo_sim.png" alt="Logo SIM"></a>
+				<a href="http://www.snapec.org"><img src="../images/partenaires/logo_syndicat_escalade.png" alt="Logo Syndicat Professionnels Escalade et Canyon"></a>
+				<a href="https://sngm.com"><img src="../images/partenaires/logo_syndicat_guide.png" alt="Logo Syndicat Guide de Montagne"></a>
+				<a href="https://snam.pro"><img src="../images/partenaires/logo_syndicat_accompagnateur_montagne.png" alt="Logo Syndicat Accompagnateur en Montagne"></a>
 			</div>
 		</div>
 		
