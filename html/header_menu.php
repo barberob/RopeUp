@@ -15,7 +15,7 @@
               <a class="nav_content_menu" href="qui_sommes_nous.php">Qui sommes-nous ?</a>
             </li>
             <li>
-              <a class="nav_content_menu" href="#">Domaines</a>
+              <a class="nav_content_menu" href="#">Secteurs</a>
             </li>
             <li>
               <a class="nav_content_menu" href="contact.php">Contact</a>

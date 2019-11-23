@@ -40,6 +40,7 @@ section#presentation div.wrap div
 	font-size: 20px;
 	margin-left: auto;
 	margin-right: auto;
+	width: 100%;
 	margin-top: 70px;
 
 }
@@ -54,7 +55,7 @@ span.triangle_down
 	height: 0;
 	border-left: 25px solid transparent;
 	border-right: 25px solid transparent;
-	border-top: 50px solid #007B96;
+	border-top: 20px solid #007B96;
 	position: absolute;
 	left:25%;
 	z-index: 5;
@@ -64,7 +65,7 @@ span.triangle_down
 }
 span.triangle_down.translated_triangle
 {
-	border-top: 50px solid #019EC0;
+	border-top: 20px solid #019EC0;
 	left:75%;
 	transform:translateX(-50%);
 	transition-duration:0.5s;
@@ -73,11 +74,11 @@ span.triangle_down.translated_triangle
 
 span.triangle_down.green
 {
-	border-top: 50px solid #099000;
+	border-top: 20px solid #099000;
 }
 span.triangle_down.green.translated_triangle.green
 {
-	border-top: 50px solid #0CB300;
+	border-top: 20px solid #0CB300;
 }
 
 /*/////////////////////////////////////////////////*/
@@ -181,9 +182,10 @@ section#fonctionnalités ul li + p
 	margin-bottom: 30px;
 }
 
-div.video_and_description video
+div.video_and_description iframe
 {
 	width: 100%;
+	height: 100%;
 }
 
 div.video_and_description p
@@ -214,14 +216,14 @@ div.flex_container + p
 	font-family: 'DINPro_Light';
 	font-size: 20px;
 	margin-top: 75px;
-	padding-bottom: 420px;
+	padding-bottom:18em;
 }
 
  /*///////////////////////////////////////////////////////////////////////*/
  /*/////////////////////////////////pack vente//////////////////////////////////////*/
 
 
-section#pack_vente div.wrap>div
+section#pack_vente >div
 {
 	-moz-box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.4);
 	-webkit-box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.4);
@@ -229,7 +231,9 @@ section#pack_vente div.wrap>div
 	box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.4);
 	margin-bottom: 200px;
 	transform: translateY(-50%);
-	width: 100%;
+	max-width: 1240px;
+	margin-left:auto;
+	margin-right: auto;
 }
 
 section#pack_vente div h2
@@ -264,7 +268,7 @@ section#pack_vente p
 	margin-bottom: 80px;
 }
 
-section#pack_vente div.wrap div div div
+section#pack_vente div div div
 {
 	max-width: calc(50% - 35px);
 }
@@ -290,13 +294,11 @@ section#tarifs h2
 
 section#tarifs h2+div
 {
- 	display: flex;
- 	
+ 	display: flex;	
  	align-items: center;
  	justify-content: space-between;
  	margin-right: auto;
- 	margin-left: auto;
- 
+ 	margin-left: auto; 
 }
  
 
@@ -397,16 +399,25 @@ div.background:nth-of-type(2)
 
 
 
-div.background:nth-of-type(2).translated_right
+div.background:nth-of-type(2).hided
 {
 	display: block;
 	transition-duration: 0.5s;
 }
 
-div.background:nth-of-type(2)
+div.background:nth-of-type(1)
 {
-	
+	display: block;
+	transition-duration: 0.5s;
+}
 
+div.background:nth-of-type(1).hided
+{
+	position: absolute;
+	display: none;
+	transition-duration: 0.5s;
+	left: 0;
+	right: 0;
 }
 
 

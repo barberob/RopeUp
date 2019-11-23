@@ -5,12 +5,14 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
 	<link rel="stylesheet" type="text/css" href="../css/libs/reset.css">
+	<link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.css">
 	<link rel="stylesheet" type="text/css" href="../css/header_principal.css">
 	<link rel="stylesheet" type="text/css" href="../css/header_espaces_verts.css">
 	<link rel="stylesheet" type="text/css" href="../css/pack.css">
 	<link rel="stylesheet" type="text/css" href="../css/footer.css">
 	<link rel="stylesheet" type="text/css" href="../css/fonts.css">
 	<link rel="stylesheet" type="text/css" href="../css/header_categories_responsive.css">
+	<link rel="stylesheet" type="text/css" href="../css/responsive_pack.css">
 	<link rel="stylesheet" type="text/css" href="../css/footer_responsive.css">
 	<title>Espaces Verts</title>
 </head>
@@ -24,13 +26,16 @@
 
 
 		<section id="presentation">
-			<h2 class="green">Ce que Rope Up vous propose</h2>
-
-			<div>
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget enim et turpis consequat commodo id sit amet purus. Quisque et lobortis sem. Phasellus in volutpat erat. Mauris varius pharetra viverra. Nam consectetur iaculis congue. Nulla tincidunt malesuada cursus. Nam faucibus cursus velit in viverra. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas convallis ut ex cursus sollicitudin. Duis vitae faucibus quam. Aenean aliquet nisi eget erat gravida, eget cursus lacus auctor. Proin eu maximus tortor. Sed et semper lacus, sit amet porttitor massa. Vivamus tincidunt erat vel sem iaculis, lacinia ultricies erat dignissim.
-				</p>	
+			<div class="wrap">
+				<h2 class="green">Ce que Rope Up vous propose</h2>
+				<div>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget enim et turpis consequat commodo id sit amet purus. Quisque et lobortis sem. Phasellus in volutpat erat. Mauris varius pharetra viverra. Nam consectetur iaculis congue. Nulla tincidunt malesuada cursus. Nam faucibus cursus velit in viverra. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas convallis ut ex cursus sollicitudin. Duis vitae faucibus quam. Aenean aliquet nisi eget erat gravida, eget cursus lacus auctor. Proin eu maximus tortor. Sed et semper lacus, sit amet porttitor massa. Vivamus tincidunt erat vel sem iaculis, lacinia ultricies erat dignissim.
+					</p>	
+				</div>
+				
 			</div>
+
 			
 	</section>
 
@@ -69,9 +74,7 @@
 				<div class="flex_container">
 
 					<div class="video_and_description">
-						<video controls>
-							<source src="../videos/yaah.mp4" type="video/mp4">
-						</video>
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/bxlV9h5YO1U" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 						<p>
 							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget enim et turpis consequat commodo id sit amet purus. Quisque et lobortis sem. Phasellus in volutpat erat. Mauris varius pharetra viverra.
 						</p>
@@ -144,9 +147,7 @@
 				<div class="flex_container">
 
 					<div class="video_and_description">
-						<video controls>
-							<source src="../videos/yaah.mp4" type="video/mp4">
-						</video>
+						<iframe src="https://www.youtube.com/embed/egdSveRAk2k" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 						<p>
 							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget enim et turpis consequat commodo id sit amet purus. Quisque et lobortis sem. Phasellus in volutpat erat. Mauris varius pharetra viverra.
 						</p>
@@ -204,7 +205,7 @@
 
 		
 		<section id="pack_vente">
-			<div class="wrap">	
+				
 				<div>
 					<h2 class="green">pack additionnel vente</h2>
 					<div>
@@ -232,10 +233,6 @@
 					
 				</div>
 
-
-
-
-			</div>
 		</section>
 
 
@@ -283,7 +280,7 @@
 						</p>
 
 						<h4>
-							Pack Communication
+							Pack Communication :
 						</h4>
 
 						<p>
@@ -345,7 +342,9 @@
 	<?php include("footer.php") ?>
 
 	<script type="text/javascript" src="../js/libs/jquery.js"></script>
+	<script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
 	<script type="text/javascript" src="../js/menu.js"></script>
+	<script type="text/javascript" src="../js/pack.js"></script>
 
 </body>
 </html>
