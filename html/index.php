@@ -6,7 +6,7 @@
 	<title>RopeUp</title>
 
 <!-- Icone--> 
-	<link rel="shortcut icon" type="image/x-icon" href="../images/icone_logo.png" />
+	<link rel="shortcut icon" type="image/x-icon" href="../images/cabane_ropeup.png" />
 
 	<link rel="stylesheet" type="text/css" href="../css/libs/reset.css">
 	<link rel="stylesheet" type="text/css" href="../css/index.css">
