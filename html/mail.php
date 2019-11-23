@@ -1,7 +1,7 @@
 <?php
 
-	ini_set('SMTP', 'localhost');
-	ini_set('smtp_port', '25');
+	// ini_set('SMTP', 'localhost');
+	// ini_set('smtp_port', '25');
 
 	$recipient = 'domusaruon@gmail.com, antoine@ropeup.fr'; //antoine@ropeup.fr
 	
