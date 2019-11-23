@@ -4,6 +4,9 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
+<!-- Icone--> 
+	<link rel="shortcut icon" type="image/x-icon" href="../images/cabane_ropeup.png" />
+
 	<link rel="stylesheet" type="text/css" href="../css/libs/reset.css">
 	<link rel="stylesheet" type="text/css" href="../css/qui_somme_nous.css">
 	<link rel="stylesheet" type="text/css" href="../css/header_principal.css">
@@ -55,7 +58,7 @@
 						<p>Laurent</p>
 						<p>Demain</p>
 					</div>
-					<p>Appui Stratégie</p>
+					<p>Appui<br/>Stratégie</p>
 				</div>
 
 				<div> <!-- Content -->
@@ -82,7 +85,7 @@
 						<p>Yoran</p>
 						<p>De Gouvello</p>
 					</div>
-					<p>Appui Technique</p>
+					<p>Appui<br/>Technique</p>
 				</div>
 
 				<div> <!-- Content -->

@@ -4,6 +4,10 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 	<title>RopeUp</title>
+
+<!-- Icone--> 
+	<link rel="shortcut icon" type="image/x-icon" href="../images/cabane_ropeup.png" />
+
 	<link rel="stylesheet" type="text/css" href="../css/libs/reset.css">
 	<link rel="stylesheet" type="text/css" href="../css/index.css">
 	<link rel="stylesheet" type="text/css" href="../css/header_principal.css">
@@ -23,14 +27,10 @@
 	<section>
 		<h2>QU'EST CE QUE ROPE UP ?</h2>
 		<div class="wrap_index">
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget enim et turpis 
-			consequat commodo id sit amet purus. Quisque et lobortis sem. Phasellus in volutpat erat. 
-			Mauris varius pharetra viverra. Nam consectetur iaculis congue. Nulla tincidunt malesuada 
-			cursus. Nam faucibus cursus velit in viverra. Lorem ipsum dolor sit amet, consectetur 
-			adipiscing elit. Maecenas convallis ut ex cursus sollicitudin. Duis vitae faucibus quam. 
-			Aenean aliquet nisi eget erat gravida, eget cursus lacus auctor. Proin eu maximus tortor. 
-			Sed et semper lacus, sit amet porttitor massa. Vivamus tincidunt erat vel sem iaculis, 
-			lacinia ultricies erat dignissim.</p>
+			<p>Rope Up ! est une application web accessible en ligne qui aide dans toute la gestion commerciale et administrative des professionnels indépendants. 
+			C'est un support pour renforcer vos liens avec vos prospects, vos clients et vos partenaires mais c'est aussi une aide efficace pour structurer votre activité et répondre sans soucis aux exigences de l'administration.
+			Le terrain c’est vous, l’informatique c’est nous ! Bienvenue chez Rope Up !
+			</p>
 			<img src="../images/cabane_ropeup_black.png" alt="Logo RopeUp">
 		</div>
 	</section>
@@ -42,12 +42,16 @@
 			<div>
 				<h3>Gestion</h3>
 				<img src="../images/icone_gestion.png" alt="Logo calendrier">
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget enim et turpis consequat commodo id sit amet purus. Quisque et lobortis sem. Phasellus in volutpat erat. Mauris varius pharetra viverra. Nam consectetur iaculis congue. Nulla tincidunt malesuada cursus. Nam faucibus cursus velit in viverra. </p>
+				<p>Enfin un outil de gestion qui n'est pas une usine à gaz ! Simple d'utilisation et très complet, il permet de répondre aux exigences de l'administration et en même temps à celles du terrain.
+				Ce PACK est supporté par une équipe dédiée à sa maintenance et à ses améliorations techniques. 
+				</p>
 			</div>
 			<div>
 				<h3>Communication</h3>
 				<img src="../images/icone_com.png" alt="Logo communication">
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget enim et turpis consequat commodo id sit amet purus. Quisque et lobortis sem. Phasellus in volutpat erat. Mauris varius pharetra viverra. Nam consectetur iaculis congue. Nulla tincidunt malesuada cursus. Nam faucibus cursus velit in viverra. </p>
+				<p>Vous souhaitez un site simple, qui vous présente et présente votre activité. 
+				Vous rechercher un outil de communication peu onéreux et complet que vous faites vivre sans avoir de compétence informatique.  Ce PACK est supporté par une équipe dédiée à sa maintenance et à ses améliorations techniques. 
+				</p>
 			</div>
 		</div>
 		<p><a href="#third">En Savoir Plus</a></p>

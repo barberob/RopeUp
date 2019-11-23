@@ -5,6 +5,9 @@
 	<title>Contact</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
+<!-- Icone--> 
+	<link rel="shortcut icon" type="image/x-icon" href="../images/cabane_ropeup.png" />
+
 	<link rel="stylesheet" type="text/css" href="../css/libs/reset.css">
 	<link rel="stylesheet" type="text/css" href="../css/header_principal.css">
 	<link rel="stylesheet" type="text/css" href="../css/header_contact.css">
@@ -29,7 +32,11 @@
 			<div class="explanation">
 
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget enim et turpis consequat commodo id sit amet purus. Quisque et lobortis sem. Phasellus in volutpat erat. Mauris varius pharetra viverra. Nam consectetur iaculis congue. Nulla tincidunt malesuada cursus. Nam faucibus cursus velit in viverra. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas convallis ut ex cursus sollicitudin. Duis vitae faucibus quam. Aenean aliquet nisi eget erat gravida, eget cursus lacus auctor. Proin eu maximus tortor. Sed et semper lacus, sit amet porttitor massa. Vivamus tincidunt erat vel sem iaculis, lacinia ultricies erat dignissim.
+					Vous pouvez nous appeler au 07 68 18 09 45 du lundi au vendredi de 9h à 17h.
+					<br/>
+					Toutes vos demandes mails seront traitées avec la plus grande attention et nous vous apporterons une réponse dans les heures qui suivent. 
+					<br/>
+					N'hésitez pas à être le plus précis possible dans vos demandes et surtout à nous proposer un rdv sur vos disponibilités pour échanger directement. 
 				</p>
 
 			</div>
@@ -94,8 +101,6 @@
 							<p class="submit_button">Envoyer</p>
 
 							<div class="g-recaptcha" data-sitekey="6LdCL8MUAAAAAHG2wXoyotuvSb6ApfYfVfeBsxsb"></div>
-
-							< 
 
 							<input type="submit" name="submitpost">
 
