@@ -4,6 +4,9 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
+<!-- Icone--> 
+	<link rel="shortcut icon" type="image/x-icon" href="../images/icone_logo.png" />
+
 	<link rel="stylesheet" type="text/css" href="../css/libs/reset.css">
 	<link rel="stylesheet" type="text/css" href="../css/qui_somme_nous.css">
 	<link rel="stylesheet" type="text/css" href="../css/header_principal.css">
