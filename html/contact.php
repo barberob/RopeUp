@@ -98,8 +98,6 @@
 
 							<div class="g-recaptcha" data-sitekey="6LdCL8MUAAAAAHG2wXoyotuvSb6ApfYfVfeBsxsb"></div>
 
-							< 
-
 							<input type="submit" name="submitpost">
 
 						</form>
