@@ -184,6 +184,13 @@ div.video_and_description p
 	margin-top: 50px;
 }
 
+div.video_and_description p a
+{
+	color: white;
+}
+
+
+
 div.flex_container
 {
 	display: flex;
