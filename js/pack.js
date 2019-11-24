@@ -6,11 +6,12 @@ $(document).ready(function()
 	var mySwiper = new Swiper ('.swiper-container', {
     // Optional parameters
     direction: 'horizontal',
-    loop: true,
+   //loop: true,
     slidesPerView: 3,
+    initialSlide: 1,
    // spaceBetween: 50,
     centeredSlides: true,
-    grabCursor: true,
+  	grabCursor: true,
     autoHeight: true,
 
     // Navigation arrows
