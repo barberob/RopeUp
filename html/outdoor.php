@@ -8,6 +8,7 @@
 	<link rel="shortcut icon" type="image/x-icon" href="../images/cabane_ropeup.png" />
 
 	<link rel="stylesheet" type="text/css" href="../css/libs/reset.css">
+	<link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.css">
 	<link rel="stylesheet" type="text/css" href="../css/header_principal.css">
 	<link rel="stylesheet" type="text/css" href="../css/header_outdoor.css">
 	<link rel="stylesheet" type="text/css" href="../css/pack.css">
@@ -66,12 +67,12 @@
 <!-- //////////////////////////////////////////section 1 pack communication////////////////////////////////////////////////// -->
 		
 
-		<div class="background">
+		<div class="background com hided">
 
 			<div class="wrap">
 				
 				<p>
-					Nous avons créé un site internet pour vous. Simple, utilisant les meilleures technologies et développé avec les meilleures pratiques de référencements naturel, il vous apportera du confort et des micro service très pratiques. Votre site est relié à une interface administrateur conviviale qui vous permet de le faire évoluer très simplement.    
+					Nous avons créé un site internet pour vous. Simple, utilisant les meilleures technologies et développé avec les meilleures pratiques de référencements naturel, il vous apportera du confort et des micro services très pratiques. Votre site est relié à une interface administrateur conviviale qui vous permet de le faire évoluer très simplement.    
 				</p>
 
 
@@ -88,13 +89,13 @@
 					</div>
 
 					<div class="functionalities">
-						<ul>
-							<li>
-								1- Si vous n’en avez pas, nous achetons pour vous l’adresse url de votre choix que nous hébergeons chez OVH. Puis nous relions cette url sur le “squelette” du site que nous avons développé.
+						<ol>
+							<li class="level_0">
+								 Si vous n’en avez pas, nous achetons pour vous l’adresse url de votre choix que nous hébergeons chez OVH. Puis nous relions cette url sur le “squelette” du site que nous avons développé.
 							</li>
 
-							<li>
-								2- Une fois en ligne, à partir de votre interface administrateur simplifiée, vous pouvez : 
+							<li class="level_0">
+								 Une fois en ligne, à partir de votre interface administrateur simplifiée, vous pouvez : 
 							</li>
 							<p>
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -103,8 +104,8 @@
 								volutpat erat.
 							</p>
 
-							<li>
-								3- En Back office, depuis votre interface, vous gérez votre communication et votre relation clients. Vous pouvez :
+							<li class="level_0">
+								En Back office, depuis votre interface, vous gérez votre communication et votre relation clients. Vous pouvez :
 							</li>
 							<p>
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -112,7 +113,7 @@
 								amet purus. Quisque et lobortis sem. Phasellus in 
 								volutpat erat. 
 							</p>
-						</ul>
+						</ol>
 					</div>
 				</div>
 
@@ -135,7 +136,7 @@
 
 
 
-		<div class="background">
+		<div class="background manage">
 
 			<div class="wrap">
 				
@@ -145,8 +146,6 @@
 					Depuis votre interface, vous pourrez faire des devis, des factures, suivre votre état comptable, et gérer votre fichier clients.
 
 				</p>
-
-
 
 				<div class="flex_container">
 
@@ -337,6 +336,91 @@
 			</div>
 		</section>
 
+		<section id="ambassadeurs">
+
+			<div class="wrap">
+				<!-- Slider main container -->
+				<div class="swiper-container">
+				    <!-- Additional required wrapper -->
+				    <div class="swiper-wrapper">
+				        <!-- Slides -->
+				        <div class="swiper-slide">
+				        	<div class="content_container">
+				        		<div class="image_container">
+				        			<img src="../images/portrait1.jpg">
+				        		</div>
+				        			<p class="name">André sovez</p>
+				        			<p class="work">Guide de Haute Montagne</p>
+				        			<p class="city">Chamonix</p>
+				        			<div class="quotes">
+				        				<img src="../images/start_quote.png">
+				        				<img src="../images/end_quote.png">
+				        			</div>
+					        			<p class="comment">
+					        				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione consectetur quam odit reiciendis, cum eum debitis voluptatum iusto, voluptate quibusdam, repudiandae asperiores. Hic architecto, ab blanditiis magni exercitationem numquam inventore.
+					        			</p>		
+				        		
+				        			<p class="mail">andre.sovez@gmail.com</p>
+				        			<p class="phone_number">08 65 45 65 45</p>
+				        	</div>
+
+				        </div>
+
+
+				        <div class="swiper-slide">
+				        	<div class="content_container">
+				        		<div class="image_container">
+				        			<img src="../images/portrait1.jpg">
+				        		</div>
+				        			<p class="name">André sovez</p>
+				        			<p class="work">Guide de Haute Montagne</p>
+				        			<p class="city">Chamonix</p>
+				        			<div class="quotes">
+				        				<img src="../images/start_quote.png">
+				        				<img src="../images/end_quote.png">
+				        			</div>
+					        			<p class="comment">
+					        				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione consectetur quam odit reiciendis, cum eum debitis voluptatum iusto, voluptate quibusdam, repudiandae asperiores. Hic architecto, ab blanditiis magni exercitationem numquam inventore.
+					        			</p>		
+				        		
+				        			<p class="mail">andre.sovez@gmail.com</p>
+				        			<p class="phone_number">08 65 45 65 45</p>
+				        	</div>
+				        </div>
+				        <div class="swiper-slide">
+				        	<div class="content_container">
+				        		<div class="image_container">
+				        			<img src="../images/portrait1.jpg">
+				        		</div>
+				        			<p class="name">André sovez</p>
+				        			<p class="work">Guide de Haute Montagne</p>
+				        			<p class="city">Chamonix</p>
+				        			<div class="quotes">
+				        				<img src="../images/start_quote.png">
+				        				<img src="../images/end_quote.png">
+				        			</div>
+					        			<p class="comment">
+					        				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione consectetur quam odit reiciendis, cum eum debitis voluptatum iusto, voluptate quibusdam, repudiandae asperiores. Hic architecto, ab blanditiis magni exercitationem numquam inventore.
+					        			</p>		
+				        		
+				        			<p class="mail">andre.sovez@gmail.com</p>
+				        			<p class="phone_number">08 65 45 65 45</p>
+				        	</div>
+				        </div>
+				     
+				    </div>
+
+				    <!-- If we need navigation buttons -->
+				    <div class="swiper-button-prev"></div>
+				    <div class="swiper-button-next"></div>
+
+				</div>
+				
+				
+			</div>
+		</section>
+
+
 
 
 		<!-- inserer AMBASSADEURS -->
@@ -452,6 +536,7 @@
 
 
 	<script type="text/javascript" src="../js/libs/jquery.js"></script>
+	<script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
 	<script type="text/javascript" src="../js/pack.js"></script>
 	<script type="text/javascript" src="../js/menu.js"></script>
 

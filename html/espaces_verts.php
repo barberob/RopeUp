@@ -238,6 +238,52 @@
 
 		</section>
 
+		<section id="ambassadeurs">
+		<!-- Slider main container -->
+			<div class="swiper-container .ambassadeurs">
+			    <!-- Additional required wrapper -->
+			    <div class="swiper-wrapper">
+			        <!-- Slides -->
+			        <div class="swiper-slide">
+			        	<div>
+			        		<div>
+			        			<img src="../images/picture1.png">
+			        			<p class="name">André sovez</p>
+			        			<p class="work">Guide de Haute Montagne</p>
+			        			<p class="city">Chamonix</p>
+			        			<div>
+			        				<img src="../images/start_quote.png">
+				        			<p class="comment">
+				        				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione consectetur quam odit reiciendis, cum eum debitis voluptatum iusto, voluptate quibusdam, repudiandae asperiores. Hic architecto, ab blanditiis magni exercitationem numquam inventore.
+				        			</p>
+				        			<img src="../images/end_quote.png">
+			        				
+			        			</div>
+			        			<p class="mail">andre.sovez@gmail.com</p>
+			        			<p class="phone_number">08 65 45 65 45</p>
+
+			        		</div>
+			        	</div>
+
+			        </div>
+			        <div class="swiper-slide">Slide 2</div>
+			        <div class="swiper-slide">Slide 3</div>
+			        ...
+			    </div>
+			    <!-- If we need pagination -->
+			    <div class="swiper-pagination"></div>
+
+			    <!-- If we need navigation buttons -->
+			    <div class="swiper-button-prev"></div>
+			    <div class="swiper-button-next"></div>
+
+			    <!-- If we need scrollbar -->
+			    <div class="swiper-scrollbar"></div>
+			</div>
+			
+		</section>
+
+
 
 
 		<!-- inserer AMBASSADEURS -->
@@ -246,47 +292,7 @@
 		<section id="tarifs">
 			<div class="wrap">
 
-				<!-- Slider main container -->
-				<div class="swiper-container .ambassadeurs">
-				    <!-- Additional required wrapper -->
-				    <div class="swiper-wrapper">
-				        <!-- Slides -->
-				        <div class="swiper-slide">
-				        	<div>
-				        		<div>
-				        			<img src="../images/picture1.png">
-				        			<p class="name">André sovez</p>
-				        			<p class="work">Guide de Haute Montagne</p>
-				        			<p class="city">Chamonix</p>
-				        			<div>
-				        				<img src="../images/start_quote.png">
-					        			<p class="comment">
-					        				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione consectetur quam odit reiciendis, cum eum debitis voluptatum iusto, voluptate quibusdam, repudiandae asperiores. Hic architecto, ab blanditiis magni exercitationem numquam inventore.
-					        			</p>
-					        			<img src="../images/end_quote.png">
-				        				
-				        			</div>
-				        			<p class="mail">andre.sovez@gmail.com</p>
-				        			<p class="phone_number">08 65 45 65 45</p>
-
-				        		</div>
-				        	</div>
-
-				        </div>
-				        <div class="swiper-slide">Slide 2</div>
-				        <div class="swiper-slide">Slide 3</div>
-				        ...
-				    </div>
-				    <!-- If we need pagination -->
-				    <div class="swiper-pagination"></div>
-
-				    <!-- If we need navigation buttons -->
-				    <div class="swiper-button-prev"></div>
-				    <div class="swiper-button-next"></div>
-
-				    <!-- If we need scrollbar -->
-				    <div class="swiper-scrollbar"></div>
-				</div>
+			
 
 
 
