@@ -50,7 +50,7 @@
 				<h3>Communication</h3>
 				<img src="../images/icone_com.png" alt="Logo communication">
 				<p>Vous souhaitez un site simple, qui vous présente et présente votre activité. 
-				Vous rechercher un outil de communication peu onéreux et complet que vous faites vivre sans avoir de compétence informatique.  Ce PACK est supporté par une équipe dédiée à sa maintenance et à ses améliorations techniques. 
+				Vous recherchez un outil de communication peu onéreux et complet que vous faites vivre sans avoir de compétences informatiques. Ce PACK est supporté par une équipe dédiée à sa maintenance et à ses améliorations techniques. 
 				</p>
 			</div>
 		</div>
@@ -60,7 +60,7 @@
 	<!-- Third Section -->
 	<section id="third">
 		<h2>LES SECTEURS D'ACTIVITÉ</h2>
-		<p>Les produits de Rope Up! sont adaptés à votre domaine,<br>veuillez choisir le votre :</p>
+		<p>Les produits de Rope Up! sont adaptés à votre domaine,<br>veuillez choisir le vôtre :</p>
 		<div id="slider">
 			<div>
 				<img src="../images/randonneur.png" alt="Photo Randonneur">
