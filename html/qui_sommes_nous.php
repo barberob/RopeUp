@@ -58,7 +58,7 @@
 						<p>Laurent</p>
 						<p>Demain</p>
 					</div>
-					<p>Appui Stratégie</p>
+					<p>Appui<br/>Stratégie</p>
 				</div>
 
 				<div> <!-- Content -->
@@ -85,7 +85,7 @@
 						<p>Yoran</p>
 						<p>De Gouvello</p>
 					</div>
-					<p>Appui Technique</p>
+					<p>Appui<br/>Technique</p>
 				</div>
 
 				<div> <!-- Content -->
@@ -176,7 +176,6 @@
 	<?php include("footer.php") ?>
 
 	<script type="text/javascript" src="../js/libs/jquery.js"></script>
-	<script type="text/javascript" src="../js/qui_sommes_nous.js"></script>
 	<script type="text/javascript" src="../js/menu.js"></script>
 </body>
 </html>

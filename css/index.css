@@ -29,7 +29,7 @@ section:nth-of-type(1) .wrap_index
 
 section:nth-of-type(1) .wrap_index p
 {
-  font-family: 'DINPro_Light';
+  font-family: 'DINPro_Medium';
   font-size: 20px;
   text-align: right;
 }
@@ -170,7 +170,7 @@ section:nth-of-type(4)
 section:nth-of-type(4) .wrap_index > div
 {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
 }
