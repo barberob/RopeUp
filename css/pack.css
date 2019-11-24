@@ -596,7 +596,25 @@ div.swiper-slide p.comment
 	margin-bottom: 15px;
 }
 
+.swiper-button-prev 
+{
+	background-color: #f1f1f1;
+	color: #019EC0;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	top: 25%;
+}
 
+.swiper-button-next 
+{
+  	background-color: #f1f1f1;
+  	color: #019EC0;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	top: 25%;
+}
 
 
  

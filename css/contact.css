@@ -110,3 +110,35 @@ input::placeholder
 	margin-right: auto;
 	margin-left: auto;
 }
+
+.submit_input
+{
+	border-radius: 50px;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 40px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 400px;
+	height: 95px;
+	background: #FF7D00;
+	color: white;
+	font-size: 40px;
+	font-family:'DINPro_Bold';
+	padding: 0 0;
+}
+
+.submit_input::value
+{
+	text-align: center;
+	margin: 0 0;
+	padding: 0 0;
+}
+
+.g-recaptcha
+{
+	width: 30%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 40px;
+}

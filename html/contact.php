@@ -98,11 +98,12 @@
 								<input class="message" type="text" name="message" placeholder="Votre message">
 							</div>
 
-							<p class="submit_button">Envoyer</p>
+							
+							
 
 							<div class="g-recaptcha" data-sitekey="6LdCL8MUAAAAAHG2wXoyotuvSb6ApfYfVfeBsxsb"></div>
+							<input type="submit" name="submitpost" value="Envoyer" class="submit_input">
 
-							<input type="submit" name="submitpost">
 
 						</form>
 
