@@ -155,7 +155,7 @@
 							<iframe width="560" height="315" src="https://www.youtube.com/embed/-orRTjRBKjk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>	
 						</div>
 						<p>
-							Cette vidéo vous montre à quoi ressemble l’application. N’hésitez pas à parcourir <a href="https://www.youtube.com/channel/UCSUWXHZKAKyvrXnFsNWNQ2Q">notre page youtube</a> sur laquelle vous trouverez d’autres tutoriels.
+							Cette vidéo vous montre à quoi ressemble l’application. N’hésitez pas à parcourir <a href="https://www.youtube.com/channel/UCSUWXHZKAKyvrXnFsNWNQ2Q" target="_blank">notre page youtube</a> sur laquelle vous trouverez d’autres tutoriels.
 						</p>
 						
 					</div>

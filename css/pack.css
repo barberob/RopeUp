@@ -12,10 +12,10 @@ section#presentation div.wrap,
 section#tarifs div.wrap
 
 {
-	max-width: 1240px;
+	width:70%;
 	margin-right: auto;
 	margin-left: auto;
-	align-self: center;
+	/*align-self: center;*/
 	padding: 0;
 
 }
