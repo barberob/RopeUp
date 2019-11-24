@@ -32,7 +32,7 @@ div.header_menu img
 	width: 200px;
 }
 
-a.nav_content
+a.nav_content, button.nav_content
 {
 	text-transform: uppercase;
 	margin-right: 50px;
@@ -82,6 +82,19 @@ a.menu
 	
 }
 
+div.header_menu nav
+{
+	display: flex;
+}
+
+div.dropdown button
+{
+	border: none;
+	background-color: white;
+}
+
+
+/*responsive menu*/
 
 
 div.div_cross_logo
@@ -138,7 +151,7 @@ div.menu_page.active
 	transition-duration: 1s;
 }
 
-ul li:first-of-type
+div.menu_page ul li:first-of-type
 {
 	margin-bottom: 100px;
 }

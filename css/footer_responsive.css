@@ -38,9 +38,9 @@
 		margin-bottom: 35px;
 	}
 
-	div.reseaux img:nth-child(2) 
+	div.reseaux a.link_margin
 	{
-    	margin: 0 20px;
+		margin-right:20px;
 	}
 
 	div.reseaux

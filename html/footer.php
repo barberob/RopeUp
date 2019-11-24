@@ -1,15 +1,25 @@
 <footer>
 	<div class="wrap">
 		<div>
-			<p>Politique de Sécurité</p>
-			<p>Mentions Légales</p>
+			<ul>
+				<li>
+					<a href="#">Politique de Sécurité</a>
+				</li>
+				<li>
+					<a href="mentions_legales.php">Mentions Légales</a>
+				</li>
+				<li>
+					<a href="#">FAQ</a>
+				</li>
+			</ul>
 		</div>
 		<div class="div_center">
 			<p>Vous souhaitez nous contacter directement, appelez nous au 07 68 18 09 45</p>
 			<div class="reseaux">
-				<img src="../images/logo_facebook.svg" alt="logo facebook">
-				<img src="../images/logo_linkedin.svg" alt="logo linkedin">
-				<img src="../images/logo_instagram.svg" alt="logo instagram">
+				<a href="#" class="link_margin"><img src="../images/logo_facebook.svg" alt="logo facebook"></a>
+				<a href="#" class="link_margin"><img src="../images/logo_linkedin.svg" alt="logo linkedin"></a>
+				<a href="#" class="link_margin"><img src="../images/logo_instagram.svg" alt="logo instagram"></a>
+				<a href="#"><img src="../images/logo_youtube.png" alt="logo youtube"></a>
 			</div>
 		</div>
 		<img class="logo" src="../images/cabane_ropeup.png" alt="logo RopeUp">

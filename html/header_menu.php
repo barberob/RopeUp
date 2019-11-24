@@ -32,7 +32,13 @@
 			</a>
 			<nav>
 				<a href="qui_sommes_nous.php" class="nav_content">Qui sommes-nous ?</a>
-				<a href="#" class="nav_content">Secteurs</a>
+				<div class="dropdown">
+          <button class="nav_content">Secteurs</button>
+          <div class="dropdown-content">
+             <a href="#">Outdoor</a>
+             <a href="#">Espaces Verts</a>
+          </div>
+        </div>
 				<a href="contact.php" class="nav_content">Contact</a>
 				<a href="#"><span>Connexion</span></a>
 			</nav>	
