@@ -18,3 +18,11 @@ header h1
 	transform:translateY(-50%);
 }
 
+div.dropdown-content span
+{
+  width: 0;
+  height: 2px;
+  background-color: #019EC0;
+  display: block;
+}
+
