@@ -64,7 +64,7 @@
 		<div id="slider">
 			<div>
 				<img src="../images/randonneur.png" alt="Photo Randonneur">
-				<p>OUTDOOR</p>
+				<p>SPORTS ET OUTDOOR</p>
 			</div>
 			<div>
 				<img src="../images/bucheron.png" alt="Photo Bucheron">
