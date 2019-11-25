@@ -109,7 +109,7 @@ div.dropdown button
 .dropdown-content 
 {
   position: absolute;
-  background-color: #f1f1f1;
+  background-color: rgba(255,255,255,.4);
   min-width: 160px;
   z-index: 1;
   transform: rotateX(-90deg);
@@ -126,12 +126,6 @@ div.dropdown button
   font-size: 14px;
 }
 
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover 
-{
-	background-color: #ddd;
-}
-
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content 
 {
@@ -142,16 +136,13 @@ div.dropdown-content span
 {
   width: 0;
   height: 2px;
-  background-color: black;
+  background-color: rgb(255,125,0);
   display: block;
 }
 
 div.dropdown-content span.active
 {
   width: 100%;
-  height: 2px;
-  background-color: black;
-  display: block;
   transition-duration: .4s;
 }
 /*responsive menu*/
