@@ -1,11 +1,16 @@
 header
 {
+	background-image: none;
+	background-color: ghostwhite;
+}
+
+body
+{
 	background-color: ghostwhite;
 }
 
 div.vice
 {
-	background-color: ghostwhite;
 	max-width:1440px;
 	width:100%;
 	padding:0 40px;
