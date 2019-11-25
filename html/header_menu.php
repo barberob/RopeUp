@@ -38,7 +38,7 @@
 				<div class="dropdown">
           <button class="nav_content">Secteurs</button>
           <div class="dropdown-content">
-             <a href="outdoor.php">Outdoor</a>
+             <a href="outdoor.php">Sports et Outdoor</a>
              <span></span>
              <a href="espaces_verts.php">Espaces Verts</a>
              <span></span>
