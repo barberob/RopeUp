@@ -36,7 +36,9 @@
           <button class="nav_content">Secteurs</button>
           <div class="dropdown-content">
              <a href="outdoor.php">Outdoor</a>
+             <span></span>
              <a href="espaces_verts.php">Espaces Verts</a>
+             <span></span>
           </div>
         </div>
 				<a href="contact.php" class="nav_content">Contact</a>
