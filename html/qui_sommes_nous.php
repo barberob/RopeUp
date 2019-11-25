@@ -49,16 +49,7 @@
 						<p>Antoine</p>
 						<p>Sauer</p>
 					</div>
-					<p>Dirigeant</p>
-				</div>
-
-				<div> <!-- Content -->
-					<img src="../images/membres/membre1.png" class="member" alt="Photo membre">
-					<div>
-						<p>Laurent</p>
-						<p>Demain</p>
-					</div>
-					<p>Appui<br/>Stratégie</p>
+					<p>Chef</p>
 				</div>
 
 				<div> <!-- Content -->
@@ -76,16 +67,7 @@
 						<p>Yannick</p>
 						<p>Veron</p>
 					</div>
-					<p>Devellopeur</p>
-				</div>
-
-				<div> <!-- Content -->
-					<img src="../images/membres/membre1.png" class="member" alt="Photo membre">
-					<div>
-						<p>Yoran</p>
-						<p>De Gouvello</p>
-					</div>
-					<p>Appui<br/>Technique</p>
+					<p>Developpeur</p>
 				</div>
 
 				<div> <!-- Content -->
@@ -95,6 +77,24 @@
 						<p>Plaçais</p>
 					</div>
 					<p>Responsable<br/>Clients</p>
+				</div>
+
+				<div> <!-- Content -->
+					<img src="../images/membres/membre1.png" class="member" alt="Photo membre">
+					<div>
+						<p>Laurent</p>
+						<p>Demain</p>
+					</div>
+					<p>Appui<br/>Stratégie</p>
+				</div>
+
+				<div> <!-- Content -->
+					<img src="../images/membres/membre1.png" class="member" alt="Photo membre">
+					<div>
+						<p>Yoran</p>
+						<p>De Gouvello</p>
+					</div>
+					<p>Appui<br/>Technique</p>
 				</div>
 
 				<div> <!-- Content -->
