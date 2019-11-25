@@ -19,6 +19,9 @@ div.header_menu div.wrap
 div.header_menu
 {
 	background-color: #FFF;
+	position: fixed;
+	width: 100%;
+	z-index: 20;
 }
 
 nav a
@@ -55,7 +58,7 @@ div.img_container span
 	text-align: center;
 	padding: 15px 20px;
 	line-height: 60px;
-	transform:translateY(-25%);
+	transform:translateY(25%);
 }
 
 

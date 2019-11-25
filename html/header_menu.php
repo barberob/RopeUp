@@ -9,13 +9,16 @@
         <nav>
           <ul>
           	<li>
-              <a href="#"><span>Connexion</span></a>
+              <a href="connexion.php"><span>Connexion</span></a>
             </li>
             <li>
               <a class="nav_content_menu" href="qui_sommes_nous.php">Qui sommes-nous ?</a>
             </li>
             <li>
-              <a class="nav_content_menu" href="#">Secteurs</a>
+              <a class="nav_content_menu" href="outdoor.php">Secteur Outdoor</a>
+            </li>
+            <li>
+              <a class="nav_content_menu" href="espaces_verts.php">Secteur Espaces Verts</a>
             </li>
             <li>
               <a class="nav_content_menu" href="contact.php">Contact</a>
@@ -42,7 +45,7 @@
           </div>
         </div>
 				<a href="contact.php" class="nav_content">Contact</a>
-				<a href="#"><span>Connexion</span></a>
+				<a href="connexion.php"><span>Connexion</span></a>
 			</nav>	
 
 			<a class="menu" href="#">
