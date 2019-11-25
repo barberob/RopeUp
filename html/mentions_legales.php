@@ -14,6 +14,7 @@
 	<link rel="stylesheet" type="text/css" href="../css/fonts.css">
 	<link rel="stylesheet" type="text/css" href="../css/header_responsive.css">
 	<link rel="stylesheet" type="text/css" href="../css/footer_responsive.css">
+	<link rel="stylesheet" type="text/css" href="../css/header_mentions_legales_responsive.css">
 	<title>Mentions légales</title>
 </head>
 <body>
