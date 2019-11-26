@@ -8,11 +8,12 @@
 	<link rel="shortcut icon" type="image/x-icon" href="../images/cabane_ropeup.png" />
 
 	<link rel="stylesheet" type="text/css" href="../css/libs/reset.css">
-	<link rel="stylesheet" type="text/css" href="../css/qui_somme_nous.css">
+	<link rel="stylesheet" type="text/css" href="../css/qui_sommes_nous.css">
 	<link rel="stylesheet" type="text/css" href="../css/header_principal.css">
 	<link rel="stylesheet" type="text/css" href="../css/header_qui_sommes_nous.css">
 	<link rel="stylesheet" type="text/css" href="../css/footer.css">
 	<link rel="stylesheet" type="text/css" href="../css/fonts.css">
+	<link rel="stylesheet" type="text/css" href="../css/qui_sommes_nous_responsive.css">
 	<link rel="stylesheet" type="text/css" href="../css/header_categories_responsive.css">
 	<link rel="stylesheet" type="text/css" href="../css/footer_responsive.css">
 	<title>Qui Sommes-Nous ?</title>
@@ -34,7 +35,7 @@
 			Vivant depuis des années dans l'environnement de la montagne, notre équipe l'a bien compris. 
 			Elle est convaincue qu'elle a sa pierre à apporter à l'édifice. Les indépendants vont trouver en Rope Up ! une solution qui sait leur parler et qui les aide à rester centrés dans leur coeur de métier. 
 			L'écologie humaine assurera à tous un avenir durable. </p>
-			<img src="../images/cabane_ropeup_black.png" alt="Logo RopeUp">
+			<img src="../images/cabane_ropeup.svg" alt="Logo RopeUp">
 		</div>
 	</section>
 
@@ -78,7 +79,8 @@
 					</div>
 					<p>Responsable<br/>Clients</p>
 				</div>
-
+			</div>
+			<div> <!-- Container -->
 				<div> <!-- Content -->
 					<img src="../images/membres/membre1.png" class="member" alt="Photo membre">
 					<div>
@@ -116,7 +118,11 @@
 			<h2>NOTRE HISTOIRE</h2>
 			<div>
 				<div>
-					
+					<span></span>
+					<img src="../images/fleche_bas.svg" alt="Flèche vers le bas">
+				</div>
+				
+				<div>
 					<div>
 						<h3>2017 : “PRÉPARATION DE LA COURSE” </h3>
 						<ul>
@@ -145,7 +151,6 @@
 						</ul>
 					</div>
 				</div>
-				<img src="../images/frise.png" alt="Frise chronologique de l'entreprise">
 			</div>
 			
 		</div>

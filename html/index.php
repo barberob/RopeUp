@@ -13,9 +13,12 @@
 	<link rel="stylesheet" type="text/css" href="../css/header_principal.css">
 	<link rel="stylesheet" type="text/css" href="../css/footer.css">
 	<link rel="stylesheet" type="text/css" href="../css/fonts.css">
+	<link rel="stylesheet" type="text/css" href="../css/index_responsive.css">
 	<link rel="stylesheet" type="text/css" href="../css/header_responsive.css">
 	<link rel="stylesheet" type="text/css" href="../css/footer_responsive.css">
 </head>
+
+<body>	
 	<!-- Header -->
 	<?php include("header_menu.php") ?>
 		<div class="img_container">
@@ -31,7 +34,7 @@
 			C'est un support pour renforcer vos liens avec vos prospects, vos clients et vos partenaires mais c'est aussi une aide efficace pour structurer votre activité et répondre sans soucis aux exigences de l'administration.
 			Le terrain c’est vous, l’informatique c’est nous ! Bienvenue chez Rope Up !
 			</p>
-			<img src="../images/cabane_ropeup_black.png" alt="Logo RopeUp">
+			<img src="../images/cabane_ropeup.svg" alt="Logo RopeUp">
 		</div>
 	</section>
 
@@ -64,11 +67,11 @@
 		<div id="slider">
 			<div>
 				<img src="../images/randonneur.png" alt="Photo Randonneur">
-				<p>SPORTS ET OUTDOOR</p>
+				<a href="outdoor.php">SPORTS ET OUTDOOR</a>
 			</div>
 			<div>
 				<img src="../images/bucheron.png" alt="Photo Bucheron">
-				<p>ESPACES VERTS</p>
+				<a href="espaces_verts.php">ESPACES VERTS</a>
 			</div>
 		</div>
 	</section>

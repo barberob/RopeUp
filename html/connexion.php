@@ -14,6 +14,7 @@
 	<link rel="stylesheet" type="text/css" href="../css/footer.css">
 	<link rel="stylesheet" type="text/css" href="../css/fonts.css">
 	<link rel="stylesheet" type="text/css" href="../css/header_responsive.css">
+	<link rel="stylesheet" type="text/css" href="../css/connexion_responsive.css">
 	<link rel="stylesheet" type="text/css" href="../css/footer_responsive.css">
 </head>
 	<!-- Header -->
@@ -24,6 +25,11 @@
 	<!-- First Section -->
 	<section>
 		<h1>Connexion</h1>
+
+		<div class="secteurs">
+			<a href="https://basecamp.ropeup.fr/login"><span>Sports Outdoor</span></a>
+			<a href="https://basecamp.ropeup.fr/login"><span>Espaces Verts</span></a>
+		</div>
 		
 	</section>
 
