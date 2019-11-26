@@ -318,6 +318,86 @@
 		<section id="ambassadeurs">
 
 			<div class="wrap">
+
+				<div class='swiper-container'>
+					 <div class="swiper-wrapper">
+
+			<?php
+
+				require_once('connexion_database.php');
+				$requete = "SELECT * FROM ambassadeurs_outdoor ORDER BY rand()";
+				$resultat = mysqli_query($CONNEXION,$requete);
+
+				if (!$resultat)
+				{
+					echo "Erreur dans l'exécution de la requête, message de MySQL : ", mysqli_error($CONNEXION);
+					exit();
+				}
+
+
+				$nombreLignes = mysqli_num_rows($resultat);
+				while ($ambassadeur = mysqli_fetch_assoc ($resultat))
+				{
+
+					echo " <div class='swiper-slide'>";
+
+					echo "<div class='content_container'>";
+
+					echo "<div class='image_container'>
+		        			<img src='../images/" . $ambassadeur['picture'] . ".jpg'>
+		        		  </div>";
+
+					echo "<p class='name'>" . $ambassadeur['firstname'] . ' ' . $ambassadeur['lastname'] ."</p>";
+
+					echo "<p class='work'>" . $ambassadeur['work'] . "</p>";
+
+					echo "<p class='city'>" . $ambassadeur['city'] . "</p>";
+
+					echo "<div class='quotes'>
+	        				<img src='../images/start_quote.png'>
+	        				<img src='../images/end_quote.png'>
+	        			</div>";
+
+	        		echo "<p class='comment'>" . $ambassadeur['comment'] . "</p>";
+
+	        		echo "<p class='mail'>" . $ambassadeur['email'] . "</p>";
+
+	        		echo "<p class='phone_number'>" . $ambassadeur['number'] . "</p>";
+
+	        		echo "</div>
+	        			</div>";
+
+				}
+
+				mysqli_close($CONNEXION);
+
+			?>
+
+
+					</div>
+
+					<div class="swiper-button-prev"></div>
+				    <div class="swiper-button-next"></div>
+				</div>
+
+			</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 				<!-- Slider main container
 				<div class="swiper-container">
 				    Additional required wrapper
@@ -457,8 +537,6 @@
 
 				</div> -->
 				
-				
-			</div>
 		</section>
 
 
@@ -584,9 +662,8 @@
 	<script>
     var swiper = new Swiper('.swiper-container', {
       spaceBetween: 10,
-      // init: false,
-      slidesPerView: 3,
       loop: true,
+      grabCursor: true,
 
 
        navigation: {
@@ -594,18 +671,16 @@
       prevEl: '.swiper-button-prev',
    	 },
       breakpoints: {
-        640: {
+
+      	 100: {
           slidesPerView: 1,
-          spaceBetween: 20,
+          spaceBetween: 0,
         },
-        1024: {
+        980: {
           slidesPerView: 2,
           spaceBetween: 50,
         },
-         1440: {
-          slidesPerView: 3,
-          spaceBetween: 50,
-        },
+     
       }
     });
   </script>
