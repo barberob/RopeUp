@@ -16,6 +16,8 @@
 	<link rel="stylesheet" type="text/css" href="../css/header_responsive.css">
 	<link rel="stylesheet" type="text/css" href="../css/footer_responsive.css">
 </head>
+
+<body>	
 	<!-- Header -->
 	<?php include("header_menu.php") ?>
 		<div class="img_container">
