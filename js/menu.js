@@ -20,4 +20,4 @@ $(document).ready(function()
     $('span:last-of-type').toggleClass("active");
   });
 
-}
+});
