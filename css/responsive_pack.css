@@ -15,7 +15,7 @@
 
 	section#pack_vente >div
 	{
-		max-width: calc(100% - 200px);
+		max-width:100%;
 	}
 
 
