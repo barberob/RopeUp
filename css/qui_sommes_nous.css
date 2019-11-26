@@ -134,16 +134,39 @@ section:nth-of-type(3) .wrap_qsn >div
   padding: 70px;
   margin: auto;
   display: flex;
+  width: 950px;
+}
+
+section:nth-of-type(3) .wrap_qsn >div >div:nth-of-type(1)
+{
+  width: 150px;
+  position: relative;
 }
 
 section:nth-of-type(3) .wrap_qsn >div >div:nth-of-type(1) >img
 {
   width: 50px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 section:nth-of-type(3) .wrap_qsn >div >div:nth-of-type(1) >span
 {
-  
+  display: block;
+  background-color: black;
+  height: 98%;
+  width: 5px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+section:nth-of-type(3) .wrap_qsn >div >div:nth-of-type(2)
+{
+  width: 800px;
 }
 
 section:nth-of-type(3) .wrap_qsn >div >div:nth-of-type(2) >div >h3
@@ -163,7 +186,7 @@ section:nth-of-type(3) .wrap_qsn >div >div:nth-of-type(2) >div >h3::after
   width: 15px;
   border-radius: 50%;
   background-color: #FF7D00;
-  transform: translateY(-115%) translateX(-200%);
+  transform: translateY(-115%) translateX(-112px);
 }
 
 section:nth-of-type(3) .wrap_qsn >div >div:nth-of-type(2) >div li

@@ -8,7 +8,7 @@
 	<link rel="shortcut icon" type="image/x-icon" href="../images/cabane_ropeup.png" />
 
 	<link rel="stylesheet" type="text/css" href="../css/libs/reset.css">
-	<link rel="stylesheet" type="text/css" href="../css/qui_somme_nous.css">
+	<link rel="stylesheet" type="text/css" href="../css/qui_sommes_nous.css">
 	<link rel="stylesheet" type="text/css" href="../css/header_principal.css">
 	<link rel="stylesheet" type="text/css" href="../css/header_qui_sommes_nous.css">
 	<link rel="stylesheet" type="text/css" href="../css/footer.css">
