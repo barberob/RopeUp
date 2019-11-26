@@ -33,7 +33,7 @@
 			C'est un support pour renforcer vos liens avec vos prospects, vos clients et vos partenaires mais c'est aussi une aide efficace pour structurer votre activité et répondre sans soucis aux exigences de l'administration.
 			Le terrain c’est vous, l’informatique c’est nous ! Bienvenue chez Rope Up !
 			</p>
-			<img src="../images/cabane_ropeup_black.png" alt="Logo RopeUp">
+			<img src="../images/cabane_ropeup.svg" alt="Logo RopeUp">
 		</div>
 	</section>
 

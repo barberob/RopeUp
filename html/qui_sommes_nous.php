@@ -13,6 +13,7 @@
 	<link rel="stylesheet" type="text/css" href="../css/header_qui_sommes_nous.css">
 	<link rel="stylesheet" type="text/css" href="../css/footer.css">
 	<link rel="stylesheet" type="text/css" href="../css/fonts.css">
+	<link rel="stylesheet" type="text/css" href="../css/qui_sommes_nous_responsive.css">
 	<link rel="stylesheet" type="text/css" href="../css/header_categories_responsive.css">
 	<link rel="stylesheet" type="text/css" href="../css/footer_responsive.css">
 	<title>Qui Sommes-Nous ?</title>
@@ -34,7 +35,7 @@
 			Vivant depuis des années dans l'environnement de la montagne, notre équipe l'a bien compris. 
 			Elle est convaincue qu'elle a sa pierre à apporter à l'édifice. Les indépendants vont trouver en Rope Up ! une solution qui sait leur parler et qui les aide à rester centrés dans leur coeur de métier. 
 			L'écologie humaine assurera à tous un avenir durable. </p>
-			<img src="../images/cabane_ropeup_black.png" alt="Logo RopeUp">
+			<img src="../images/cabane_ropeup.svg" alt="Logo RopeUp">
 		</div>
 	</section>
 
