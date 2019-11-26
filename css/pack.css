@@ -44,7 +44,13 @@ section#presentation div.wrap div
 	margin-right: auto;
 	width: 100%;
 	margin-top: 70px;
+}
 
+
+section#presentation p 
+
+{
+	margin-bottom: 15px;
 }
 
  /*///////////////////////////////////////////////////////////////////////*/
@@ -100,6 +106,9 @@ div.management
 	cursor: pointer;
 	transition-duration: 0.1s;
 	width: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 div.communication
 {
@@ -107,6 +116,9 @@ div.communication
 	cursor: pointer;
 	transition-duration: 0.1s;
 	width: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 div.management.green
@@ -135,6 +147,7 @@ div.management h3,div.communication h3
 	text-align: center;
 	user-select: none;
 	cursor: pointer;
+
 }
 
 
@@ -582,24 +595,15 @@ div.swiper-slide p.comment
 	margin-bottom: 15px;
 }
 
-.swiper-button-prev 
+.swiper-button-prev,
+.swiper-button-next 
 {
 	background-color: #f1f1f1;
 	color: #019EC0;
 	width: 80px;
 	height: 80px;
 	border-radius: 50%;
-	top: 25%;
-}
-
-.swiper-button-next 
-{
-  	background-color: #f1f1f1;
-  	color: #019EC0;
-	width: 80px;
-	height: 80px;
-	border-radius: 50%;
-	top: 25%;
+	top: 13%;
 }
 
 
