@@ -25,11 +25,11 @@
 	<div id="wrappostform">
 
 		<div id="redirection">
-			<h3 class="form">	 Votre formulaire a bien été envoyer veuillez attendre <h3 id="counter">5</h3> <h3 class="form"> secondes </h3> </h3>
+			<h3 class="form">	 Votre formulaire a bien été envoyé, veuillez attendre <h3 id="counter">5</h3> <h3 class="form"> secondes </h3> </h3>
 		</div>
 
 
-		<h3 id="boutonform"> Ou appuez sur ce bouton ! </h3><div id="bouton"> <a href="index.php"><span id="home">Accueil</span></a></div>
+		<h3 id="boutonform"> Ou appuyez sur ce bouton ! </h3><div id="bouton"> <a href="index.php"><span id="home">Accueil</span></a></div>
 
 
 
