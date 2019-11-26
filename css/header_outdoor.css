@@ -15,6 +15,7 @@ header h1
 	font-size: 60px;
 	color:#FFF;
 	font-family: "DINPro_Black";
+	transform:translateY(50%);
 }
 
 div.dropdown-content span
