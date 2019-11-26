@@ -116,7 +116,11 @@
 			<h2>NOTRE HISTOIRE</h2>
 			<div>
 				<div>
-					
+					<span></span>
+					<img src="../images/fleche_bas.svg" alt="Flèche vers le bas">
+				</div>
+				
+				<div>
 					<div>
 						<h3>2017 : “PRÉPARATION DE LA COURSE” </h3>
 						<ul>
@@ -145,7 +149,6 @@
 						</ul>
 					</div>
 				</div>
-				<img src="../images/frise.png" alt="Frise chronologique de l'entreprise">
 			</div>
 			
 		</div>
