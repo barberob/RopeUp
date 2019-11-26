@@ -3,7 +3,7 @@
 		<div>
 			<ul>
 				<li>
-					<a href="#">Politique de Sécurité</a>
+					<a href="securite.php">Politique de Sécurité</a>
 				</li>
 				<li>
 					<a href="mentions_legales.php">Mentions Légales</a>

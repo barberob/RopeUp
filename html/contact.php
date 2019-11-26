@@ -98,12 +98,9 @@
 								<input class="message" type="text" name="message" placeholder="Votre message">
 							</div>
 
-							
-							
-
 							<div class="g-recaptcha" data-sitekey="6LdCL8MUAAAAAHG2wXoyotuvSb6ApfYfVfeBsxsb"></div>
-							<input type="submit" name="submitpost" value="Envoyer" class="submit_input">
-
+							<br>
+							<a href="post-form.php"><input type="submit" name="submitpost" value="Envoyer" class="submit_input"></a>
 
 						</form>
 
@@ -111,9 +108,6 @@
 		
 			</div>
 				
-			
-			
-
 		</div>
 
 	</section>

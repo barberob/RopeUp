@@ -13,6 +13,7 @@
 	<link rel="stylesheet" type="text/css" href="../css/header_principal.css">
 	<link rel="stylesheet" type="text/css" href="../css/footer.css">
 	<link rel="stylesheet" type="text/css" href="../css/fonts.css">
+	<link rel="stylesheet" type="text/css" href="../css/index_responsive.css">
 	<link rel="stylesheet" type="text/css" href="../css/header_responsive.css">
 	<link rel="stylesheet" type="text/css" href="../css/footer_responsive.css">
 </head>
@@ -66,11 +67,11 @@
 		<div id="slider">
 			<div>
 				<img src="../images/randonneur.png" alt="Photo Randonneur">
-				<p>SPORTS ET OUTDOOR</p>
+				<a href="outdoor.php">SPORTS ET OUTDOOR</a>
 			</div>
 			<div>
 				<img src="../images/bucheron.png" alt="Photo Bucheron">
-				<p>ESPACES VERTS</p>
+				<a href="espaces_verts.php">ESPACES VERTS</a>
 			</div>
 		</div>
 	</section>

@@ -25,7 +25,7 @@
 	<div id="wrappostform">
 
 		<div id="redirection">
-			<h3 class="form">	 Votre formulaire a bien été envoyé, veuillez attendre <h3 id="counter">5</h3> <h3 class="form"> secondes </h3> </h3>
+			<h3 class="form">Votre formulaire a bien été envoyé, veuillez attendre <h3 id="counter">5</h3> <h3 class="form"> secondes </h3> </h3>
 		</div>
 
 
