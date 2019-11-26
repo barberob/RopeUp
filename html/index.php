@@ -19,7 +19,7 @@
 	<!-- Header -->
 	<?php include("header_menu.php") ?>
 		<div class="img_container">
-			<span>L'outil de Communication et de Gestion des professionnels indépendants</span>
+			<span>Application de Communication et de Gestion des professionnels indépendants</span>
 		</div>
 	</header>
 	
@@ -64,7 +64,7 @@
 		<div id="slider">
 			<div>
 				<img src="../images/randonneur.png" alt="Photo Randonneur">
-				<p>OUTDOOR</p>
+				<p>SPORTS ET OUTDOOR</p>
 			</div>
 			<div>
 				<img src="../images/bucheron.png" alt="Photo Bucheron">
@@ -81,9 +81,7 @@
 				<a href="https://www.bpaura.banquepopulaire.fr/portailinternet/Pages/default.aspx" target="_blank"><img src="../images/partenaires/logo_banque_populaire.png" alt="Logo Banque populaire"></a>
 				<a href="https://www.initiative-grand-annecy.fr" target="_blank"><img src="../images/partenaires/logo_initiative.png" alt="Logo Initiative"></a>
 				<a href="https://lafrenchtech.com/fr/" target="_blank"><img src="../images/partenaires/logo_french_fab.png" alt="Logo La French Fab"></a>
-				<a href="#" target="_blank"><img src="../images/partenaires/logo_rando_bike_spirit.png" alt="Logo Rando Bike Spirit"></a>
-				<a href="#" target="_blank"><img src="../images/partenaires/logo_bureau_des_guides.png" alt="Logo Bureau des guides et accompagnateurs"></a>
-				<a href="#" target="_blank"><img src="../images/partenaires/logo_inovizi.png" alt="Logo Inovizi"></a>
+				<a href="http://inovizi.com" target="_blank"><img src="../images/partenaires/logo_inovizi.png" alt="Logo Inovizi"></a>
 				<a href="https://www.auvergnerhonealpes.fr" target="_blank"><img src="../images/partenaires/logo_auvergne_rhone_alpes.png" alt="Logo Region Auvergne Rhône Alpes"></a>
 				<a href="http://greta-viva5.org" target="_blank"><img src="../images/partenaires/logo_greta.png" alt="Logo Greta"></a>
 				<a href="https://www.outdoorsportsvalley.org" target="_blank"><img src="../images/partenaires/logo_osv.png" alt="Logo OSV"></a>

@@ -1,0 +1,236 @@
+@media all and (max-width: 1440px)
+{
+	#wrapfaq {
+		padding: 0 180px;
+		background-color: white;
+	}
+
+	h2#faq {
+		font-size: 42px;
+		font-family: "DINPro_Bold";
+		text-align: center;
+		text-transform: uppercase;
+		color: #FF7D00;
+		padding-top: 80px;
+	}
+
+	h4.question:first-of-type {
+		font-size: 17px;
+		font-family: "DINPro_Bold";
+		text-align: left;
+		color: black;
+		padding-top: 100px;
+	}
+
+	h4.question {
+		font-size: 17px;
+		font-family: "DINPro_Bold";
+		text-align: left;
+		color: black;
+	}
+
+	#wrapreponse {
+		padding: 0 400px 0 0;
+
+	}
+
+	p.answer {
+		font-size: 15px;
+		font-family: "DINPro_Light";
+		padding-top: 40px;
+		padding-bottom: 20px;
+		text-align: left;
+		color: black;
+	}
+
+	p.explanation {
+		font-size: 12px;
+		font-family: "DINPro_Light";
+		text-align: left;
+		color: black;
+	}
+
+	li.square {
+		list-style-type: square;
+		font-size: 12px;
+		font-family: "DINPro_Light";
+	}
+
+	p.conclusion {
+		font-size: 15px;
+		font-family: "DINPro_Light";
+		text-align: left;
+		color: black;
+		padding-top: 20px;
+		padding-bottom: 40px;
+	}
+
+	h3#slogan {
+		font-size: 25px;
+		font-family: "DINPro_Light";
+		text-align: center;
+		color: #FF7D00;
+		padding-top: 40px;
+		padding-bottom: 80px;
+	}
+
+}
+
+
+@media all and (max-width: 1100px)
+{
+
+	#wrapfaq {
+		padding: 0 45px;
+		background-color: white;
+	}
+
+	#wrapreponse {
+		padding: 0 200px 0 0;
+
+	}
+
+	h2#faq {
+		font-size: 24px;
+		font-family: "DINPro_Bold";
+		text-align: center;
+		text-transform: uppercase;
+		color: #FF7D00;
+		padding-top: 80px;
+	}
+
+	h4.question:first-of-type {
+		font-size: 14px;
+		font-family: "DINPro_Bold";
+		text-align: left;
+		color: black;
+		padding-top: 100px;
+	}
+
+	h4.question {
+		font-size: 14px;
+		font-family: "DINPro_Bold";
+		text-align: left;
+		color: black;
+	}
+
+	p.answer {
+		font-size: 12px;
+		font-family: "DINPro_Light";
+		padding-top: 40px;
+		padding-bottom: 20px;
+		text-align: left;
+		color: black;
+	}
+
+	p.explanation {
+		font-size: 10px;
+		font-family: "DINPro_Light";
+		text-align: left;
+		color: black;
+	}
+
+	li.square {
+		list-style-type: square;
+		font-size: 10px;
+		font-family: "DINPro_Light";
+	}
+
+	p.conclusion {
+		font-size: 12px;
+		font-family: "DINPro_Light";
+		text-align: left;
+		color: black;
+		padding-top: 20px;
+		padding-bottom: 40px;
+	}
+
+	h3#slogan {
+		font-size: 20px;
+		font-family: "DINPro_Light";
+		text-align: center;
+		color: #FF7D00;
+		padding-top: 40px;
+		padding-bottom: 80px;
+	}
+}
+
+
+@media all and (max-width: 650px)
+{
+
+	#wrapfaq {
+		padding: 0 20px;
+		background-color: white;
+	}
+
+	#wrapreponse {
+		padding: 0 15px 0 0;
+
+	}
+
+	h2#faq {
+		font-size: 24px;
+		font-family: "DINPro_Bold";
+		text-align: center;
+		text-transform: uppercase;
+		color: #FF7D00;
+		padding-top: 40px;
+	}
+
+	h4.question:first-of-type {
+		font-size: 12px;
+		font-family: "DINPro_Bold";
+		text-align: left;
+		color: black;
+		padding-top: 50px;
+	}
+
+	h4.question {
+		font-size: 12px;
+		font-family: "DINPro_Bold";
+		text-align: left;
+		color: black;
+	}
+
+	p.answer {
+		font-size: 10px;
+		font-family: "DINPro_Light";
+		padding-top: 20px;
+		padding-bottom: 10px;
+		text-align: left;
+		color: black;
+	}
+
+	p.explanation {
+		font-size: 9px;
+		font-family: "DINPro_Light";
+		text-align: left;
+		color: black;
+	}
+
+	li.square {
+		list-style-type: square;
+		font-size: 9px;
+		font-family: "DINPro_Light";
+	}
+
+	p.conclusion {
+		font-size: 10px;
+		font-family: "DINPro_Light";
+		text-align: left;
+		color: black;
+		padding-top: 10px;
+		padding-bottom: 20px;
+	}
+
+	h3#slogan {
+		font-size: 12px;
+		font-family: "DINPro_Light";
+		text-align: center;
+		color: #FF7D00;
+		padding-top: 20px;
+		padding-bottom: 40px;
+	}
+
+}

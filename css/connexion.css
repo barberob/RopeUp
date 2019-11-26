@@ -1,0 +1,19 @@
+header
+{
+	background-image: none;
+	height: 114px;
+}
+
+body
+{
+	font-family: "DINPro_Bold";
+}
+
+section h1
+{
+	font-size: 32px;
+	color: #FF7D00;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 100px 0px;
+}

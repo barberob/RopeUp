@@ -1,0 +1,63 @@
+header {
+	background-image: none;
+}
+
+
+body {
+	line-height:1.3;
+	letter-spacing:0.01px;
+}
+
+#wrappostform {
+	background-color: white;
+	padding: 0 00px;
+}
+
+#redirection {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+h3#counter {
+	font-size: 20px;
+	font-family: "DINPro_Bold";
+	text-align: center;
+	text-transform: uppercase;
+	color: #FF7D00;
+	padding-left: 3px;
+	padding-right: 3px;
+}
+
+h3.form {
+	font-size: 20px;
+	font-family: "DINPro_Bold";
+	text-align: center;
+	color: black;
+}
+
+h3#boutonform {
+	padding-top: 22px;
+	font-size: 20px;
+	font-family: "DINPro_Bold";
+	text-align: center;
+	color: black;
+}
+#bouton {
+	display: flex;
+	justify-content: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+span#home
+{
+	background-color: #FF7D00;
+	color: white;
+	padding: 5px 20px;
+	border-radius: 22px;
+	justify-content: center;
+}
+
+a {
+	text-decoration: none;
+}
