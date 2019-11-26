@@ -2,18 +2,20 @@ header
 {
 	background-image: none;
 	background-color: ghostwhite;
+	height: 114px;
 }
 
 body
 {
 	background-color: ghostwhite;
+	font-family: "DINPro_Bold";
 }
 
 div.vice
 {
 	max-width:1440px;
 	width:100%;
-	padding:0 40px;
+	padding: 40px 0;
 	margin-left: auto;
 	margin-right: auto;
 	box-sizing: border-box;
@@ -22,7 +24,7 @@ div.vice
 
 div.vice h1
 {
-	font-family: "DINPro_Bold";
+	
 	font-size: 32px;
 	color: #FF7D00;
 	text-align: center;

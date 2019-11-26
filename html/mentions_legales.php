@@ -19,7 +19,8 @@
 </head>
 <body>
 
-	<?php include("header_menu.php") ?>
+		<?php include("header_menu.php") ?>
+	</header>
 
 	<div class="vice">
 
