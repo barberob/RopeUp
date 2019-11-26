@@ -79,7 +79,8 @@
 					</div>
 					<p>Responsable<br/>Clients</p>
 				</div>
-
+			</div>
+			<div> <!-- Container -->
 				<div> <!-- Content -->
 					<img src="../images/membres/membre1.png" class="member" alt="Photo membre">
 					<div>
