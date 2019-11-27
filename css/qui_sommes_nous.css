@@ -1,3 +1,9 @@
+body
+{ 
+  line-height: 1.3;
+  letter-spacing: 0.01px;
+}
+
 .wrap_qsn
 {
   width: 70%;
@@ -186,7 +192,6 @@ section:nth-of-type(3) .wrap_qsn >div >div:nth-of-type(2) >div li
   font-family: 'DINPro_Regular';
   font-size: 17px;
   margin-bottom: 15px;
-  line-height: 1.3;
 }
 
 section:nth-of-type(3) .wrap_qsn >div >div:nth-of-type(2) >div li:last-of-type
