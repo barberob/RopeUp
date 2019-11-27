@@ -62,4 +62,9 @@
 		width:150px;
 	}
 
+	div.header_menu div.wrap
+	{
+		padding: 10px 40px;
+	}
+
 }
