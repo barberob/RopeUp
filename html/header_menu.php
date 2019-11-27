@@ -4,7 +4,7 @@
       <div class="wrap">
         <div class="div_cross_logo">
           <a href="index.php"><img src="../images/logo_ropeup.svg" alt="Logo Rope Up"></a>
-          <a class="cross" href="#"><img src="../images/cross.png" alt="croix"></a>
+          <img class="cross" src="../images/cross.png" alt="croix">
         </div>
         <nav>
           <ul>
@@ -48,11 +48,11 @@
 				<a href="connexion.php"><span>Connexion</span></a>
 			</nav>	
 
-			<a class="menu" href="#">
+			<div class="menu" href="#">
 					<span></span>
 					<span></span>
 					<span></span>
-			</a>
+			</div>
 			
 		</div>
 	</div>
