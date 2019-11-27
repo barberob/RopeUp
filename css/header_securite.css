@@ -19,13 +19,7 @@ section
 
 div.vice
 {
-	max-width:1440px;
-	width:100%;
-	padding: 40px 0;
-	margin-left: auto;
-	margin-right: auto;
-	box-sizing: border-box;
-
+	padding: 40px 0
 }
 
 div.vice h1
