@@ -61,7 +61,7 @@ form >div:nth-of-type(1)
 	justify-content: space-between;
 }
 
-input[type="text"]
+form input[type="text"]
 {
 	width: 40%;
 }
@@ -69,88 +69,68 @@ input[type="text"]
 input[type="email"]
 {
 	margin: 20px 0;
-	/*width: 100%;*/
+	width: calc(100% - 60px);
 }
 
-section .wrap_contact >div:nth-of-type(2) >div:nth-of-type(2)
+form >div:nth-of-type(2)
 {
 	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	margin-left: 30px;
 }
 
-/*.checkboxes_container
-{
-	
-}
-
-.checkboxes_container input
+form >div:nth-of-type(2) input[type="checkbox"]
 {
 	border-radius: 0;
 	border: none;
 	height: 20px;
 	width: 20px;
-	margin-left: 70px;
+	margin-left: 60px;
+	cursor: pointer;
 }
 
-.checkboxes_container p
+form >div:nth-of-type(2) p
 {
 	font-family: 'DINPro_Medium';
 	font-size: 25px;
-	margin-left: 20px;
 	color: white;
+	margin-left: 20px;
 }
 
-.checkboxes_container p:first-of-type
-{
-	margin-right: 25px;
-	font-family: 'DINPro_Light';
-	font-weight: bolder;
-}
-
-
-input.message
+form textarea
 {
 	height: 200px;
-	width: calc(100% - 65px);
-	margin-bottom: 40px;
-	padding-left: 65px;
+	margin-top: 20px;
+	border-radius: 10px;
+	border: none;	
+	font-family: 'DINPro_Regular';
+	color: #FF7D00;
+	font-size: 17px;
+	padding: 15px 30px;
+	width: calc(100% - 60px);
 }
 
+form textarea::placeholder
+{
+	color:#FF7D00;
+}
 
-
-.submit_button
+form input[type="submit"]
 {
 	border-radius: 50px;
-	width: 400px;
-	height: 95px;
 	background: #FF7D00;
 	color: white;
-	font-size: 40px;
+	font-size: 16px;
 	font-family:'DINPro_Bold';
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	margin-bottom: 40px;
-	margin-right: auto;
-	margin-left: auto;
+	margin-left: 50%;
+	transform: translateX(-50%);
+	width: 200px;
+	margin-top: 30px;
+	cursor: pointer;
 }
 
-.submit_input
-{
-	border-radius: 50px;
-	display: flex;
-	justify-content: center;
-	margin-bottom: 40px;
-	margin-right: auto;
-	margin-left: auto;
-	width: 300px;
-	height: 95px;
-	background: #FF7D00;
-	color: white;
-	font-size: 30px;
-	font-family:'DINPro_Bold';
-	padding: 0 0;
-	text-decoration: none;
-}
+/*
 
 .submit_input::value
 {

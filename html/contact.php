@@ -45,28 +45,29 @@
 
 			<div>
 				<form action="mail.php" method="post">
-					<!-- <?php
+
+				<?php
 						require_once('recaptcha/autoload.php');
 
 						if (isset($_POST['submitpost'])) {
-							if (isset($_POST['g-recaptcha-response'])) {
-								$recaptcha = new \ReCaptcha\ReCaptcha('6LdCL8MUAAAAAHH-ZwQNzjTvb9GG_Q4gvOj-O3Cn');
-								$resp = $recaptcha->setExpectedHostname('recaptcha-demo.appspot.com')->verify($_POST['g-recaptcha-response']);
-								if ($resp->isSuccess()) {
+						if (isset($_POST['g-recaptcha-response'])) {
+							$recaptcha = new \ReCaptcha\ReCaptcha('6LdCL8MUAAAAAHH-ZwQNzjTvb9GG_Q4gvOj-O3Cn');
+							$resp = $recaptcha->setExpectedHostname('recaptcha-demo.appspot.com')->verify($_POST['g-recaptcha-response']);
+							if ($resp->isSuccess()) {
 									// Verified!
-									var_dump('Valide');
-								} else {
-									$errors = $resp->getErrorCodes();
-									var_dump('Invalide');
-									var_dump($errors);
-								}
+								var_dump('Valide');
+							} else {
+								$errors = $resp->getErrorCodes();
+								var_dump('Invalide');
+								var_dump($errors);
+							}
 										
 							}
-							else {
-								var_dump('Captcha non rempli');
+						else {
+							var_dump('Captcha non rempli');
 							}	
 						}
-					?> -->
+					?>
 
 					<div>
 						<input type="text" name="nom" placeholder="Nom Prénom">
@@ -77,14 +78,17 @@
 
 					<div>
 						<p>Pack :</p>
-						<input type="checkbox" name=""> <p>Communication</p>
-						<input type="checkbox" name=""> <p>Gestion</p>
+						<input type="checkbox" name="">
+						<p>Communication</p>
+						<input type="checkbox" name="">
+						<p>Gestion</p>
 					</div>
-
-					<input type="text" name="message" placeholder="Votre message">
+					
+					<textarea placeholder="Votre message"></textarea>
+					<!-- <input type="textarea" wrap="true" name="message" placeholder="Votre message"> -->
 <!-- 					<div class="g-recaptcha" data-sitekey="6LdCL8MUAAAAAHG2wXoyotuvSb6ApfYfVfeBsxsb"></div>
 					<br> -->
-					<a href="post-form.php"><input type="submit" name="submitpost" value="Envoyer"></a>
+					<input type="submit" name="submitpost" value="Envoyer">
 				</form>	
 			</div>		
 		</div>
