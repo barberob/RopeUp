@@ -22,7 +22,7 @@
 	<!-- Header -->
 	<?php include("header_menu.php") ?>
 		<div class="img_container">
-			<span>Application de Communication et de Gestion des professionnels indépendants</span>
+			<span>L’application de gestion et de communication des professionnels indépendants</span>
 		</div>
 	</header>
 	
@@ -30,9 +30,8 @@
 	<section>
 		<h2>QU'EST CE QUE ROPE UP ?</h2>
 		<div class="wrap_index">
-			<p>Rope Up ! est une application web accessible en ligne qui aide dans toute la gestion commerciale et administrative des professionnels indépendants. 
-			C'est un support pour renforcer vos liens avec vos prospects, vos clients et vos partenaires mais c'est aussi une aide efficace pour structurer votre activité et répondre sans soucis aux exigences de l'administration.
-			Le terrain c’est vous, l’informatique c’est nous ! Bienvenue chez Rope Up !
+			<p>Rope Up ! est une application web accessible en ligne qui aide les professionnels indépendants dans leur gestion commerciale et administrative.
+			C'est un support qui renforce leurs liens avec leurs prospects, leurs clients et leurs partenaires mais c'est aussi une aide efficace pour structurer leur activité et répondre sans soucis aux exigences de l'administration. Qu’ils soient au régime de micro entrepreneur ou au régime réel d'imposition, l’application est faite pour eux. <br>Bienvenue chez Rope Up ! 
 			</p>
 			<img src="../images/cabane_ropeup.svg" alt="Logo RopeUp">
 		</div>
