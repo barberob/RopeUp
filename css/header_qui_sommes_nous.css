@@ -2,6 +2,7 @@ header
 {
 	background-image: url(../images/skieur.png);
 	background-size: cover;
+	background-position: center;
 }
 
 header h1
