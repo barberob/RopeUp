@@ -452,10 +452,23 @@ section#tarifs div.list_container *
 {
 	color: #000;
 	text-align: left;
-	font-family: 'DINPro_Regular';
-
+	font-size: 17px;
+	font-family: 'DINPro_Light';
+	
 }
-section#tarifs div.list_container p:nth-of-type(1)
+
+
+section#tarifs div.list_container li
+{
+	margin-left: 20px;
+}
+
+
+section#tarifs div.list_container p
+{
+	margin-bottom: 20px;
+}
+/*section#tarifs div.list_container p:nth-of-type(1)
 {
 	margin-bottom: 5em;
 	font-size: 17px;
@@ -466,7 +479,7 @@ section#tarifs div.list_container p:nth-of-type(2)
 {
 	margin-bottom: 25px;
 	margin-top: 40px;
-}
+}*/
 a.submit_button
 {
 	border-radius: 50px;
