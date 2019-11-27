@@ -84,4 +84,9 @@
 		line-height: 40px;
 	}
 
+	div.header_menu div.wrap
+	{
+		padding: 10px 40px;
+	}
+
 }
