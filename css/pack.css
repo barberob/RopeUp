@@ -38,7 +38,7 @@ h2
 
 section#presentation div.wrap div
 {
-	font-family: "DINPro_Light";
+	font-family: "DINPro_Regular";
 	font-size: 20px;
 	margin-left: auto;
 	margin-right: auto;
@@ -248,15 +248,16 @@ section#fonctionnalités .level_0
 	font-size: 22px;
 	list-style-type: decimal;
 	color:#019EC0;
-	margin-bottom: 25px;
+	margin-bottom: 25px;	
+	margin-top: 45px;
 }
 section#fonctionnalités ul.level_2 li
 {
 	font-family: 'DINPro_Light';
 	font-size: 18px;
 	margin-left: 20px;
-	margin-top: 15px;
-	list-style-type: circle; 
+	margin-top: 25px;
+	list-style-type: none; 
 }
 section#fonctionnalités ul li 
 {
@@ -276,6 +277,7 @@ section#fonctionnalités ol>li+p
 	font-family: 'DINPro_Medium';
 	font-size: 18px;
 	margin-bottom: 30px;
+
 }
 section#fonctionnalités ol>li+ul, ol p+ul
 {
@@ -314,7 +316,7 @@ section#pack_vente div h2
 section#pack_vente p
 {
 	color: #000;
-	font-family: 'DINPro_Light';
+	font-family: 'DINPro_Regular';
 	font-size: 22px;
 	padding-bottom: 80px;
 	text-align: center;
@@ -450,12 +452,21 @@ section#tarifs div.list_container *
 {
 	color: #000;
 	text-align: left;
+	font-family: 'DINPro_Regular';
+
 }
-section#tarifs div.list_container p:first-of-type
+section#tarifs div.list_container p:nth-of-type(1)
 {
 	margin-bottom: 5em;
+	font-size: 17px;
+	font-family: 'DINPro_Light';
 }
 
+section#tarifs div.list_container p:nth-of-type(2)
+{
+	margin-bottom: 25px;
+	margin-top: 40px;
+}
 a.submit_button
 {
 	border-radius: 50px;
@@ -609,59 +620,3 @@ div.swiper-slide p.comment
 	border-radius: 50%;
 	top: 13%;
 }
-
-
- /*
-
-section#tarifs div.swiper-slide div
-{
-	width: 100%;
-	text-align: center;
-}
-
-
-
-section#tarifs div.swiper-slide:nth-of-type(3) p:last-of-type
-{
-	margin-bottom: 0;
-}
-
-section#tarifs div.swiper-slide div.colored
-{
-	background-color: #007B96;
-	color: white;
-}
-section#tarifs div.swiper-slide:nth-of-type(1) p
-{
-	font-family: 'DINPro_Light';
-	font-size: 20px;
-}
-*/
-/*section#tarifs h5
-{
-	font-family: 'DINPro_Bold';
-	font-size: 30px;
-	margin-bottom: 40px;
-}
-
-section#tarifs h4
-{
-	font-family: 'DINPro_Medium';
-	font-size: 25px;
-	margin-bottom: 15px;
-}
-
-
-
-section#tarifs p+p
-{
-	font-family: 'DINPro_Light';
-	font-size: 12px;
-	margin-bottom: 40px;
-}
-
-section#tarifs a
-{
-	text-decoration: none;
-}
-*/
