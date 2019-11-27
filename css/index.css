@@ -144,7 +144,7 @@ section:nth-of-type(3) #slider > div img
 section:nth-of-type(3) #slider > div a
 {
   display: none;
-  font-family: 'DINPro_Medium';
+  font-family: 'DINPro_Bold';
   font-size: 40px;
   color: #FF7D00;
   position: absolute;
