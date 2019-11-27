@@ -68,11 +68,8 @@
 		font-size: 18px;
 	}
 
-	section#pack_vente >div
-	{
-		transform: translateY(0%);
-		max-width: 100%;
-	}*/
+	*/
+	
 
 	div.flex_container + p
 	{
@@ -129,6 +126,11 @@
 	section#pack_vente >div
 	{
 		max-width: 100%;
+		margin-bottom: 10px;
+	}
+	section#pack_vente >div 
+	{
+		margin: 0;
 	}
 
 
@@ -211,6 +213,11 @@
 	{
 		width :115px;
 		height: 115px;	
+	}
+
+	section#tarifs div.container
+	{
+		margin-bottom: 0;
 	}
 
 
