@@ -1,68 +1,85 @@
+/*General*/
 body{
 	letter-spacing: 0.01px;
 	line-height: 1.3;
 }
 
-div.explanation
-{
-	font-family: 'DINPro_Light';
-	font-size: 30px;
-	max-width: 1150px;
-	margin-top: 120px;
-	margin-bottom: 130px;
-	margin-right: auto;
-	margin-left: auto;
+.wrap_contact {
+	width: 70%;
+	margin: 0 auto;
 }
 
-
-div.form_container 
-{
-	background-color: #333333;
-	display: flex;
-	flex-direction: column;
-	flex-wrap: wrap;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 240px ;
-	padding: 0 50px;
-	width: 1050px;
-}
-
-
-form input
-{
-	border-radius: 10px;
-	border: none;
-	height: 50px;
-	margin-top: 30px;
-	width: 435px;	
-	padding-left: 20px;
-	font-family: 'DINPro_Regular';
-	color: #FF7D00,
-}
-
-form a 
-{
+a {
 	text-decoration: none;
 }
 
-form div:first-of-type
+/*Section*/
+section
+{
+
+}
+
+section .wrap_contact >div:nth-of-type(1) >p
+{
+	font-family: 'DINPro_Light';
+	font-size: 20px;
+	margin: 100px 0;
+	text-align: center;
+}
+
+section .wrap_contact >div:nth-of-type(2)
+{
+	background-color: #333333;
+	margin: 0 auto 160px auto;
+	padding: 50px;
+	/*width: 100%;*/
+}
+
+input
+{
+	border-radius: 10px;
+	border: none;	
+	font-family: 'DINPro_Regular';
+	color: #FF7D00;
+	font-size: 17px;
+	padding: 15px 30px;
+}
+
+input::placeholder
+{
+	color:#FF7D00;
+}
+
+form
+{
+	/*width: 100%;*/
+}
+
+form >div:nth-of-type(1)
 {
 	display: flex;
 	justify-content: space-between;
 }
 
-.third_input
+input[type="text"]
 {
-	width: calc(100% - 65px);
-
+	width: 40%;
 }
 
-.checkboxes_container
+input[type="email"]
+{
+	margin: 20px 0;
+	/*width: 100%;*/
+}
+
+section .wrap_contact >div:nth-of-type(2) >div:nth-of-type(2)
 {
 	display: flex;
-	align-items: baseline;
-	justify-content: flex-start;
+}
+
+/*.checkboxes_container
+{
+	
 }
 
 .checkboxes_container input
@@ -98,12 +115,7 @@ input.message
 	padding-left: 65px;
 }
 
-input::placeholder
-{
-	color:#FF7D00;
-	font-family: 'DINPro_Regular';
-	font-size: 20px;
-}
+
 
 .submit_button
 {
@@ -153,4 +165,4 @@ input::placeholder
 	margin-right: auto;
 	margin-left: auto;
 	margin-bottom: 40px;
-}
+}*/
