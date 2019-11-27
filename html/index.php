@@ -83,7 +83,7 @@
 			<div>
 				<a href="https://www.bpaura.banquepopulaire.fr/portailinternet/Pages/default.aspx" target="_blank"><img src="../images/partenaires/logo_banque_populaire.png" alt="Logo Banque populaire"></a>
 				<a href="https://www.initiative-grand-annecy.fr" target="_blank"><img src="../images/partenaires/logo_initiative.png" alt="Logo Initiative"></a>
-				<a href="https://lafrenchtech.com/fr/" target="_blank"><img src="../images/partenaires/logo_french_fab.png" alt="Logo La French Fab"></a>
+				<a href="https://lafrenchtech.com/fr/" target="_blank"><img src="../images/partenaires/logo_french_tech.jpg" alt="Logo La French Tech"></a>
 				<a href="http://inovizi.com" target="_blank"><img src="../images/partenaires/logo_inovizi.png" alt="Logo Inovizi"></a>
 				<a href="https://www.auvergnerhonealpes.fr" target="_blank"><img src="../images/partenaires/logo_auvergne_rhone_alpes.png" alt="Logo Region Auvergne Rhône Alpes"></a>
 				<a href="http://greta-viva5.org" target="_blank"><img src="../images/partenaires/logo_greta.png" alt="Logo Greta"></a>
@@ -102,6 +102,7 @@
 	<?php include 'footer.php'; ?>
 
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<script type="text/javascript" src="../js/index.js"></script>
 	<script type="text/javascript" src="../js/menu.js"></script>
 </body>
 </html>
