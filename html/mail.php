@@ -5,7 +5,8 @@
 
 	$recipient = 'domusaruon@gmail.com'; //antoine@ropeup.fr
 	
-    $retour = mail($recipient, 'Envoi depuis Contact', $_POST['message'], 'From: '.$_POST['email']);
+    $retour = mail($recipient, 'Envoi depuis Contact', 'Nom: '.$['nom'].'Message: '.$_POST['message'], 'From: '.$_POST['mail']);
+    
     if ($retour) {
         echo '<p>Votre message a bien été envoyé.</p>';
     }
