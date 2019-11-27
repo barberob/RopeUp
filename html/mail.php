@@ -12,7 +12,7 @@
     }
     else
     {
-    	echo '<p>Erreur</p>'
+    	echo '<p>Erreur</p>';
     }
 
     //phpinfo();
