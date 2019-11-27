@@ -21,7 +21,7 @@
 		<!-- inclure menu -->
 		<?php include("header_menu.php") ?>
 		<div class="img_container">
-			<h1>contact</h1>
+			<h1 id="form">contact</h1>
 		</div>
 	</header>
 

@@ -525,7 +525,7 @@
 
 			</div>
 
-			<a href="contact.php" class="submit_button">
+			<a href="contact.php#formulaire" class="submit_button">
 
 				S'abonner
 			</a>
