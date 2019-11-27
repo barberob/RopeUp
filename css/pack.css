@@ -44,7 +44,13 @@ section#presentation div.wrap div
 	margin-right: auto;
 	width: 100%;
 	margin-top: 70px;
+}
 
+
+section#presentation p 
+
+{
+	margin-bottom: 15px;
 }
 
  /*///////////////////////////////////////////////////////////////////////*/
@@ -100,6 +106,9 @@ div.management
 	cursor: pointer;
 	transition-duration: 0.1s;
 	width: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 div.communication
 {
@@ -107,6 +116,9 @@ div.communication
 	cursor: pointer;
 	transition-duration: 0.1s;
 	width: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 div.management.green
@@ -135,6 +147,7 @@ div.management h3,div.communication h3
 	text-align: center;
 	user-select: none;
 	cursor: pointer;
+
 }
 
 
@@ -286,7 +299,7 @@ section#pack_vente >div
 	box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.4);
 	margin-bottom: 200px;
 	transform: translateY(-50%);
-	max-width: 1240px;
+	max-width: 70% ;
 	margin-left:auto;
 	margin-right: auto;
 }
@@ -299,33 +312,13 @@ section#pack_vente div h2
 }
 
 
-section#pack_vente h2+div
-{
-	align-items: center;
-	display: flex;
-	justify-content: space-between;
-	padding: 0 100px;
-}
-
-section#pack_vente h4
-{
-	color: #019EC0;
-	font-family: 'DINPro_Medium';
-	font-size: 26px;
-	margin-bottom: 45px;
-}
-
 section#pack_vente p
 {
 	color: #000;
 	font-family: 'DINPro_Light';
 	font-size: 22px;
-	margin-bottom: 80px;
-}
-
-section#pack_vente div div div div
-{
-	max-width: calc(50% - 35px);
+	padding-bottom: 80px;
+	text-align: center;
 }
 
 
@@ -340,6 +333,19 @@ section#pack_vente div div div div
  /*///////////////////////////////////////////////////////////////////////*/
  /*///////////////////////////////// TARIFS //////////////////////////////////////*/
 
+ section#tarifs p
+{
+	color: #000;
+	font-family: 'DINPro_Light';
+	font-size: 22px;
+	margin-top: 80px;
+	text-align: center;
+}
+section#tarifs p a
+{
+	color: #000;
+	text-decoration: underline;
+}
 
 /*section#tarifs h2
 {
@@ -511,14 +517,7 @@ a.submit_button.green
 .swiper-container 
 {
     width: 100%;
-    
 }
-
-.swiper-wrapper
-{
-	justify-content: center;
-}
-
 
 
 .swiper-container div.swiper-slide div.content_container
@@ -596,24 +595,15 @@ div.swiper-slide p.comment
 	margin-bottom: 15px;
 }
 
-.swiper-button-prev 
+.swiper-button-prev,
+.swiper-button-next 
 {
 	background-color: #f1f1f1;
 	color: #019EC0;
 	width: 80px;
 	height: 80px;
 	border-radius: 50%;
-	top: 25%;
-}
-
-.swiper-button-next 
-{
-  	background-color: #f1f1f1;
-  	color: #019EC0;
-	width: 80px;
-	height: 80px;
-	border-radius: 50%;
-	top: 25%;
+	top: 13%;
 }
 
 

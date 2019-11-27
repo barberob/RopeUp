@@ -9,11 +9,12 @@
 
 	<link rel="stylesheet" type="text/css" href="../css/libs/reset.css">
 	<link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.css">
+	<link rel="stylesheet" type="text/css" href="../css/fonts.css">
 	<link rel="stylesheet" type="text/css" href="../css/header_principal.css">
 	<link rel="stylesheet" type="text/css" href="../css/header_outdoor.css">
 	<link rel="stylesheet" type="text/css" href="../css/pack.css">
 	<link rel="stylesheet" type="text/css" href="../css/footer.css">
-	<link rel="stylesheet" type="text/css" href="../css/fonts.css">
+	
 	<link rel="stylesheet" type="text/css" href="../css/header_categories_responsive.css">
 	<link rel="stylesheet" type="text/css" href="../css/responsive_pack.css">
 	<link rel="stylesheet" type="text/css" href="../css/footer_responsive.css">
@@ -32,13 +33,16 @@
 			<h2>Ce que Rope Up vous propose</h2>
 
 			<div>
-				<p>Vous encadrez et proposez de l’enseignement dans le sport ? Vous êtes un professionnel indépendant ? Vous préférez passer du temps sur le terrain plutôt que de faire de l'administratif et de la communication ? Pour vous, et avec des guides de haute montagne, des accompagnateurs et des moniteurs, nous avons créé une application pour vous aider à structurer votre activité tout en vous apportant du confort.
-				<br/>
-				L'application Rope Up ! n'est pas une nouvelle plateforme d'intermédiation, c'est un progiciel de gestion complètement intégré et cohérent dans votre environnement. Elle respecte l'indépendance de l'indépendant en vous apportant un outil de gestion commerciale taillé sur mesure pour votre domaine d'activité. 
-				<br/>
-				Plus qu'un simple outil, c'est un service avec une équipe d'hommes et de femmes amoureuse de l’outdoor et du sport et dont l'objectif est de vous servir. Dans son domaine de prédilection, l’informatique, elle vous apportera le maximum de soutien dans votre quotidien professionnel.
-				<br/>
-				Pour vous simplifier la vie et vous éviter de perdre du temps, nous proposons des abonnements annuels à deux pack, à prendre ensemble ou séparément : un pack gestion et un pack communication.	
+				<p>
+					Vous encadrez et proposez de l’enseignement dans le sport ? Vous êtes un professionnel indépendant ? Vous préférez passer du temps sur le terrain plutôt que de faire de l'administratif et de la communication ? Pour vous, et avec des guides de haute montagne, des accompagnateurs et des moniteurs, nous avons créé une application pour vous aider à structurer votre activité tout en vous apportant du confort.
+				</p>
+				<p>
+					L'application Rope Up ! n'est pas une nouvelle plateforme d'intermédiation, c'est un progiciel de gestion complètement intégré et cohérent dans votre environnement. Elle respecte l'indépendance de l'indépendant en vous apportant un outil de gestion commerciale taillé sur mesure pour votre domaine d'activité. 
+				</p>
+				<p>
+					Plus qu'un simple outil, c'est un service avec une équipe d'hommes et de femmes amoureuse de l’outdoor et du sport et dont l'objectif est de vous servir. Dans son domaine de prédilection, l’informatique, elle vous apportera le maximum de soutien dans votre quotidien professionnel.
+				<p>
+					Pour vous simplifier la vie et vous éviter de perdre du temps, nous proposons des abonnements annuels à deux pack, à prendre ensemble ou séparément : un pack gestion et un pack communication.	
 				</p>
 			</div>
 		
@@ -303,48 +307,102 @@
 
 		
 		<section id="pack_vente">
-			<div class="wrap">	
-				<div>
-					<h2>pack additionnel vente</h2>
-					<div>
-						<div>
-							<h4>Quisque et lobortis sem.</h4>
-							<p>
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-								Nullam eget enim et turpis consequat commodo id sit 
-								amet purus. Quisque et lobortis sem. Phasellus in 
-								volutpat erat.
-							</p>
-						</div>
-
-
-						<div>
-							<h4>Nam faucibus cursus velit.</h4>
-							<p>
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-								Nullam eget enim et turpis consequat commodo id sit 
-								amet purus. Quisque et lobortis sem. Phasellus in 
-								volutpat erat. 
-							</p>
-						</div>
-					</div>
-					
-				</div>
-
-
-
-
+				
+			<div>
+				<h2>pack additionnel vente</h2>
+				<p>Pack à venir</p>	
 			</div>
+
 		</section>
 
 		<section id="ambassadeurs">
 
 			<div class="wrap">
-				<!-- Slider main container -->
+
+				<div class='swiper-container'>
+					 <div class="swiper-wrapper">
+
+			<?php
+
+				require_once('connexion_database.php');
+				$requete = "SELECT * FROM ambassadeurs_outdoor ORDER BY rand()";
+				$resultat = mysqli_query($CONNEXION,$requete);
+
+				if (!$resultat)
+				{
+					echo "Erreur dans l'exécution de la requête, message de MySQL : ", mysqli_error($CONNEXION);
+					exit();
+				}
+
+
+				$nombreLignes = mysqli_num_rows($resultat);
+				while ($ambassadeur = mysqli_fetch_assoc ($resultat))
+				{
+
+					echo " <div class='swiper-slide'>";
+
+					echo "<div class='content_container'>";
+
+					echo "<div class='image_container'>
+		        			<img src='../images/" . $ambassadeur['picture'] . ".jpg'>
+		        		  </div>";
+
+					echo "<p class='name'>" . $ambassadeur['firstname'] . ' ' . $ambassadeur['lastname'] ."</p>";
+
+					echo "<p class='work'>" . $ambassadeur['work'] . "</p>";
+
+					echo "<p class='city'>" . $ambassadeur['city'] . "</p>";
+
+					echo "<div class='quotes'>
+	        				<img src='../images/start_quote.png'>
+	        				<img src='../images/end_quote.png'>
+	        			</div>";
+
+	        		echo "<p class='comment'>" . $ambassadeur['comment'] . "</p>";
+
+	        		echo "<p class='mail'>" . $ambassadeur['email'] . "</p>";
+
+	        		echo "<p class='phone_number'>" . $ambassadeur['number'] . "</p>";
+
+	        		echo "</div>
+	        			</div>";
+
+				}
+
+				mysqli_close($CONNEXION);
+
+			?>
+
+
+					</div>
+
+					<div class="swiper-button-prev"></div>
+				    <div class="swiper-button-next"></div>
+				</div>
+
+			</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				<!-- Slider main container
 				<div class="swiper-container">
-				    <!-- Additional required wrapper -->
+				    Additional required wrapper
 				    <div class="swiper-wrapper">
-				        <!-- Slides -->
+				        Slides
 				        <div class="swiper-slide">
 				        	<div class="content_container">
 				        		<div class="image_container">
@@ -389,6 +447,66 @@
 				        	</div>
 				        </div>
 				        <div class="swiper-slide">
+				        	<div class="content_container">
+				        		<div class="image_container">
+				        			<img src="../images/portrait1.jpg">
+				        		</div>
+				        			<p class="name">André sovez</p>
+				        			<p class="work">Guide de Haute Montagne</p>
+				        			<p class="city">Chamonix</p>
+				        			<div class="quotes">
+				        				<img src="../images/start_quote.png">
+				        				<img src="../images/end_quote.png">
+				        			</div>
+					        			<p class="comment">
+					        				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione consectetur quam odit reiciendis, cum eum debitis voluptatum iusto, voluptate quibusdam, repudiandae asperiores. Hic architecto, ab blanditiis magni exercitationem numquam inventore.
+					        			</p>		
+				        		
+				        			<p class="mail">andre.sovez@gmail.com</p>
+				        			<p class="phone_number">08 65 45 65 45</p>
+				        	</div>
+				        </div>
+				         <div class="swiper-slide">
+				        	<div class="content_container">
+				        		<div class="image_container">
+				        			<img src="../images/portrait1.jpg">
+				        		</div>
+				        			<p class="name">André sovez</p>
+				        			<p class="work">Guide de Haute Montagne</p>
+				        			<p class="city">Chamonix</p>
+				        			<div class="quotes">
+				        				<img src="../images/start_quote.png">
+				        				<img src="../images/end_quote.png">
+				        			</div>
+					        			<p class="comment">
+					        				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione consectetur quam odit reiciendis, cum eum debitis voluptatum iusto, voluptate quibusdam, repudiandae asperiores. Hic architecto, ab blanditiis magni exercitationem numquam inventore.
+					        			</p>		
+				        		
+				        			<p class="mail">andre.sovez@gmail.com</p>
+				        			<p class="phone_number">08 65 45 65 45</p>
+				        	</div>
+				        </div>
+				         <div class="swiper-slide">
+				        	<div class="content_container">
+				        		<div class="image_container">
+				        			<img src="../images/portrait1.jpg">
+				        		</div>
+				        			<p class="name">André sovez</p>
+				        			<p class="work">Guide de Haute Montagne</p>
+				        			<p class="city">Chamonix</p>
+				        			<div class="quotes">
+				        				<img src="../images/start_quote.png">
+				        				<img src="../images/end_quote.png">
+				        			</div>
+					        			<p class="comment">
+					        				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione consectetur quam odit reiciendis, cum eum debitis voluptatum iusto, voluptate quibusdam, repudiandae asperiores. Hic architecto, ab blanditiis magni exercitationem numquam inventore.
+					        			</p>		
+				        		
+				        			<p class="mail">andre.sovez@gmail.com</p>
+				        			<p class="phone_number">08 65 45 65 45</p>
+				        	</div>
+				        </div>
+				         <div class="swiper-slide">
 				        	<div class="content_container">
 				        		<div class="image_container">
 				        			<img src="../images/portrait1.jpg">
@@ -411,14 +529,14 @@
 				     
 				    </div>
 
-				    <!-- If we need navigation buttons -->
+				
+
+				    If we need navigation buttons
 				    <div class="swiper-button-prev"></div>
 				    <div class="swiper-button-next"></div>
 
-				</div>
+				</div> -->
 				
-				
-			</div>
 		</section>
 
 
@@ -432,7 +550,9 @@
 				
 				<h2>tarifs</h2>
 
-				<div>
+				<p>Veuillez cliquer sur le lien pour consulter les tarifs sur <a href="#" target="_blank">ce document PDF</a></p>
+
+				<!-- <div>
 					<div>
 						<h5>
 							Société
@@ -511,7 +631,7 @@
 						
 					</div>
 				</div>
-
+ -->
 			</div>
 
 			<a href="contact.php" class="submit_button">
@@ -538,6 +658,32 @@
 
 	<script type="text/javascript" src="../js/libs/jquery.js"></script>
 	<script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+
+	<script>
+    var swiper = new Swiper('.swiper-container', {
+      spaceBetween: 10,
+      loop: true,
+      grabCursor: true,
+
+
+       navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+   	 },
+      breakpoints: {
+
+      	 100: {
+          slidesPerView: 1,
+          spaceBetween: 0,
+        },
+        980: {
+          slidesPerView: 2,
+          spaceBetween: 50,
+        },
+     
+      }
+    });
+  </script>
 	<script type="text/javascript" src="../js/pack.js"></script>
 	<script type="text/javascript" src="../js/menu.js"></script>
 

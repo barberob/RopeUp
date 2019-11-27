@@ -1,30 +1,44 @@
+@media all and (max-width: 1200px){
+
+	section div.secteurs
+	{
+		margin: 0 100px 100px 100px;
+	}
+
+}
+
+
 @media all and (max-width: 1024px){
 
-	
+	section div.secteurs
+	{
+		margin: 0 100px 100px 100px;
+	}
+
 }
 
 @media all and (max-width: 980px){
-
-	div.secteurs a:first-of-type
+	
+	section div.secteurs
 	{
-		margin-right: 0;
-	}
-
-		section div.secteurs
-	{
-		font-family: "DINPro_Black";
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		margin-bottom: 100px;
-		flex-wrap: wrap;
+		margin: 0 0 100px 0;
 	}
 
 }
 
 @media all and (max-width: 767px){
 
-	
+	section div.secteurs
+	{
+		margin: 0;
+	}
+
+	div.secteurs a
+	{
+		width: 240px;
+		height: 240px;
+		font-size: 28px;
+	}
 
 }
 

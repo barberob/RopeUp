@@ -127,6 +127,12 @@ section:nth-of-type(3) #slider > div
   height: 600px;
 }
 
+section:nth-of-type(3) #slider > div:hover >a
+{
+  display: block;
+  transition-duration: 1s;
+}
+
 section:nth-of-type(3) #slider > div img
 {
   height: 100%;
@@ -137,7 +143,6 @@ section:nth-of-type(3) #slider > div img
 section:nth-of-type(3) #slider > div a
 {
   display: none;
-  opacity: 0;
   font-family: 'DINPro_Medium';
   font-size: 40px;
   color: #FF7D00;
@@ -145,13 +150,6 @@ section:nth-of-type(3) #slider > div a
   top: 50%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
-}
-
-section:nth-of-type(3) #slider > div a.active
-{
-  display: block;
-  opacity: 1;
-  transition-duration: 1s;
 }
 
 section:nth-of-type(3) #slider > div:hover

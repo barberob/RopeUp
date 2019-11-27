@@ -15,7 +15,7 @@
 
 	section#pack_vente >div
 	{
-		max-width: calc(100% - 200px);
+		max-width:100%;
 	}
 
 
@@ -87,11 +87,106 @@
 	}
 
 
-	
+	div.management h3,div.communication h3
+	{
+		font-size: 22px;
+	}
+
+	div.background div.wrap, 
+	section#pack_vente div.wrap,
+	section#presentation div.wrap, 
+	section#tarifs div.wrap 
+	{
+		max-width: inherit;
+		width: 85%;
+	}
+
+	div.functionalities
+	{
+		margin-top: 60px;
+	}
 
 
 
 
+}
+
+
+@media all and (max-width: 570px)
+{
+	div.background div.wrap,
+	section#pack_vente div.wrap,
+	section#presentation div.wrap,
+	section#tarifs div.wrap
+
+	{
+		width: 95%;
+	}
+
+	div.management h3,div.communication h3
+	{
+		font-size: 17px;
+	}
+	div.management h3,div.communication h3
+	{
+		
+		margin: 20px
+	}
+
+	h2
+	{
+		font-size: 28px;
+	}
+	div.functionalities
+	{
+		margin-top: 35px;
+	}
+
+
+	.swiper-container div.swiper-slide div.image_container
+	{
+		width :130px;
+		height: 130px;	
+	}
+
+
+}
+
+@media all and (max-width: 450px)
+{
+	h2
+	{
+		font-size: 25px;
+	}
+
+	.swiper-button-next
+	{
+		right: 0;
+	}
+	.swiper-button-prev
+	{
+		left: 0;
+
+	}
+
+	.swiper-button-prev,
+	.swiper-button-next 
+	{
+		height: 40px;
+		width: 40px;
+	}
+
+	.swiper-button-prev::after,
+	.swiper-button-next::after
+	{
+		font-size: 25px;
+	}
+
+	.swiper-container div.swiper-slide div.image_container
+	{
+		width :115px;
+		height: 115px;	
+	}
 
 
 }

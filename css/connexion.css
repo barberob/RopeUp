@@ -10,7 +10,7 @@ section h1
 	color: #FF7D00;
 	text-align: center;
 	text-transform: uppercase;
-	margin: 100px 0px;
+	margin: 100px 0;
 	font-family: "DINPro_Bold";
 }
 
@@ -19,26 +19,29 @@ section div.secteurs
 	font-family: "DINPro_Black";
 	display: flex;
 	align-items: center;
+	justify-content: space-between;
+	margin: 0 250px 100px 250px;
+}
+
+div.secteurs a
+{
+	width: 350px;
+	height: 350px;
+	display: flex;
+	align-items: center;
 	justify-content: center;
-	margin-bottom: 100px;
-	flex-wrap: wrap;
+	font-size: 32px;
+	text-decoration: none;
+	color: white;
+	text-align: center;
 }
 
 div.secteurs a:first-of-type
 {
-	color: white;
 	background-color: #019EC0;
-	padding: 140px 60px;
-	font-size: 32px;
-	margin-right: 250px;
-	text-decoration: none;
 }
 
 div.secteurs a:last-of-type
 {
-	color: white;
 	background-color: #0CB300;
-	padding: 140px 60px;
-	font-size: 32px;
-	text-decoration: none;
 }
