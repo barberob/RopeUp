@@ -48,7 +48,7 @@
 				<a href="connexion.php"><span>Connexion</span></a>
 			</nav>	
 
-			<div class="menu" href="#">
+			<div class="menu">
 					<span></span>
 					<span></span>
 					<span></span>
