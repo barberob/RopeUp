@@ -48,7 +48,7 @@
 
 						<form action="mail.php" method="post">
 
-							<?php
+<!-- 							<?php
 								require_once('recaptcha/autoload.php');
 
 								if (isset($_POST['submitpost'])) {
@@ -71,13 +71,11 @@
 									}	
 								}
 
-							?>
+							?> -->
 
 							<div>
 								<input type="text" name="" placeholder="Nom Prénom">
-							</div>
 
-							<div>
 								<input type="text" name="" placeholder="Téléphone">			
 							</div>
 
@@ -98,8 +96,8 @@
 								<input class="message" type="text" name="message" placeholder="Votre message">
 							</div>
 
-							<div class="g-recaptcha" data-sitekey="6LdCL8MUAAAAAHG2wXoyotuvSb6ApfYfVfeBsxsb"></div>
-							<br>
+<!-- 							<div class="g-recaptcha" data-sitekey="6LdCL8MUAAAAAHG2wXoyotuvSb6ApfYfVfeBsxsb"></div>
+							<br> -->
 							<a href="post-form.php"><input type="submit" name="submitpost" value="Envoyer" class="submit_input"></a>
 
 						</form>

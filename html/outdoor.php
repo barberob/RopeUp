@@ -506,17 +506,17 @@
 						<li>Utilisation complète de Pack Gestion Solo avec compte limiré à 12 factures par mois pour chaque permanent (débrayable par l'adhésion d'un pack Gestion Solo)
 						</li>
 
-						<li>intéraction entre le compte Association et le Solo</li>
+						<li>Intéraction entre le compte Association et le Solo</li>
 					</ul>
 
 					<p>Depuis le compte Solo :</p>
 					<ul>
 						<li>
-							enregistrement des fiches d'honoraires éditées par l'association pour le suivi comptable du Solo
+							Enregistrement des fiches d'honoraires éditées par l'association pour le suivi comptable du Solo
 						</li>
 
 						<li>
-							gestion des indisponibilités partagées sur l'agenda de l'association
+							Gestion des indisponibilités partagées sur l'agenda de l'association
 						</li>
 					</ul>
 
@@ -525,7 +525,7 @@
 
 			</div>
 
-			<a href="contact.php" class="submit_button">
+			<a href="contact.php#formulaire" class="submit_button">
 
 				S'abonner
 			</a>
