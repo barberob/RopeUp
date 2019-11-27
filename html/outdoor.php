@@ -408,8 +408,16 @@
 						</h4>
 
 						<p>
-							500 € la première année, puis 3% du CA de l’année passée
-						</p>	
+							Devis sur demande
+						</p>
+
+						<h4>
+							Pack Communication :
+						</h4>
+
+						<p>
+							Devis sur demande
+						</p>
 					</div>
 
 
@@ -425,13 +433,11 @@
 						</h4>
 
 						<p>
-							500€ / an<br>
-							ou<br>
-							350€ / an *
+							42 € TTC par mois
 						</p>
 
 						<p>
-							* avant le 9/12/2019 ou toute l’année si l’adhérent est membre d’un syndicat partenaire Rope Up !	
+							ou 30 € TTC si vous êtes membre d'un de nos partenaires
 						</p>
 
 						<h4>
@@ -439,7 +445,7 @@
 						</h4>
 
 						<p>
-							500€ / an
+							42 € TTC par mois
 						</p>
 						
 					</div>
@@ -458,31 +464,64 @@
 						</h4>
 
 						<p>
-							500€ / an <br>
-							ou <br>
-							350€ / an *
+							67 € TTC par mois
 						</p>
 
 						<p>
-							* avant le 9/12/2019 ou toute l’année si l’adhérent est membre d’un syndicat partenaire Rope Up !
+							47 € par mois si la structure est membre d'un de nos partenaires
 						</p>
 
+						<h4>
+							Option association + *
+						</h4>
+
+						<p>
+							+10€ TTC par adhérent par an
+						</p>
+
+						<p>
+							5€ TTC par adhérent par an si la structure est membre de l'un de nos partenaires
+							
+						</p>
 						<h4>
 							Pack Communication :	
 						</h4>
 
 						<p>
-							800€ / an <br>
-							ou <br>
-							500€ / an *
+							Devis sur demande
 						</p>
 
-						<p>
-							* avant le 9/12/2019 ou toute l’année si l’adhérent est membre d’un syndicat partenaire Rope Up !
-						</p>
+
 						
 					</div>
 				</div>
+
+				<div class="list_container">
+					
+					<p>
+						* Création d'autant de Pack Gestion Solo que l'adhérent permanent de l'association
+					</p>
+
+					<ul>
+						<li>Utilisation complète de Pack Gestion Solo avec compte limiré à 12 factures par mois pour chaque permanent (débrayable par l'adhésion d'un pack Gestion Solo)
+						</li>
+
+						<li>intéraction entre le compte Association et le Solo</li>
+					</ul>
+
+					<p>Depuis le compte Solo :</p>
+					<ul>
+						<li>
+							enregistrement des fiches d'honoraires éditées par l'association pour le suivi comptable du Solo
+						</li>
+
+						<li>
+							gestion des indisponibilités partagées sur l'agenda de l'association
+						</li>
+					</ul>
+
+				</div>
+
 
 			</div>
 

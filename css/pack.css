@@ -66,7 +66,7 @@ span.triangle_down
 	border-top: 20px solid #007B96;
 	position: absolute;
 	left:25%;
-	z-index: 5;
+	z-index: 2;
 	transform:translateX(-50%);
 	transition-duration:0.5s;
 	transition-timing-function: ease-in-out;
@@ -338,7 +338,8 @@ section#pack_vente p
 	color: #000;
 	font-family: 'DINPro_Light';
 	font-size: 22px;
-	margin-top: 80px;
+	margin-top: 20px;
+	margin-bottom: 50px;
 	text-align: center;
 }
 section#tarifs p a
@@ -353,6 +354,7 @@ section#tarifs div.container
 	justify-content: space-between;
 	align-items: center;
 	margin-top: 100px;
+	margin-bottom: 100px;
 }
 
 section#tarifs div div div 
@@ -428,25 +430,27 @@ section#tarifs h4
 	margin-bottom: 15px;
 }
 
-
-section#tarifs h4+p
-{
-	font-family: 'DINPro_Regular';
-	font-size: 20px;
-	margin-bottom: 10px;
-}
-
-
 section#tarifs p+p
 {
 	font-family: 'DINPro_Light';
-	font-size: 12px;
+	font-size: 15px;
 	margin-bottom: 40px;
 }
 
 section#tarifs a
 {
 	text-decoration: none;
+}
+
+section#tarifs div.list_container li
+{
+	color: #000;
+}
+
+section#tarifs div.list_container *
+{
+	color: #000;
+	text-align: left;
 }
 
 
@@ -658,7 +662,7 @@ section#tarifs div.swiper-slide:nth-of-type(1) p
 	font-size: 20px;
 }
 */
-section#tarifs h5
+/*section#tarifs h5
 {
 	font-family: 'DINPro_Bold';
 	font-size: 30px;
@@ -673,13 +677,6 @@ section#tarifs h4
 }
 
 
-section#tarifs h4+p
-{
-	font-family: 'DINPro_Regular';
-	font-size: 20px;
-	margin-bottom: 10px;
-}
-
 
 section#tarifs p+p
 {
@@ -692,3 +689,4 @@ section#tarifs a
 {
 	text-decoration: none;
 }
+*/
