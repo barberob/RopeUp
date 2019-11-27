@@ -13,7 +13,7 @@ body
 
 div.vice
 {
-	margin: 40px 0;
+	margin: 50px 50px;
 
 }
 
@@ -34,7 +34,8 @@ div.vice p
 	color: gray;
 }
 
-div.vice p:last-of-type{
+div.vice p:last-of-type
+{
 	padding-bottom: 100px;
 }
 

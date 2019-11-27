@@ -21,7 +21,7 @@ div.header_menu
 	background-color: #FFF;
 	position: fixed;
 	width: 100%;
-	z-index: 20;
+	z-index: 3;
 }
 
 nav a
@@ -173,7 +173,7 @@ div.menu_page
 	flex-direction:column;
 	position: fixed;
 	transform: translateX(-100%);
-	transition-duration: 1s;
+	transition-duration: .4s;
 	overflow: hidden;
 	background-color: #FFF;
 
@@ -202,7 +202,7 @@ div.menu_page nav
 div.menu_page.active
 {
 	transform: translateX(0%);
-	transition-duration: 1s;
+	transition-duration: .4s;
 }
 
 div.menu_page ul li:first-of-type

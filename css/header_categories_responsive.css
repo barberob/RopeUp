@@ -52,6 +52,11 @@
 		font-size: 45px;
 		width: 90%;
 	}
+	
+	header
+	{
+		background-position: center top;
+	}
 
 }
 
