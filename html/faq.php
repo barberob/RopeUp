@@ -19,7 +19,8 @@
 </head>
 
 <!-- Header -->
-<?php include("header_menu.php") ?>
+	<?php include("header_menu.php") ?>
+</header>
 <section>
 
 
