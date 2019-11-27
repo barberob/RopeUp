@@ -75,9 +75,9 @@
 
 							<div>
 								<input type="text" name="" placeholder="Nom Prénom">
-							</div>
+							
 
-							<div>
+							
 								<input type="text" name="" placeholder="Téléphone">			
 							</div>
 
