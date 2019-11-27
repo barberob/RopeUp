@@ -1,26 +1,26 @@
 @font-face 
 {
 	font-family: "DINPro_Medium";
-	src: url('../fonts/DINPro-Medium tr.woff');
+	src: url('../fonts/dinpromedium.woff');
 }
 @font-face 
 {
 	font-family: "DINPro_Regular";
-	src: url('../fonts/DINPro-Regular tr.woff');
+	src: url('../fonts/dinproregular.woff');
 }
 @font-face 
 {
 	font-family: "DINPro_Light";
-	src: url('../fonts/DINPro-Light tr.woff');
+	src: url('../fonts/dinprolight.woff');
 }
 @font-face 
 {
 	font-family: "DINPro_Bold";
-	src: url('../fonts/DINPro-Bold tr.woff');
+	src: url('../fonts/dinprobold.woff');
 }
 
 @font-face 
 {
 	font-family: "DINPro_Black";
-	src: url('../fonts/DINPro-Black tr.woff');
+	src: url('../fonts/dinproblack.woff');
 }
