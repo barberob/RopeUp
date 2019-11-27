@@ -79,7 +79,7 @@ div.img_container
 	height: 100%;
 }
 
-a.menu
+div.menu
 {
 	display: none;
 	
@@ -208,6 +208,11 @@ div.menu_page.active
 div.menu_page ul li:first-of-type
 {
 	margin-bottom: 100px;
+}
+
+img.cross
+{
+	cursor: pointer;
 }
 
 

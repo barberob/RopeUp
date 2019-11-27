@@ -23,7 +23,7 @@
 <body> 
 	<!--inclure header -->
 		<?php include("header_menu.php") ?>
-		<div class="img_container">
+		<div class="img_container header_outdoor">
 			<h1>Outdoor</h1>
 		</div>
 	</header>
@@ -381,161 +381,6 @@
 				</div>
 
 			</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-				<!-- Slider main container
-				<div class="swiper-container">
-				    Additional required wrapper
-				    <div class="swiper-wrapper">
-				        Slides
-				        <div class="swiper-slide">
-				        	<div class="content_container">
-				        		<div class="image_container">
-				        			<img src="../images/portrait1.jpg">
-				        		</div>
-				        			<p class="name">André sovez</p>
-				        			<p class="work">Guide de Haute Montagne</p>
-				        			<p class="city">Chamonix</p>
-				        			<div class="quotes">
-				        				<img src="../images/start_quote.png">
-				        				<img src="../images/end_quote.png">
-				        			</div>
-					        			<p class="comment">
-					        				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione consectetur quam odit reiciendis, cum eum debitis voluptatum iusto, voluptate quibusdam, repudiandae asperiores. Hic architecto, ab blanditiis magni exercitationem numquam inventore.
-					        			</p>		
-				        		
-				        			<p class="mail">andre.sovez@gmail.com</p>
-				        			<p class="phone_number">08 65 45 65 45</p>
-				        	</div>
-
-				        </div>
-
-
-				        <div class="swiper-slide">
-				        	<div class="content_container">
-				        		<div class="image_container">
-				        			<img src="../images/portrait1.jpg">
-				        		</div>
-				        			<p class="name">André sovez</p>
-				        			<p class="work">Guide de Haute Montagne</p>
-				        			<p class="city">Chamonix</p>
-				        			<div class="quotes">
-				        				<img src="../images/start_quote.png">
-				        				<img src="../images/end_quote.png">
-				        			</div>
-					        			<p class="comment">
-					        				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione consectetur quam odit reiciendis, cum eum debitis voluptatum iusto, voluptate quibusdam, repudiandae asperiores. Hic architecto, ab blanditiis magni exercitationem numquam inventore.
-					        			</p>		
-				        		
-				        			<p class="mail">andre.sovez@gmail.com</p>
-				        			<p class="phone_number">08 65 45 65 45</p>
-				        	</div>
-				        </div>
-				        <div class="swiper-slide">
-				        	<div class="content_container">
-				        		<div class="image_container">
-				        			<img src="../images/portrait1.jpg">
-				        		</div>
-				        			<p class="name">André sovez</p>
-				        			<p class="work">Guide de Haute Montagne</p>
-				        			<p class="city">Chamonix</p>
-				        			<div class="quotes">
-				        				<img src="../images/start_quote.png">
-				        				<img src="../images/end_quote.png">
-				        			</div>
-					        			<p class="comment">
-					        				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione consectetur quam odit reiciendis, cum eum debitis voluptatum iusto, voluptate quibusdam, repudiandae asperiores. Hic architecto, ab blanditiis magni exercitationem numquam inventore.
-					        			</p>		
-				        		
-				        			<p class="mail">andre.sovez@gmail.com</p>
-				        			<p class="phone_number">08 65 45 65 45</p>
-				        	</div>
-				        </div>
-				         <div class="swiper-slide">
-				        	<div class="content_container">
-				        		<div class="image_container">
-				        			<img src="../images/portrait1.jpg">
-				        		</div>
-				        			<p class="name">André sovez</p>
-				        			<p class="work">Guide de Haute Montagne</p>
-				        			<p class="city">Chamonix</p>
-				        			<div class="quotes">
-				        				<img src="../images/start_quote.png">
-				        				<img src="../images/end_quote.png">
-				        			</div>
-					        			<p class="comment">
-					        				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione consectetur quam odit reiciendis, cum eum debitis voluptatum iusto, voluptate quibusdam, repudiandae asperiores. Hic architecto, ab blanditiis magni exercitationem numquam inventore.
-					        			</p>		
-				        		
-				        			<p class="mail">andre.sovez@gmail.com</p>
-				        			<p class="phone_number">08 65 45 65 45</p>
-				        	</div>
-				        </div>
-				         <div class="swiper-slide">
-				        	<div class="content_container">
-				        		<div class="image_container">
-				        			<img src="../images/portrait1.jpg">
-				        		</div>
-				        			<p class="name">André sovez</p>
-				        			<p class="work">Guide de Haute Montagne</p>
-				        			<p class="city">Chamonix</p>
-				        			<div class="quotes">
-				        				<img src="../images/start_quote.png">
-				        				<img src="../images/end_quote.png">
-				        			</div>
-					        			<p class="comment">
-					        				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione consectetur quam odit reiciendis, cum eum debitis voluptatum iusto, voluptate quibusdam, repudiandae asperiores. Hic architecto, ab blanditiis magni exercitationem numquam inventore.
-					        			</p>		
-				        		
-				        			<p class="mail">andre.sovez@gmail.com</p>
-				        			<p class="phone_number">08 65 45 65 45</p>
-				        	</div>
-				        </div>
-				         <div class="swiper-slide">
-				        	<div class="content_container">
-				        		<div class="image_container">
-				        			<img src="../images/portrait1.jpg">
-				        		</div>
-				        			<p class="name">André sovez</p>
-				        			<p class="work">Guide de Haute Montagne</p>
-				        			<p class="city">Chamonix</p>
-				        			<div class="quotes">
-				        				<img src="../images/start_quote.png">
-				        				<img src="../images/end_quote.png">
-				        			</div>
-					        			<p class="comment">
-					        				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione consectetur quam odit reiciendis, cum eum debitis voluptatum iusto, voluptate quibusdam, repudiandae asperiores. Hic architecto, ab blanditiis magni exercitationem numquam inventore.
-					        			</p>		
-				        		
-				        			<p class="mail">andre.sovez@gmail.com</p>
-				        			<p class="phone_number">08 65 45 65 45</p>
-				        	</div>
-				        </div>
-				     
-				    </div>
-
-				
-
-				    If we need navigation buttons
-				    <div class="swiper-button-prev"></div>
-				    <div class="swiper-button-next"></div>
-
-				</div> -->
 				
 		</section>
 
@@ -552,8 +397,8 @@
 
 				<p>Veuillez cliquer sur le lien pour consulter les tarifs sur <a href="#" target="_blank">ce document PDF</a></p>
 
-				<!-- <div>
-					<div>
+				<div class="container">
+					<div class="company">
 						<h5>
 							Société
 						</h5>
@@ -563,11 +408,22 @@
 						</h4>
 
 						<p>
-							500 € la première année, puis 3% du CA de l’année passée
-						</p>	
+							Devis sur demande
+						</p>
+
+						<h4>
+							Pack Communication :
+						</h4>
+
+						<p>
+							Devis sur demande
+						</p>
 					</div>
 
-					<div>
+
+
+
+					<div class="solo">
 						<h5>
 							Solo
 						</h5>
@@ -577,13 +433,11 @@
 						</h4>
 
 						<p>
-							500€ / an<br>
-							ou<br>
-							350€ / an *
+							42 € TTC par mois
 						</p>
 
 						<p>
-							* avant le 9/12/2019 ou toute l’année si l’adhérent est membre d’un syndicat partenaire Rope Up !	
+							ou 30 € TTC si vous êtes membre d'un de nos partenaires
 						</p>
 
 						<h4>
@@ -591,12 +445,16 @@
 						</h4>
 
 						<p>
-							500€ / an
+							42 € TTC par mois
 						</p>
 						
 					</div>
 
-					<div>
+
+
+
+
+					<div class="association">
 						<h5>
 							Association
 						</h5>
@@ -606,35 +464,68 @@
 						</h4>
 
 						<p>
-							500€ / an <br>
-							ou <br>
-							350€ / an *
+							67 € TTC par mois
 						</p>
 
 						<p>
-							* avant le 9/12/2019 ou toute l’année si l’adhérent est membre d’un syndicat partenaire Rope Up !
+							47 € par mois si la structure est membre d'un de nos partenaires
 						</p>
 
+						<h4>
+							Option association + *
+						</h4>
+
+						<p>
+							+10€ TTC par adhérent par an
+						</p>
+
+						<p>
+							5€ TTC par adhérent par an si la structure est membre de l'un de nos partenaires
+							
+						</p>
 						<h4>
 							Pack Communication :	
 						</h4>
 
 						<p>
-							800€ / an <br>
-							ou <br>
-							500€ / an *
+							Devis sur demande
 						</p>
 
-						<p>
-							* avant le 9/12/2019 ou toute l’année si l’adhérent est membre d’un syndicat partenaire Rope Up !
-						</p>
+
 						
 					</div>
 				</div>
- -->
+
+				<div class="list_container">
+					
+					<p>
+						* Création d'autant de Pack Gestion Solo que l'adhérent permanent de l'association
+					</p>
+
+					<ul>
+						<li>Utilisation complète de Pack Gestion Solo avec compte limiré à 12 factures par mois pour chaque permanent (débrayable par l'adhésion d'un pack Gestion Solo)
+						</li>
+
+						<li>Intéraction entre le compte Association et le Solo</li>
+					</ul>
+
+					<p>Depuis le compte Solo :</p>
+					<ul>
+						<li>
+							Enregistrement des fiches d'honoraires éditées par l'association pour le suivi comptable du Solo
+						</li>
+
+						<li>
+							Gestion des indisponibilités partagées sur l'agenda de l'association
+						</li>
+					</ul>
+
+				</div>
+
+
 			</div>
 
-			<a href="contact.php" class="submit_button">
+			<a href="contact.php#formulaire" class="submit_button">
 
 				S'abonner
 			</a>

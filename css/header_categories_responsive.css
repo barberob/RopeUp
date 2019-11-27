@@ -53,9 +53,14 @@
 		width: 90%;
 	}
 	
-	header
+	div.header_espaces_verts
 	{
 		background-position: center top;
+	}
+
+	div.header_outdoor
+	{
+		background-position: right top;
 	}
 
 }

@@ -2,11 +2,11 @@ $(document).ready(function()
 {
 
   function burgerMenu(){
-          $( 'a.menu' ).click(function() {
+          $( 'div.menu' ).click(function() {
             $('div.menu_page').toggleClass("active");
           });
 
-          $( 'a.cross' ).click(function() {
+          $( 'img.cross' ).click(function() {
             $('div.menu_page').toggleClass("active");
           });
         }

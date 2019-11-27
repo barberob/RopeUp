@@ -13,9 +13,21 @@
 		align-self: center;
 	}
 
-	section#pack_vente >div
+	/*section#pack_vente >div
 	{
 		max-width:100%;
+	}*/
+
+	section#tarifs div.container
+	{
+		flex-direction: column;
+	}
+
+	section#tarifs div.container .association,
+	section#tarifs div.container .solo,
+	section#tarifs div.container .company
+	{
+		width: calc(100%);
 	}
 
 
@@ -41,7 +53,7 @@
 
 @media all and (max-width: 1100px)
 {
-	section#pack_vente h2+div
+	/*section#pack_vente h2+div
 	{
 		padding: 0 55px;
 	}
@@ -60,11 +72,11 @@
 	{
 		transform: translateY(0%);
 		max-width: 100%;
-	}
+	}*/
 
 	div.flex_container + p
 	{
-		padding-bottom: 5em;
+		padding-bottom: 13em;
 	}
 
 }
@@ -104,6 +116,19 @@
 	div.functionalities
 	{
 		margin-top: 60px;
+	}
+
+	section#tarifs div.container .association,
+	section#tarifs div.container .solo,
+	section#tarifs div.container .company
+	{
+		padding: 22px 10px;
+	}
+
+
+	section#pack_vente >div
+	{
+		max-width: 100%;
 	}
 
 
