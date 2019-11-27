@@ -18,7 +18,7 @@
               <a class="nav_content_menu" href="outdoor.php">Secteur Outdoor</a>
             </li>
             <li>
-              <a class="nav_content_menu" href="espaces_verts.php">Secteur Espaces Verts</a>
+              <a class="nav_content_menu" href="page_en_construction.php">Secteur Espaces Verts</a>
             </li>
             <li>
               <a class="nav_content_menu" href="contact.php">Contact</a>
