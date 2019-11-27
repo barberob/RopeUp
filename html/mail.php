@@ -5,10 +5,14 @@
 
 	$recipient = 'domusaruon@gmail.com'; //antoine@ropeup.fr
 	
-    $retour = mail($recipient, 'Envoi depuis Contact', 'Nom: '.$['nom'].'Message: '.$_POST['message'], 'From: '.$_POST['mail']);
+    $retour = mail($recipient, 'Envoi depuis Contact', 'Nom: '.$_POST['nom'].'Message: '.$_POST['message'], 'From: '.$_POST['mail']);
     
     if ($retour) {
         echo '<p>Votre message a bien été envoyé.</p>';
+    }
+    else
+    {
+    	echo '<p>Erreur</p>'
     }
 
     //phpinfo();
