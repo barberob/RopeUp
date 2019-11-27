@@ -9,7 +9,7 @@
 					<a href="mentions_legales.php">Mentions Légales</a>
 				</li>
 				<li>
-					<a href="#">FAQ</a>
+					<a href="faq.php">FAQ</a>
 				</li>
 			</ul>
 		</div>
