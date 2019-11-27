@@ -2,7 +2,7 @@ div.wrap
 {
 	max-width:1440px;
 	width:100%;
-	padding:0 40px;
+	padding:0 30px;
 	margin-left: auto;
 	margin-right: auto;
 	box-sizing: border-box;
@@ -32,7 +32,7 @@ nav a
 
 div.header_menu img
 {
-	width: 200px;
+	width: 170px;
 }
 
 a.nav_content, button.nav_content
@@ -112,7 +112,7 @@ div.dropdown button
 .dropdown-content 
 {
   position: absolute;
-  background-color: rgba(255,255,255,.6);
+  background-color: rgba(255,255,255,.9);
   min-width: 160px;
   z-index: 1;
   transform: rotateX(-90deg);
