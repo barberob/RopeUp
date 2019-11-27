@@ -25,7 +25,7 @@ section div.secteurs
 	font-family: "DINPro_Black";
 	display: flex;
 	align-items: center;
-	justify-content: space-between;
+	justify-content: space-evenly;
 	margin: 0 250px 100px 250px;
 }
 
