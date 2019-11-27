@@ -381,161 +381,6 @@
 				</div>
 
 			</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-				<!-- Slider main container
-				<div class="swiper-container">
-				    Additional required wrapper
-				    <div class="swiper-wrapper">
-				        Slides
-				        <div class="swiper-slide">
-				        	<div class="content_container">
-				        		<div class="image_container">
-				        			<img src="../images/portrait1.jpg">
-				        		</div>
-				        			<p class="name">André sovez</p>
-				        			<p class="work">Guide de Haute Montagne</p>
-				        			<p class="city">Chamonix</p>
-				        			<div class="quotes">
-				        				<img src="../images/start_quote.png">
-				        				<img src="../images/end_quote.png">
-				        			</div>
-					        			<p class="comment">
-					        				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione consectetur quam odit reiciendis, cum eum debitis voluptatum iusto, voluptate quibusdam, repudiandae asperiores. Hic architecto, ab blanditiis magni exercitationem numquam inventore.
-					        			</p>		
-				        		
-				        			<p class="mail">andre.sovez@gmail.com</p>
-				        			<p class="phone_number">08 65 45 65 45</p>
-				        	</div>
-
-				        </div>
-
-
-				        <div class="swiper-slide">
-				        	<div class="content_container">
-				        		<div class="image_container">
-				        			<img src="../images/portrait1.jpg">
-				        		</div>
-				        			<p class="name">André sovez</p>
-				        			<p class="work">Guide de Haute Montagne</p>
-				        			<p class="city">Chamonix</p>
-				        			<div class="quotes">
-				        				<img src="../images/start_quote.png">
-				        				<img src="../images/end_quote.png">
-				        			</div>
-					        			<p class="comment">
-					        				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione consectetur quam odit reiciendis, cum eum debitis voluptatum iusto, voluptate quibusdam, repudiandae asperiores. Hic architecto, ab blanditiis magni exercitationem numquam inventore.
-					        			</p>		
-				        		
-				        			<p class="mail">andre.sovez@gmail.com</p>
-				        			<p class="phone_number">08 65 45 65 45</p>
-				        	</div>
-				        </div>
-				        <div class="swiper-slide">
-				        	<div class="content_container">
-				        		<div class="image_container">
-				        			<img src="../images/portrait1.jpg">
-				        		</div>
-				        			<p class="name">André sovez</p>
-				        			<p class="work">Guide de Haute Montagne</p>
-				        			<p class="city">Chamonix</p>
-				        			<div class="quotes">
-				        				<img src="../images/start_quote.png">
-				        				<img src="../images/end_quote.png">
-				        			</div>
-					        			<p class="comment">
-					        				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione consectetur quam odit reiciendis, cum eum debitis voluptatum iusto, voluptate quibusdam, repudiandae asperiores. Hic architecto, ab blanditiis magni exercitationem numquam inventore.
-					        			</p>		
-				        		
-				        			<p class="mail">andre.sovez@gmail.com</p>
-				        			<p class="phone_number">08 65 45 65 45</p>
-				        	</div>
-				        </div>
-				         <div class="swiper-slide">
-				        	<div class="content_container">
-				        		<div class="image_container">
-				        			<img src="../images/portrait1.jpg">
-				        		</div>
-				        			<p class="name">André sovez</p>
-				        			<p class="work">Guide de Haute Montagne</p>
-				        			<p class="city">Chamonix</p>
-				        			<div class="quotes">
-				        				<img src="../images/start_quote.png">
-				        				<img src="../images/end_quote.png">
-				        			</div>
-					        			<p class="comment">
-					        				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione consectetur quam odit reiciendis, cum eum debitis voluptatum iusto, voluptate quibusdam, repudiandae asperiores. Hic architecto, ab blanditiis magni exercitationem numquam inventore.
-					        			</p>		
-				        		
-				        			<p class="mail">andre.sovez@gmail.com</p>
-				        			<p class="phone_number">08 65 45 65 45</p>
-				        	</div>
-				        </div>
-				         <div class="swiper-slide">
-				        	<div class="content_container">
-				        		<div class="image_container">
-				        			<img src="../images/portrait1.jpg">
-				        		</div>
-				        			<p class="name">André sovez</p>
-				        			<p class="work">Guide de Haute Montagne</p>
-				        			<p class="city">Chamonix</p>
-				        			<div class="quotes">
-				        				<img src="../images/start_quote.png">
-				        				<img src="../images/end_quote.png">
-				        			</div>
-					        			<p class="comment">
-					        				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione consectetur quam odit reiciendis, cum eum debitis voluptatum iusto, voluptate quibusdam, repudiandae asperiores. Hic architecto, ab blanditiis magni exercitationem numquam inventore.
-					        			</p>		
-				        		
-				        			<p class="mail">andre.sovez@gmail.com</p>
-				        			<p class="phone_number">08 65 45 65 45</p>
-				        	</div>
-				        </div>
-				         <div class="swiper-slide">
-				        	<div class="content_container">
-				        		<div class="image_container">
-				        			<img src="../images/portrait1.jpg">
-				        		</div>
-				        			<p class="name">André sovez</p>
-				        			<p class="work">Guide de Haute Montagne</p>
-				        			<p class="city">Chamonix</p>
-				        			<div class="quotes">
-				        				<img src="../images/start_quote.png">
-				        				<img src="../images/end_quote.png">
-				        			</div>
-					        			<p class="comment">
-					        				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione consectetur quam odit reiciendis, cum eum debitis voluptatum iusto, voluptate quibusdam, repudiandae asperiores. Hic architecto, ab blanditiis magni exercitationem numquam inventore.
-					        			</p>		
-				        		
-				        			<p class="mail">andre.sovez@gmail.com</p>
-				        			<p class="phone_number">08 65 45 65 45</p>
-				        	</div>
-				        </div>
-				     
-				    </div>
-
-				
-
-				    If we need navigation buttons
-				    <div class="swiper-button-prev"></div>
-				    <div class="swiper-button-next"></div>
-
-				</div> -->
 				
 		</section>
 
@@ -552,8 +397,8 @@
 
 				<p>Veuillez cliquer sur le lien pour consulter les tarifs sur <a href="#" target="_blank">ce document PDF</a></p>
 
-				<!-- <div>
-					<div>
+				<div class="container">
+					<div class="company">
 						<h5>
 							Société
 						</h5>
@@ -567,7 +412,10 @@
 						</p>	
 					</div>
 
-					<div>
+
+
+
+					<div class="solo">
 						<h5>
 							Solo
 						</h5>
@@ -596,7 +444,11 @@
 						
 					</div>
 
-					<div>
+
+
+
+
+					<div class="association">
 						<h5>
 							Association
 						</h5>
@@ -631,7 +483,7 @@
 						
 					</div>
 				</div>
- -->
+
 			</div>
 
 			<a href="contact.php" class="submit_button">

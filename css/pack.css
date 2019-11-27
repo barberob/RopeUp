@@ -347,7 +347,23 @@ section#tarifs p a
 	text-decoration: underline;
 }
 
-/*section#tarifs h2
+section#tarifs div.container
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 100px;
+}
+
+section#tarifs div div div 
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+
+section#tarifs h2
 {
 	margin-bottom: 50px;
 }
@@ -363,7 +379,9 @@ section#tarifs h2+div
 }
  
 
-section#tarifs h2+div div
+section#tarifs div.association,
+section#tarifs div.solo,
+section#tarifs div.company
 {
 	width: calc(33% - (43px * 3));
 	text-align: center;
@@ -374,17 +392,22 @@ section#tarifs h2+div div
 }
 
 
-
 section#tarifs h2+div div:nth-of-type(3) p:last-of-type
 {
 	margin-bottom: 0;
 }
 
-section#tarifs h2+div div:nth-of-type(2)
+section#tarifs div.solo
 {
 	background-color: #007B96;
+}
+
+
+section#tarifs div.solo *
+{
 	color: white;
 }
+
 section#tarifs h2+div div:nth-of-type(1) p
 {
 	font-family: 'DINPro_Light';
@@ -424,7 +447,9 @@ section#tarifs p+p
 section#tarifs a
 {
 	text-decoration: none;
-}*/
+}
+
+
 a.submit_button
 {
 	border-radius: 50px;
@@ -607,8 +632,8 @@ div.swiper-slide p.comment
 }
 
 
- 
-/*
+ /*
+
 section#tarifs div.swiper-slide div
 {
 	width: 100%;
@@ -632,7 +657,7 @@ section#tarifs div.swiper-slide:nth-of-type(1) p
 	font-family: 'DINPro_Light';
 	font-size: 20px;
 }
-
+*/
 section#tarifs h5
 {
 	font-family: 'DINPro_Bold';
@@ -666,4 +691,4 @@ section#tarifs p+p
 section#tarifs a
 {
 	text-decoration: none;
-}*/
+}
