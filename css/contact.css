@@ -1,5 +1,6 @@
 body{
 	letter-spacing: 0.01px;
+	line-height: 1.3;
 }
 
 div.explanation
@@ -136,6 +137,7 @@ input::placeholder
 	font-size: 30px;
 	font-family:'DINPro_Bold';
 	padding: 0 0;
+	text-decoration: none;
 }
 
 .submit_input::value

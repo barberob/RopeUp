@@ -74,13 +74,13 @@
 							?> -->
 
 							<div>
-								<input type="text" name="" placeholder="Nom Prénom">
+								<input type="text" name="nom" placeholder="Nom Prénom">
 
-								<input type="text" name="" placeholder="Téléphone">			
+								<input type="text" name="tel" placeholder="Téléphone">			
 							</div>
 
 							<div>
-								<input class="third_input" type="email" name="email" placeholder="Adresse Mail">	
+								<input class="third_input" type="email" name="mail" placeholder="Adresse Mail">	
 							</div>
 
 							<div class="checkboxes_container">
