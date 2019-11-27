@@ -77,14 +77,17 @@
 
 					<div>
 						<p>Pack :</p>
-						<input type="checkbox" name=""> <p>Communication</p>
-						<input type="checkbox" name=""> <p>Gestion</p>
+						<input type="checkbox" name="">
+						<p>Communication</p>
+						<input type="checkbox" name="">
+						<p>Gestion</p>
 					</div>
-
-					<input type="text" name="message" placeholder="Votre message">
+					
+					<textarea placeholder="Votre message"></textarea>
+					<!-- <input type="textarea" wrap="true" name="message" placeholder="Votre message"> -->
 <!-- 					<div class="g-recaptcha" data-sitekey="6LdCL8MUAAAAAHG2wXoyotuvSb6ApfYfVfeBsxsb"></div>
 					<br> -->
-					<a href="post-form.php"><input type="submit" name="submitpost" value="Envoyer"></a>
+					<input type="submit" name="submitpost" value="Envoyer">
 				</form>	
 			</div>		
 		</div>
