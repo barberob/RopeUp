@@ -19,7 +19,7 @@
 				<a href="https://www.facebook.com/ropeup" target="_blank" class="link_margin"><img src="../images/logo_facebook.svg" alt="logo facebook"></a>
 				<a href="https://www.linkedin.com/company/ropeup/?originalSubdomain=fr" target="_blank" class="link_margin"><img src="../images/logo_linkedin.svg" alt="logo linkedin"></a>
 				<a href="#" target="_blank" class="link_margin"><img src="../images/logo_instagram.svg" alt="logo instagram"></a>
-				<a href="#" target="_blank"><img src="../images/logo_youtube.png" alt="logo youtube"></a>
+				<a href="https://www.youtube.com/channel/UCSUWXHZKAKyvrXnFsNWNQ2Q" target="_blank"><img src="../images/logo_youtube.png" alt="logo youtube"></a>
 			</div>
 		</div>
 		<img class="logo" src="../images/cabane_ropeup.png" alt="logo RopeUp">
