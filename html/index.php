@@ -44,14 +44,14 @@
 		<div class="wrap_index">
 			<div>
 				<h3>Gestion</h3>
-				<img src="../images/icone_gestion.png" alt="Logo calendrier">
+				<img src="../images/icone_gestion_provisoire.svg" alt="Logo calendrier">
 				<p>Enfin un outil de gestion qui n'est pas une usine à gaz ! Simple d'utilisation et très complet, il permet de répondre aux exigences de l'administration et en même temps à celles du terrain.
 				Ce PACK est supporté par une équipe dédiée à sa maintenance et à ses améliorations techniques. 
 				</p>
 			</div>
 			<div>
 				<h3>Communication</h3>
-				<img src="../images/icone_com.png" alt="Logo communication">
+				<img src="../images/icone_communication_provisoire.svg" alt="Logo communication">
 				<p>Vous souhaitez un site simple, qui vous présente et présente votre activité. 
 				Vous recherchez un outil de communication peu onéreux et complet que vous faites vivre sans avoir de compétences informatiques. Ce PACK est supporté par une équipe dédiée à sa maintenance et à ses améliorations techniques. 
 				</p>
