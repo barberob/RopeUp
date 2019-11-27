@@ -40,6 +40,11 @@ form input
 	color: #FF7D00,
 }
 
+form a 
+{
+	text-decoration: none;
+}
+
 form div:first-of-type
 {
 	display: flex;
