@@ -461,11 +461,11 @@ a.submit_button
 	border-radius: 50px;
 	text-decoration: none;
 	width: 260px;
-	height: 73px;
+	padding: 20px 0;
 	background: #007B96;
 	color: white;
-	font-size: 22px;
-	font-family:'DINPro_Bold';
+	font-size: 20px;
+	font-family:'DINPro_Medium';
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -477,7 +477,7 @@ a.submit_button
 
 
 
-/*//////////////////// hide ////////////////////////////////////////////*/
+/*////////////////////hide ////////////////////////////////////////////*/
 
 div.background.com,div.background.manage
 {
