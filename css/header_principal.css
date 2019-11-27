@@ -112,7 +112,7 @@ div.dropdown button
 .dropdown-content 
 {
   position: absolute;
-  background-color: rgba(255,255,255,.6);
+  background-color: rgba(255,255,255,.9);
   min-width: 160px;
   z-index: 1;
   transform: rotateX(-90deg);
