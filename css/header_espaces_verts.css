@@ -3,7 +3,7 @@ nav a:nth-child(4) span, nav a:nth-child(1) span
 	background-color: #0CB300;
 }
 
-header
+div.header_espaces_verts
 {
 	background-image: url(../images/bucheron.png);
 	background-size: cover;

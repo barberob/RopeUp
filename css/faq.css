@@ -8,6 +8,7 @@ body {
 }
 
 #wrapfaq {
+	max-width: 1240px;
 	padding: 0 180px;
 	background-color: white;
 }

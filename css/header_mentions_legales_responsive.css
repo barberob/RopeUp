@@ -13,4 +13,18 @@
 		margin-right: 0%;
 
 	}
+
+	div.wrap
+	{
+		width: 85%;
+	}
+}
+
+@media all and (max-width: 570px){
+
+	div.wrap
+	{
+		width: 95%;
+	}
+
 }

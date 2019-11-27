@@ -8,14 +8,16 @@
 
 @media all and (max-width: 980px){
 
+	div.wrap
+	{
+		width: 85%;
+	}
+
 	div.vice p
 	{
 		margin-right: 0%;
 
 	}
-}
-
-@media all and (max-width: 730px){
 
 	div.vice img:first-of-type
 	{
@@ -33,9 +35,30 @@
 		flex-direction: column;
 	}
 
+	div.vice>section>div:last-of-type
+	{
+		display: flex;
+		justify-content: space-around;
+	}
+
 	div.vice>section>div:first-of-type
 	{
 		margin-right: 0%;
+	}
+
+}
+
+@media all and (max-width: 780px){
+
+
+
+}
+
+@media all and (max-width: 570px){
+
+	div.wrap
+	{
+		width: 95%;
 	}
 
 }

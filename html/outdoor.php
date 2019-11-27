@@ -23,7 +23,7 @@
 <body> 
 	<!--inclure header -->
 		<?php include("header_menu.php") ?>
-		<div class="img_container">
+		<div class="img_container header_outdoor">
 			<h1>Outdoor</h1>
 		</div>
 	</header>

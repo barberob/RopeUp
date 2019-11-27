@@ -50,6 +50,7 @@ section:nth-of-type(1) .wrap_index img
 {
   min-width: 200px;
   margin-left: 150px;
+  opacity: 1;
 }
 
 
@@ -151,6 +152,7 @@ section:nth-of-type(3) #slider > div a
   top: 50%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
+  text-align: center;
 }
 
 section:nth-of-type(3) #slider > div:hover

@@ -52,6 +52,16 @@
 		font-size: 45px;
 		width: 90%;
 	}
+	
+	div.header_espaces_verts
+	{
+		background-position: center top;
+	}
+
+	div.header_outdoor
+	{
+		background-position: right top;
+	}
 
 }
 
@@ -60,6 +70,11 @@
 	div.header_menu img
 	{
 		width:150px;
+	}
+
+	div.header_menu div.wrap
+	{
+		padding: 10px 40px;
 	}
 
 }
