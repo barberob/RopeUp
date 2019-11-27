@@ -61,3 +61,75 @@ span#home
 a {
 	text-decoration: none;
 }
+
+
+
+@media all and (max-width: 980px)
+{
+
+#redirection {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+h3#counter {
+	font-size: 17px;
+	font-family: "DINPro_Bold";
+	text-align: center;
+	text-transform: uppercase;
+	color: #FF7D00;
+	padding-left: 3px;
+	padding-right: 3px;
+}
+
+h3.form {
+	font-size: 17px;
+	font-family: "DINPro_Bold";
+	text-align: center;
+	color: black;
+}
+
+h3#boutonform {
+	padding-top: 19px;
+	font-size: 20px;
+	font-family: "DINPro_Bold";
+	text-align: center;
+	color: black;
+}
+}
+
+
+
+@media all and (max-width: 570px)
+{
+
+#redirection {
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+h3#counter {
+	font-size: 15px;
+	font-family: "DINPro_Bold";
+	text-align: center;
+	text-transform: uppercase;
+	color: #FF7D00;
+	padding-left: 3px;
+	padding-right: 3px;
+}
+
+h3.form {
+	font-size: 15px;
+	font-family: "DINPro_Bold";
+	text-align: center;
+	color: black;
+}
+
+h3#boutonform {
+	padding-top: 17px;
+	font-size: 20px;
+	font-family: "DINPro_Bold";
+	text-align: center;
+	color: black;
+}
+}
