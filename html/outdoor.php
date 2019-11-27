@@ -85,7 +85,7 @@
 
 					<div class="video_and_description">
 						<div class="iframe_container">
-							<iframe class="youtube-video" width="560" height="315" src="https://www.youtube.com/embed/bxlV9h5YO1U" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>	
+							<iframe allowscriptaccess="always" class="youtube-video" width="560" height="315" src="https://www.youtube.com/embed/bxlV9h5YO1U?enablejsapi=1&rel=0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>	
 						</div>
 						<p>
 							Cette vidéo vous montre à quoi ressemble l’application. N’hésitez pas à parcourir notre page youtube sur laquelle vous trouverez d’autres tutoriels.
@@ -172,7 +172,7 @@
 
 					<div class="video_and_description">
 						<div class="iframe_container">
-							<iframe width="560" height="315" src="https://www.youtube.com/embed/-orRTjRBKjk" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>	
+							<iframe class="youtube-video" width="560" height="315" src="https://www.youtube.com/embed/-orRTjRBKjk?enablejsapi=1&rel=0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>	
 						</div>
 						<p>
 							Cette vidéo vous montre à quoi ressemble l’application. N’hésitez pas à parcourir <a href="https://www.youtube.com/channel/UCSUWXHZKAKyvrXnFsNWNQ2Q" target="_blank">notre page youtube</a> sur laquelle vous trouverez d’autres tutoriels.
