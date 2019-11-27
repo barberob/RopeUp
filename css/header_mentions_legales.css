@@ -13,18 +13,12 @@ body
 
 div.vice
 {
-	max-width:1440px;
-	width:100%;
-	padding: 40px 0;
-	margin-left: auto;
-	margin-right: auto;
-	box-sizing: border-box;
+	margin: 40px 0;
 
 }
 
 div.vice h1
-{
-	
+{	
 	font-size: 32px;
 	color: #FF7D00;
 	text-align: center;
