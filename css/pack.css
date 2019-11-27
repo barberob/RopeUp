@@ -255,8 +255,8 @@ section#fonctionnalités ul.level_2 li
 	font-family: 'DINPro_Light';
 	font-size: 18px;
 	margin-left: 20px;
-	margin-top: 15px;
-	list-style-type: circle; 
+	margin-top: 45px;
+	list-style-type: none; 
 }
 section#fonctionnalités ul li 
 {
@@ -276,6 +276,7 @@ section#fonctionnalités ol>li+p
 	font-family: 'DINPro_Medium';
 	font-size: 18px;
 	margin-bottom: 30px;
+	margin-top: 45px;
 }
 section#fonctionnalités ol>li+ul, ol p+ul
 {
