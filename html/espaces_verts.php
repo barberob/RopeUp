@@ -64,12 +64,12 @@
 <!-- //////////////////////////////////////////section 1 copie////////////////////////////////////////////////// -->
 		
 
-		<div class="background">
+		<div class="background com">
 
 			<div class="wrap">
 				
 				<p>
-					Hello world !! r sit amet, consectetur adipiscing elit. Nullam eget enim et turpis consequat commodo id sit amet purus. Quisque et lobortis sem. Phasellus in volutpat erat. Mauris varius pharetra viverra. Nam consectetur iaculis congue. Nulla tincidunt malesuada cursus. Nam faucibus cursus velit in viverra. Lorem ipsum dolor sit amet, consectetur.
+					Dolor sit amet, consectetur adipiscing elit. Nullam eget enim et turpis consequat commodo id sit amet purus. Quisque et lobortis sem. Phasellus in volutpat erat. Mauris varius pharetra viverra. Nam consectetur iaculis congue. Nulla tincidunt malesuada cursus. Nam faucibus cursus velit in viverra. Lorem ipsum dolor sit amet, consectetur.
 				</p>
 
 
@@ -77,7 +77,11 @@
 				<div class="flex_container">
 
 					<div class="video_and_description">
-						<iframe width="560" height="315" src="https://www.youtube.com/embed/bxlV9h5YO1U" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+						<div class="iframe_container">
+							
+							<iframe width="560" height="315" src="https://www.youtube.com/embed/bxlV9h5YO1U" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</div>
 						<p>
 							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget enim et turpis consequat commodo id sit amet purus. Quisque et lobortis sem. Phasellus in volutpat erat. Mauris varius pharetra viverra.
 						</p>
@@ -86,35 +90,7 @@
 
 					<div class="functionalities">
 						<ul class="green">
-							<li>
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit.  
-							</li>
-							<p>
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-								Nullam eget enim et turpis consequat commodo id sit 
-								amet purus. Quisque et lobortis sem. Phasellus in 
-								volutpat erat. 
-							</p>
-
-							<li>
-								Quisque et lobortis sem. Phasellus in volutpat erat. 
-							</li>
-							<p>
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-								Nullam eget enim et turpis consequat commodo id sit 
-								amet purus. Quisque et lobortis sem. Phasellus in 
-								volutpat erat.
-							</p>
-
-							<li>
-								Quisque et lobortis sem. Phasellus in volutpat erat. 
-							</li>
-							<p>
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-								Nullam eget enim et turpis consequat commodo id sit 
-								amet purus. Quisque et lobortis sem. Phasellus in 
-								volutpat erat. 
-							</p>
+				
 						</ul>
 					</div>
 				</div>
@@ -137,7 +113,7 @@
 
 
 
-		<div class="background">
+		<div class="background manage hided">
 
 			<div class="wrap">
 				
@@ -150,7 +126,10 @@
 				<div class="flex_container">
 
 					<div class="video_and_description">
-						<iframe src="https://www.youtube.com/embed/egdSveRAk2k" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						<div class="iframe_container">
+							<iframe src="https://www.youtube.com/embed/egdSveRAk2k" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>	
+							
+						</div>
 						<p>
 							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget enim et turpis consequat commodo id sit amet purus. Quisque et lobortis sem. Phasellus in volutpat erat. Mauris varius pharetra viverra.
 						</p>
@@ -212,26 +191,7 @@
 				<div>
 					<h2 class="green">pack additionnel vente</h2>
 					<div>
-						<div>
-							<h4 class="green">Quisque et lobortis sem.</h4>
-							<p>
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-								Nullam eget enim et turpis consequat commodo id sit 
-								amet purus. Quisque et lobortis sem. Phasellus in 
-								volutpat erat.
-							</p>
-						</div>
-
-
-						<div>
-							<h4 class="green">Nam faucibus cursus velit.</h4>
-							<p>
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-								Nullam eget enim et turpis consequat commodo id sit 
-								amet purus. Quisque et lobortis sem. Phasellus in 
-								volutpat erat. 
-							</p>
-						</div>
+						<p>à venir</p>			
 					</div>
 					
 				</div>
@@ -240,53 +200,112 @@
 
 		<section id="ambassadeurs">
 		<!-- Slider main container -->
-			<div class="swiper-container .ambassadeurs">
+			<div class="swiper-container">
 			    <!-- Additional required wrapper -->
 			    <div class="swiper-wrapper">
 			        <!-- Slides -->
-			        <div class="swiper-slide">
-			        	<div>
-			        		<div>
-			        			<img src="../images/picture1.png">
-			        			<p class="name">André sovez</p>
-			        			<p class="work">Guide de Haute Montagne</p>
-			        			<p class="city">Chamonix</p>
-			        			<div>
-			        				<img src="../images/start_quote.png">
-				        			<p class="comment">
-				        				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione consectetur quam odit reiciendis, cum eum debitis voluptatum iusto, voluptate quibusdam, repudiandae asperiores. Hic architecto, ab blanditiis magni exercitationem numquam inventore.
-				        			</p>
-				        			<img src="../images/end_quote.png">
-			        				
-			        			</div>
-			        			<p class="mail">andre.sovez@gmail.com</p>
-			        			<p class="phone_number">08 65 45 65 45</p>
+			       
+			        	<div class='swiper-slide'>
 
+							<div class='content_container'>
+
+							<div class='image_container'>
+			        			<img src="../images/laly_chaucheprat.jpg">
 			        		</div>
-			        	</div>
 
-			        </div>
-			        <div class="swiper-slide">Slide 2</div>
-			        <div class="swiper-slide">Slide 3</div>
-			        ...
+						<p class="name">Laly CHAUCHEPRAT</p>
+
+						<p class="work"> Guide de haute montagne</p>
+
+						<p class="city">Chamonix</p>
+
+						<div class='quotes'>
+	        				<img src='../images/start_quote.png'>
+	        				<img src='../images/end_quote.png'>
+	        			</div>
+
+	        			<p class='comment'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut deserunt molestias veritatis quae magni illo numquam praesentium, possimus maxime quis in voluptatem neque mollitia alias exercitationem. Esse soluta, numquam alias!</p>
+
+	        			<p class='mail'>johndoe@gmail.com</p>
+
+	        			<p class='phone_number'>06 60 06 60 60</p>
+
+	        			</div>
+	        		</div>
+			        	<div class='swiper-slide'>
+
+							<div class='content_container'>
+
+							<div class='image_container'>
+			        			<img src="../images/laly_chaucheprat.jpg">
+			        		</div>
+
+						<p class="name">Laly CHAUCHEPRAT</p>
+
+						<p class="work"> Guide de haute montagne</p>
+
+						<p class="city">Chamonix</p>
+
+						<div class='quotes'>
+	        				<img src='../images/start_quote.png'>
+	        				<img src='../images/end_quote.png'>
+	        			</div>
+
+	        			<p class='comment'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut deserunt molestias veritatis quae magni illo numquam praesentium, possimus maxime quis in voluptatem neque mollitia alias exercitationem. Esse soluta, numquam alias!</p>
+
+	        			<p class='mail'>johndoe@gmail.com</p>
+
+	        			<p class='phone_number'>06 60 06 60 60</p>
+
+	        			</div>
+	        		</div>
+
+			        	<div class='swiper-slide'>
+
+							<div class='content_container'>
+
+							<div class='image_container'>
+			        			<img src="../images/laly_chaucheprat.jpg">
+			        		</div>
+
+						<p class="name">Laly CHAUCHEPRAT</p>
+
+						<p class="work"> Guide de haute montagne</p>
+
+						<p class="city">Chamonix</p>
+
+						<div class='quotes'>
+	        				<img src='../images/start_quote.png'>
+	        				<img src='../images/end_quote.png'>
+	        			</div>
+
+	        			<p class='comment'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut deserunt molestias veritatis quae magni illo numquam praesentium, possimus maxime quis in voluptatem neque mollitia alias exercitationem. Esse soluta, numquam alias!</p>
+
+	        			<p class='mail'>johndoe@gmail.com</p>
+
+	        			<p class='phone_number'>06 60 06 60 60</p>
+
+	        			</div>
+	        		</div>
+
+
 			    </div>
-			    <!-- If we need pagination -->
-			    <div class="swiper-pagination"></div>
 
-			    <!-- If we need navigation buttons -->
+			    
 			    <div class="swiper-button-prev"></div>
 			    <div class="swiper-button-next"></div>
 
-			    <!-- If we need scrollbar -->
-			    <div class="swiper-scrollbar"></div>
+
+
+			    </div>
+
+			  
 			</div>
 			
 		</section>
 
 
 
-
-		<!-- inserer AMBASSADEURS -->
 
 
 		<section id="tarifs">
@@ -503,6 +522,31 @@
 	<script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
 	<script type="text/javascript" src="../js/menu.js"></script>
 	<script type="text/javascript" src="../js/pack.js"></script>
+	<script>
+    var swiper = new Swiper('.swiper-container', {
+      spaceBetween: 10,
+      loop: true,
+      grabCursor: true,
+
+
+       navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+   	 },
+      breakpoints: {
+
+      	 100: {
+          slidesPerView: 1,
+          spaceBetween: 0,
+        },
+        980: {
+          slidesPerView: 2,
+          spaceBetween: 50,
+        },
+     
+      }
+    });
+  </script>
 
 </body>
 </html>

@@ -247,7 +247,7 @@ section#fonctionnalités .level_0
 	font-family: 'DINPro_Medium';
 	font-size: 22px;
 	list-style-type: decimal;
-	color: #007B96;
+	color:#019EC0;
 	margin-bottom: 25px;
 }
 section#fonctionnalités ul.level_2 li
@@ -267,7 +267,7 @@ section#fonctionnalités ul li
 }
 section#fonctionnalités ul 
 {
-	color: #007B96;
+	color: #019EC0;
 	list-style-type: disc;
 }
 section#fonctionnalités ol>li+p
@@ -297,7 +297,6 @@ section#pack_vente >div
 	-webkit-box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.4);
 	background-color: white;
 	box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.4);
-	margin-bottom: 200px;
 	transform: translateY(-50%);
 	max-width: 70% ;
 	margin-left:auto;
@@ -452,7 +451,10 @@ section#tarifs div.list_container *
 	color: #000;
 	text-align: left;
 }
-
+section#tarifs div.list_container p:first-of-type
+{
+	margin-bottom: 5em;
+}
 
 a.submit_button
 {
@@ -475,28 +477,12 @@ a.submit_button
 
 
 
-/*////////////////////translation ////////////////////////////////////////////*/
+/*//////////////////// hide ////////////////////////////////////////////*/
 
-/*
-div.background:nth-of-type(2).hided
-{
-	position: absolute;
-	display: none;
-	transition-duration: 0.5s;
-	left: 0;
-	right: 0;
-
-}
-
-
-*/
 div.background.com,div.background.manage
 {
 	display: block;
 	transition-duration: 0.5s;
-	/*position: absolute;
-	left: 0;
-	right: 0;*/
 	opacity: 1;
 }
 div.background.com.hided,div.background.manage.hided
@@ -505,17 +491,6 @@ div.background.com.hided,div.background.manage.hided
 	display: none;
 	opacity: 0;
 }
-
-/*
-div.background:nth-of-type(1).hided
-{
-	position: absolute;
-	display: none;
-	transition-duration: 0.5s;
-	left: 0;
-	right: 0;
-}
-*/
 
 .hided
 {

@@ -70,7 +70,7 @@
 			</div>
 			<div>
 				<img src="../images/bucheron.png" alt="Photo Bucheron">
-				<a href="espaces_verts.php">ESPACES VERTS</a>
+				<a href="page_en_construction.php">ESPACES VERTS</a>
 			</div>
 		</div>
 	</section>

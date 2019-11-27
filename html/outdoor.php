@@ -85,7 +85,7 @@
 
 					<div class="video_and_description">
 						<div class="iframe_container">
-							<iframe width="560" height="315" src="https://www.youtube.com/embed/bxlV9h5YO1U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>	
+							<iframe width="560" height="315" src="https://www.youtube.com/embed/bxlV9h5YO1U" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>	
 						</div>
 						<p>
 							Cette vidéo vous montre à quoi ressemble l’application. N’hésitez pas à parcourir notre page youtube sur laquelle vous trouverez d’autres tutoriels.
@@ -100,24 +100,40 @@
 							</li>
 
 							<li class="level_0">
-								 Une fois en ligne, à partir de votre interface administrateur simplifiée, vous pouvez : 
+								 Une fois en ligne, à partir de votre interface administrateur simplifiée, vous pouvez :
 							</li>
-							<p>
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-								Nullam eget enim et turpis consequat commodo id sit 
-								amet purus. Quisque et lobortis sem. Phasellus in 
-								volutpat erat.
-							</p>
+
+								 <ul>
+								 	<li>
+								 		<ul>
+								 			<li>Profil</li>
+								 			<li>Catalogue de prestations avec boite de dialogue pour le visiteur</li>
+								 			<li>Choix des programmes de prestation avec inscription pour le visiteur</li>
+								 			<li>Affichage de votre blog avec vos nouvelles</li>
+								 			<li>Affichage avec lien vers vos partenaires</li>
+								 			<li>Vos tarifs</li>
+								 			<li>Votre page de demande de contact</li>
+								 			<li>Une page pour vos CGV</li>
+								 		</ul>
+								 	</li>
+								 </ul>
+							
+						
 
 							<li class="level_0">
 								En Back office, depuis votre interface, vous gérez votre communication et votre relation clients. Vous pouvez :
 							</li>
-							<p>
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-								Nullam eget enim et turpis consequat commodo id sit 
-								amet purus. Quisque et lobortis sem. Phasellus in 
-								volutpat erat. 
-							</p>
+							<ul>
+								<li>Partager vos offres de prestations et vos nouvelles directement vers les réseaux sociaux sans quitter l’interface</li>
+								<li>Transformer chaque offre de prestation en un document pdf mis en page selon un pré-formatage établie</li>
+								<li>Transformer chaque offre de prestation en un flyer A5  avec une personnalisation des couleurs</li>
+								<li>Mettre en « stock » ou « en vitrine » vos offres en fonction de vos envies</li>
+								<li>Suivre toutes les demandes des visiteurs qui arrivent par votre site</li>
+								<li>Activer les réponses pré-formatées pour répondre aux visiteurs</li>
+								<li>Afficher l’ensemble des contacts arrivés par le site</li>
+								<li>Communiquer à l’ensemble du fichier prospects par des mails ciblés</li>
+								<li>Activer votre page google analytique simplifiée</li>
+							</ul>
 						</ol>
 					</div>
 				</div>
@@ -156,7 +172,7 @@
 
 					<div class="video_and_description">
 						<div class="iframe_container">
-							<iframe width="560" height="315" src="https://www.youtube.com/embed/-orRTjRBKjk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>	
+							<iframe width="560" height="315" src="https://www.youtube.com/embed/-orRTjRBKjk" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>	
 						</div>
 						<p>
 							Cette vidéo vous montre à quoi ressemble l’application. N’hésitez pas à parcourir <a href="https://www.youtube.com/channel/UCSUWXHZKAKyvrXnFsNWNQ2Q" target="_blank">notre page youtube</a> sur laquelle vous trouverez d’autres tutoriels.
@@ -164,51 +180,7 @@
 						
 					</div>
 
-					<div class="functionalities">
-						<!-- <ul>
-							<li>
-								1-  Les actions possibles à partir de votre compte :  
-							</li>
-							<p>
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-								Nullam eget enim et turpis consequat commodo id sit 
-								amet purus. Quisque et lobortis sem. Phasellus in 
-								volutpat erat. 
-							</p>
-
-							<li>
-								2- Automatiquement, l’application range et stocke vos données. 
-							</li>
-							<p>
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-								Nullam eget enim et turpis consequat commodo id sit 
-								amet purus. Quisque et lobortis sem. Phasellus in 
-								volutpat erat.
-							</p>
-
-							<li>
-								3- Pour vous aider dans votre déclaration à l’administration.
-								Sur une période choisie,  l’application présente :
-							</li>
-							<p>
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-								Nullam eget enim et turpis consequat commodo id sit 
-								amet purus. Quisque et lobortis sem. Phasellus in 
-								volutpat erat. 
-							</p>
-
-							<li>
-								4- Pour vous informer en permanence et sans action particulières.
-								En affichage,vous trouverez : 
-							</li>
-							<p>
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-								Nullam eget enim et turpis consequat commodo id sit 
-								amet purus. Quisque et lobortis sem. Phasellus in 
-								volutpat erat. 
-							</p>
-						</ul> -->
-						
+					<div class="functionalities">	
 
 						<ol>
 							<!-- <div> -->
@@ -319,57 +291,57 @@
 
 			<div class="wrap">
 
-				<div class='swiper-container'>
+			<!-- 	<div class='swiper-container'>
 					 <div class="swiper-wrapper">
 
 			<?php
 
-				require_once('connexion_database.php');
-				$requete = "SELECT * FROM ambassadeurs_outdoor ORDER BY rand()";
-				$resultat = mysqli_query($CONNEXION,$requete);
+			//	require_once('connexion_database.php');
+			//	$requete = "SELECT * FROM ambassadeurs_outdoor ORDER BY rand()";
+				//$resultat = mysqli_query($CONNEXION,$requete);
 
-				if (!$resultat)
+				//if (!$resultat)
 				{
-					echo "Erreur dans l'exécution de la requête, message de MySQL : ", mysqli_error($CONNEXION);
-					exit();
+				//	echo "Erreur dans l'exécution de la requête, message de MySQL : ", mysqli_error($CONNEXION);
+				//	exit();
 				}
 
 
-				$nombreLignes = mysqli_num_rows($resultat);
-				while ($ambassadeur = mysqli_fetch_assoc ($resultat))
+				//$nombreLignes = mysqli_num_rows($resultat);
+				//while ($ambassadeur = mysqli_fetch_assoc ($resultat))
 				{
 
-					echo " <div class='swiper-slide'>";
+					// echo " <div class='swiper-slide'>";
 
-					echo "<div class='content_container'>";
+					// echo "<div class='content_container'>";
 
-					echo "<div class='image_container'>
-		        			<img src='../images/" . $ambassadeur['picture'] . ".jpg'>
-		        		  </div>";
+					// echo "<div class='image_container'>
+		   //      			<img src='../images/" . $ambassadeur['picture'] . ".jpg'>
+		   //      		  </div>";
 
-					echo "<p class='name'>" . $ambassadeur['firstname'] . ' ' . $ambassadeur['lastname'] ."</p>";
+					// echo "<p class='name'>" . $ambassadeur['firstname'] . ' ' . $ambassadeur['lastname'] ."</p>";
 
-					echo "<p class='work'>" . $ambassadeur['work'] . "</p>";
+					// echo "<p class='work'>" . $ambassadeur['work'] . "</p>";
 
-					echo "<p class='city'>" . $ambassadeur['city'] . "</p>";
+					// echo "<p class='city'>" . $ambassadeur['city'] . "</p>";
 
-					echo "<div class='quotes'>
-	        				<img src='../images/start_quote.png'>
-	        				<img src='../images/end_quote.png'>
-	        			</div>";
+					// echo "<div class='quotes'>
+	    //     				<img src='../images/start_quote.png'>
+	    //     				<img src='../images/end_quote.png'>
+	    //     			</div>";
 
-	        		echo "<p class='comment'>" . $ambassadeur['comment'] . "</p>";
+	        		// echo "<p class='comment'>" . $ambassadeur['comment'] . "</p>";
 
-	        		echo "<p class='mail'>" . $ambassadeur['email'] . "</p>";
+	        		// echo "<p class='mail'>" . $ambassadeur['email'] . "</p>";
 
-	        		echo "<p class='phone_number'>" . $ambassadeur['number'] . "</p>";
+	        		// echo "<p class='phone_number'>" . $ambassadeur['number'] . "</p>";
 
-	        		echo "</div>
-	        			</div>";
+	        		// echo "</div>
+	        		// 	</div>";
 
 				}
 
-				mysqli_close($CONNEXION);
+				// mysqli_close($CONNEXION);
 
 			?>
 
@@ -378,7 +350,7 @@
 
 					<div class="swiper-button-prev"></div>
 				    <div class="swiper-button-next"></div>
-				</div>
+				</div> -->
 
 			</div>
 				
@@ -394,8 +366,6 @@
 			<div class="wrap">
 				
 				<h2>tarifs</h2>
-
-				<p>Veuillez cliquer sur le lien pour consulter les tarifs sur <a href="#" target="_blank">ce document PDF</a></p>
 
 				<div class="container">
 					<div class="company">
@@ -503,7 +473,7 @@
 					</p>
 
 					<ul>
-						<li>Utilisation complète de Pack Gestion Solo avec compte limiré à 12 factures par mois pour chaque permanent (débrayable par l'adhésion d'un pack Gestion Solo)
+						<li>Utilisation complète de Pack Gestion Solo avec compte limité à 12 factures par mois pour chaque permanent (débrayable par l'adhésion d'un pack Gestion Solo)
 						</li>
 
 						<li>Intéraction entre le compte Association et le Solo</li>
@@ -549,7 +519,8 @@
 
 	<script type="text/javascript" src="../js/libs/jquery.js"></script>
 	<script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
-
+	<script type="text/javascript" src="../js/pack.js"></script>
+	<script type="text/javascript" src="../js/menu.js"></script>
 	<script>
     var swiper = new Swiper('.swiper-container', {
       spaceBetween: 10,
@@ -575,8 +546,7 @@
       }
     });
   </script>
-	<script type="text/javascript" src="../js/pack.js"></script>
-	<script type="text/javascript" src="../js/menu.js"></script>
+	
 
 
 </body>
