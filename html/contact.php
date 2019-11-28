@@ -46,27 +46,23 @@
 			<div>
 				<form action="mail.php" method="post">
 
-				<?php
-						require_once('recaptcha/autoload.php');
-
-						if (isset($_POST['submitpost'])) {
-						if (isset($_POST['g-recaptcha-response'])) {
-							$recaptcha = new \ReCaptcha\ReCaptcha('6LdCL8MUAAAAAHH-ZwQNzjTvb9GG_Q4gvOj-O3Cn');
-							$resp = $recaptcha->setExpectedHostname('recaptcha-demo.appspot.com')->verify($_POST['g-recaptcha-response']);
-							if ($resp->isSuccess()) {
-									// Verified!
-								var_dump('Valide');
-							} else {
-								$errors = $resp->getErrorCodes();
-								var_dump('Invalide');
-								var_dump($errors);
-							}
-										
-							}
-						else {
-							var_dump('Captcha non rempli');
-							}	
-						}
+					<?php
+					  require('recaptcha/autoload.php');
+					  if(isset($_POST['submitpost'])) {
+					    if(isset($_POST['g-recaptcha-response'])) {
+					      $recaptcha = new \ReCaptcha\ReCaptcha('6LdCL8MUAAAAAHH-ZwQNzjTvb9GG_Q4gvOj-O3Cn');
+					      $resp = $recaptcha->verify($_POST['g-recaptcha-response']);
+					      if ($resp->isSuccess()) {
+					          var_dump('Captcha Valide');
+					      } else {
+					          $errors = $resp->getErrorCodes();
+					          var_dump('Captcha Invalide');
+					          var_dump($errors);
+					      }
+					    } else {
+					      var_dump('Captcha non rempli');
+					    }
+					  }
 					?>
 
 					<div>
@@ -78,16 +74,16 @@
 
 					<div>
 						<p>Pack :</p>
-						<input type="checkbox" name="">
+						<input type="checkbox" name="com">
 						<p>Communication</p>
-						<input type="checkbox" name="">
+						<input type="checkbox" name="gestion">
 						<p>Gestion</p>
 					</div>
 					
-					<textarea placeholder="Votre message"></textarea>
+					<textarea placeholder="Votre message" name="message"></textarea>
 					<!-- <input type="textarea" wrap="true" name="message" placeholder="Votre message"> -->
-<!-- 					<div class="g-recaptcha" data-sitekey="6LdCL8MUAAAAAHG2wXoyotuvSb6ApfYfVfeBsxsb"></div>
-					<br> -->
+					<div class="g-recaptcha" data-sitekey="6LdCL8MUAAAAAHG2wXoyotuvSb6ApfYfVfeBsxsb"></div>
+					<br>
 					<input type="submit" name="submitpost" value="Envoyer">
 				</form>	
 			</div>		
