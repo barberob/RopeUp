@@ -46,6 +46,12 @@
 			<div>
 				<form action="mail.php" method="post">
 
+					<?php 
+						if(!isset($_POST['submitpost'])){
+							var_dump('Formulaire invalide');
+						} 
+					?>
+
 					<?php
 					  require('recaptcha/autoload.php');
 					  if(isset($_POST['submitpost'])) {
@@ -66,11 +72,11 @@
 					?>
 
 					<div>
-						<input type="text" name="nom" placeholder="Nom Prénom">
-						<input type="text" name="tel" placeholder="Téléphone">			
+						<input type="text" name="nom" placeholder="Nom Prénom" required>
+						<input type="text" name="tel" placeholder="Téléphone" required>			
 					</div>
 
-					<input type="email" name="mail" placeholder="Adresse Mail">
+					<input type="email" name="mail" placeholder="Adresse Mail" required>
 
 					<div>
 						<label>Pack :</label>
@@ -82,7 +88,7 @@
 						<label>Pack vente</label>
 					</div>
 					
-					<textarea placeholder="Votre message" name="message"></textarea>
+					<textarea placeholder="Votre message" name="message" required></textarea>
 					<!-- <input type="textarea" wrap="true" name="message" placeholder="Votre message"> -->
 					<div class="g-recaptcha" data-sitekey="6LdCL8MUAAAAAHG2wXoyotuvSb6ApfYfVfeBsxsb"></div>
 					<br>
