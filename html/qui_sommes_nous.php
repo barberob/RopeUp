@@ -50,7 +50,7 @@
 						<p>Antoine</p>
 						<p>Sauer</p>
 					</div>
-					<p>Chef</p>
+					<p>Le Chef</p>
 				</div>
 
 				<div> <!-- Content -->
