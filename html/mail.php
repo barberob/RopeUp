@@ -1,5 +1,7 @@
 <?php
 
+$adresse = 'Location: https://mmi.univ-smb.fr/~kademn/RopeUp/html/post-form.php';
+
 //Appelle le fichier exécutant le captcha
   require('recaptcha/autoload.php');
 
@@ -13,7 +15,7 @@
       $resp = $recaptcha->verify($_POST['g-recaptcha-response']);
       //Si la réponse est un succés, le captcha est valide, sinon, il doit montrer les erreurs occasionnées
       if ($resp->isSuccess()) {
-          var_dump('Captcha Valide');
+          // echo 'Captcha Valide';
             if (isset($_POST['nom']) && !empty($_POST['nom'])  && isset($_POST['tel']) && !empty($_POST['tel']) && isset($_POST['message']) && !empty($_POST['message']) && isset($_POST['mail']) && !empty($_POST['mail']) && (isset($_POST['com']) && !empty($_POST['com']) || isset($_POST['gestion']) && !empty($_POST['gestion']))){
 
                 $recipient = 'domusaruon@gmail.com'; //antoine@ropeup.fr
@@ -23,7 +25,7 @@
 
                 //limiter le nombre de caractères en 30 maximum par exemple
             
-               $sender = 'Expéditeur : '.$_POST['nom'];
+                $sender = 'Expéditeur : '.$_POST['nom'];
                         //ne mettre que des chiffres dans ce champ
                 $tel = 'Numéro : ' .$_POST['tel'];
 
@@ -48,6 +50,7 @@
                     
                 if ($retour) {
                     echo '<h1>Votre message a bien été envoyé.</h1>';
+                    header($adresse);
                 }
                 else
                 {
@@ -55,34 +58,39 @@
                 }
             } else {
                 if (empty($_POST['nom'])) {
-                     echo 'Veuillez remplir le champ nom';
+                    $missnom = 'nom manquant';
+                    header($adresse.'/?error='.$missnom);
                 }
                 if (empty($_POST['tel'])) {
-                    echo 'Veuillez remplir le champ téléphone';
+                    $misstel = 'tel manquant';
+                    header($adresse.'/?error='.$misstel);
                 }
                 if (empty($_POST['mail'])) {
-                    echo 'Veuillez remplir le champ mail';
+                    $missmail = 'mail manquant';
+                    header($adresse.'/?error='.$missmail);
                 }
                 if (empty($_POST['message'])) {
-                    echo 'Veuillez remplir le champ message';
+                    $missmsg = 'msg manquant';
+                    header($adresse.'/?error='.$missmsg);
                 }
 
                 if(empty($_POST['gestion']) && empty($_POST['com'])) {
-                    echo "Veuillez choisir une offre";
+                    $missoffre = 'offre manquante';
+                    header($adresse.'/?error='.$missoffre);
                 }
 
             }
 
       } else {
-          $errors = $resp->getErrorCodes();
-          var_dump('Captcha Invalide');
-          var_dump($errors);
+          // $errors = $resp->getErrorCodes();
+          $invalid = 'Captcha Invalide';
+          header($adresse.'/?error='.$invalid);
       }
     } else { //Si le captcha n'est pas rempli, c'est indiqué ici
-      var_dump('Captcha non rempli');
+      $misscaptcha = 'Captcha non rempli';
+      header($adresse.'/?error='.$misscaptcha);
     }
   }
-
 
 ?>
 
