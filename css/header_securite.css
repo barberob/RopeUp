@@ -35,7 +35,7 @@ div.vice h1
 
 div.vice p
 {
-	line-height: 120%;
+	/*line-height: 120%;*/
 	color: gray;
 }
 
