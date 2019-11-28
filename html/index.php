@@ -23,7 +23,7 @@
 	<?php include("header_menu.php") ?>
 		<div class="img_container">
 			<span>L’application de gestion et de communication des professionnels indépendants</span>
-			<img src="../images/scroll.png" alt="Bouton Scroll">
+			<img src="../images/scroll.svg" alt="Bouton Scroll">
 		</div>
 	</header>
 	
