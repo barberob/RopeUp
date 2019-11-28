@@ -23,7 +23,7 @@
 	<!-- Header -->
 	<?php include("header_menu.php") ?>
 		<div class="img_container">
-			<!-- <span>Espaces verts</span> -->
+			<h1>Espaces verts</h1>
 		</div>
 	</header>
 	

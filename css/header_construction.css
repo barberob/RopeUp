@@ -70,3 +70,12 @@ div.vice img:last-of-type
 	transform: translate(-100px, -0px);
 }
 
+h1
+{
+	text-transform: uppercase;
+	font-size: 60px;
+	color:#099000;
+	font-family: "DINPro_Black";
+	transform:translateY(50%);
+}
+
