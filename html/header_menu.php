@@ -36,7 +36,7 @@
 			<nav>
 				<a href="qui_sommes_nous.php" class="nav_content">Qui sommes-nous ?</a>
 				<div class="dropdown">
-          <button class="nav_content">Secteurs</button>
+          <button class="nav_content">Secteurs d'activités</button>
           <div class="dropdown-content">
              <a href="outdoor.php">Sports et Outdoor</a>
              <span></span>
