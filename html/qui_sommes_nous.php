@@ -23,6 +23,10 @@
 		<?php include("header_menu.php") ?>
 		<div class="img_container">
 			<h1>Qui sommes-nous ?</h1>
+			<div>
+				<img src="../images/scroll.svg" alt="Bouton Scroll">
+				<span></span>
+			</div>
 		</div>
 	</header>
 
@@ -159,6 +163,7 @@
 	<?php include("footer.php") ?>
 
 	<script type="text/javascript" src="../js/libs/jquery.js"></script>
+	<script type="text/javascript" src="../js/qui_sommes_nous.js"></script>
 	<script type="text/javascript" src="../js/menu.js"></script>
 </body>
 </html>
