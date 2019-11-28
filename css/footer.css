@@ -49,11 +49,6 @@ div.reseaux
 {
 	display: flex;
 	align-items: center;
-	justify-content: center;
+	justify-content: space-between;
 	margin-top: 70px;
-}
-
-div.reseaux a.link_margin
-{
-	margin-right:50px;
 }

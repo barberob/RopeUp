@@ -27,7 +27,8 @@
 		<h1>Connexion</h1>
 
 		<div class="secteurs">
-			<a href="https://basecamp.ropeup.fr/login">
+
+			<a href="https://basecamp.ropeup.fr/login" target="_blank">
 				Sports et Outdoor
 			</a>
 			<a href="page_en_construction.php">

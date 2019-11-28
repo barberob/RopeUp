@@ -23,18 +23,26 @@
 		<?php include("header_menu.php") ?>
 		<div class="img_container">
 			<h1>Qui sommes-nous ?</h1>
+			<div>
+				<img src="../images/scroll.svg" alt="Bouton Scroll">
+				<span></span>
+			</div>
 		</div>
 	</header>
 
 	<!-- First Section -->
 	<section>
-		<h2>QU'EST CE QUE ROPE UP ?</h2>
 		<div class="wrap_qsn">
-			<p>L’application vient du terrain, elle répond à la demande des professionnels indépendants. 
-			Ceux qui ne font pas du business mais qui veulent vivre de leur métier passion, ne trouvent pas d’outil de gestion pertinent  ! 
+			<p>
+			Nous sommes une équipe de passionés qui croient en l'importance de soutenir le <span> professionel indépendant</span> dans la gestion de son activité.
+			 
 			Vivant depuis des années dans l'environnement de la montagne, notre équipe l'a bien compris. 
 			Elle est convaincue qu'elle a sa pierre à apporter à l'édifice. Les indépendants vont trouver en Rope Up ! une solution qui sait leur parler et qui les aide à rester centrés dans leur coeur de métier. 
-			L'écologie humaine assurera à tous un avenir durable. </p>
+			L'écologie humaine assurera à tous un avenir durable. 
+
+			L’application vient du<span> terrain,</span> elle répond à la demande des professionnels. 
+			Ceux qui ne font pas du business mais qui veulent vivre de leur <span>métier passion</span> et ne trouvent pas d’outil de gestion pertinent  !
+		</p>
 			<img src="../images/cabane_ropeup.svg" alt="Logo RopeUp">
 		</div>
 	</section>
@@ -159,6 +167,7 @@
 	<?php include("footer.php") ?>
 
 	<script type="text/javascript" src="../js/libs/jquery.js"></script>
+	<script type="text/javascript" src="../js/qui_sommes_nous.js"></script>
 	<script type="text/javascript" src="../js/menu.js"></script>
 </body>
 </html>
