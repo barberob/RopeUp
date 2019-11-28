@@ -53,7 +53,7 @@
 			<h2>NOTRE ÉQUIPE</h2>
 			<div> <!-- Container -->
 				<div> <!-- Content -->
-					<img src="../images/membres/membre1.png" class="member" alt="Photo membre">
+					<img src="../images/membres/antoine.jpg" class="member" alt="Photo membre">
 					<div>
 						<p>Antoine</p>
 						<p>Sauer</p>
@@ -62,7 +62,7 @@
 				</div>
 
 				<div> <!-- Content -->
-					<img src="../images/membres/membre1.png" class="member" alt="Photo membre">
+					<img src="../images/membres/samson.jpg" class="member" alt="Photo membre">
 					<div>
 						<p>Samson</p>
 						<p>Da Costa</p>
@@ -90,7 +90,7 @@
 			</div>
 			<div> <!-- Container -->
 				<div> <!-- Content -->
-					<img src="../images/membres/membre1.png" class="member" alt="Photo membre">
+					<img src="../images/membres/lauren-demain.jpg" class="member" alt="Photo membre">
 					<div>
 						<p>Laurent</p>
 						<p>Demain</p>
@@ -108,7 +108,7 @@
 				</div>
 
 				<div> <!-- Content -->
-					<img src="../images/membres/membre1.png" class="member" alt="Photo membre">
+					<img src="../images/membres/jean-louis_chanel.jpg" class="member" alt="Photo membre">
 					<div>
 						<p>Jean-Louis</p>
 						<p>Chanel</p>
@@ -134,7 +134,7 @@
 					<div>
 						<h3>2017 : “PRÉPARATION DE LA COURSE” </h3>
 						<ul>
-							<li>Rope Up ! sélectionné par le premier incubateur sport européen : l'Outdoor Sports Valley, Annecy (74</li>
+							<li>Rope Up ! sélectionné par le premier incubateur sport européen : <a href="https://www.outdoorsportsvalley.org/" target="_blank">l'Outdoor Sports Valley </a>, Annecy (74)</li>
 							<li>Lancement des premières réunions de travail avec les professionnels indépendants</li>
 							<li>Création d’un comité de développement avec les futurs utilisateur</li>
 						</ul>
@@ -143,7 +143,7 @@
 					<div>
 						<h3>2018 : “MARCHE D’APPROCHE” </h3>
 						<ul>
-							<li>Installation à l’Annecy Base Camp</li>
+							<li>Installation à <a href="https://www.startup-basecamp.com/" target="_blank">l’Annecy Base Camp</a></li>
 							<li>Création d’une équipe de développeurs en interne</li>
 							<li>Déclaration CNIL et mise en place des procédures RGPD</li>
 							<li>Lancement de la version Beta </li>
