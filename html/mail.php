@@ -1,20 +1,28 @@
 <?php
 
-	// ini_set('SMTP', 'localhost');
-	// ini_set('smtp_port', '25');
+	$recipient = 'domusaruon@gmail.com'; //antoine@ropeup.fr 
 
-	$recipient = 'domusaruon@gmail.com'; //antoine@ropeup.fr
+    if(isset($_POST['com']) && $_POST['gestion'] == NULL){
+        $pack = 'Pack communication';
+    }
+
+    if(isset($_POST['gestion']) && $_POST['com'] == NULL){
+        $pack = 'Pack gestion';
+    }
+
+    if(isset($_POST['gestion']) && isset($_POST['com'])){
+        $pack = 'Packs com et gestion';
+    }
 	
-    $retour = mail($recipient, 'Envoi depuis Contact', 'Nom:'. $_POST['nom'] . 'Message:' . $_POST['message'], 'From: '.$_POST['mail']);
+    $retour = mail($recipient, 'Envoi' , 'Expéditeur : '.$_POST['nom']; . 'Numéro : ' .$_POST['tel']; . 'Message : '.$_POST['message'];. $pack, 'From: '.$_POST['mail'];);
     
     if ($retour) {
-        echo '<p>Votre message a bien été envoyé.</p>';
+        echo '<h1>Votre message a bien été envoyé.</h1>';
     }
     else
     {
-    	echo '<p>Erreur</p>';
+    	echo '<h1>Erreur</h1>';
     }
 
-    //phpinfo();
 ?>
 
