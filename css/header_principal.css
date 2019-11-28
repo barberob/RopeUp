@@ -12,6 +12,19 @@
   }
 }
 
+@keyframes header {
+  from
+  {
+    transform:translateY(60%);
+	opacity: 0;
+  }
+
+  to
+  {
+    opacity: 1;
+	transform:translateY(25%);  }
+}
+
 
 div.wrap
 {
@@ -77,16 +90,10 @@ div.img_container >span
 	text-align: center;
 	padding: 15px 20px;
 	line-height: 1.3;
-	transform:translateY(60%);
-	opacity: 0;
-	font-family: "DINPro_Black";
-}
-
-div.img_container >span.active
-{
-	opacity: 1;
 	transform:translateY(25%);
-	transition: all 1s ease-in-out;
+	animation-duration: 1s;
+  	animation-name: header;
+	font-family: "DINPro_Black";
 }
 
 div.img_container >div
@@ -116,10 +123,6 @@ div.img_container >div >span
 	top: 10px;
 	left: 50%;
 	transform: translateX(-50%);
-}
-
-div.img_container >div >span.active
-{
 	animation-duration: 1.5s;
   	animation-name: scroll;
   	animation-iteration-count: infinite;
