@@ -2,7 +2,9 @@
 
 	header
 	{
-		background-image: url(../images/moitie_visage_homme.png);
+		background-image: url(../images/moitie_visage_homme.jpg);
+		background-position: center;
+		background-size: cover;
 	}
 }
 
