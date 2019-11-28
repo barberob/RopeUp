@@ -54,7 +54,7 @@ p.answer {
 }
 
 p.explanation {
-	font-size: 14px;
+	font-size: 17px;
 	font-family: "DINPro_Light";
 	text-align: left;
 	color: black;
@@ -63,12 +63,12 @@ p.explanation {
 
 
 ul#square {
-	padding-left: 15px;
+	padding-left: 50px;
 }
 
 li.square {
 	list-style-type: square;
-	font-size: 14px;
+	font-size: 17px;
 	font-family: "DINPro_Light";
 }
 

@@ -25,6 +25,10 @@
 		<?php include("header_menu.php") ?>
 		<div class="img_container header_outdoor">
 			<h1>Outdoor</h1>
+			<div>
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 75 145"><defs><style>.cls-1{fill:none;stroke:#019EC0;stroke-miterlimit:10;stroke-width:5px;}</style></defs><title>Fichier 2</title><g id="Calque_2" data-name="Calque 2"><g id="Calque_1-2" data-name="Calque 1"><rect class="cls-1" x="2.5" y="2.5" width="70" height="140" rx="32" ry="32"/></g></g></svg>
+				<span></span>
+			</div>
 		</div>
 	</header>
 
@@ -36,7 +40,7 @@
 				<p>
 					Plus qu'un simple outil, c'est un service avec une équipe d'hommes et de femmes amoureuse de l’outdoor et du sport et dont l'objectif est de vous servir. Dans son domaine de prédilection, l’informatique, elle vous apportera le maximum de soutien dans votre quotidien professionnel.
 				<p>
-					Pour vous simplifier la vie et vous éviter de perdre du temps, nous proposons des abonnements annuels à deux pack, à prendre ensemble ou séparément : <span>un pack gestion et un pack communication.</span>	
+					Pour vous simplifier la vie et vous éviter de perdre du temps, nous proposons des abonnements annuels à deux pack, à prendre ensemble ou séparément : <span>un <a class="management_link">pack gestion</a> et un <a class="communication_link">pack communication.</a></span>	
 				</p>
 			</div>
 		
@@ -98,18 +102,14 @@
 							</li>
 
 								 <ul>
-								 	<li>
-								 		<ul>
-								 			<li>Profil</li>
-								 			<li>Catalogue de prestations avec boite de dialogue pour le visiteur</li>
-								 			<li>Choix des programmes de prestation avec inscription pour le visiteur</li>
-								 			<li>Affichage de votre blog avec vos nouvelles</li>
-								 			<li>Affichage avec lien vers vos partenaires</li>
-								 			<li>Vos tarifs</li>
-								 			<li>Votre page de demande de contact</li>
-								 			<li>Une page pour vos CGV</li>
-								 		</ul>
-								 	</li>
+						 			<li>Profil</li>
+						 			<li>Catalogue de prestations avec boite de dialogue pour le visiteur</li>
+						 			<li>Choix des programmes de prestation avec inscription pour le visiteur</li>
+						 			<li>Affichage de votre blog avec vos nouvelles</li>
+						 			<li>Affichage avec lien vers vos partenaires</li>
+						 			<li>Vos tarifs</li>
+						 			<li>Votre page de demande de contact</li>
+						 			<li>Une page pour vos CGV</li>
 								 </ul>
 							
 						
@@ -117,6 +117,7 @@
 							<li class="level_0">
 								En Back office, depuis votre interface, vous gérez votre communication et votre relation clients. Vous pouvez :
 							</li>
+
 							<ul>
 								<li>Partager vos offres de prestations et vos nouvelles directement vers les réseaux sociaux sans quitter l’interface</li>
 								<li>Transformer chaque offre de prestation en un document pdf mis en page selon un pré-formatage établie</li>
@@ -290,54 +291,54 @@
 
 			<?php
 
-				require_once('connexion_database.php');
-				$requete = "SELECT * FROM ambassadeurs_outdoor ORDER BY rand()";
-				$resultat = mysqli_query($CONNEXION,$requete);
+				// require_once('connexion_database.php');
+				// $requete = "SELECT * FROM ambassadeurs_outdoor ORDER BY rand()";
+				// $resultat = mysqli_query($CONNEXION,$requete);
 
-				if (!$resultat)
-				{
-					echo "Erreur dans l'exécution de la requête, message de MySQL : ", mysqli_error($CONNEXION);
-					exit();
-				}
+				// if (!$resultat)
+				// {
+				// 	echo "Erreur dans l'exécution de la requête, message de MySQL : ", mysqli_error($CONNEXION);
+				// 	exit();
+				// }
 
 
-				$nombreLignes = mysqli_num_rows($resultat);
-				while ($ambassadeur = mysqli_fetch_assoc ($resultat))
-				{
+				// $nombreLignes = mysqli_num_rows($resultat);
+				// while ($ambassadeur = mysqli_fetch_assoc ($resultat))
+				// {
 
-					 echo " <div class='swiper-slide'>";
+					 // echo " <div class='swiper-slide'>";
 
-					 echo "<div class='content_container'>";
+					 // echo "<div class='content_container'>";
 
-					 echo "<div class='image_container'>
-		        			<img src='../images/" . $ambassadeur['picture'] . ".jpg'>
-		         		  </div>";
+					 // echo "<div class='image_container'>
+		    //     			<img alt='' src='../images/" . $ambassadeur['picture'] . ".jpg'>
+		    //      		  </div>";
 
-					 echo "<p class='name'>" . $ambassadeur['firstname'] . ' ' . $ambassadeur['lastname'] ."</p>";
+					 // echo "<p class='name'>" . $ambassadeur['firstname'] . ' ' . $ambassadeur['lastname'] ."</p>";
 
-					 echo "<p class='work'>" . $ambassadeur['work'] . "</p>";
+					 // echo "<p class='work'>" . $ambassadeur['work'] . "</p>";
 
-					 echo "<p class='city'>" . $ambassadeur['city'] . "</p>";
+					 // echo "<p class='city'>" . $ambassadeur['city'] . "</p>";
 
-					 echo "<div class='quotes'>
-	         				<img src='../images/start_quote.png'>
-	         				<img src='../images/end_quote.png'>
-	         			</div>";
+					 // echo "<div class='quotes'>
+	     //     				<img src='../images/start_quote.png'>
+	     //     				<img src='../images/end_quote.png'>
+	     //     			</div>";
 
-	        		 echo "<p class='comment'>" . $ambassadeur['comment'] . "</p>";
+	     //    		 echo "<p class='comment'>" . $ambassadeur['comment'] . "</p>";
 
-	        		 echo "<p class='mail'>" . $ambassadeur['email'] . "</p>";
+	     //    		 echo "<p class='mail'>" . $ambassadeur['email'] . "</p>";
 
-	        		 echo "<p class='phone_number'>" . $ambassadeur['number'] . "</p>";
+	     //    		 echo "<p class='phone_number'>" . $ambassadeur['number'] . "</p>";
 
-	        		 echo "</div>
-	        		</div>";
+	     //    		 echo "</div>
+	     //    		</div>";
 
-				}
+				//}
 
-				 mysqli_close($CONNEXION);
+				 //mysqli_close($CONNEXION);
 
-			?>
+				?> 
 
 
 					</div>
@@ -514,6 +515,7 @@
 	<script type="text/javascript" src="../js/libs/jquery.js"></script>
 	<script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
 	<script type="text/javascript" src="../js/pack.js"></script>
+	<script type="text/javascript" src="../js/outdoor.js"></script>
 	<script type="text/javascript" src="../js/menu.js"></script>
 	<script>
     var swiper = new Swiper('.swiper-container', {
