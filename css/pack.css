@@ -175,9 +175,11 @@ div.background p:first-child
 div.iframe_container
 {
 	position: relative;
-	width: 100%;
+	width: 50%;
 	height: 0;
-	padding-bottom: 56.25%;
+	padding-bottom: 28.125%;
+	margin-right: auto;
+	margin-left:auto;
 }
 
 
@@ -193,6 +195,7 @@ div.iframe_container iframe
 div.video_and_description p
 {
 	color: white;
+	text-align: center;
 	font-family: 'DINPro_Light';
 	font-size: 17px;
 	margin-top: 50px;
