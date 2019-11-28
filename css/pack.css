@@ -339,8 +339,7 @@ section#pack_vente p
 	color: #000;
 	font-family: 'DINPro_Light';
 	font-size: 22px;
-	margin-top: 20px;
-	margin-bottom: 50px;
+	margin-bottom: 10px;
 	text-align: center;
 }
 section#tarifs p a
@@ -405,7 +404,6 @@ section#tarifs div.solo
 	background-color: #007B96;
 }
 
-
 section#tarifs div.solo *
 {
 	color: white;
@@ -415,6 +413,7 @@ section#tarifs h2+div div:nth-of-type(1) p
 {
 	font-family: 'DINPro_Light';
 	font-size: 20px;
+	margin-bottom: 40px;
 }
 
 section#tarifs h5
