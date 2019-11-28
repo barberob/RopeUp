@@ -23,6 +23,7 @@
 	<?php include("header_menu.php") ?>
 		<div class="img_container">
 			<span>L’application de gestion et de communication des professionnels indépendants</span>
+			<img src="../images/fleche_bas_orange.svg" alt="Flèche vers le bas">
 		</div>
 	</header>
 	
@@ -30,15 +31,11 @@
 	<section>
 		<h2>QU'EST-CE QUE ROPE UP ?</h2>
 		<div class="wrap_index">
-			<p>Rope Up ! est une application web accessible en ligne qui aide les professionnels indépendants dans leur gestion commerciale et administrative.
-			</p>
-			<p>
-			Vous êtes un professionnel indépendant ? Vous préférez passer du temps sur le terrain plutôt que de faire de l'administratif et de la communication ? Pour vous, et avec des personnes comme vous, nous avons créé une application pour vous aider à structurer votre activité tout en vous apportant du confort.
-			</p>
-			<p>
-			C'est un support qui renforce leurs liens avec leurs prospects, leurs clients et leurs partenaires mais c'est aussi une aide efficace pour structurer leur activité et répondre sans soucis aux exigences de l'administration. Qu’ils soient au régime de micro entrepreneur ou au régime réel d'imposition, l’application est faite pour eux. <br>Bienvenue chez Rope Up ! 
-			</p>
-
+			<div>
+				<p>Rope Up ! est une application web accessible en ligne qui aide les professionnels indépendants dans leur gestion commerciale et administrative.</p>
+				<p>Vous êtes un professionnel indépendant ? Vous préférez passer du temps sur le terrain plutôt que de faire de l'administratif et de la communication ? Pour vous, et avec des personnes comme vous, nous avons créé une application pour vous aider à structurer votre activité tout en vous apportant du confort.</p>
+				<p>C'est un support qui renforce leurs liens avec leurs prospects, leurs clients et leurs partenaires mais c'est aussi une aide efficace pour structurer leur activité et répondre sans soucis aux exigences de l'administration. Qu’ils soient au régime de micro entrepreneur ou au régime réel d'imposition, l’application est faite pour eux. <br>Bienvenue chez Rope Up !</p>
+			</div>
 			<img src="../images/cabane_ropeup.svg" alt="Logo RopeUp">
 		</div>
 	</section>
