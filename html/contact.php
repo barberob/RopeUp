@@ -22,7 +22,7 @@
 		<!-- inclure menu -->
 		<?php include("header_menu.php") ?>
 		<div class="img_container">
-			<h1>contact</h1>
+			<h1 id="contact">contact</h1>
 		</div>
 	</header>
 
@@ -73,11 +73,13 @@
 					<input type="email" name="mail" placeholder="Adresse Mail">
 
 					<div>
-						<p>Pack :</p>
-						<input type="checkbox" name="com">
-						<p>Communication</p>
-						<input type="checkbox" name="gestion">
-						<p>Gestion</p>
+						<label>Pack :</label>
+						<input id="com" type="checkbox" name="com">
+						<label>Communication</label>
+						<input id="gestion" type="checkbox" name="gestion">
+						<label>Gestion</label>
+						<input type="checkbox" name="vente" disabled="disabled">
+						<label>Pack vente</label>
 					</div>
 					
 					<textarea placeholder="Votre message" name="message"></textarea>
@@ -95,6 +97,7 @@
 
 	<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 	<script type="text/javascript" src="../js/libs/jquery.js"></script>
+	<script type="text/javascript" src="../js/contact.js"></script>
 	<script type="text/javascript" src="../js/menu.js"></script>
 		
 </body>
