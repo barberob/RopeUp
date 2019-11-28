@@ -21,15 +21,11 @@
 
 		<?php include("header_menu.php") ?>
 	</header>
-
-	
-
-		<div class="vice">
-
+		class="vice"
 			<h2>sécurité</h2>
 
 			<section>
-			<div>
+			
 				<div>
 
 					<h2>Rope up ! respecte les lois et les règles de sécurité des données </h2>
@@ -60,7 +56,7 @@
 					<img src="../images/hacker.svg" alt="">
 
 				</div>
-			</div>
+			</section>
 			<div>
 				<h3>2° RGPD :</h3>
 				<p>Politique de protection des données personnelles applicable à compter du 1 Juin 2019
@@ -184,10 +180,7 @@
 				</p>
 
 			</div>
-
-			</section>
-
-		</div>
+			
 
 	<?php include("footer.php") ?>
 

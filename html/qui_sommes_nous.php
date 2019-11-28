@@ -28,9 +28,10 @@
 
 	<!-- First Section -->
 	<section>
-		<h2>QU'EST CE QUE ROPE UP ?</h2>
 		<div class="wrap_qsn">
-			<p>L’application vient du terrain, elle répond à la demande des professionnels indépendants. 
+			<p>
+			Nous sommes 
+			L’application vient du terrain, elle répond à la demande des professionnels indépendants. 
 			Ceux qui ne font pas du business mais qui veulent vivre de leur métier passion, ne trouvent pas d’outil de gestion pertinent  ! 
 			Vivant depuis des années dans l'environnement de la montagne, notre équipe l'a bien compris. 
 			Elle est convaincue qu'elle a sa pierre à apporter à l'édifice. Les indépendants vont trouver en Rope Up ! une solution qui sait leur parler et qui les aide à rester centrés dans leur coeur de métier. 
