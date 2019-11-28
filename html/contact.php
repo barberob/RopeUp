@@ -50,37 +50,12 @@
 			<div>
 				<form action="mail.php" method="post">
 
-					<?php 
-						if(!isset($_POST['submitpost'])){
-							var_dump('Formulaire invalide');
-						} 
-					?>
-
-					<?php
-					  require('recaptcha/autoload.php');
-					  if(isset($_POST['submitpost'])) {
-					    if(isset($_POST['g-recaptcha-response'])) {
-					      $recaptcha = new \ReCaptcha\ReCaptcha('6LdCL8MUAAAAAHH-ZwQNzjTvb9GG_Q4gvOj-O3Cn');
-					      $resp = $recaptcha->verify($_POST['g-recaptcha-response']);
-					      if ($resp->isSuccess()) {
-					          var_dump('Captcha Valide');
-					      } else {
-					          $errors = $resp->getErrorCodes();
-					          var_dump('Captcha Invalide');
-					          var_dump($errors);
-					      }
-					    } else {
-					      var_dump('Captcha non rempli');
-					    }
-					  }
-					?>
-
 					<div>
-						<input type="text" name="nom" placeholder="Nom Prénom" required>
-						<input type="text" name="tel" placeholder="Téléphone" required>			
+						<input type="text" name="nom" placeholder="Nom Prénom" maxlength="40" required>
+						<input type="text" name="tel" placeholder="Téléphone" maxlength="15" required>			
 					</div>
 
-					<input type="email" name="mail" placeholder="Adresse Mail" required>
+					<input type="email" name="mail" placeholder="Adresse Mail" maxlength="60" required>
 
 					<div>
 						<label>Pack :</label>
@@ -88,11 +63,11 @@
 						<label>Communication</label>
 						<input id="gestion" type="checkbox" name="gestion">
 						<label>Gestion</label>
-						<input type="checkbox" name="vente" disabled="disabled">
-						<label>Pack vente</label>
+<!-- 						<input type="checkbox" name="vente" disabled="disabled">
+						<label>Pack vente</label> -->
 					</div>
 					
-					<textarea placeholder="Votre message" name="message" required></textarea>
+					<textarea placeholder="Votre message" name="message" maxlength="1000" required></textarea>
 					<!-- <input type="textarea" wrap="true" name="message" placeholder="Votre message"> -->
 					<div class="g-recaptcha" data-sitekey="6LdCL8MUAAAAAHG2wXoyotuvSb6ApfYfVfeBsxsb"></div>
 					<br>

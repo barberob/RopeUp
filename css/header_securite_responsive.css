@@ -46,6 +46,27 @@
 		margin-right: 0%;
 	}
 
+	
+	div.flexbox
+	{
+		flex-direction: column-reverse;
+
+	}
+	div.image_container
+	{
+		flex-direction: row;
+	}
+	div.text_container
+	{
+		margin-top: 100px;
+		width: 100%;
+	}
+
+	div.flexbox img
+	{
+		width:100px;
+	}
+
 }
 
 @media all and (max-width: 780px){
