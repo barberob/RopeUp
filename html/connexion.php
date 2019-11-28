@@ -28,7 +28,7 @@
 
 		<div class="secteurs">
 			<a href="https://basecamp.ropeup.fr/login">
-				Sports Outdoor
+				Sports et Outdoor
 			</a>
 			<a href="page_en_construction.php">
 				Espaces Verts

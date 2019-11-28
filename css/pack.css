@@ -18,7 +18,18 @@ section#tarifs div.wrap
 	/*align-self: center;*/
 	padding: 0;
 
+} 
+
+section#presentation span
+{
+	font-family: "DINPro_Bold";
+	user-select: none;
 }
+section#presentation span a
+{
+	text-decoration: underline;
+}
+
 
 
  /*//////////////////////////////////////////////////////////////////////*/
