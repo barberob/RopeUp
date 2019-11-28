@@ -24,36 +24,42 @@
 	<h2>sécurité</h2>
 
 	<section>
+		
 		<h2>Rope up ! respecte les lois et les règles de sécurité des données </h2>
-		<div>
 
-			<div>	
-				<h3>1° Certification :</h3>
+			<div class="flexbox">	
+				<div>
+					
+					<h3>1° Certification :</h3>
 
-				<span>Certification NF203 INFOCERT « logiciel de gestion commerciale ».</span>
+					<span>Certification NF203 INFOCERT « logiciel de gestion commerciale ».</span>
 
-				<p>Nous déclarons connaitre et accepter les règles générales de la marque NF, les règles de certification de l’application NF Logiciel et nous sommes engagés à les respecter pendant toute la durée d’usage de la marque NF.</p>
+					<p>Nous déclarons connaitre et accepter les règles générales de la marque NF, les règles de certification de l’application NF Logiciel et nous sommes engagés à les respecter pendant toute la durée d’usage de la marque NF.</p>
 
-				<p>La certification couvre l’ensemble des domaines fonctionnels de la comptabilité informatisée (achat, vente, stock, immobilisations et comptabilité) ainsi que les coffres-forts numériques (NF203 CCFN). Un ou plusieurs domaines fonctionnels peuvent être certifiés.</p>
+					<p>La certification couvre l’ensemble des domaines fonctionnels de la comptabilité informatisée (achat, vente, stock, immobilisations et comptabilité) ainsi que les coffres-forts numériques (NF203 CCFN). Un ou plusieurs domaines fonctionnels peuvent être certifiés.</p>
 
-				<p>Elle nous permet d’attester de façon indiscutable et impartiale de la qualité et de la conformité de notre logiciel et sécurise nos clients en cas de contrôle fiscal de la comptabilité informatisée (L47A-I, L47A-II et L47A-III).</p>
+					<p>Elle nous permet d’attester de façon indiscutable et impartiale de la qualité et de la conformité de notre logiciel et sécurise nos clients en cas de contrôle fiscal de la comptabilité informatisée (L47A-I, L47A-II et L47A-III).</p>
 
-				<p>Elle vérifie que nous avons conçu le logiciel en respectant des exigences qualité basées sur la norme internationale ISO 25051, relatives aux méthodes de tests et à la validation du produit. Et ce, pour assurer un soutien après-vente à nos clients et pour répondre aux dispositions d’assurance qualité garantissant la pérennité du produit.</p>
+					<p>Elle vérifie que nous avons conçu le logiciel en respectant des exigences qualité basées sur la norme internationale ISO 25051, relatives aux méthodes de tests et à la validation du produit. Et ce, pour assurer un soutien après-vente à nos clients et pour répondre aux dispositions d’assurance qualité garantissant la pérennité du produit.</p>
 
-				<p>Secrétariat technique d’« AFNOR Certification » depuis près de 20 ans, INFOCERT crée et développe des marques NF qui apportent un avantage concurrentiel durable, une reconnaissance internationale de la marque NF et nous sécurisent en délivrant des certificats de conformité en relation avec des réglementations françaises en vigueur.
-				</p>
+					<p>Secrétariat technique d’« AFNOR Certification » depuis près de 20 ans, INFOCERT crée et développe des marques NF qui apportent un avantage concurrentiel durable, une reconnaissance internationale de la marque NF et nous sécurisent en délivrant des certificats de conformité en relation avec des réglementations françaises en vigueur.
+					</p>
+
+				</div>
+
+				<div>
+
+					<img src="../images/RGPD_banner-1.svg" alt="">
+
+					<img src="../images/hacker.svg" alt="">
+
+				</div>
 
 			</div>
-
-			<div>
-
-				<img src="../images/RGPD_banner-1.svg" alt="">
-
-				<img src="../images/hacker.svg" alt="">
-
-			</div>
-		</div>
 	</section>
+
+
+
 	<div>
 		<h3>2° RGPD :</h3>
 

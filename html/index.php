@@ -98,7 +98,7 @@
 				<a href="http://www.snapec.org" target="_blank"><img src="../images/partenaires/logo_syndicat_escalade.png" alt="Logo Syndicat Professionnels Escalade et Canyon"></a>
 				<a href="https://sngm.com" target="_blank"><img src="../images/partenaires/logo_syndicat_guide.png" alt="Logo Syndicat Guide de Montagne"></a>
 				<a href="https://snam.pro" target="_blank"><img src="../images/partenaires/logo_syndicat_accompagnateur_montagne.png" alt="Logo Syndicat Accompagnateur en Montagne"></a>
-				<a href="https://snam.pro" target="_blank"><img src="../images/partenaires/logo_credit_agricole.svg" alt="Logo Crédit Agricole"></a>
+				<a href="https://www.credit-agricole.fr/" target="_blank"><img src="../images/partenaires/logo_credit_agricole.svg" alt="Logo Crédit Agricole"></a>
 			</div>
 		</div>
 		
