@@ -127,8 +127,7 @@ form input[type="submit"]
 .g-recaptcha
 {
 	width: 30%;
-	margin-right: auto;
-	margin-left: auto;
+	margin: 0 auto;
 	margin-bottom: 40px;
 }
 

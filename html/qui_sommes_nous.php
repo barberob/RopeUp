@@ -99,7 +99,7 @@
 				</div>
 
 				<div> <!-- Content -->
-					<img src="../images/membres/membre1.png" class="member" alt="Photo membre">
+					<img src="../images/membres/yoran_de-gouvello.jpg" class="member" alt="Photo membre">
 					<div>
 						<p>Yoran</p>
 						<p>De Gouvello</p>

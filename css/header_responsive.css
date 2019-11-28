@@ -2,7 +2,9 @@
 
 	header
 	{
-		background-image: url(../images/moitie_visage_homme.png);
+		background-image: url(../images/moitie_visage_homme.jpg);
+		background-position: center;
+		background-size: cover;
 	}
 }
 
@@ -46,7 +48,7 @@
 		width: 40px;
 	}
 
-	div.img_container span
+	div.img_container >span
 	{
 		font-size: 35px;
 		line-height: 50px;
@@ -54,7 +56,7 @@
 		box-sizing: border-box;
 	}
 
-	div.img_container span
+	div.img_container >span
 	{
 		width: 100%;
 		height: auto;
