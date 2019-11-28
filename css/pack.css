@@ -256,7 +256,7 @@ section#fonctionnalités ul.level_2 li
 	font-family: 'DINPro_Light';
 	font-size: 18px;
 	margin-left: 40px;
-	margin-top: 25px;
+	margin-top: 10px;
 	list-style-type: none; 
 }
 section#fonctionnalités ul li 
@@ -264,7 +264,7 @@ section#fonctionnalités ul li
 	color: white;
 	font-family: 'DINPro_Light';
 	font-size: 18px;
-	margin-bottom: 15px;
+	margin-bottom: 25px;
 }
 section#fonctionnalités ul 
 {
@@ -281,7 +281,7 @@ section#fonctionnalités ol>li+p
 }
 section#fonctionnalités ol>li+ul, ol p+ul
 {
-	margin-left: 15px;
+	margin-left: 25px;
 }
 
 
