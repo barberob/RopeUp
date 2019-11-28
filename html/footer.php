@@ -26,6 +26,6 @@
 
 			</div>
 		</div>
-		<a href="#"><img class="logo" src="../images/cabane_ropeup.png" alt="logo RopeUp"></a>
+		<img class="logo" src="../images/cabane_ropeup.png" alt="logo RopeUp">
 	</div>
 </footer>
