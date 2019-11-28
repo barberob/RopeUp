@@ -1,3 +1,32 @@
+@keyframes scroll {
+  from
+  {
+    transform: translateX(-50%) translateY(0); 
+    opacity: 1;
+  }
+
+  to
+  {
+    transform: translateX(-50%) translateY(25px);
+    opacity: 0;
+  }
+}
+
+@keyframes header {
+  from
+  {
+    transform:translateY(200%);
+	opacity: 0;
+  }
+
+  to
+  {
+    opacity: 1;
+	transform:translateY(50%);  }
+}
+
+
+
 nav a:nth-child(4) span, nav a:nth-child(1) span
 {
 	background-color: #019EC0;
@@ -16,10 +45,49 @@ header h1
 	color:#FFF;
 	font-family: "DINPro_Black";
 	transform:translateY(50%);
+	animation-duration: 1s;
+  	animation-name: header;
 }
 
 div.dropdown-content span
 {
   background-color: #019EC0;
+}
+
+div.img_container
+{
+	position: relative;
+}
+
+div.img_container >div
+{
+	position: absolute;
+	bottom: 30px;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 30px;
+	cursor: pointer;
+	text-align: center;
+}
+
+div.img_container svg
+{
+	width: 100%;
+}
+
+div.img_container >div >span
+{
+	display: block;
+	width: 15px;
+	height: 15px;
+	background-color:  #019EC0;
+	border-radius: 50%;
+	position: absolute;
+	top: 10px;
+	left: 50%;
+	transform: translateX(-50%);
+	animation-duration: 1.5s;
+  	animation-name: scroll;
+  	animation-iteration-count: infinite;
 }
 
