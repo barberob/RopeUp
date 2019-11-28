@@ -28,7 +28,7 @@ $error = $_GET['error'];?>
 		<div id="redirection">
 			<h3 class="form">Il y a eu un problème lors de l'envoi de votre formulaire,
 
-<?php echo $error; ?>			 veuillez attendre et réessayer après <h3 id="counter">5</h3> <h3 class="form"> secondes</h3></h3>
+			<?php echo $error;?> veuillez attendre et réessayer après <h3 id="counter">5</h3> <h3 class="form"> secondes</h3></h3>
 		</div>
 
 
