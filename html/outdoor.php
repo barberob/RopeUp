@@ -24,7 +24,11 @@
 	<!--inclure header -->
 		<?php include("header_menu.php") ?>
 		<div class="img_container header_outdoor">
-			<h1>sports et outdoor</h1>
+			<h1>Outdoor</h1>
+			<div>
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 75 145"><defs><style>.cls-1{fill:none;stroke:#019EC0;stroke-miterlimit:10;stroke-width:5px;}</style></defs><title>Fichier 2</title><g id="Calque_2" data-name="Calque 2"><g id="Calque_1-2" data-name="Calque 1"><rect class="cls-1" x="2.5" y="2.5" width="70" height="140" rx="32" ry="32"/></g></g></svg>
+				<span></span>
+			</div>
 		</div>
 	</header>
 
@@ -511,6 +515,7 @@
 	<script type="text/javascript" src="../js/libs/jquery.js"></script>
 	<script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
 	<script type="text/javascript" src="../js/pack.js"></script>
+	<script type="text/javascript" src="../js/outdoor.js"></script>
 	<script type="text/javascript" src="../js/menu.js"></script>
 	<script>
     var swiper = new Swiper('.swiper-container', {

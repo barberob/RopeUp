@@ -24,7 +24,7 @@
 		<div class="img_container">
 			<h1>Qui sommes-nous ?</h1>
 			<div>
-				<img src="../images/scroll.svg" alt="Bouton Scroll">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 75 145"><defs><style>.cls-1{fill:none;stroke:#ff7d00;stroke-miterlimit:10;stroke-width:5px;}</style></defs><title>Fichier 2</title><g id="Calque_2" data-name="Calque 2"><g id="Calque_1-2" data-name="Calque 1"><rect class="cls-1" x="2.5" y="2.5" width="70" height="140" rx="32" ry="32"/></g></g></svg>
 				<span></span>
 			</div>
 		</div>
@@ -53,7 +53,7 @@
 			<h2>NOTRE ÉQUIPE</h2>
 			<div> <!-- Container -->
 				<div> <!-- Content -->
-					<img src="../images/membres/membre1.png" class="member" alt="Photo membre">
+					<img src="../images/membres/antoine.jpg" class="member" alt="Photo membre">
 					<div>
 						<p>Antoine</p>
 						<p>Sauer</p>
@@ -62,7 +62,7 @@
 				</div>
 
 				<div> <!-- Content -->
-					<img src="../images/membres/membre1.png" class="member" alt="Photo membre">
+					<img src="../images/membres/samson.jpg" class="member" alt="Photo membre">
 					<div>
 						<p>Samson</p>
 						<p>Da Costa</p>
@@ -90,7 +90,7 @@
 			</div>
 			<div> <!-- Container -->
 				<div> <!-- Content -->
-					<img src="../images/membres/membre1.png" class="member" alt="Photo membre">
+					<img src="../images/membres/lauren-demain.jpg" class="member" alt="Photo membre">
 					<div>
 						<p>Laurent</p>
 						<p>Demain</p>
@@ -108,7 +108,7 @@
 				</div>
 
 				<div> <!-- Content -->
-					<img src="../images/membres/membre1.png" class="member" alt="Photo membre">
+					<img src="../images/membres/jean-louis_chanel.jpg" class="member" alt="Photo membre">
 					<div>
 						<p>Jean-Louis</p>
 						<p>Chanel</p>

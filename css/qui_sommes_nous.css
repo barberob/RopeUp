@@ -108,6 +108,7 @@ section:nth-of-type(2) .wrap_qsn >div >div >div p:first-of-type
 section:nth-of-type(2) .wrap_qsn >div >div >img 
 {
   height: 250px;
+  filter: grayscale(1);
 }
 
 section:nth-of-type(2) .wrap_qsn >div >div 

@@ -61,7 +61,7 @@ div.img_container >div
 	text-align: center;
 }
 
-div.img_container img
+div.img_container svg
 {
 	width: 100%;
 }
