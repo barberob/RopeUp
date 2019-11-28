@@ -1,3 +1,18 @@
+@keyframes scroll {
+  from
+  {
+    transform: translateX(-50%) translateY(0); 
+    opacity: 1;
+  }
+
+  to
+  {
+    transform: translateX(-50%) translateY(25px);
+    opacity: 0;
+  }
+}
+
+
 div.wrap
 {
 	max-width:1440px;
@@ -54,7 +69,7 @@ div.img_container
 	position: relative;
 }
 
-div.img_container span:nth-of-type(1)
+div.img_container >span
 {
 	color: #FF7D00;
 	width:40%;
@@ -67,32 +82,47 @@ div.img_container span:nth-of-type(1)
 	font-family: "DINPro_Black";
 }
 
-div.img_container span:nth-of-type(1).active
+div.img_container >span.active
 {
 	opacity: 1;
 	transform:translateY(25%);
 	transition: all 1s ease-in-out;
 }
 
-div.img_container img
+div.img_container >div
 {
 	position: absolute;
-	width: 30px;
+	bottom: 30px;
 	left: 50%;
-	bottom: 50px;
 	transform: translateX(-50%);
+	width: 30px;
+	cursor: pointer;
+	text-align: center;
 }
 
-div.img_container span:nth-of-type(2)
+div.img_container img
 {
+	width: 100%;
+}
+
+div.img_container >div >span
+{
+	display: block;
 	width: 15px;
 	height: 15px;
 	background-color:  #FF7D00;
-	position: absolute;
-	bottom: 85px;
-	left: 50%;
-	transform: translateX(-50%) translateY(0); 
 	border-radius: 50%;
+	position: absolute;
+	top: 10px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+div.img_container >div >span.active
+{
+	animation-duration: 1.5s;
+  	animation-name: scroll;
+  	animation-iteration-count: infinite;
 }
 
 
