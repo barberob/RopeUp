@@ -1,0 +1,20 @@
+.wrap_mentions
+{
+	width: 70%;
+	margin: 0 auto;
+}
+
+h2
+{
+  font-family: "DINPro_Bold";
+  font-size: 40px;
+  color: #FF7D00;
+  text-align: center;
+  margin-bottom: 60px;
+  margin-top: 100px;
+}
+
+section
+{
+	padding-bottom: 100px;
+}

@@ -23,8 +23,10 @@
 	<?php include("header_menu.php") ?>
 		<div class="img_container">
 			<span>L’application de gestion et de communication des professionnels indépendants</span>
-			<img src="../images/scroll.svg" alt="Bouton Scroll">
-			<span></span>
+			<div>
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 75 145"><defs><style>.cls-1{fill:none;stroke:#ff7d00;stroke-miterlimit:10;stroke-width:5px;}</style></defs><title>Fichier 2</title><g id="Calque_2" data-name="Calque 2"><g id="Calque_1-2" data-name="Calque 1"><rect class="cls-1" x="2.5" y="2.5" width="70" height="140" rx="32" ry="32"/></g></g></svg>
+				<span></span>
+			</div>
 		</div>
 	</header>
 	
@@ -96,7 +98,7 @@
 				<a href="http://www.snapec.org" target="_blank"><img src="../images/partenaires/logo_syndicat_escalade.png" alt="Logo Syndicat Professionnels Escalade et Canyon"></a>
 				<a href="https://sngm.com" target="_blank"><img src="../images/partenaires/logo_syndicat_guide.png" alt="Logo Syndicat Guide de Montagne"></a>
 				<a href="https://snam.pro" target="_blank"><img src="../images/partenaires/logo_syndicat_accompagnateur_montagne.png" alt="Logo Syndicat Accompagnateur en Montagne"></a>
-				<a href="https://snam.pro" target="_blank"><img src="../images/partenaires/logo_credit_agricole.svg" alt="Logo Crédit Agricole"></a>
+				<a href="https://www.credit-agricole.fr/" target="_blank"><img src="../images/partenaires/logo_credit_agricole.svg" alt="Logo Crédit Agricole"></a>
 			</div>
 		</div>
 		

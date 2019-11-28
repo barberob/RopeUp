@@ -13,7 +13,6 @@ body
 
 section
 {
-	display: flex;
 	padding: 0px 50px;
 }
 
@@ -35,19 +34,21 @@ div.vice h1
 
 div.vice p
 {
-	line-height: 120%;
+	/*line-height: 120%;*/
 	color: gray;
 }
 
 div.vice p:last-of-type{
 	padding-bottom: 100px;
 }
-
-div.vice h2
+h2
 {
 	margin-bottom: 50px;
 	font-size: 25px;
-	letter-spacing: 1px;
+	color: #FF7D00;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 0.01px;
 }
 
 div.vice>section>div:first-of-type
@@ -62,7 +63,7 @@ div.vice img
 
 div.vice img:first-of-type
 {
-	transform: translate(-250px, -20px);
+	/*transform: translate(-250px, -20px);*/
 }
 
 div.vice img:last-of-type
@@ -71,4 +72,10 @@ div.vice img:last-of-type
 }
 
 
+
+div.flexbox
+{
+	display: flex;
+	justify-content: center;
+}
 

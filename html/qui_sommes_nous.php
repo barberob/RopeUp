@@ -23,18 +23,26 @@
 		<?php include("header_menu.php") ?>
 		<div class="img_container">
 			<h1>Qui sommes-nous ?</h1>
+			<div>
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 75 145"><defs><style>.cls-1{fill:none;stroke:#ff7d00;stroke-miterlimit:10;stroke-width:5px;}</style></defs><title>Fichier 2</title><g id="Calque_2" data-name="Calque 2"><g id="Calque_1-2" data-name="Calque 1"><rect class="cls-1" x="2.5" y="2.5" width="70" height="140" rx="32" ry="32"/></g></g></svg>
+				<span></span>
+			</div>
 		</div>
 	</header>
 
 	<!-- First Section -->
 	<section>
-		<h2>QU'EST CE QUE ROPE UP ?</h2>
 		<div class="wrap_qsn">
-			<p>L’application vient du terrain, elle répond à la demande des professionnels indépendants. 
-			Ceux qui ne font pas du business mais qui veulent vivre de leur métier passion, ne trouvent pas d’outil de gestion pertinent  ! 
+			<p>
+			Nous sommes une équipe de passionés qui croient en l'importance de soutenir le <span> professionel indépendant</span> dans la gestion de son activité.<br/>
+			 
 			Vivant depuis des années dans l'environnement de la montagne, notre équipe l'a bien compris. 
 			Elle est convaincue qu'elle a sa pierre à apporter à l'édifice. Les indépendants vont trouver en Rope Up ! une solution qui sait leur parler et qui les aide à rester centrés dans leur coeur de métier. 
-			L'écologie humaine assurera à tous un avenir durable. </p>
+			L'écologie humaine assurera à tous un avenir durable. <br/>
+
+			L’application vient du<span> terrain,</span> elle répond à la demande des professionnels. 
+			Ceux qui ne font pas du business mais qui veulent vivre de leur <span>métier passion</span> et ne trouvent pas d’outil de gestion pertinent  !
+		</p>
 			<img src="../images/cabane_ropeup.svg" alt="Logo RopeUp">
 		</div>
 	</section>
@@ -45,7 +53,7 @@
 			<h2>NOTRE ÉQUIPE</h2>
 			<div> <!-- Container -->
 				<div> <!-- Content -->
-					<img src="../images/membres/membre1.png" class="member" alt="Photo membre">
+					<img src="../images/membres/antoine.jpg" class="member" alt="Photo membre">
 					<div>
 						<p>Antoine</p>
 						<p>Sauer</p>
@@ -54,7 +62,7 @@
 				</div>
 
 				<div> <!-- Content -->
-					<img src="../images/membres/membre1.png" class="member" alt="Photo membre">
+					<img src="../images/membres/samson.jpg" class="member" alt="Photo membre">
 					<div>
 						<p>Samson</p>
 						<p>Da Costa</p>
@@ -82,7 +90,7 @@
 			</div>
 			<div> <!-- Container -->
 				<div> <!-- Content -->
-					<img src="../images/membres/membre1.png" class="member" alt="Photo membre">
+					<img src="../images/membres/lauren-demain.jpg" class="member" alt="Photo membre">
 					<div>
 						<p>Laurent</p>
 						<p>Demain</p>
@@ -100,7 +108,7 @@
 				</div>
 
 				<div> <!-- Content -->
-					<img src="../images/membres/membre1.png" class="member" alt="Photo membre">
+					<img src="../images/membres/jean-louis_chanel.jpg" class="member" alt="Photo membre">
 					<div>
 						<p>Jean-Louis</p>
 						<p>Chanel</p>
@@ -126,7 +134,7 @@
 					<div>
 						<h3>2017 : “PRÉPARATION DE LA COURSE” </h3>
 						<ul>
-							<li>Rope Up ! sélectionné par le premier incubateur sport européen : l'Outdoor Sports Valley, Annecy (74</li>
+							<li>Rope Up ! sélectionné par le premier incubateur sport européen : <a href="https://www.outdoorsportsvalley.org/" target="_blank">l'Outdoor Sports Valley </a>, Annecy (74)</li>
 							<li>Lancement des premières réunions de travail avec les professionnels indépendants</li>
 							<li>Création d’un comité de développement avec les futurs utilisateur</li>
 						</ul>
@@ -135,7 +143,7 @@
 					<div>
 						<h3>2018 : “MARCHE D’APPROCHE” </h3>
 						<ul>
-							<li>Installation à l’Annecy Base Camp</li>
+							<li>Installation à <a href="https://www.startup-basecamp.com/" target="_blank">l’Annecy Base Camp</a></li>
 							<li>Création d’une équipe de développeurs en interne</li>
 							<li>Déclaration CNIL et mise en place des procédures RGPD</li>
 							<li>Lancement de la version Beta </li>
@@ -159,6 +167,7 @@
 	<?php include("footer.php") ?>
 
 	<script type="text/javascript" src="../js/libs/jquery.js"></script>
+	<script type="text/javascript" src="../js/qui_sommes_nous.js"></script>
 	<script type="text/javascript" src="../js/menu.js"></script>
 </body>
 </html>
