@@ -54,7 +54,7 @@ div.img_container
 	position: relative;
 }
 
-div.img_container span
+div.img_container span:nth-of-type(1)
 {
 	color: #FF7D00;
 	width:40%;
@@ -67,7 +67,7 @@ div.img_container span
 	font-family: "DINPro_Black";
 }
 
-div.img_container span.active
+div.img_container span:nth-of-type(1).active
 {
 	opacity: 1;
 	transform:translateY(25%);
