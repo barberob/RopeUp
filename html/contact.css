@@ -32,6 +32,7 @@ section .wrap_contact >div:nth-of-type(2)
 	background-color: #333333;
 	margin: 0 auto 160px auto;
 	padding: 50px;
+	/*width: 100%;*/
 }
 
 input
@@ -47,6 +48,11 @@ input
 input::placeholder
 {
 	color:#FF7D00;
+}
+
+form
+{
+	/*width: 100%;*/
 }
 
 form >div:nth-of-type(1)
@@ -84,7 +90,7 @@ form >div:nth-of-type(2) input[type="checkbox"]
 	cursor: pointer;
 }
 
-form >div:nth-of-type(2) label
+form >div:nth-of-type(2) p
 {
 	font-family: 'DINPro_Medium';
 	font-size: 25px;
@@ -124,10 +130,19 @@ form input[type="submit"]
 	cursor: pointer;
 }
 
+/*
+
+.submit_input::value
+{
+	text-align: center;
+	margin: 0 0;
+	padding: 0 0;
+}
+
 .g-recaptcha
 {
 	width: 30%;
 	margin-right: auto;
 	margin-left: auto;
 	margin-bottom: 40px;
-}
+}*/
