@@ -24,7 +24,7 @@
 
 		<div class="wrap">
 			
-			<h2>Rope up ! respecte les lois et les règles de sécurité des données </h2>
+			<h1>Rope up ! respecte les lois et les règles de sécurité des données </h1>
 
 				<div class="flexbox">	
 
