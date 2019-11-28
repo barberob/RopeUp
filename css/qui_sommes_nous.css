@@ -24,6 +24,9 @@ section
   padding: 150px 0;
 }
 
+section span{
+
+}
 
 /*First section*/
 section:nth-of-type(1) .wrap_qsn
@@ -37,6 +40,10 @@ section:nth-of-type(1) .wrap_qsn p
 {
   font-family: 'DINPro_Regular';
   font-size: 20px;
+}
+section:nth-of-type(1) .wrap_qsn p span
+{
+  font-family: "DINPro_Bold";
 }
 
 section:nth-of-type(1) .wrap_qsn img
