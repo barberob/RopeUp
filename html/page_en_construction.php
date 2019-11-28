@@ -11,7 +11,7 @@
 	<link rel="stylesheet" type="text/css" href="../css/libs/reset.css">
 	<link rel="stylesheet" type="text/css" href="../css/page_en_construction.css">
 	<link rel="stylesheet" type="text/css" href="../css/header_principal.css">
-	<link rel="stylesheet" type="text/css" href="../css/header_contact.css">
+	<link rel="stylesheet" type="text/css" href="../css/header_construction.css">
 	<link rel="stylesheet" type="text/css" href="../css/footer.css">
 	<link rel="stylesheet" type="text/css" href="../css/contact.css">
 	<link rel="stylesheet" type="text/css" href="../css/fonts.css">
@@ -23,7 +23,7 @@
 	<!-- Header -->
 	<?php include("header_menu.php") ?>
 		<div class="img_container">
-			<span>Espaces verts</span>
+			<!-- <span>Espaces verts</span> -->
 		</div>
 	</header>
 	
