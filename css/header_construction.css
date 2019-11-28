@@ -1,0 +1,72 @@
+header
+{
+	background-image: url(../images/bucheron.png);
+	height: 100vh;
+	letter-spacing: 0.01px;
+	line-height: 1.3;
+}
+
+body
+{
+	font-family: "DINPro_Bold";
+}
+
+section
+{
+	display: flex;
+	padding: 0px 50px;
+}
+
+div.vice
+{
+	margin: 50px 70%;
+}
+
+div.vice h1
+{
+	
+	font-size: 32px;
+	color: #FF7D00;
+	text-align: center;
+	text-transform: uppercase;
+	padding-top: 50px;
+	padding-bottom: 100px;
+}
+
+div.vice p
+{
+	line-height: 120%;
+	color: gray;
+}
+
+div.vice p:last-of-type{
+	padding-bottom: 100px;
+}
+
+div.vice h2
+{
+	margin-bottom: 50px;
+	font-size: 25px;
+	letter-spacing: 1px;
+}
+
+div.vice>section>div:first-of-type
+{
+	margin-right: 30%;
+}
+
+div.vice img
+{
+	width: 150px;
+}
+
+div.vice img:first-of-type
+{
+	transform: translate(-250px, -20px);
+}
+
+div.vice img:last-of-type
+{
+	transform: translate(-100px, -0px);
+}
+

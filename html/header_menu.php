@@ -40,7 +40,7 @@
           <div class="dropdown-content">
              <a href="outdoor.php">Sports et Outdoor</a>
              <span></span>
-             <a href="espaces_verts.php">Espaces Verts</a>
+             <a href="page_en_construction.php">Espaces Verts</a>
              <span></span>
           </div>
         </div>

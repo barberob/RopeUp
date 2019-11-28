@@ -14,7 +14,7 @@
         $pack = 'Packs com et gestion';
     }
 	
-    $retour = mail($recipient, 'Envoi' , 'Expéditeur : '.$_POST['nom'] ."\n". 'Numéro : ' .$_POST['tel'] ."\n". 'Message : '.$_POST['message']. $pack, 'From: '.$_POST['mail']);
+    $retour = mail($recipient,'Envoi','Expéditeur : '.$_POST['nom'] ."\n". 'Numéro : ' .$_POST['tel'] ."\n". 'Message : '.$_POST['message']. $pack,'From: '.$_POST['mail']);
     
     if ($retour) {
         echo '<h1>Votre message a bien été envoyé.</h1>';
@@ -25,4 +25,3 @@
     }
 
 ?>
-

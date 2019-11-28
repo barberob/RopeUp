@@ -28,11 +28,17 @@
 	
 	<!-- First Section -->
 	<section>
-		<h2>QU'EST CE QUE ROPE UP ?</h2>
+		<h2>QU'EST-CE QUE ROPE UP ?</h2>
 		<div class="wrap_index">
 			<p>Rope Up ! est une application web accessible en ligne qui aide les professionnels indépendants dans leur gestion commerciale et administrative.
+			</p>
+			<p>
+			Vous êtes un professionnel indépendant ? Vous préférez passer du temps sur le terrain plutôt que de faire de l'administratif et de la communication ? Pour vous, et avec des personnes comme vous, nous avons créé une application pour vous aider à structurer votre activité tout en vous apportant du confort.
+			</p>
+			<p>
 			C'est un support qui renforce leurs liens avec leurs prospects, leurs clients et leurs partenaires mais c'est aussi une aide efficace pour structurer leur activité et répondre sans soucis aux exigences de l'administration. Qu’ils soient au régime de micro entrepreneur ou au régime réel d'imposition, l’application est faite pour eux. <br>Bienvenue chez Rope Up ! 
 			</p>
+
 			<img src="../images/cabane_ropeup.svg" alt="Logo RopeUp">
 		</div>
 	</section>
@@ -42,16 +48,16 @@
 		<h2>NOS DIFFÉRENTS PRODUITS</h2>
 		<div class="wrap_index">
 			<div>
-				<h3>Gestion</h3>
+				<h3>Pack Gestion</h3>
 				<img src="../images/icone_gestion_provisoire.svg" alt="Logo calendrier">
-				<p>Enfin un outil de gestion qui n'est pas une usine à gaz ! Simple d'utilisation et très complet, il permet de répondre aux exigences de l'administration et en même temps à celles du terrain.
+				<p>Enfin un <span>outil de gestion</span> qui n'est pas une usine à gaz ! Simple d'utilisation et très complet, il permet de répondre aux exigences de l'administration et en même temps à celles du terrain.
 				Ce PACK est supporté par une équipe dédiée à sa maintenance et à ses améliorations techniques. 
 				</p>
 			</div>
 			<div>
-				<h3>Communication</h3>
+				<h3>Pack Communication</h3>
 				<img src="../images/icone_communication_provisoire.svg" alt="Logo communication">
-				<p>Vous souhaitez un site simple, qui vous présente et présente votre activité. 
+				<p>Vous souhaitez un site simple, qui vous présente et présente votre activité, choisisez le <span>pack communication.</span> 
 				Vous recherchez un outil de communication peu onéreux et complet que vous faites vivre sans avoir de compétences informatiques. Ce PACK est supporté par une équipe dédiée à sa maintenance et à ses améliorations techniques. 
 				</p>
 			</div>
