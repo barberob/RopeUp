@@ -62,7 +62,7 @@ div.vice img
 
 div.vice img:first-of-type
 {
-	transform: translate(-250px, -20px);
+	/*transform: translate(-250px, -20px);*/
 }
 
 div.vice img:last-of-type

@@ -21,7 +21,7 @@
 
 		<?php include("header_menu.php") ?>
 	</header>
-		class="vice"
+		<div class="vice">
 			<h2>sécurité</h2>
 
 			<section>
@@ -180,6 +180,7 @@
 				</p>
 
 			</div>
+		</div>
 			
 
 	<?php include("footer.php") ?>
