@@ -30,13 +30,16 @@
 	<section>
 		<h2>QU'EST-CE QUE ROPE UP ?</h2>
 		<div class="wrap_index">
-			<p>Rope Up ! est une application web accessible en ligne qui aide les professionnels indépendants dans leur gestion commerciale et administrative.
+			<p>Rope Up ! est une application web accessible en ligne qui aide les professionnels indépendants dans leur <span>gestion commerciale et administrative.</span>
 			</p>
 			<p>
-			Vous êtes un professionnel indépendant ? Vous préférez passer du temps sur le terrain plutôt que de faire de l'administratif et de la communication ? Pour vous, et avec des personnes comme vous, nous avons créé une application pour vous aider à structurer votre activité tout en vous apportant du confort.
+			Vous êtes un professionnel indépendant ? Vous préférez passer du temps sur le terrain plutôt que de faire de l'administratif et de la communication ? Pour vous, et avec des personnes comme vous, nous avons créé une application pour vous aider à <span>structurer votre activité</span> tout en vous apportant du confort.
 			</p>
 			<p>
-			C'est un support qui renforce leurs liens avec leurs prospects, leurs clients et leurs partenaires mais c'est aussi une aide efficace pour structurer leur activité et répondre sans soucis aux exigences de l'administration. Qu’ils soient au régime de micro entrepreneur ou au régime réel d'imposition, l’application est faite pour eux. <br>Bienvenue chez Rope Up ! 
+			L'application Rope Up ! n'est pas une nouvelle plateforme d'intermédiation, c'est un progiciel de gestion complètement intégré et cohérent dans votre environnement. Elle respecte l'indépendance de l'indépendant en vous apportant un<span> outil de gestion commerciale</span> taillé sur mesure pour votre domaine d'activité. 
+			</p>
+			<p>
+			C'est un support qui renforce leurs liens avec leurs prospects, leurs clients et leurs partenaires mais c'est aussi une aide efficace pour structurer leur activité et répondre sans soucis aux exigences de l'administration. Qu’ils soient au régime de micro entrepreneur ou au régime réel d'imposition, l’application est faite pour eux. <br><span>Bienvenue chez Rope Up ! </span>
 			</p>
 
 			<img src="../images/cabane_ropeup.svg" alt="Logo RopeUp">
@@ -57,7 +60,7 @@
 			<div>
 				<h3>Pack Communication</h3>
 				<img src="../images/icone_communication_provisoire.svg" alt="Logo communication">
-				<p>Vous souhaitez un site simple, qui vous présente et présente votre activité, choisisez le <span>pack communication.</span> 
+				<p>Vous souhaitez un <span>site simple</span>, qui vous présente et présente votre activité, choisisez le <span>pack communication.</span> 
 				Vous recherchez un outil de communication peu onéreux et complet que vous faites vivre sans avoir de compétences informatiques. Ce PACK est supporté par une équipe dédiée à sa maintenance et à ses améliorations techniques. 
 				</p>
 			</div>
@@ -68,7 +71,7 @@
 	<!-- Third Section -->
 	<section id="third">
 		<h2>LES SECTEURS D'ACTIVITÉ</h2>
-		<p>Les produits de Rope Up! sont adaptés à votre domaine,<br>veuillez choisir le vôtre :</p>
+		<p>Les produits de Rope Up! sont adaptés à votre domaine,<br><span>veuillez choisir le vôtre :</span></p>
 		<div id="slider">
 			<div>
 				<img src="../images/randonneur.png" alt="Photo Randonneur">

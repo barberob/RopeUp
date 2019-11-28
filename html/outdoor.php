@@ -34,12 +34,9 @@
 
 			<div>
 				<p>
-					L'application Rope Up ! n'est pas une nouvelle plateforme d'intermédiation, c'est un progiciel de gestion complètement intégré et cohérent dans votre environnement. Elle respecte l'indépendance de l'indépendant en vous apportant un outil de gestion commerciale taillé sur mesure pour votre domaine d'activité. 
-				</p>
-				<p>
 					Plus qu'un simple outil, c'est un service avec une équipe d'hommes et de femmes amoureuse de l’outdoor et du sport et dont l'objectif est de vous servir. Dans son domaine de prédilection, l’informatique, elle vous apportera le maximum de soutien dans votre quotidien professionnel.
 				<p>
-					Pour vous simplifier la vie et vous éviter de perdre du temps, nous proposons des abonnements annuels à deux pack, à prendre ensemble ou séparément : un pack gestion et un pack communication.	
+					Pour vous simplifier la vie et vous éviter de perdre du temps, nous proposons des abonnements annuels à deux pack, à prendre ensemble ou séparément : <span>un pack gestion et un pack communication.</span>	
 				</p>
 			</div>
 		
@@ -73,7 +70,7 @@
 			<div class="wrap">
 				
 				<p>
-					Nous avons créé un site internet pour vous. Simple, utilisant les meilleures technologies et développé avec les meilleures pratiques de référencements naturel, il vous apportera du confort et des micro services très pratiques. Votre site est relié à une interface administrateur conviviale qui vous permet de le faire évoluer très simplement.    
+					Nous avons créé un <span>site internet</span> pour vous. Simple, utilisant les meilleures technologies et développé avec les meilleures pratiques de référencements naturel, il vous apportera du confort et des micro services très pratiques. Votre site est relié à une interface administrateur conviviale qui vous permet de le faire évoluer très simplement.    
 				</p>
 
 
