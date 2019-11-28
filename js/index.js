@@ -13,7 +13,12 @@ $(document).ready(function(){
    	scroll();
 
 	function anim_header() {
-		$('.img_container span').addClass('active');
+		$('.img_container span:nth-of-type(1)').addClass('active');
 	}
 	anim_header();
+
+	function anim_scroll(){
+		$('.img_container span:nth-of-type-(2)').addClass('active');
+	}
+	anim_scroll();
 });

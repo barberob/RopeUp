@@ -66,7 +66,7 @@
 	<!-- Third Section -->
 	<section id="third">
 		<h2>LES SECTEURS D'ACTIVITÉ</h2>
-		<p>Les produits de Rope Up! sont adaptés à votre domaine,<br><span>veuillez choisir le vôtre :</span></p>
+		<p>Les produits de Rope Up! sont adaptés à votre secteur d'activité,<br><span>veuillez choisir le vôtre :</span></p>
 		<div id="slider">
 			<div>
 				<img src="../images/randonneur.png" alt="Photo Randonneur">
