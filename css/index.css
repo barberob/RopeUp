@@ -42,10 +42,21 @@ section:nth-of-type(1) .wrap_index
   align-items: center;
 }
 
+section:nth-of-type(1) .wrap_index div
+{
+  
+}
+
 section:nth-of-type(1) .wrap_index p
 {
   font-family: 'DINPro_Regular';
   font-size: 20px;
+  margin-bottom: 30px;
+}
+
+section:nth-of-type(1) .wrap_index p:last-of-type
+{
+  margin-bottom: 0;
 }
 
 section:nth-of-type(1) .wrap_index img
