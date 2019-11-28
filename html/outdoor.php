@@ -477,7 +477,7 @@
 					<p>Depuis le compte Solo :</p>
 					<ul>
 						<li>
-							Enregistrement des fiches d'honoraires éditées par l'association pour le suivi comptable du Solo
+							Enregistrement des honoraires éditées par l'association pour le suivi comptable du Solo
 						</li>
 
 						<li>

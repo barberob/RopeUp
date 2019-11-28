@@ -38,7 +38,7 @@
 			<div>
 
 				<p>
-					Vous pouvez nous appeler au 07 68 18 09 45 du lundi au vendredi de 9h à 17h.
+					Pour vous abonner, pour un renseignement ou pour un essai, vous pouvez nous appeler au 07 68 18 09 45 du lundi au vendredi de 9h à 17h.
 					<br/>
 					Toutes vos demandes mails seront traitées avec la plus grande attention et nous vous apporterons une réponse dans les heures qui suivent. 
 					<br/>

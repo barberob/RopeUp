@@ -8,20 +8,11 @@ header
 
 body
 {
-	font-family: "DINPro_Bold";
+	font-family: "DINPro_Regular";
+	color: #000;
 }
 
-section
-{
-	padding: 0px 50px;
-}
-
-div.vice
-{
-	margin: 50px 70%;
-}
-
-div.vice h1
+h1
 {
 	
 	font-size: 32px;
@@ -32,14 +23,16 @@ div.vice h1
 	padding-bottom: 100px;
 }
 
-div.vice p
+p
 {
 	/*line-height: 120%;*/
 	color: gray;
+	margin-bottom: 15px;
 }
 
-div.vice p:last-of-type{
-	padding-bottom: 100px;
+div.flexbox
+{
+	padding-bottom:100px;
 }
 h2
 {
@@ -56,26 +49,50 @@ div.vice>section>div:first-of-type
 	margin-right: 30%;
 }
 
-div.vice img
+img
 {
 	width: 150px;
 }
 
-div.vice img:first-of-type
+
+div.text_container
 {
-	/*transform: translate(-250px, -20px);*/
+	width: 50%;
 }
-
-div.vice img:last-of-type
-{
-	transform: translate(-100px, -0px);
-}
-
-
 
 div.flexbox
 {
 	display: flex;
-	justify-content: center;
+	justify-content:space-between;
 }
 
+
+
+div.image_container
+{
+	display: flex;
+	justify-content:space-between;
+	flex-direction: column;
+}
+div.wrap
+{
+	width: 70%;
+}
+
+h3
+{
+	margin-top: 100px;
+	margin-bottom: 10px;
+}
+
+h4
+{
+	margin-top: 50px;
+	margin-bottom: 10px;
+	font-family: 'DINPro_Medium';
+}
+
+footer
+{
+	margin-top: 100px;
+}
