@@ -53,7 +53,7 @@
 			<h2>NOTRE ÉQUIPE</h2>
 			<div> <!-- Container -->
 				<div> <!-- Content -->
-					<img src="../images/membres/membre1.png" class="member" alt="Photo membre">
+					<img src="../images/membres/antoine.jpg" class="member" alt="Photo membre">
 					<div>
 						<p>Antoine</p>
 						<p>Sauer</p>
@@ -62,7 +62,7 @@
 				</div>
 
 				<div> <!-- Content -->
-					<img src="../images/membres/membre1.png" class="member" alt="Photo membre">
+					<img src="../images/membres/samson.jpg" class="member" alt="Photo membre">
 					<div>
 						<p>Samson</p>
 						<p>Da Costa</p>
@@ -90,7 +90,7 @@
 			</div>
 			<div> <!-- Container -->
 				<div> <!-- Content -->
-					<img src="../images/membres/membre1.png" class="member" alt="Photo membre">
+					<img src="../images/membres/lauren-demain.jpg" class="member" alt="Photo membre">
 					<div>
 						<p>Laurent</p>
 						<p>Demain</p>
@@ -108,7 +108,7 @@
 				</div>
 
 				<div> <!-- Content -->
-					<img src="../images/membres/membre1.png" class="member" alt="Photo membre">
+					<img src="../images/membres/jean-louis_chanel.jpg" class="member" alt="Photo membre">
 					<div>
 						<p>Jean-Louis</p>
 						<p>Chanel</p>
