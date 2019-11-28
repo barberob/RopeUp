@@ -11,4 +11,31 @@ $(document).ready(function(){
        	}
    	}
    	scroll();
+
+ //   	function animation_header() {
+	// 	var controller = new ScrollMagic.Controller();
+	// 	var fromBottomTimeline = new TimelineMax();
+	// 	var fromBottomTo = TweenMax.fromTo(".img_container span", 1, {x: '0' }, {
+	// 	    x: '100%'
+	// 	});
+	// 	fromBottomTimeline
+
+	// 	.add(fromBottomTo);
+	//     new ScrollMagic.Scene({
+	// 	    triggerElement: "header",
+	// 	    offset: 0,
+	// 	})
+
+	// 	.setTween(fromBottomTimeline)
+	// 	.duration(450)
+	// 	.reverse(false)
+	// 	.addIndicators() // add indicators (requires plugin)
+	// 	.addTo(controller);
+	// }
+	// animation_header();
+
+	function test() {
+		$('.img_container span').addClass('active');
+	}
+	test();
 });
