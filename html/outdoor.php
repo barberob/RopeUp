@@ -34,9 +34,6 @@
 
 			<div>
 				<p>
-					Vous encadrez et proposez de l’enseignement dans le sport ? Vous êtes un professionnel indépendant ? Vous préférez passer du temps sur le terrain plutôt que de faire de l'administratif et de la communication ? Pour vous, et avec des guides de haute montagne, des accompagnateurs et des moniteurs, nous avons créé une application pour vous aider à structurer votre activité tout en vous apportant du confort.
-				</p>
-				<p>
 					L'application Rope Up ! n'est pas une nouvelle plateforme d'intermédiation, c'est un progiciel de gestion complètement intégré et cohérent dans votre environnement. Elle respecte l'indépendance de l'indépendant en vous apportant un outil de gestion commerciale taillé sur mesure pour votre domaine d'activité. 
 				</p>
 				<p>
