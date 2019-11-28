@@ -24,6 +24,7 @@
 		<div class="img_container">
 			<span>L’application de gestion et de communication des professionnels indépendants</span>
 			<img src="../images/scroll.svg" alt="Bouton Scroll">
+			<span></span>
 		</div>
 	</header>
 	
