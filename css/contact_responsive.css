@@ -1,5 +1,13 @@
 @media all and (max-width: 980px)
 {
+	form input[type="text"]
+	{
+		width: 35%;
+	}
+}
+
+@media all and (max-width: 980px)
+{
 	/*General*/
 	.wrap_contact
 	{
@@ -11,6 +19,31 @@
 	{
 		font-size: 18px;
 	}
+}
+
+@media all and (max-width: 980px)
+{
+	form >div:nth-of-type(2)
+	{
+		margin-left: 0px;
+	}
+	
+	form >div:nth-of-type(2) input[type="checkbox"]
+	{
+		margin-left: 20px;
+	}
+	
+	form >div:nth-of-type(2) p
+	{
+		font-size: 18px;
+		margin-left: 10px;
+	}
+
+	form >div:nth-of-type(2) p:nth-of-type(1)
+	{
+		margin-left: 0px;
+	}
+}
 
 
 @media all and (max-width: 570px)
@@ -19,5 +52,65 @@
 	.wrap_contact
 	{
 		width: 95%;
+	}
+
+	form >div:nth-of-type(1)
+	{
+		flex-direction: column;
+	}
+
+	form input[type="text"]
+	{
+		width: calc(100% - 60px);
+	}
+
+	form input[type="text"]:first-of-type
+	{
+		margin-bottom: 20px;
+	}
+}
+
+@media all and (max-width: 480px)
+{
+	form >div:nth-of-type(2)
+	{
+		margin-left: 0px;
+	}
+	
+	form >div:nth-of-type(2) input[type="checkbox"]
+	{
+		margin-left: 30px;
+		height: 15px;
+		width: 15px;
+	}
+
+	
+	
+	form >div:nth-of-type(2) p
+	{
+		font-size: 14px;
+		margin-left: 5px;
+	}
+
+	form input[type="submit"]
+	{
+		font-size: 14px;
+		width: 130px;
+		margin-top: 30px;
+		padding: 10px 30px;
+	}
+
+	section .wrap_contact >div:nth-of-type(2)
+	{
+		margin: 0 auto 0px auto;
+	}
+}
+
+@media all and (max-width: 324px)
+{
+	form >div:nth-of-type(2) input[type="checkbox"]:nth-of-type(2)
+	{
+		margin-left: 0px;
+		margin-top: 10px;
 	}
 }
