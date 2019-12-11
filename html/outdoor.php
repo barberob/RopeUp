@@ -144,8 +144,7 @@
 		</div> <!-- background -->
 
 
-	<!-- //////////////////////////////////////////////////////////////////////////////////////////////////// -->
-
+		<!-- //////////////////////////////////////////////////////////////////////////////////////////////////// -->
 		
 		<!-- //////////////////////////////////////// section 1 pack gestion ////////////////////////////////////////// -->
 
@@ -221,7 +220,7 @@
 								
 								<!-- <div> -->
 									
-									<li class="level_0">Pour vous aider dans votre déclaration à l’administration.</li> <!-- 3 -->
+								<li class="level_0">Pour vous aider dans votre déclaration à l’administration.<!-- 3 -->
 									<p>Sur une période choisie,  l’application présente :</p>
 									<ul>
 										<li>L’encaissement total.</li>
@@ -231,26 +230,25 @@
 										<li>Les frais professionnels.</li>
 										<li>TVA déductible et TVA encaissée (si la TVA a été activée au préalable).</li>
 									</ul>
-
+								</li> 
 								<!-- </div> -->
-
-
 
 								<!-- <div> -->
 									
-									<li class="level_0">Pour vous informer en permanence et sans action particulières.</li> <!-- 4 -->
-									<p>En affichage,vous trouverez :</p>
+								<li class="level_0">Pour vous informer en permanence et sans action particulière. <!-- 4 -->
+								<p>En affichage,vous trouverez :</p>
 									<ul>
 										<li>Le suivi des états de paiement mois par mois.</li>
-										<li>Le classement des clients des plus importants au plus petit sur une période donnée.</li>
+										<li>Le classement des clients des plus importants aux plus petits sur une période donnée.</li>
 										<li>Le contrôle de votre chiffre d’affaire de l’année en cours par rapport à votre seuil.</li>
 										<li>Pour les structures :
 											<ul class="level_2">
-												<li>Le suivi des honoraires par prestataires mois par mois.</li>
-												<li>Le suivi des honoraires par prestataires sur une période donnée.</li>
+												<li>Le suivi des honoraires par prestataire mois par mois.</li>
+												<li>Le suivi des honoraires par prestataire sur une période donnée.</li>
 											</ul>
 										</li>
 									</ul>
+								</li>
 
 								<!-- </div>	 -->
 
@@ -350,11 +348,7 @@
 				
 		</section>
 
-
-
-
 		<!-- inserer AMBASSADEURS -->
-
 
 		<section id="tarifs">
 			<div class="wrap">
@@ -463,7 +457,7 @@
 				<div class="list_container">
 					
 					<p>
-						* Création d'autant de Pack Gestion Solo que l'adhérent permanent de l'association :
+						* Création d'autant de Packs Gestion Solo que l'adhérent permanent de l'association :
 					</p>
 
 					<ul>
@@ -485,7 +479,6 @@
 					</ul>
 
 				</div>
-
 
 			</div>
 

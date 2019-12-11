@@ -140,33 +140,34 @@
 						<ul class="green">
 							<li>
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit.  
+							
+								<p>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+								Nullam eget enim et turpis consequat commodo id sit 
+								amet purus. Quisque et lobortis sem. Phasellus in 
+								volutpat erat. 
+								</p>
 							</li>
+							<li>
+								Quisque et lobortis sem. Phasellus in volutpat erat. 
+								
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+									Nullam eget enim et turpis consequat commodo id sit 
+									amet purus. Quisque et lobortis sem. Phasellus in 
+									volutpat erat.
+								</p>
+							</li>
+							<li>
+								Quisque et lobortis sem. Phasellus in volutpat erat. 
+							
 							<p>
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
 								Nullam eget enim et turpis consequat commodo id sit 
 								amet purus. Quisque et lobortis sem. Phasellus in 
 								volutpat erat. 
 							</p>
-
-							<li>
-								Quisque et lobortis sem. Phasellus in volutpat erat. 
-							</li>
-							<p>
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-								Nullam eget enim et turpis consequat commodo id sit 
-								amet purus. Quisque et lobortis sem. Phasellus in 
-								volutpat erat.
-							</p>
-
-							<li>
-								Quisque et lobortis sem. Phasellus in volutpat erat. 
-							</li>
-							<p>
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-								Nullam eget enim et turpis consequat commodo id sit 
-								amet purus. Quisque et lobortis sem. Phasellus in 
-								volutpat erat. 
-							</p>
+						</li>
 						</ul>
 					</div>
 				</div>
@@ -209,84 +210,85 @@
 
 							<div class='content_container'>
 
-							<div class='image_container'>
-			        			<img src="../images/laly_chaucheprat.jpg">
-			        		</div>
+								<div class='image_container'>
+				        			<img alt="" src="../images/laly_chaucheprat.jpg">
+				        		</div>
 
-						<p class="name">Laly CHAUCHEPRAT</p>
+							<p class="name">Laly CHAUCHEPRAT</p>
 
-						<p class="work"> Guide de haute montagne</p>
+							<p class="work"> Guide de haute montagne</p>
 
-						<p class="city">Chamonix</p>
+							<p class="city">Chamonix</p>
 
-						<div class='quotes'>
-	        				<img src='../images/start_quote.png'>
-	        				<img src='../images/end_quote.png'>
+							<div class='quotes'>
+		        				<img alt="" src='../images/start_quote.png'>
+		        				<img alt="" src='../images/end_quote.png'>
+		        			</div>
+
+		        			<p class='comment'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut deserunt molestias veritatis quae magni illo numquam praesentium, possimus maxime quis in voluptatem neque mollitia alias exercitationem. Esse soluta, numquam alias!</p>
+
+		        			<p class='mail'>johndoe@gmail.com</p>
+
+		        			<p class='phone_number'>06 60 06 60 60</p>
+
+		        			</div>
 	        			</div>
-
-	        			<p class='comment'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut deserunt molestias veritatis quae magni illo numquam praesentium, possimus maxime quis in voluptatem neque mollitia alias exercitationem. Esse soluta, numquam alias!</p>
-
-	        			<p class='mail'>johndoe@gmail.com</p>
-
-	        			<p class='phone_number'>06 60 06 60 60</p>
-
-	        			</div>
-	        		</div>
-			        	<div class='swiper-slide'>
-
-							<div class='content_container'>
-
-							<div class='image_container'>
-			        			<img src="../images/laly_chaucheprat.jpg">
-			        		</div>
-
-						<p class="name">Laly CHAUCHEPRAT</p>
-
-						<p class="work"> Guide de haute montagne</p>
-
-						<p class="city">Chamonix</p>
-
-						<div class='quotes'>
-	        				<img src='../images/start_quote.png'>
-	        				<img src='../images/end_quote.png'>
-	        			</div>
-
-	        			<p class='comment'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut deserunt molestias veritatis quae magni illo numquam praesentium, possimus maxime quis in voluptatem neque mollitia alias exercitationem. Esse soluta, numquam alias!</p>
-
-	        			<p class='mail'>johndoe@gmail.com</p>
-
-	        			<p class='phone_number'>06 60 06 60 60</p>
-
-	        			</div>
-	        		</div>
 
 			        	<div class='swiper-slide'>
 
 							<div class='content_container'>
 
-							<div class='image_container'>
-			        			<img src="../images/laly_chaucheprat.jpg">
-			        		</div>
+								<div class='image_container'>
+				        			<img alt="" src="../images/laly_chaucheprat.jpg">
+				        		</div>
 
-						<p class="name">Laly CHAUCHEPRAT</p>
+							<p class="name">Laly CHAUCHEPRAT</p>
 
-						<p class="work"> Guide de haute montagne</p>
+							<p class="work"> Guide de haute montagne</p>
 
-						<p class="city">Chamonix</p>
+							<p class="city">Chamonix</p>
 
-						<div class='quotes'>
-	        				<img src='../images/start_quote.png'>
-	        				<img src='../images/end_quote.png'>
+							<div class='quotes'>
+		        				<img alt="" src='../images/start_quote.png'>
+		        				<img alt="" src='../images/end_quote.png'>
+		        			</div>
+
+		        			<p class='comment'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut deserunt molestias veritatis quae magni illo numquam praesentium, possimus maxime quis in voluptatem neque mollitia alias exercitationem. Esse soluta, numquam alias!</p>
+
+		        			<p class='mail'>johndoe@gmail.com</p>
+
+		        			<p class='phone_number'>06 60 06 60 60</p>
+
+		        			</div>
 	        			</div>
 
-	        			<p class='comment'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut deserunt molestias veritatis quae magni illo numquam praesentium, possimus maxime quis in voluptatem neque mollitia alias exercitationem. Esse soluta, numquam alias!</p>
+			        	<div class='swiper-slide'>
 
-	        			<p class='mail'>johndoe@gmail.com</p>
+							<div class='content_container'>
 
-	        			<p class='phone_number'>06 60 06 60 60</p>
+								<div class='image_container'>
+				        			<img alt="" src="../images/laly_chaucheprat.jpg">
+				        		</div>
 
+							<p class="name">Laly CHAUCHEPRAT</p>
+
+							<p class="work"> Guide de haute montagne</p>
+
+							<p class="city">Chamonix</p>
+
+							<div class='quotes'>
+		        				<img alt="" src='../images/start_quote.png'>
+		        				<img alt="" src='../images/end_quote.png'>
+		        			</div>
+
+		        			<p class='comment'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut deserunt molestias veritatis quae magni illo numquam praesentium, possimus maxime quis in voluptatem neque mollitia alias exercitationem. Esse soluta, numquam alias!</p>
+
+		        			<p class='mail'>johndoe@gmail.com</p>
+
+		        			<p class='phone_number'>06 60 06 60 60</p>
+
+		        			</div>
 	        			</div>
-	        		</div>
 
 
 			    </div>
