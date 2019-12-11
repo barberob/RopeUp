@@ -24,6 +24,7 @@
 		opacity: 0.1;
 		width: 180px;
 		bottom:-100px;
+		z-index: 1,
 	}
 	
 	footer
@@ -52,6 +53,7 @@
 	{
 		font-size: 13px;
 		text-align: center;
+		z-index: 2;
 	}
 
 	div.wrap div:first-of-type p:first-of-type
