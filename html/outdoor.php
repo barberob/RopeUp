@@ -38,9 +38,9 @@
 
 			<div>
 				<p>
-					Plus qu'un simple outil, c'est un service avec une équipe d'hommes et de femmes amoureuse de l’outdoor et du sport et dont l'objectif est de vous servir. Dans son domaine de prédilection, l’informatique, elle vous apportera le maximum de soutien dans votre quotidien professionnel.
+					Plus qu'un simple outil, c'est un service avec une équipe d'hommes et de femmes amoureuses de l’outdoor et du sport et dont l'objectif est de vous servir. Dans son domaine de prédilection, l’informatique, il vous apportera le maximum de soutien dans votre quotidien professionnel.
 				<p>
-					Pour vous simplifier la vie et vous éviter de perdre du temps, nous proposons des abonnements annuels à deux pack, à prendre ensemble ou séparément : <span>un <a class="management_link">pack gestion</a> et un <a class="communication_link">pack communication.</a></span>	
+					Pour vous simplifier la vie et vous éviter de perdre du temps, nous proposons des abonnements annuels à deux packs, à prendre ensemble ou séparément : <span>un <a class="management_link">pack gestion</a> et un <a class="communication_link">pack communication.</a></span>	
 				</p>
 			</div>
 		
