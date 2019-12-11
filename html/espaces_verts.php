@@ -518,10 +518,10 @@
 
 	<?php include("footer.php") ?>
 
-	<script type="text/javascript" src="../js/libs/jquery.js"></script>
+	<script src="../js/libs/jquery.js"></script>
 	<script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
-	<script type="text/javascript" src="../js/menu.js"></script>
-	<script type="text/javascript" src="../js/pack.js"></script>
+	<script src="../js/menu.js"></script>
+	<script src="../js/pack.js"></script>
 	<script>
     var swiper = new Swiper('.swiper-container', {
       spaceBetween: 10,
