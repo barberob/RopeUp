@@ -43,9 +43,9 @@
 	<?php include("footer.php") ?>
 
 	<script src="https://www.google.com/recaptcha/api.js" async defer></script>
-	<script type="text/javascript" src="../js/libs/jquery.js"></script>
-	<script type="text/javascript" src="../js/page_construction.js"></script>
-	<script type="text/javascript" src="../js/menu.js"></script>
+	<script src="../js/libs/jquery.js"></script>
+	<script src="../js/page_construction.js"></script>
+	<script src="../js/menu.js"></script>
 		
 </body>
 </html>

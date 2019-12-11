@@ -32,10 +32,8 @@ $error = $_GET['error'];?>
 		</div>
 
 
-		<h3 id="boutonform"> Ou appuyez sur ce bouton ! </h3><div id="bouton"> <a href="index.php"><span id="home">Accueil</span></a></div>
-
-
-
+		<h3 id="boutonform"> Ou appuyez sur ce bouton ! </h3>
+		<div id="bouton"> <a href="index.php"><span id="home">Accueil</span></a></div>
 
 	</div>
 

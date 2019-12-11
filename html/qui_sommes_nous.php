@@ -146,7 +146,7 @@
 							<li>Installation à <a href="https://www.startup-basecamp.com/" target="_blank">l’Annecy Base Camp</a></li>
 							<li>Création d’une équipe de développeurs en interne</li>
 							<li>Déclaration CNIL et mise en place des procédures RGPD</li>
-							<li>Lancement de la version Beta </li>
+							<li>Lancement de la version Beta</li>
 						</ul>
 					</div>
 					<div>
@@ -166,8 +166,8 @@
 
 	<?php include("footer.php") ?>
 
-	<script type="text/javascript" src="../js/libs/jquery.js"></script>
-	<script type="text/javascript" src="../js/qui_sommes_nous.js"></script>
-	<script type="text/javascript" src="../js/menu.js"></script>
+	<script src="../js/libs/jquery.js"></script>
+	<script src="../js/qui_sommes_nous.js"></script>
+	<script src="../js/menu.js"></script>
 </body>
 </html>

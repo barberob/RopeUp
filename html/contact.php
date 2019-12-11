@@ -19,12 +19,13 @@
 	<link rel="stylesheet" type="text/css" href="../css/footer_responsive.css">
 </head>
 <body>
-		<!-- inclure menu -->
-		<?php include("header_menu.php") ?>
+	<!-- inclure menu -->
+	<?php include("header_menu.php") ?>
 		<div class="img_container">
 			<h1 id="contact">contact</h1>
 			<div>
-				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 75 145"><defs><style>.cls-1{fill:none;stroke:#FF7D00;stroke-miterlimit:10;stroke-width:5px;}</style></defs><title>Fichier 2</title><g id="Calque_2" data-name="Calque 2"><g id="Calque_1-2" data-name="Calque 1"><rect class="cls-1" x="2.5" y="2.5" width="70" height="140" rx="32" ry="32"/></g></g></svg>
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 75 145"><defs><style>.cls-1{fill:none;stroke:#FF7D00;stroke-miterlimit:10;stroke-width:5px;}</style></defs><title>Fichier 2</title><g id="Calque_2" data-name="Calque 2"><g id="Calque_1-2" data-name="Calque 1"><rect class="cls-1" x="2.5" y="2.5" width="70" height="140" rx="32" ry="32"/></g></g>
+				</svg>
 				<span></span>
 			</div>
 		</div>
@@ -72,8 +73,10 @@
 					<div class="g-recaptcha" data-sitekey="6LdCL8MUAAAAAHG2wXoyotuvSb6ApfYfVfeBsxsb"></div>
 					<br>
 					<input type="submit" name="submitpost" value="Envoyer">
-				</form>	
-			</div>		
+				</form>
+
+			</div>	
+				
 		</div>
 	</section>
 

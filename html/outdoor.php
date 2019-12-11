@@ -74,7 +74,7 @@
 			<div class="wrap">
 				
 				<p>
-					Nous avons créé un <span>site internet</span> pour vous. Simple, utilisant les meilleures technologies et développé avec les meilleures pratiques de référencements naturel, il vous apportera du confort et des micro services très pratiques. Votre site est relié à une interface administrateur conviviale qui vous permet de le faire évoluer très simplement.    
+					Nous avons créé un <span>site internet</span> pour vous. Simple, utilisant les meilleures technologies et développé avec les meilleures pratiques de référencement naturel, il vous apportera du confort et des micro services très pratiques. Votre site est relié à une interface administrateur conviviale qui vous permet de le faire évoluer très simplement.    
 				</p>
 
 
@@ -92,6 +92,7 @@
 					</div>
 
 					<div class="functionalities">
+
 						<ol>
 							<li class="level_0">
 								 Si vous n’en avez pas, nous achetons pour vous l’adresse url de votre choix que nous hébergeons chez OVH. Puis nous relions cette url sur le “squelette” du site que nous avons développé.
@@ -99,8 +100,6 @@
 
 							<li class="level_0">
 								 Une fois en ligne, à partir de votre interface administrateur simplifiée, vous pouvez :
-							</li>
-
 								 <ul>
 						 			<li>Profil</li>
 						 			<li>Catalogue de prestations avec boite de dialogue pour le visiteur</li>
@@ -111,24 +110,25 @@
 						 			<li>Votre page de demande de contact</li>
 						 			<li>Une page pour vos CGV</li>
 								 </ul>
-							
+							</li>
 						
 
 							<li class="level_0">
 								En Back office, depuis votre interface, vous gérez votre communication et votre relation clients. Vous pouvez :
-							</li>
+		
+								<ul>
+									<li>Partager vos offres de prestations et vos nouvelles directement vers les réseaux sociaux sans quitter l’interface</li>
+									<li>Transformer chaque offre de prestation en un document pdf mis en page selon un pré-formatage établi</li>
+									<li>Transformer chaque offre de prestation en un flyer A5 avec une personnalisation des couleurs</li>
+									<li>Mettre en « stock » ou « en vitrine » vos offres en fonction de vos envies</li>
+									<li>Suivre toutes les demandes des visiteurs qui arrivent par votre site</li>
+									<li>Activer les réponses pré-formatées pour répondre aux visiteurs</li>
+									<li>Afficher l’ensemble des contacts arrivés par le site</li>
+									<li>Communiquer à l’ensemble du fichier prospect par des mails ciblés</li>
+									<li>Activer votre page google analytique simplifiée</li>
+								</ul>
 
-							<ul>
-								<li>Partager vos offres de prestations et vos nouvelles directement vers les réseaux sociaux sans quitter l’interface</li>
-								<li>Transformer chaque offre de prestation en un document pdf mis en page selon un pré-formatage établie</li>
-								<li>Transformer chaque offre de prestation en un flyer A5  avec une personnalisation des couleurs</li>
-								<li>Mettre en « stock » ou « en vitrine » vos offres en fonction de vos envies</li>
-								<li>Suivre toutes les demandes des visiteurs qui arrivent par votre site</li>
-								<li>Activer les réponses pré-formatées pour répondre aux visiteurs</li>
-								<li>Afficher l’ensemble des contacts arrivés par le site</li>
-								<li>Communiquer à l’ensemble du fichier prospects par des mails ciblés</li>
-								<li>Activer votre page google analytique simplifiée</li>
-							</ul>
+							</li>
 						</ol>
 					</div>
 				</div>
@@ -140,7 +140,7 @@
 				</p>
 
 			</div> <!-- wrap -->
-
+		
 		</div> <!-- background -->
 
 
@@ -148,9 +148,6 @@
 
 		
 		<!-- //////////////////////////////////////// section 1 pack gestion ////////////////////////////////////////// -->
-
-
-
 
 		<div class="background manage">
 
@@ -179,23 +176,24 @@
 
 						<ol>
 							<!-- <div> -->
-								<li class="level_0">Les actions possibles à partir de votre compte :</li> <!-- 1 -->
+								<li class="level_0">Les actions possibles à partir de votre compte : <!-- 1 -->
 
-								<ul>
-									<li>Rédiger et stocker des devis, et les envoyer automatiquement en pdf.</li>
-									<li>Transformer des devis en facture.</li>
-									<li>Rédiger et stocker  des factures, et les envoyer automatiquement en pdf.</li>
-									<li>Prendre des rendez-vous clients sur votre agenda.</li>
-									<li>Transformer vos rendez-vous en factures.</li>
-									<li>Remplir et suivre vos dépenses professionnels.</li>
-									<li>Trier les clients et leur envoyer un mailing ciblé.</li>
-									<li>Pour les structures: affecter les rendez-vous aux prestataires travaillant avec la structure.</li>
-								</ul>
+									<ul>
+										<li>Rédiger et stocker des devis, et les envoyer automatiquement en pdf.</li>
+										<li>Transformer des devis en facture.</li>
+										<li>Rédiger et stocker  des factures, et les envoyer automatiquement en pdf.</li>
+										<li>Prendre des rendez-vous clients sur votre agenda.</li>
+										<li>Transformer vos rendez-vous en factures.</li>
+										<li>Remplir et suivre vos dépenses professionnels.</li>
+										<li>Trier les clients et leur envoyer un mailing ciblé.</li>
+										<li>Pour les structures: affecter les rendez-vous aux prestataires travaillant avec la structure.</li>
+									</ul>
+
+								</li>
 
 								<!-- <div> -->
 									
-									<li class="level_0">Automatiquement, l’application range et stocke vos données. Elle crée pour vous :</li> <!-- 2 -->
-
+								<li class="level_0">Automatiquement, l’application range et stocke vos données. Elle crée pour vous : <!-- 2 -->
 									<ul>
 										<li>
 											Vos fichier clients.
@@ -215,6 +213,7 @@
 											</ul>
 										</li>
 									</ul>
+								</li>
 								<!-- </div> -->
 								
 							<!-- </div> -->
@@ -496,14 +495,6 @@
 			</a>
 
 		</section>
-		
-
-
-
-
-
-
-
 
 	</section>
 
@@ -512,11 +503,11 @@
 
 
 
-	<script type="text/javascript" src="../js/libs/jquery.js"></script>
+	<script src="../js/libs/jquery.js"></script>
 	<script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
-	<script type="text/javascript" src="../js/pack.js"></script>
-	<script type="text/javascript" src="../js/outdoor.js"></script>
-	<script type="text/javascript" src="../js/menu.js"></script>
+	<script src="../js/pack.js"></script>
+	<script src="../js/outdoor.js"></script>
+	<script src="../js/menu.js"></script>
 	<script>
     var swiper = new Swiper('.swiper-container', {
       spaceBetween: 10,
